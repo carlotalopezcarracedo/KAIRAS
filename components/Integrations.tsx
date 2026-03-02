@@ -17,11 +17,13 @@ const Integrations: React.FC = () => {
     <section className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-visible">
       <div className="max-w-7xl mx-auto text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-6 sm:mb-8 block reveal">Integraciones</span>
-        <h2 className="reveal text-[2.35rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24 px-3 sm:px-0 overflow-visible">
-          Conecta tu negocio con <br />
-          <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-[0.14em] sm:pr-4">
-            <span className="whitespace-nowrap">{`todas tus\u00A0`}</span>
-            <span className="whitespace-nowrap">herramientas</span>
+        <h2 className="reveal text-[1.98rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24 px-3 sm:px-0 overflow-visible leading-[1.03] sm:leading-tight">
+          <span className="block sm:inline">Conecta tu</span>
+          <span className="block sm:inline sm:ml-[0.18em]">negocio con</span>
+          <br className="hidden sm:block" />
+          <span className="block sm:inline italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan sm:pr-4">
+            <span className="block sm:inline">todas tus</span>
+            <span className="block sm:inline sm:ml-[0.18em]">herramientas</span>
           </span>
         </h2>
 
