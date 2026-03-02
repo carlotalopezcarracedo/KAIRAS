@@ -1,6 +1,5 @@
 import React from 'react';
 
-const CONTACT_EMAIL = 'carlotaloopezcarracedo@gmail.com';
 
 const navLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -38,7 +37,7 @@ const Navbar: React.FC = () => {
 
             <div className="flex items-center">
               <a
-                href={`mailto:${CONTACT_EMAIL}`}
+                href="#contacto"
                 className="inline-flex items-center justify-center bg-white text-black px-5 py-2.5 rounded-full text-[10px] font-extrabold uppercase hover:bg-slate-200 transition-all"
               >
                 Quiero mi diagnóstico
