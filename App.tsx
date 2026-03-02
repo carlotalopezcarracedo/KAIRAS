@@ -6,7 +6,6 @@ import Manifesto from './components/Manifesto';
 import Automations from './components/Automations';
 import Integrations from './components/Integrations';
 import Services from './components/Services';
-import Cases from './components/Cases';
 import Process from './components/Process';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -51,7 +50,6 @@ const App: React.FC = () => {
         <Automations />
         <Integrations />
         <Services />
-        <Cases />
         <Process />
         <About />
         <Contact />

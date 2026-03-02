@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             <span className="relative z-10">Analizar mi negocio</span>
             <div className="absolute inset-0 h-full w-full scale-0 rounded-xl transition-all duration-300 group-hover:scale-100 group-hover:bg-slate-200"></div>
           </a>
-          <a href="#casos" className="glass-card px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase text-white border-white/10 hover:border-cyber-purple transition-all hover:bg-white/5 inline-flex items-center justify-center">
+          <a href="#automatizaciones" className="glass-card px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase text-white border-white/10 hover:border-cyber-purple transition-all hover:bg-white/5 inline-flex items-center justify-center">
             Ver automatizaciones
           </a>
         </div>
