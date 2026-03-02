@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           <h1 className="reveal stagger-1 relative text-[clamp(2.25rem,11.8vw,3.5rem)] sm:text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.88] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
             <span className="block whitespace-nowrap px-[0.04em] sm:px-0">TE DEVUELVO</span>
             <span className="block whitespace-nowrap pl-[0.04em] pr-[0.14em] sm:px-0">
-              TU <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">TIEMPO</span>
+              TU <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">{`TIEMPO\u00A0`}</span>
             </span>
           </h1>
         </div>
