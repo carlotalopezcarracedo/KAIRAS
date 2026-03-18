@@ -14,7 +14,7 @@ const Integrations: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-visible">
+    <section className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-6 sm:mb-8 block reveal">Integraciones</span>
         <h2 className="reveal text-[1.98rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24 px-3 sm:px-0 overflow-visible leading-[1.03] sm:leading-tight">

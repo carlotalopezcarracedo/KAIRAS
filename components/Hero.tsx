@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="relative min-h-[100svh] flex items-center justify-center pt-32 pb-20 overflow-y-hidden overflow-x-visible">
+    <section id="inicio" className="relative min-h-[100svh] flex items-center justify-center pt-32 pb-20 overflow-y-hidden overflow-x-hidden">
       {/* Animated blobs */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyber-purple/10 blur-[120px] rounded-full -z-10 sm:animate-blob mix-blend-screen"></div>
       <div className="hidden sm:block absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-cyber-cyan/5 blur-[100px] rounded-full -z-10 sm:animate-blob animation-delay-2000 mix-blend-screen"></div>
