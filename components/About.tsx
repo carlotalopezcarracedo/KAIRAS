@@ -26,7 +26,7 @@ const About: React.FC = () => {
           <div>
             <h2 className="reveal text-5xl lg:text-7xl font-black tracking-tighter uppercase mb-8">Soy Carlota.</h2>
             <p className="reveal stagger-1 text-2xl font-light text-slate-300 leading-relaxed mb-8">
-              No soy una consultora IT al uso. Soy arquitecta de sistemas obsesionada con la <span className="text-white font-medium">libertad creativa</span> que solo da el orden digital.
+              Diseño sistemas para que empresas trabajen con  <span className="text-white font-medium"> más orden, menos carga manual</span> y menos dependencia.
             </p>
             <div className="reveal stagger-2 space-y-6 mb-12">
 

@@ -20,7 +20,7 @@ const Manifesto: React.FC = () => {
           </p>
           
           <p className="max-w-2xl mx-auto">
-            Yo convierto tareas repetitivas en automatizaciones estables para que recuperes tiempo. Y con tiempo recuperado pasan cosas: <span className="text-white font-medium">decides mejor, atiendes mejor, vendes mejor, descansas mejor.</span>
+            Kairas convierte ese caos en sistema para que recuperes tiempo, claridad y capacidad de decidir mejor.
           </p>
         </div>
       </div>
