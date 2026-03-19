@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             © 2026 KAIRAS. All rights reserved.
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+            <span className="w-2 h-2 rounded-full bg-cyber-purple animate-pulse"></span>
             <span className="text-[10px] text-slate-600 font-mono uppercase">By Carlota López Carracedo</span>
           </div>
         </div>
