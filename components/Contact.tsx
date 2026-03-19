@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CONTACT_EMAIL = 'carlotaloopezcarracedo@gmail.com';
+const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
 
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
