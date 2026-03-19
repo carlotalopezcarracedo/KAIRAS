@@ -13,7 +13,7 @@ const Process: React.FC = () => {
 
           {[
             { id: '01', title: 'Diagnóstico', desc: 'Análisis quirúrgico de tus cuellos de botella y mapeo de flujos.', color: 'bg-cyber-purple' },
-            { id: '02', title: 'Diseño', desc: 'Arquitectura de la solución y selección del stack tecnológico ideal.', color: 'bg-cyber-purple' },
+            { id: '02', title: 'Diseño', desc: 'Arquitectura de la solución y selección de las herramientas.', color: 'bg-cyber-purple' },
             { id: '03', title: 'Construcción', desc: 'Implementación, integraciones y pruebas intensivas de error.', color: 'bg-cyber-purple' },
             { id: '04', title: 'Entrega', desc: 'Lanzamiento, formación de equipo y monitorización de KPIs.', color: 'bg-cyber-cyan' },
           ].map((step, index) => (
