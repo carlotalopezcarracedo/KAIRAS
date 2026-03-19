@@ -57,8 +57,8 @@ const Results: React.FC = () => {
             </motion.p>
             <ul className="space-y-6">
               {[
-                "Eliminas el 90% de la carga administrativa y tareas repetitivas.",
-                "Escalabilidad pura: tu sistema crece sin necesidad de aumentar plantilla linealmente.",
+                "Eliminas la carga administrativa y tareas repetitivas.",
+                "Escalabilidad: tu sistema crece sin necesidad de aumentar plantilla linealmente.",
                 "Claridad estratégica: datos en tiempo real para tomar decisiones, no suposiciones.",
                 "Respuesta inmediata: la IA atiende a tus clientes mientras tú descansas.",
                 "Paz mental: procesos robustos que no dependen de la memoria de nadie."
