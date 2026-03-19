@@ -8,6 +8,7 @@ type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 const Contact: React.FC = () => {
   const [fullName, setFullName] = useState('');
   const [businessEmail, setBusinessEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [businessName, setBusinessName] = useState('');
   const [message, setMessage] = useState('');
   const [submitStatus, setSubmitStatus] = useState<SubmitStatus>('idle');
@@ -18,6 +19,7 @@ const Contact: React.FC = () => {
     const body = [
       `Nombre: ${fullName.trim() || '-'}`,
       `Email profesional: ${businessEmail.trim() || '-'}`,
+      `Telefono: ${phoneNumber.trim() || '-'}`,
       `Empresa / Proyecto: ${businessName.trim() || '-'}`,
       '',
       '¿Dónde pierdes más tiempo hoy?',
@@ -34,9 +36,9 @@ const Contact: React.FC = () => {
       return;
     }
 
-    if (!fullName.trim() || !businessEmail.trim() || !message.trim()) {
+    if (!fullName.trim() || !businessEmail.trim() || !phoneNumber.trim() || !message.trim()) {
       setSubmitStatus('error');
-      setStatusMessage('Completa nombre, email y mensaje para enviar la solicitud.');
+      setStatusMessage('Completa nombre, email, telefono y mensaje para enviar la solicitud.');
       return;
     }
 
@@ -57,6 +59,7 @@ const Contact: React.FC = () => {
           _replyto: businessEmail.trim(),
           nombre: fullName.trim(),
           email_profesional: businessEmail.trim(),
+          telefono: phoneNumber.trim(),
           empresa_proyecto: businessName.trim() || '-',
           mensaje: message.trim(),
         }),
@@ -70,6 +73,7 @@ const Contact: React.FC = () => {
       setStatusMessage('Solicitud enviada. Te responderé por email lo antes posible.');
       setFullName('');
       setBusinessEmail('');
+      setPhoneNumber('');
       setBusinessName('');
       setMessage('');
     } catch {
@@ -132,15 +136,29 @@ const Contact: React.FC = () => {
                     />
                   </div>
                 </div>
-                <div className="space-y-2 group">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Empresa / Proyecto</label>
-                  <input
-                    className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
-                    placeholder="Nombre de tu negocio"
-                    type="text"
-                    value={businessName}
-                    onChange={(e) => setBusinessName(e.target.value)}
-                  />
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="space-y-2 group">
+                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Empresa / Proyecto</label>
+                    <input
+                      className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
+                      placeholder="Nombre de tu negocio"
+                      type="text"
+                      value={businessName}
+                      onChange={(e) => setBusinessName(e.target.value)}
+                    />
+                  </div>
+                  <div className="space-y-2 group">
+                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Telefono</label>
+                    <input
+                      className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
+                      placeholder="+34 600 000 000"
+                      type="tel"
+                      inputMode="tel"
+                      autoComplete="tel"
+                      value={phoneNumber}
+                      onChange={(e) => setPhoneNumber(e.target.value)}
+                    />
+                  </div>
                 </div>
                 <div className="space-y-2 group">
                   <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">¿Dónde pierdes más tiempo hoy?</label>
