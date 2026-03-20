@@ -58,8 +58,8 @@ const App: React.FC = () => {
       {/* Footer */}
       <Footer />
 
-      {/* Mobile Floating Action Button */}
-      <div className="lg:hidden fixed bottom-6 right-6 z-[110]">
+      {/* Floating Action Button */}
+      <div className="fixed bottom-6 right-6 z-[110]">
         <a
           href={`mailto:${CONTACT_EMAIL}`}
           className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all"
@@ -73,4 +73,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
