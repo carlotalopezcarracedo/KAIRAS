@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
+const N8N_WEBHOOK_URL =
+  import.meta.env.VITE_N8N_WEBHOOK_URL ?? 'https://[tu-instancia-n8n]/webhook/kairas-leads';
 
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
@@ -53,6 +55,7 @@ const Contact: React.FC = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          _webhook: N8N_WEBHOOK_URL,
           _subject: `Solicitud de diagnóstico - ${businessName.trim() || fullName.trim() || 'Nuevo contacto'}`,
           _captcha: 'false',
           _template: 'table',
@@ -113,6 +116,7 @@ const Contact: React.FC = () => {
           <div className="relative reveal-scale stagger-2">
             <div className="glass-card p-12 rounded-[3rem] border-white/20 hover:border-white/30 transition-all">
               <form className="space-y-8" onSubmit={handleSubmit} noValidate>
+                <input type="hidden" name="_webhook" value={N8N_WEBHOOK_URL} />
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-2 group">
                     <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Nombre Completo</label>
