@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
 const N8N_WEBHOOK_URL =
-  import.meta.env.VITE_N8N_WEBHOOK_URL ?? 'https://[tu-instancia-n8n]/webhook/kairas-leads';
+  import.meta.env.VITE_N8N_WEBHOOK_URL ?? 'https://pruebas-n8n.uhqude.easypanel.host/webhook/kairas-leads';
 
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
