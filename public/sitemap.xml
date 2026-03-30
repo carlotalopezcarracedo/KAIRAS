@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <loc>https://kairas.es/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/#resultados</loc>
+    <loc>https://kairas.es/privacidad.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/#servicios</loc>
+    <loc>https://kairas.es/aviso-legal.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/#como-funciona</loc>
+    <loc>https://kairas.es/cookies.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/#sobre-mi</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carlotalopezcarracedo.github.io/KAIRAS/#contacto</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
