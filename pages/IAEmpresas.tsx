@@ -21,7 +21,7 @@ const IAEmpresas: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-64 pb-24 px-6 relative overflow-hidden">
+        <section className="pt-96 pb-24 px-6 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-cyber-purple/8 blur-[130px] -z-10 rounded-full" />
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
@@ -52,7 +52,7 @@ const IAEmpresas: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El problema</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-6xl font-black tracking-wider uppercase mb-8 leading-tight">
                   Hay demasiada IA que no hace nada útil en tu negocio
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -86,7 +86,7 @@ const IAEmpresas: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Aplicaciones concretas</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-6 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-wider uppercase mb-6 leading-tight max-w-3xl">
               Dónde aplica IA de forma concreta
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
@@ -134,7 +134,7 @@ const IAEmpresas: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Cómo trabajamos</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-6xl font-black tracking-wider uppercase mb-8 leading-tight">
                   El problema primero.<br />La herramienta después.
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -168,7 +168,7 @@ const IAEmpresas: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Para quién tiene sentido</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-12 leading-tight max-w-2xl">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-wider uppercase mb-12 leading-tight max-w-2xl">
               La IA aplicada es útil cuando...
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -207,7 +207,7 @@ const IAEmpresas: React.FC = () => {
         {/* CTA */}
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-6xl font-black tracking-normal uppercase mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-wider uppercase mb-8 leading-tight">
               Sin hype.<br />
               <span className="text-cyber-purple italic">Solo lo que funciona en tu negocio.</span>
             </h2>
