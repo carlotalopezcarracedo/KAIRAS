@@ -21,21 +21,21 @@ const OptimizacionOperativa: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-52 pb-24 px-6 relative overflow-hidden">
+        <section className="pt-64 pb-24 px-6 relative overflow-hidden">
           <div className="absolute bottom-0 left-1/2 w-[700px] h-[400px] bg-cyber-purple/6 blur-[130px] -z-10 rounded-full" />
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
               <a href="/" className="hover:text-white transition-colors">KAIRAS</a>
               <span className="mx-2 opacity-40">/</span>
               Optimización operativa
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8 max-w-4xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8">
               Optimización operativa para pymes que necesitan más orden y menos fricción
             </h1>
-            <p className="text-xl text-slate-400 font-light max-w-2xl mb-12 leading-relaxed">
+            <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
               Cuando el negocio crece pero los procesos no escalan, todo se vuelve más lento. Más reuniones de coordinación. Más cosas que se pierden o se repiten. Más dependencia de personas concretas. Eso tiene solución.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
                 Solicitar diagnóstico
               </a>
@@ -50,7 +50,7 @@ const OptimizacionOperativa: React.FC = () => {
         <section className="py-24 px-6">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El problema</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight max-w-3xl">
               Señales de que tu operativa necesita estructura
             </h2>
             <p className="text-lg text-slate-400 font-light max-w-2xl mb-16 leading-relaxed">
@@ -96,7 +96,7 @@ const OptimizacionOperativa: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Qué hacemos</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-6 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-6 leading-tight max-w-3xl">
               Estructura primero. Automatización después.
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
@@ -125,7 +125,7 @@ const OptimizacionOperativa: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El resultado</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
                   Una operativa que no depende de ti en todo momento
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -157,7 +157,7 @@ const OptimizacionOperativa: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Para quién tiene sentido</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-12 leading-tight max-w-2xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-12 leading-tight max-w-2xl">
               Optimización operativa funciona cuando...
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -196,7 +196,7 @@ const OptimizacionOperativa: React.FC = () => {
         {/* CTA */}
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-6xl font-black tracking-tight uppercase mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-normal uppercase mb-8 leading-tight">
               Tu negocio no necesita más horas.<br />
               <span className="text-cyber-purple italic">Necesita mejores procesos.</span>
             </h2>

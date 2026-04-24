@@ -21,21 +21,21 @@ const AutomatizacionSeguimiento: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-52 pb-24 px-6 relative overflow-hidden">
+        <section className="pt-64 pb-24 px-6 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-cyber-purple/8 blur-[130px] -z-10 rounded-full" />
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
               <a href="/" className="hover:text-white transition-colors">KAIRAS</a>
               <span className="mx-2 opacity-40">/</span>
               Seguimiento de clientes
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8 max-w-4xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8">
               Automatización del seguimiento de clientes para no perder oportunidades
             </h1>
-            <p className="text-xl text-slate-400 font-light max-w-2xl mb-12 leading-relaxed">
+            <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
               La mayoría de clientes no se pierden por el precio. Se pierden porque nadie hizo seguimiento a tiempo. Un mensaje, un recordatorio, una propuesta actualizada. Cosas simples que se olvidan cuando hay volumen.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
                 Solicitar diagnóstico
               </a>
@@ -52,7 +52,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El problema</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
                   Por qué falla el seguimiento cuando hay volumen
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -83,7 +83,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Qué automatizamos</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-6 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-6 leading-tight max-w-3xl">
               El ciclo completo de seguimiento sin intervención manual constante
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
@@ -113,7 +113,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Cómo lo implementamos</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
                   Un sistema que trabaja en paralelo a tu equipo
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -147,7 +147,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Para quién tiene sentido</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-12 leading-tight max-w-2xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-12 leading-tight max-w-2xl">
               Automatizar el seguimiento funciona cuando...
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -186,7 +186,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
         {/* CTA */}
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-6xl font-black tracking-tight uppercase mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-normal uppercase mb-8 leading-tight">
               Ningún cliente se pierde<br />
               <span className="text-cyber-purple italic">por falta de seguimiento.</span>
             </h2>

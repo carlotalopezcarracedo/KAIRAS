@@ -21,21 +21,21 @@ const AutomatizacionWhatsApp: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-52 pb-24 px-6 relative overflow-hidden">
+        <section className="pt-64 pb-24 px-6 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyber-purple/8 blur-[130px] -z-10 rounded-full" />
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
               <a href="/" className="hover:text-white transition-colors">KAIRAS</a>
               <span className="mx-2 opacity-40">/</span>
               Automatización de WhatsApp
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8 max-w-4xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8">
               Automatización de WhatsApp para empresas sin perder el control humano
             </h1>
-            <p className="text-xl text-slate-400 font-light max-w-2xl mb-12 leading-relaxed">
+            <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
               WhatsApp es el canal de contacto más directo que tiene tu negocio. También es el que más tiempo consume cuando no está organizado. Se puede automatizar sin perder el trato personal que lo hace valioso.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
                 Solicitar diagnóstico
               </a>
@@ -50,7 +50,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
         <section className="py-24 px-6">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El problema</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight max-w-3xl">
               El coste real de gestionar WhatsApp a mano
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mt-12">
@@ -93,7 +93,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Qué resolvemos</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-6 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-6 leading-tight max-w-3xl">
               Qué puede hacer un sistema automatizado de WhatsApp
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
@@ -123,7 +123,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Cómo lo implementamos</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-8 leading-tight">
                   El sistema aprende tu negocio. No al revés.
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -157,7 +157,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Para quién tiene sentido</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-12 leading-tight max-w-2xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-normal uppercase mb-12 leading-tight max-w-2xl">
               La automatización de WhatsApp es útil cuando...
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -196,7 +196,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
         {/* CTA */}
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-6xl font-black tracking-tight uppercase mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-normal uppercase mb-8 leading-tight">
               Tu WhatsApp atendiendo clientes.<br />
               <span className="text-cyber-purple italic">Las 24 horas.</span>
             </h2>
