@@ -21,9 +21,9 @@ const IAEmpresas: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-96 pb-24 px-6 relative overflow-hidden">
+        <section className="min-h-screen flex flex-col justify-center px-6 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-cyber-purple/8 blur-[130px] -z-10 rounded-full" />
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center w-full">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
               <a href="/" className="hover:text-white transition-colors">KAIRAS</a>
               <span className="mx-2 opacity-40">/</span>
