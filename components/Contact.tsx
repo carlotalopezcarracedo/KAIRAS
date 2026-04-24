@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Mail, MapPin } from 'lucide-react';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
@@ -101,13 +102,13 @@ const Contact: React.FC = () => {
             <div className="reveal stagger-2 space-y-4">
               <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors cursor-pointer group">
                 <span className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-cyber-purple/20 transition-all">
-                  <span className="material-symbols-outlined text-cyber-purple">mail</span>
+                  <Mail className="text-cyber-purple w-5 h-5" />
                 </span>
                 <span className="font-bold">{CONTACT_EMAIL}</span>
               </a>
               <div className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors cursor-pointer group">
                 <span className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-cyber-purple/20 transition-all">
-                  <span className="material-symbols-outlined text-cyber-purple">location_on</span>
+                  <MapPin className="text-cyber-purple w-5 h-5" />
                 </span>
                 <span className="font-bold">Galicia</span>
               </div>
@@ -119,8 +120,11 @@ const Contact: React.FC = () => {
                 <input type="hidden" name="_webhook" value={N8N_WEBHOOK_URL} />
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-2 group">
-                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Nombre Completo</label>
+                    <label htmlFor="contact-name" className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Nombre Completo</label>
                     <input
+                      id="contact-name"
+                      name="nombre_completo"
+                      autoComplete="name"
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="Carlota..."
                       type="text"
@@ -129,8 +133,11 @@ const Contact: React.FC = () => {
                     />
                   </div>
                   <div className="space-y-2 group">
-                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Email Profesional</label>
+                    <label htmlFor="contact-email" className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Email Profesional</label>
                     <input
+                      id="contact-email"
+                      name="email_profesional"
+                      autoComplete="email"
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="tu@empresa.com"
                       type="email"
@@ -142,8 +149,11 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-2 group">
-                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Empresa / Proyecto</label>
+                    <label htmlFor="contact-company" className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Empresa / Proyecto</label>
                     <input
+                      id="contact-company"
+                      name="empresa_proyecto"
+                      autoComplete="organization"
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="Nombre de tu negocio"
                       type="text"
@@ -152,8 +162,10 @@ const Contact: React.FC = () => {
                     />
                   </div>
                   <div className="space-y-2 group">
-                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Telefono</label>
+                    <label htmlFor="contact-phone" className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Teléfono</label>
                     <input
+                      id="contact-phone"
+                      name="telefono"
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="+34 600 000 000"
                       type="tel"
@@ -165,8 +177,10 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
                 <div className="space-y-2 group">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">¿Dónde pierdes más tiempo hoy?</label>
+                  <label htmlFor="contact-message" className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">¿Dónde pierdes más tiempo hoy?</label>
                   <textarea
+                    id="contact-message"
+                    name="mensaje"
                     className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all resize-none placeholder:text-white/20"
                     placeholder="Ej: Clasificación de leads, agenda, facturación..."
                     rows={4}

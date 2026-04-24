@@ -18,8 +18,10 @@ const Navbar: React.FC = () => {
             <div className="flex items-center gap-2">
               <img
                 src={`${import.meta.env.BASE_URL}logos KAIRAS_ISOLOGO HORIZONTAL BLANCO.png`}
-                alt="Carlota AI"
+                alt="KAIRAS"
                 className="h-8 w-auto cursor-pointer"
+                width="160"
+                height="32"
               />
             </div>
 

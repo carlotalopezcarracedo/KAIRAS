@@ -1,4 +1,5 @@
 import React from 'react';
+import { BadgeCheck } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -7,12 +8,14 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="relative reveal-scale">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group cursor-none">
-              <img 
-                alt="Carlota - AI Architect" 
+              <img
+                alt="Carlota López Carracedo, especialista en automatización e IA para pymes"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 src={`${import.meta.env.BASE_URL}carlota-kairas-automatizacion-ia.png`}
                 loading="lazy"
                 decoding="async"
+                width="600"
+                height="750"
               />
             </div>
             <div className="-mt-px w-full px-3 sm:px-8 py-5 sm:py-6 rounded-3xl border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.35)] overflow-hidden">
@@ -26,19 +29,22 @@ const About: React.FC = () => {
           <div>
             <h2 className="reveal text-5xl lg:text-7xl font-black tracking-tighter uppercase mb-8">Soy Carlota.</h2>
             <p className="reveal stagger-1 text-2xl font-light text-slate-300 leading-relaxed mb-8">
-              Diseño sistemas para que empresas trabajen con  <span className="text-white font-medium"> más orden, menos carga manual</span> y menos dependencia.
+              Diseño sistemas de automatización e IA para que pymes de servicios trabajen con <span className="text-white font-medium">más orden, menos carga manual</span> y menos dependencia de personas concretas.
+            </p>
+            <p className="reveal stagger-1 text-base text-slate-500 mb-8">
+              Trabajo con negocios en Galicia y España que tienen alta carga operativa y necesitan un sistema, no más herramientas.
             </p>
             <div className="reveal stagger-2 space-y-6 mb-12">
 
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  "Experta en No-Code/IA",
+                  "Automatización e IA Aplicada",
                   "Enfoque en Negocio",
-                  "sistemas optimizados",
-                  "Trato directo y claro"
+                  "Sistemas Operativos",
+                  "Trato Directo y Claro"
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3">
-                    <span className="material-symbols-outlined text-cyber-purple">verified</span>
+                    <BadgeCheck className="text-cyber-purple w-5 h-5 flex-shrink-0" />
                     <span className="text-sm font-bold uppercase tracking-tight">{item}</span>
                   </li>
                 ))}

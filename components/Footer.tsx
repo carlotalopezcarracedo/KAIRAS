@@ -8,10 +8,12 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <img
               src={`${import.meta.env.BASE_URL}logos KAIRAS_ISOLOGO HORIZONTAL BLANCO.png`}
-              alt="Carlota AI"
+              alt="KAIRAS"
               className="h-10 w-auto"
               loading="lazy"
               decoding="async"
+              width="200"
+              height="40"
             />
             <p className="text-slate-500 max-w-xs font-light">
               Menos tareas. Más tiempo. Mejor negocio. <br />Sistemas de automatización con IA.

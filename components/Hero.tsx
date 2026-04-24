@@ -1,4 +1,12 @@
 import React from 'react';
+import { Zap, ShieldCheck, TrendingUp, Lock, ChevronDown } from 'lucide-react';
+
+const badges = [
+  { Icon: Zap, text: 'Optimización' },
+  { Icon: ShieldCheck, text: 'Cero Errores' },
+  { Icon: TrendingUp, text: 'Escalabilidad' },
+  { Icon: Lock, text: 'Control Total' },
+];
 
 const Hero: React.FC = () => {
   return (
@@ -30,19 +38,14 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="reveal stagger-2 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-          Automatizo procesos con IA para que tu negocio responda, agende, registre y haga seguimiento sin que tú estés pendiente del móvil.
+          Ayudo a pymes de servicios a recuperar tiempo, reducir tareas manuales y operar con más claridad. Automatización e IA aplicada para que tu negocio funcione aunque tú no estés.
         </p>
 
         <div className="reveal stagger-3 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
-          {[
-            { icon: 'speed', text: 'Optimización' },
-            { icon: 'precision_manufacturing', text: 'Cero Errores' },
-            { icon: 'trending_up', text: 'Escalabilidad' },
-            { icon: 'lock', text: 'Control Total' },
-          ].map((item) => (
-            <div key={item.text} className="w-36 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
-              <span className="material-symbols-outlined text-cyber-purple text-xl group-hover:scale-110 transition-transform">{item.icon}</span>
-              <span className="text-[10px] font-bold uppercase tracking-tight">{item.text}</span>
+          {badges.map(({ Icon, text }) => (
+            <div key={text} className="w-36 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
+              <Icon className="text-cyber-purple w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" />
+              <span className="text-[10px] font-bold uppercase tracking-tight">{text}</span>
             </div>
           ))}
         </div>
@@ -60,7 +63,7 @@ const Hero: React.FC = () => {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-        <span className="material-symbols-outlined text-white/30">keyboard_arrow_down</span>
+        <ChevronDown className="text-white/30 w-6 h-6" />
       </div>
     </section>
   );

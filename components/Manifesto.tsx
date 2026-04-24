@@ -2,7 +2,7 @@ import React from 'react';
 
 const Manifesto: React.FC = () => {
   return (
-    <section className="py-32 bg-white/5 border-y border-white/10 overflow-hidden">
+    <section id="manifiesto" className="py-32 bg-white/5 border-y border-white/10 overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-8 block">Manifiesto Operativo</span>
         <h2 className="text-[1.8rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase leading-[1.05] mb-12">
@@ -20,7 +20,7 @@ const Manifesto: React.FC = () => {
           </p>
           
           <p className="max-w-2xl mx-auto">
-            Kairas convierte ese caos en sistema para que recuperes tiempo, claridad y capacidad de decidir mejor.
+            KAIRAS convierte ese caos en sistema para que recuperes tiempo, claridad y capacidad de decidir mejor.
           </p>
         </div>
       </div>

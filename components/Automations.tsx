@@ -51,7 +51,7 @@ const Automations: React.FC = () => {
               </h3>
               <div className="grid gap-4">
                 {cat.items.map((item) => (
-                  <div key={item.title} className={`glass-card p-8 rounded-2xl group hover:border-${cat.borderColor.split('-')[1]}-${cat.borderColor.split('-')[2]}/50 transition-all duration-500 hover:-translate-y-2`}>
+                  <div key={item.title} className="glass-card p-8 rounded-2xl group hover:border-cyber-purple/50 transition-all duration-500 hover:-translate-y-2">
                     <h4 className="text-xl font-bold mb-2 uppercase flex justify-between items-center">
                       {item.title}
                     </h4>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="es" class="dark">
+<html lang="es-ES" class="dark">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kairas | Automatización con IA para Empresas</title>
+    <title>KAIRAS | Automatización de Procesos e IA para Pymes de Servicios</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Diseño sistemas de automatización con IA para que tu negocio responda, agende y registre sin intervención manual. Menos tareas repetitivas, más resultados." />
-    <meta name="keywords" content="automatización IA, sistemas automatizados, automatización procesos empresariales, no-code, Make, Zapier, IA para negocios, consultoría automatización" />
+    <meta name="description" content="KAIRAS ayuda a pymes de servicios a recuperar tiempo, reducir tareas manuales y ordenar procesos con automatización e IA aplicada. Menos caos. Más sistema." />
     <meta name="author" content="Carlota López Carracedo" />
     <meta name="theme-color" content="#8B5CF6" />
     <link rel="canonical" href="https://kairas.es/" />
@@ -14,17 +13,17 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kairas.es/" />
-    <meta property="og:title" content="Kairas | Automatización con IA para Empresas" />
-    <meta property="og:description" content="Diseño sistemas de automatización con IA para que tu negocio responda, agende y registre sin intervención manual. Menos tareas repetitivas, más resultados." />
-    <meta property="og:image" content="https://kairas.es/logos%20KAIRAS_ISOLOGO%20HORIZONTAL%20NEGRO.png" />
+    <meta property="og:title" content="KAIRAS | Automatización de Procesos e IA para Pymes de Servicios" />
+    <meta property="og:description" content="KAIRAS ayuda a pymes de servicios a recuperar tiempo, reducir tareas manuales y ordenar procesos con automatización e IA aplicada. Menos caos. Más sistema." />
+    <meta property="og:image" content="https://kairas.es/carlota-kairas-automatizacion-ia.png" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:site_name" content="Kairas" />
+    <meta property="og:site_name" content="KAIRAS" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kairas | Automatización con IA para Empresas" />
-    <meta name="twitter:description" content="Diseño sistemas de automatización con IA para que tu negocio responda, agende y registre sin intervención manual. Menos tareas repetitivas, más resultados." />
-    <meta name="twitter:image" content="https://kairas.es/logos%20KAIRAS_ISOLOGO%20HORIZONTAL%20NEGRO.png" />
+    <meta name="twitter:title" content="KAIRAS | Automatización de Procesos e IA para Pymes de Servicios" />
+    <meta name="twitter:description" content="KAIRAS ayuda a pymes de servicios a recuperar tiempo, reducir tareas manuales y ordenar procesos con automatización e IA aplicada. Menos caos. Más sistema." />
+    <meta name="twitter:image" content="https://kairas.es/carlota-kairas-automatizacion-ia.png" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -35,311 +34,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="//cdn.simpleicons.org" />
+    <link rel="preconnect" href="https://cdn.simpleicons.org" crossorigin />
     <link rel="dns-prefetch" href="//api.iconify.design" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://api.iconify.design" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "void": "#050505",
-                        "cyber-purple": "#8B5CF6",
-                        "cyber-indigo": "#4F46E5",
-                        "cyber-cyan": "#C4B5FD",
-                        "glass-border": "rgba(255, 255, 255, 0.12)",
-                    },
-                    fontFamily: {
-                        "sans": ["Plus Jakarta Sans", "sans-serif"]
-                    },
-                    animation: {
-                        'blob': 'blob 10s infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                        'spin-slow': 'spin 15s linear infinite',
-                    },
-                    keyframes: {
-                        blob: {
-                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-20px)' },
-                        }
-                    }
-                },
-            },
-        }
-    </script>
-    <style type="text/tailwindcss">
-        @layer base {
-            html,
-            body {
-                overscroll-behavior-y: auto;
-                overscroll-behavior-x: none;
-                -webkit-overflow-scrolling: touch;
-            }
-
-            body {
-                @apply bg-void text-slate-200 overflow-x-hidden antialiased selection:bg-cyber-purple/30;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                text-rendering: optimizeLegibility;
-                -webkit-font-smoothing: antialiased;
-                min-height: 100svh;
-            }
-        }
-
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-
-        .reveal, .reveal-scale {
-            backface-visibility: hidden;
-        }
-
-        .mesh-gradient, .grainy-overlay {
-            transform: translateZ(0);
-        }
-
-        @media (min-width: 769px) {
-            .reveal, .reveal-scale {
-                will-change: transform, opacity;
-            }
-        }
-        
-        /* Dynamic Background */
-        .mesh-gradient {
-            background: 
-                radial-gradient(circle at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-                radial-gradient(circle at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
-                radial-gradient(circle at 100% 0%, hsla(339,49%,30%,0.15) 0, transparent 50%);
-            background-size: 200% 200%;
-            animation: gradient-move 20s ease infinite;
-        }
-
-        @keyframes gradient-move {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .grainy-overlay {
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-            opacity: 0.04;
-            pointer-events: none;
-            mix-blend-mode: overlay;
-        }
-
-        /* Glassmorphism Cards */
-        .glass-card {
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .glass-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: -100%;
-            width: 50%;
-            height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.05), transparent);
-            transform: skewX(-25deg);
-            transition: 0.5s;
-        }
-
-        .glass-card:hover::before {
-            left: 100%;
-            transition: 0.7s;
-        }
-
-        .glass-card:hover {
-            background: rgba(255, 255, 255, 0.05);
-            border-color: rgba(139, 92, 246, 0.3);
-            box-shadow: 0 10px 40px -10px rgba(139, 92, 246, 0.15);
-            transform: translateY(-5px);
-        }
-
-        /* Text Effects */
-        .cyber-gradient-text {
-            background: linear-gradient(to right, #ffffff 20%, #94a3b8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-blur {
-            backdrop-filter: blur(20px);
-            background-color: rgba(5, 5, 5, 0.7);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .nav-glass {
-            background: linear-gradient(180deg, rgba(8, 8, 12, 0.82) 0%, rgba(5, 5, 5, 0.68) 100%);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-color: rgba(255, 255, 255, 0.12);
-        }
-
-        /* Reveal on Scroll Animations */
-        .reveal {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .reveal-scale {
-            opacity: 0;
-            transform: scale(0.9);
-            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        
-        .reveal-scale.active {
-            opacity: 1;
-            transform: scale(1);
-        }
-
-        .stagger-1 { transition-delay: 100ms; }
-        .stagger-2 { transition-delay: 200ms; }
-        .stagger-3 { transition-delay: 300ms; }
-        .stagger-4 { transition-delay: 400ms; }
-
-        @media (max-width: 768px) {
-            html {
-                scroll-behavior: auto;
-            }
-
-            .mesh-gradient {
-                animation: none;
-            }
-
-            .grainy-overlay {
-                display: none;
-            }
-
-            .glass-card {
-                backdrop-filter: none;
-                -webkit-backdrop-filter: none;
-            }
-
-            .glass-card.nav-glass {
-                background: linear-gradient(180deg, rgba(10, 10, 16, 0.9) 0%, rgba(5, 5, 5, 0.78) 100%);
-                backdrop-filter: blur(20px);
-                -webkit-backdrop-filter: blur(20px);
-                border-color: rgba(255, 255, 255, 0.14);
-            }
-
-            .glass-card::before {
-                display: none;
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            html {
-                scroll-behavior: auto;
-            }
-        }
-    </style>
     <!-- Structured Data -->
     <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Kairas",
-        "url": "https://kairas.es/",
-        "inLanguage": "es",
-        "description": "Sistemas de automatización con IA para empresas",
-        "author": {
-          "@type": "Person",
-          "name": "Carlota López Carracedo"
-        }
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Kairas — Automatización con IA",
-        "description": "Diseño sistemas de automatización con IA para que tu negocio trabaje con más orden, menos carga manual y menos dependencia.",
-        "url": "https://kairas.es/",
-        "founder": {
-          "@type": "Person",
-          "name": "Carlota López Carracedo",
-          "jobTitle": "AI Automation Architect",
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kairas.es/#website",
+          "name": "KAIRAS",
+          "url": "https://kairas.es/",
+          "inLanguage": "es-ES",
+          "description": "Automatización de procesos e IA aplicada para pymes de servicios"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://kairas.es/#organization",
+          "name": "KAIRAS",
+          "url": "https://kairas.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kairas.es/favicon-512x512.png"
+          },
+          "description": "Optimización operativa, automatización e IA aplicada para pymes de servicios en Galicia y España.",
+          "founder": {
+            "@type": "Person",
+            "name": "Carlota López Carracedo",
+            "jobTitle": "Especialista en Automatización e IA"
+          },
+          "areaServed": [
+            { "@type": "AdministrativeArea", "name": "Galicia" },
+            { "@type": "Country", "name": "España" }
+          ],
           "sameAs": [
             "https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/",
             "https://www.instagram.com/kairas.ai"
           ]
         },
-        "serviceType": "Automatización con Inteligencia Artificial",
-        "areaServed": {
-          "@type": "Country",
-          "name": "España"
-        },
-        "inLanguage": "es",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Niveles de Intervención",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Diagnóstico Operativo",
-                "description": "Detectamos dónde pierdes tiempo, qué fricción se repite y qué merece optimización."
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://kairas.es/#service",
+          "name": "KAIRAS — Automatización e IA para Pymes de Servicios",
+          "description": "KAIRAS ayuda a pymes de servicios a recuperar tiempo, reducir tareas manuales y ordenar procesos con automatización e IA aplicada. Trabajamos en Galicia y España.",
+          "url": "https://kairas.es/",
+          "provider": { "@id": "https://kairas.es/#organization" },
+          "serviceType": [
+            "Automatización de Procesos",
+            "Optimización Operativa",
+            "Inteligencia Artificial Aplicada",
+            "Automatización de Atención al Cliente",
+            "Automatización de Seguimiento de Clientes"
+          ],
+          "areaServed": [
+            { "@type": "AdministrativeArea", "name": "Galicia" },
+            { "@type": "Country", "name": "España" }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Niveles de Intervención KAIRAS",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Diagnóstico Operativo",
+                  "description": "Análisis de procesos y detección de cuellos de botella operativos en pymes de servicios."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Optimización de Proceso",
+                  "description": "Automatización de un proceso concreto con implementación rápida y resultados medibles."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistema a Medida",
+                  "description": "Diseño e implementación de sistemas de automatización completos para reducir carga manual y ordenar operativa."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Soporte y Evolución",
+                  "description": "Mantenimiento, ajuste y ampliación de sistemas de automatización activos."
+                }
               }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Optimización de Proceso",
-                "description": "Resolvemos un cuello de botella concreto con una implementación clara y rápida."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Sistema a Medida",
-                "description": "Diseñamos una solución completa para conectar procesos y dar estructura a la operativa."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Soporte y Evolución",
-                "description": "Afinamos, mantenemos y ampliamos el sistema cuando el negocio lo necesita."
-              }
-            }
-          ]
+            ]
+          }
         }
-      }
-    ]
+      ]
+    }
     </script>
-<script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
-  }
-}
-</script>
+
 </head>
 <body>
+    <a href="#main-content" id="skip-to-main">Saltar al contenido principal</a>
     <div id="root"></div>
 <script type="module" src="/index.tsx"></script>
 </body>

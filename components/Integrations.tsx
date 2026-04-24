@@ -14,7 +14,7 @@ const Integrations: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-hidden">
+    <section id="integraciones" className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-6 sm:mb-8 block reveal">Integraciones</span>
         <h2 className="reveal text-[1.98rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24 px-3 sm:px-0 overflow-visible leading-[1.03] sm:leading-tight">
@@ -41,10 +41,12 @@ const Integrations: React.FC = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-3xl flex items-center justify-center z-20 shadow-[0_0_50px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
             <img
               src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
-              alt="Carlota AI"
+              alt="KAIRAS"
               className="w-20 h-20 object-contain"
               loading="lazy"
               decoding="async"
+              width="80"
+              height="80"
             />
           </div>
 
@@ -101,10 +103,12 @@ const Integrations: React.FC = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-2xl flex items-center justify-center z-20 shadow-[0_0_40px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
             <img
               src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
-              alt="Carlota AI"
+              alt="KAIRAS"
               className="w-14 h-14 object-contain"
               loading="lazy"
               decoding="async"
+              width="56"
+              height="56"
             />
           </div>
 

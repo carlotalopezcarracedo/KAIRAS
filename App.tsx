@@ -1,4 +1,5 @@
 ﻿import React, { useEffect } from 'react';
+import { MessageCircle } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Results from './components/Results';
@@ -52,7 +53,7 @@ const App: React.FC = () => {
       <Navbar />
 
       {/* Main Content */}
-      <main>
+      <main id="main-content">
         <Hero />
         <Results />
         <Manifesto />
@@ -74,7 +75,7 @@ const App: React.FC = () => {
           className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all"
           aria-label="Enviar email"
         >
-          <span className="material-symbols-outlined text-3xl">chat_bubble</span>
+          <MessageCircle size={28} />
         </a>
       </div>
     </div>

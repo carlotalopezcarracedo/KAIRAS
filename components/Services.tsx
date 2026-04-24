@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import { Settings } from 'lucide-react';
 
 type InterventionLevel = {
   id: string;
@@ -54,7 +55,7 @@ const Services: React.FC = () => {
                   <div className="relative h-full glass-card bg-black/90 p-8 rounded-[2rem] flex flex-col border-white/20 transform group-hover:scale-[1.02] transition-transform duration-500">
                     <div className="flex justify-between items-start mb-4">
                       <div className="text-[10px] font-mono text-cyber-cyan tracking-widest uppercase">Fase {level.id} // Recomendado</div>
-                      <span className="material-symbols-outlined text-cyber-cyan animate-spin-slow">settings</span>
+                      <Settings className="text-cyber-cyan w-5 h-5 animate-spin-slow" />
                     </div>
 
                     <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">{level.title}</h3>
