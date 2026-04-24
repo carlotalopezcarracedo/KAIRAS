@@ -21,7 +21,7 @@ const Galicia: React.FC = () => {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-40 pb-24 px-6 relative overflow-hidden">
+        <section className="pt-52 pb-24 px-6 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyber-purple/8 blur-[130px] -z-10 rounded-full" />
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">
@@ -29,7 +29,7 @@ const Galicia: React.FC = () => {
               <span className="mx-2 opacity-40">/</span>
               Galicia
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tighter uppercase leading-[0.92] mb-8 max-w-5xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-none mb-8 max-w-4xl">
               Automatización e IA para empresas en Galicia
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mb-12 leading-relaxed">
@@ -52,7 +52,7 @@ const Galicia: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El contexto local</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tighter uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
                   Por qué la automatización importa especialmente en pymes gallegas
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -86,7 +86,7 @@ const Galicia: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Sectores prioritarios</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tighter uppercase mb-6 leading-tight max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-6 leading-tight max-w-3xl">
               Los sectores de servicios en Galicia que más se benefician
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
@@ -134,7 +134,7 @@ const Galicia: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Presencia en Galicia</p>
-                <h2 className="text-4xl lg:text-5xl font-black tracking-tighter uppercase mb-8 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-8 leading-tight">
                   Remoto y presencial en toda la comunidad
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
@@ -168,7 +168,7 @@ const Galicia: React.FC = () => {
         <section className="py-24 px-6 bg-black/30">
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Cómo trabajamos</p>
-            <h2 className="text-4xl lg:text-5xl font-black tracking-tighter uppercase mb-12 leading-tight max-w-2xl">
+            <h2 className="text-4xl lg:text-5xl font-black tracking-tight uppercase mb-12 leading-tight max-w-2xl">
               Un diagnóstico para entender tu negocio concreto
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -206,7 +206,7 @@ const Galicia: React.FC = () => {
         {/* CTA */}
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-6xl font-black tracking-tight uppercase mb-8 leading-tight">
               Habla conmigo<br />
               <span className="text-cyber-purple italic">sobre tu negocio en Galicia.</span>
             </h2>
