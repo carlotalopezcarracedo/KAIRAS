@@ -33,7 +33,7 @@ const OptimizacionOperativa: React.FC = () => {
               Optimización operativa para pymes que necesitan más orden y menos fricción
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-              Cuando el negocio crece pero los procesos no escalan, todo se vuelve más lento. Más reuniones de coordinación. Más cosas que se pierden o se repiten. Más dependencia de personas concretas. Eso tiene solución.
+              Cuando el negocio crece pero los procesos no escalan, todo se vuelve más lento. Más reuniones de coordinación. Más cosas que se repiten. Más dependencia de personas concretas. Eso tiene solución.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
@@ -54,24 +54,24 @@ const OptimizacionOperativa: React.FC = () => {
               Señales de que tu operativa necesita estructura
             </h2>
             <p className="text-lg text-slate-400 font-light max-w-2xl mb-16 leading-relaxed">
-              La mayoría de problemas operativos no se presentan como emergencias. Se acumulan como fricción silenciosa: tiempo perdido, calidad inconsistente, equipo desgastado.
+              La mayoría de problemas operativos no se presentan como emergencias. Se acumulan como fricción silenciosa: tiempo perdido, calidad inconsistente y equipo desgastado.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 {
-                  title: 'El conocimiento del negocio está en la cabeza de una persona',
+                  title: 'El conocimiento está en la cabeza de una persona',
                   desc: 'Cuando esa persona falta, el proceso se detiene. No hay documentación ni flujo alternativo.',
                 },
                 {
                   title: 'Incorporar a alguien nuevo tarda meses',
-                  desc: 'No hay procesos claros ni materiales de referencia. Cada persona aprende por osmosis.',
+                  desc: 'No hay procesos claros ni materiales de referencia. Cada persona aprende Cada persona aprende preguntando, copiando y reconstruyendo el proceso sobre la marcha.',
                 },
                 {
                   title: 'Siempre hay cosas que "se nos olvidaron"',
-                  desc: 'Seguimientos, recordatorios, actualizaciones. Dependen de que alguien lo recuerde, no de que el sistema lo garantice.',
+                  desc: 'Seguimientos, recordatorios, actualizaciones... Dependen de que alguien lo recuerde, no de que el sistema lo garantice.',
                 },
                 {
-                  title: 'No sabes exactamente cuánto cuesta atender a un cliente',
+                  title: 'No sabes cuánto cuesta atender a un cliente',
                   desc: 'Sin trazabilidad de las operaciones, tomar decisiones sobre precios, capacidad o crecimiento es intuición.',
                 },
                 {
@@ -100,14 +100,14 @@ const OptimizacionOperativa: React.FC = () => {
               Estructura primero. Automatización después.
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
-              Automatizar un proceso caótico solo acelera el caos. El orden operativo empieza por entender cómo funciona realmente el negocio, no cómo creemos que funciona.
+              Automatizar un proceso caótico solo acelera el caos. El orden operativo empieza por entender cómo funciona realmente el negocio.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { n: '01', title: 'Diagnóstico real', desc: 'Mapeamos cómo funciona la operativa hoy: flujos, responsabilidades, herramientas y puntos de fricción.' },
+                { n: '01', title: 'Diagnóstico operativo', desc: 'Mapeamos cómo funciona la operativa hoy: flujos, responsabilidades, herramientas y puntos de fricción.' },
                 { n: '02', title: 'Identificación de cuellos de botella', desc: 'Dónde se acumula el trabajo, qué depende de una persona y qué se pierde en el proceso.' },
                 { n: '03', title: 'Diseño de procesos claros', desc: 'Definimos los flujos con responsabilidades, criterios de decisión y documentación mínima necesaria.' },
-                { n: '04', title: 'Implementación y seguimiento', desc: 'Ponemos en marcha los cambios, formamos al equipo y hacemos seguimiento hasta que la operativa funciona bien.' },
+                { n: '04', title: 'Implementación y seguimiento', desc: 'Acompañamos la puesta en marcha, documentamos lo necesario y ajustamos el sistema hasta que pueda usarse con claridad.' },
               ].map((step) => (
                 <div key={step.n} className="flex flex-col gap-4">
                   <div className="w-8 h-8 rounded-full border border-cyber-purple/40 bg-cyber-purple/10 flex items-center justify-center">
@@ -139,7 +139,7 @@ const OptimizacionOperativa: React.FC = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  'Procesos documentados que cualquier persona del equipo puede seguir.',
+                  'Procesos documentados para que el equipo no dependa de explicaciones improvisadas.',
                   'Responsabilidades claras: quién hace qué, cuándo y con qué criterio.',
                   'Trazabilidad de las operaciones: sabes qué pasa, cuándo y por qué.',
                   'Capacidad de crecer sin que la calidad operativa se degrade.',
@@ -160,11 +160,11 @@ const OptimizacionOperativa: React.FC = () => {
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Para quién tiene sentido</p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase mb-12 leading-tight max-w-2xl">
-              Optimización operativa funciona cuando...
+              La Optimización operativa funciona cuando...
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                'Tienes entre 2 y 20 personas en el equipo y la coordinación consume más tiempo del que debería.',
+                'Tu equipo ya no funciona solo con coordinación informal y cada vez consume más tiempo mantener todo alineado.',
                 'El negocio ha crecido pero los procesos siguen siendo los mismos que al principio.',
                 'Hay cosas que dependen de que tú estés presente y no sabes cómo delegar sin perder control.',
                 'Tu equipo trabaja mucho pero no siempre hacia lo correcto porque el proceso no es claro.',
@@ -203,7 +203,6 @@ const OptimizacionOperativa: React.FC = () => {
               <span className="text-cyber-purple italic">Necesita mejores procesos.</span>
             </h2>
             <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
-              Cuéntame cómo funciona tu operativa hoy y te digo qué cambiaría primero para que funcione mejor.
             </p>
             <a href="/#contacto" className="inline-flex items-center justify-center gap-3 bg-white text-black px-12 py-6 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Solicitar diagnóstico gratuito

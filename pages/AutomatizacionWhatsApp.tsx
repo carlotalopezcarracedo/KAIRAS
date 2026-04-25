@@ -30,7 +30,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
               Automatización de WhatsApp
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.9] mb-8">
-              Automatización de WhatsApp para empresas sin perder el control humano
+              Automatización de WhatsApp para empresas
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
               WhatsApp es el canal de contacto más directo que tiene tu negocio. También es el que más tiempo consume cuando no está organizado. Se puede automatizar sin perder el trato personal que lo hace valioso.
@@ -57,18 +57,18 @@ const AutomatizacionWhatsApp: React.FC = () => {
               {[
                 {
                   title: 'Mensajes sin respuesta durante horas',
-                  desc: 'Fuera del horario comercial, en reuniones, de vacaciones. Cada hora sin respuesta es un lead que evalúa a la competencia.',
+                  desc: 'Fuera del horario comercial, en reuniones o de vacaciones. Cada hora sin respuesta es un lead que evalúa a la competencia.',
                 },
                 {
                   title: 'Las mismas preguntas respondidas mil veces',
-                  desc: 'Precios, disponibilidad, horarios, formas de pago. El equipo interrumpe lo que hace para responder siempre lo mismo.',
+                  desc: 'Precios, disponibilidad, horarios, formas de pago... El equipo interrumpe lo que hace para responder siempre lo mismo.',
                 },
                 {
                   title: 'Leads que se enfrían por seguimiento lento',
                   desc: 'El primer contacto es el más importante. Si la respuesta tarda, el interés cae. Sin sistema, dependes de quién esté disponible.',
                 },
                 {
-                  title: 'Citas sin confirmar, clientes sin recordatorio',
+                  title: 'Citas sin confirmar y clientes sin recordatorio',
                   desc: 'La gestión manual de citas genera cancelaciones de última hora, huecos en la agenda y clientes que olvidan.',
                 },
                 {
@@ -97,7 +97,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
               Qué puede hacer un sistema automatizado de WhatsApp
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
-              La automatización de WhatsApp no es un chatbot genérico que frustra a los clientes. Es un sistema entrenado con tu contexto, que responde como tú responderías, y que sabe cuándo derivar a una persona real.
+              La automatización de WhatsApp es un sistema configurado con tu contexto, que responde responde siguiendo tu información, tu tono y tus criterios, y que sabe cuándo derivar a una persona real.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
@@ -105,7 +105,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
                 { title: 'Filtrado y clasificación de conversaciones', desc: 'El sistema distingue quién necesita atención inmediata, quién puede esperar y quién está fuera de tu perfil de cliente.' },
                 { title: 'Agendamiento automático integrado', desc: 'Conectamos WhatsApp con tu calendario. El cliente puede reservar, confirmar o reagendar directamente desde la conversación.' },
                 { title: 'Recordatorios de cita y seguimiento', desc: 'El sistema envía confirmaciones antes de la cita y mensajes de seguimiento después, según los criterios que definas.' },
-                { title: 'Derivación a equipo humano con contexto', desc: 'Cuando una conversación requiere intervención real, se transfiere al equipo con el historial completo, sin que el cliente tenga que repetir nada.' },
+                { title: 'Derivación a equipo humano con contexto', desc: 'Cuando una conversación requiere intervención real, se transfiere al equipo con el contexto necesario, sin que el cliente tenga que repetir nada.' },
                 { title: 'Registro en CRM o herramienta de gestión', desc: 'Cada conversación relevante se registra automáticamente donde corresponde, sin que nadie lo haga manualmente.' },
               ].map((item) => (
                 <div key={item.title} className="glass-card p-8 rounded-3xl flex flex-col gap-4 hover:bg-white/5 hover:-translate-y-1 transition-all border-white/10">
@@ -130,14 +130,14 @@ const AutomatizacionWhatsApp: React.FC = () => {
                   El primer paso siempre es entender cómo gestionas las conversaciones hoy: qué se pregunta más, qué requiere tu intervención y qué se podría automatizar sin perder calidad.
                 </p>
                 <p className="text-lg text-slate-400 font-light leading-relaxed">
-                  A partir de ahí, configuramos un sistema que responde con tu tono, con tu información y con tus criterios de derivación.
+                  A partir de ahí, configuramos un sistema que responde con tu tono, tu información y tus criterios de derivación.
                 </p>
               </div>
               <div className="space-y-8">
                 {[
                   { n: '01', title: 'Auditoría de conversaciones actuales', desc: 'Analizamos qué tipos de mensajes recibes, qué se repite más y dónde se pierde tiempo o calidad.' },
                   { n: '02', title: 'Definición de criterios', desc: 'Qué responde el sistema, qué deriva al equipo y en qué casos actúa de qué manera.' },
-                  { n: '03', title: 'Entrenamiento y configuración', desc: 'El sistema se configura con tu información: servicios, precios, respuestas tipo, tono de comunicación.' },
+                  { n: '03', title: 'Entrenamiento y configuración', desc: 'El sistema se configura con tu información: servicios, precios, respuestas tipo, tono de comunicación...' },
                   { n: '04', title: 'Integración con tu ecosistema', desc: 'Conectamos con tu calendario, CRM y las herramientas que ya uses. Sin cambiar lo que funciona.' },
                 ].map((step) => (
                   <div key={step.n} className="flex gap-6 items-start">
@@ -164,7 +164,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                'WhatsApp es tu canal principal de contacto con clientes y gestionas más de 20 conversaciones semanales.',
+                'WhatsApp es una parte importante de la atención al cliente y empieza a consumir demasiado tiempo.',
                 'El equipo interrumpe constantemente su trabajo para responder preguntas repetitivas.',
                 'Recibes mensajes fuera de horario que se quedan sin respuesta hasta el día siguiente.',
                 'Tienes clientes que no confirmaron su cita o que no recibieron seguimiento después de un contacto.',
@@ -200,7 +200,7 @@ const AutomatizacionWhatsApp: React.FC = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
               Tu WhatsApp atendiendo clientes.<br />
-              <span className="text-cyber-purple italic">Las 24 horas.</span>
+              <span className="text-cyber-purple italic">Sin vivir pendiente del móvil.</span>
             </h2>
             <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
               Cuéntame cómo gestionas WhatsApp hoy y te digo qué parte puede funcionar sola sin perder la calidad del trato.
