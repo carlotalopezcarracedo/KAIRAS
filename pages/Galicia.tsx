@@ -66,10 +66,10 @@ const Galicia: React.FC = () => {
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-500 mb-6">Lo que diferencia a KAIRAS en Galicia</p>
                 <div className="space-y-6">
                   {[
-                    'Conozco el tejido empresarial gallego: sus sectores, sus ritmos y sus restricciones reales.',
+                    'Trabajo desde Galicia y conozco de cerca la realidad de muchas pymes de servicios: equipos pequeños, mucho trato directo y procesos que todavía dependen demasiado de personas concretas.',
                     'Trabajo en remoto y presencialmente en toda la comunidad según lo que tiene más sentido.',
                     'No vendo soluciones estándar. Cada implementación parte del negocio concreto.',
-                    'El objetivo siempre es que el sistema funcione de forma autónoma, no que dependas de mí.',
+                    'El objetivo es que el sistema quede claro, documentado y usable por tu equipo, no que dependas de explicaciones constantes.',
                   ].map((text, i) => (
                     <div key={i} className="flex items-start gap-4">
                       <span className="w-1.5 h-1.5 rounded-full bg-cyber-purple mt-2 shrink-0" />
@@ -96,7 +96,7 @@ const Galicia: React.FC = () => {
               {[
                 {
                   title: 'Clínicas y consultas',
-                  desc: 'Gestión de citas, recordatorios a pacientes, seguimiento post-consulta y comunicación automatizada. Menos tiempo en teléfono, más tiempo en atención.',
+                  desc: 'Gestión de citas, recordatorios a pacientes, seguimiento post-consulta y comunicación automatizada. ',
                 },
                 {
                   title: 'Inmobiliarias y gestorías',
@@ -141,7 +141,6 @@ const Galicia: React.FC = () => {
                   La mayor parte del trabajo es en remoto: diagnóstico, diseño, implementación y seguimiento se pueden hacer con la misma calidad sin necesidad de presencia física. Para quien prefiere el trato cara a cara, trabajo con negocios en toda Galicia.
                 </p>
                 <p className="text-lg text-slate-400 font-light leading-relaxed">
-                  No hay costes adicionales por ubicación. El valor del trabajo no depende de los kilómetros.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -175,7 +174,7 @@ const Galicia: React.FC = () => {
               {[
                 { n: '01', title: 'Primera conversación', desc: 'Entendemos tu negocio, tu operativa actual y dónde está el mayor coste o fricción.' },
                 { n: '02', title: 'Diagnóstico operativo', desc: 'Mapeamos los procesos, identificamos los cuellos de botella y definimos qué tiene más impacto si mejora.' },
-                { n: '03', title: 'Propuesta a medida', desc: 'Sin plantillas. La solución se diseña para tu negocio concreto, tu equipo y tus herramientas.' },
+                { n: '03', title: 'Propuesta a medida', desc: 'Sin soluciones prefabricadas. La propuesta se adapta a tu negocio, tu equipo y tus herramientas.' },
                 { n: '04', title: 'Implementación y acompañamiento', desc: 'Ponemos en marcha la solución y hacemos seguimiento hasta que funciona de forma autónoma.' },
               ].map((step) => (
                 <div key={step.n} className="flex flex-col gap-4">
@@ -209,11 +208,10 @@ const Galicia: React.FC = () => {
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
-              Habla conmigo<br />
-              <span className="text-cyber-purple italic">sobre tu negocio en Galicia.</span>
+              Hablemos de tu negocio en Galicia.<br />
+              <span className="text-cyber-purple italic">Y de dónde está perdiendo tiempo.</span>
             </h2>
             <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
-              Diagnóstico sin compromiso para entender dónde está la mayor oportunidad de mejora en tu operativa.
             </p>
             <a href="/#contacto" className="inline-flex items-center justify-center gap-3 bg-white text-black px-12 py-6 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Solicitar diagnóstico gratuito
