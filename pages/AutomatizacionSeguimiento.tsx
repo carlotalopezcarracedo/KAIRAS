@@ -33,7 +33,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
               Automatización del seguimiento de clientes para no perder oportunidades
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-              La mayoría de clientes no se pierden por el precio. Se pierden porque nadie hizo seguimiento a tiempo. Un mensaje, un recordatorio, una propuesta actualizada. Cosas simples que se olvidan cuando hay volumen.
+              La mayoría de clientes se pierden porque nadie hizo seguimiento a tiempo. Un mensaje, un recordatorio, una propuesta actualizada... Cosas que se olvidan cuando hay volumen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
@@ -64,9 +64,9 @@ const AutomatizacionSeguimiento: React.FC = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  { title: 'Los leads que no cierran enseguida entran en el olvido', desc: 'Si no hay acción en las primeras 48 horas, el lead se queda en una lista que nadie visita.' },
+                  { title: 'Los leads enseguida entran en el olvido', desc: 'Si no hay una siguienteacción definida, el lead acaba en una lista que nadie revisa.' },
                   { title: 'No hay proceso: cada persona sigue como puede', desc: 'Unos usan notas, otros recordatorios, otros nada. La consistencia no existe.' },
-                  { title: 'La reactivación de clientes fríos no ocurre', desc: 'Clientes que dejaron de comprar hace meses podrían volver con un mensaje correcto en el momento correcto. Nadie lo hace.' },
+                  { title: 'La reactivación de clientes fríos no ocurre', desc: 'Clientes que dejaron de comprar hace meses podrían volver con un mensaje correcto en el momento correcto. Pero si nadie lo tiene previsto, no ocurre.' },
                   { title: 'El equipo hace seguimiento de lo urgente, no de lo importante', desc: 'Solo se reactiva quien llama o escribe. Los silenciosos se pierden sin que nadie los haya contactado.' },
                 ].map((item) => (
                   <div key={item.title} className="glass-card p-8 rounded-3xl border-white/10 hover:bg-white/5 transition-all">
@@ -84,7 +84,7 @@ const AutomatizacionSeguimiento: React.FC = () => {
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Qué automatizamos</p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase mb-6 leading-tight max-w-3xl">
-              El ciclo completo de seguimiento sin intervención manual constante
+              El seguimiento sin intervención manual constante
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
               El objetivo no es sustituir el criterio humano. Es garantizar que ningún contacto se pierda por descuido, volumen o falta de tiempo.
@@ -95,8 +95,8 @@ const AutomatizacionSeguimiento: React.FC = () => {
                 { title: 'Recordatorios por inactividad', desc: 'Si un lead lleva X días sin responder, el sistema avisa al equipo o envía un mensaje de seguimiento directo.' },
                 { title: 'Reactivación de clientes fríos', desc: 'Contactos que no han comprado en meses reciben mensajes relevantes en el momento adecuado, sin que nadie lo tenga que programar.' },
                 { title: 'Secuencias de nurturing', desc: 'Para leads que no están listos todavía, el sistema mantiene el contacto con contenido útil hasta que el momento llega.' },
-                { title: 'Notificaciones al equipo con contexto', desc: 'Cuando es momento de intervención humana, el equipo recibe una alerta con todo el historial del contacto.' },
-                { title: 'Registro de cada interacción', desc: 'Cada mensaje enviado, abierto o respondido queda registrado. El historial del cliente siempre está completo.' },
+                { title: 'Notificaciones al equipo con contexto', desc: 'Cuando es momento de intervención humana, el equipo recibe una alerta con el contexto necesario.' },
+                { title: 'Registro de cada interacción', desc: 'Cada mensaje enviado o respondido queda registrado. El historial del cliente siempre está completo.' },
               ].map((item) => (
                 <div key={item.title} className="glass-card p-8 rounded-3xl flex flex-col gap-4 hover:bg-white/5 hover:-translate-y-1 transition-all border-white/10">
                   <h3 className="text-base font-bold uppercase tracking-wider text-white">{item.title}</h3>
@@ -117,15 +117,15 @@ const AutomatizacionSeguimiento: React.FC = () => {
                   Un sistema que trabaja en paralelo a tu equipo
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
-                  Lo primero es entender tu ciclo de cliente real: desde el primer contacto hasta la compra, y desde la compra hasta la renovación o reactivación.
+                  Lo primero es entender tu ciclo de cliente real: desde el primer contacto hasta la compra, y desde la compra hasta la reactivación.
                 </p>
                 <p className="text-lg text-slate-400 font-light leading-relaxed">
-                  A partir de ese mapa, definimos qué parte puede funcionar automáticamente y qué necesita siempre la intervención de una persona.
+                  A partir de ese mapa, definimos qué parte puede funcionar automáticamente y qué necesita siempre la intervención humana.
                 </p>
               </div>
               <div className="space-y-8">
                 {[
-                  { n: '01', title: 'Mapa del ciclo de cliente', desc: 'Definimos los estados por los que pasa un lead: primer contacto, evaluación, propuesta, seguimiento, cierre, postventa.' },
+                  { n: '01', title: 'Mapa del ciclo de cliente', desc: 'Definimos los estados por los que pasa un lead: primer contacto, evaluación, propuesta, seguimiento, cierre, postventa...' },
                   { n: '02', title: 'Identificación de puntos críticos', desc: 'Dónde se pierden más oportunidades, qué plazos tienen más impacto y qué acciones generan más respuesta.' },
                   { n: '03', title: 'Diseño de secuencias y criterios', desc: 'Qué mensaje, en qué momento, por qué canal y con qué criterio de activación.' },
                   { n: '04', title: 'Conexión con tu CRM y canales', desc: 'Integramos con las herramientas que ya usas: CRM, email, WhatsApp, calendario.' },
@@ -189,11 +189,10 @@ const AutomatizacionSeguimiento: React.FC = () => {
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
-              Ningún cliente se pierde<br />
+              Menos oportunidades perdidas<br />
               <span className="text-cyber-purple italic">por falta de seguimiento.</span>
             </h2>
             <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
-              Cuéntame cómo funciona tu ciclo de cliente hoy y te digo qué parte puede garantizar el sistema de forma automática.
             </p>
             <a href="/#contacto" className="inline-flex items-center justify-center gap-3 bg-white text-black px-12 py-6 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Solicitar diagnóstico gratuito
