@@ -33,7 +33,7 @@ const IAEmpresas: React.FC = () => {
               IA para empresas aplicada a procesos reales
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-              No hace falta entender de tecnología para usar IA bien. Hace falta saber qué problema concreto quieres resolver. Ahí empieza el trabajo útil. Sin hype, sin proyectos interminables.
+              No hace falta entender de tecnología para usar la IA con criterio. Hace falta saber qué problema concreto quieres resolver. Ahí empieza el trabajo útil.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
@@ -53,22 +53,22 @@ const IAEmpresas: React.FC = () => {
               <div>
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">El problema</p>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
-                  Hay demasiada IA que no hace nada útil en tu negocio
+                  Hay demasiada IA que no mejora tu operativa
                 </h2>
                 <p className="text-lg text-slate-400 font-light leading-relaxed mb-6">
-                  Demos impresionantes. Proyectos piloto de seis meses. Consultorías que generan informes pero no tocan tu operativa. Herramientas genéricas que no encajan en tu flujo real.
+                  Demos impresionantes. Proyectos piloto de seis meses. Consultorías que generan informes pero no tocan tu operativa. Herramientas genéricas que no encajan en tu flujo real...
                 </p>
                 <p className="text-lg text-slate-400 font-light leading-relaxed">
-                  La IA es útil cuando resuelve algo concreto: clasificar un lead, responder una duda frecuente, resumir una reunión, analizar datos que ya tienes. Cuando parte de un problema específico, no de una tecnología.
+                  La IA es útil cuando resuelve algo concreto: clasificar un lead, responder una duda frecuente, resumir una reunión, analizar datos que ya tienes. Cuando parte de un problema específico y se integra en un proceso real.
                 </p>
               </div>
               <div className="glass-card p-10 rounded-3xl border-white/10">
                 <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-500 mb-6">Lo que sí funciona</p>
                 <div className="space-y-6">
                   {[
-                    'IA entrenada con el conocimiento propio de tu negocio, no respuestas genéricas.',
+                    'IA configurada con el contexto real de tu negocio, no respuestas genéricas.',
                     'Automatización que parte de un proceso ya definido, no de una herramienta buscando uso.',
-                    'Implementaciones en semanas, no proyectos de seis meses sin entregable claro.',
+                    'Implementaciones acotadas, con entregables claros y validación real.',
                     'Métricas concretas: tiempo ahorrado, leads atendidos, errores reducidos.',
                   ].map((text, i) => (
                     <div key={i} className="flex items-start gap-4">
@@ -87,7 +87,7 @@ const IAEmpresas: React.FC = () => {
           <div className="max-w-7xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-4">Aplicaciones concretas</p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase mb-6 leading-tight max-w-3xl">
-              Dónde aplica IA de forma concreta
+              Dónde puede aportar valor la IA en una empresa de servicios
             </h2>
             <p className="text-lg text-slate-400 font-light mb-16 max-w-2xl leading-relaxed">
               Cada aplicación parte de un problema operativo real, no de una capacidad tecnológica que busca un hueco donde encajar.
@@ -100,11 +100,11 @@ const IAEmpresas: React.FC = () => {
                 },
                 {
                   title: 'Clasificación y filtrado de leads',
-                  desc: 'Define qué hace un lead ideal y el sistema clasifica automáticamente cada nueva solicitud: listo para contactar, necesita más información, fuera de perfil.',
+                  desc: 'Define qué hace un lead ideal y el sistema clasifica automáticamente cada nueva solicitud: listo para contactar, necesita más información, fuera de perfil...',
                 },
                 {
                   title: 'Procesamiento de documentos',
-                  desc: 'Facturas, formularios, emails, contratos. La IA extrae los datos relevantes y los registra donde corresponde sin intervención manual.',
+                  desc: 'Facturas, formularios, emails, contratos... La IA extrae los datos relevantes y los registra donde corresponde sin intervención manual.',
                 },
                 {
                   title: 'Resumen de reuniones y llamadas',
@@ -116,7 +116,7 @@ const IAEmpresas: React.FC = () => {
                 },
                 {
                   title: 'Asistencia en redacción operativa',
-                  desc: 'Borradores de propuestas, respuestas a clientes, actualizaciones de estado. La IA genera la base, el equipo revisa y envía. Menos tiempo de escritura, misma calidad.',
+                  desc: 'Borradores de propuestas, respuestas a clientes o actualizaciones de estado. La IA genera la base, el equipo revisa y envía. Menos tiempo de escritura, misma calidad.',
                 },
               ].map((item) => (
                 <div key={item.title} className="glass-card p-8 rounded-3xl border-white/10 hover:bg-white/5 hover:-translate-y-1 transition-all">
@@ -146,9 +146,9 @@ const IAEmpresas: React.FC = () => {
               </div>
               <div className="space-y-8">
                 {[
-                  { n: '01', title: 'Diagnóstico del problema', desc: 'Identificamos qué consumes más tiempo, qué genera más errores y qué tiene mayor impacto si mejora.' },
+                  { n: '01', title: 'Diagnóstico del problema', desc: 'Identificamos qué consume más tiempo, qué genera más errores y qué tiene mayor impacto si mejora.' },
                   { n: '02', title: 'Selección de la solución', desc: 'Decidimos si la IA es la respuesta correcta, qué modelo o herramienta encaja y cómo se integra.' },
-                  { n: '03', title: 'Entrenamiento con tu contexto', desc: 'La IA se configura con tu información: servicios, criterios, tono, casos habituales.' },
+                  { n: '03', title: 'Entrenamiento con tu contexto', desc: 'La IA se configura con tu información: servicios, criterios, tono, casos habituales...' },
                   { n: '04', title: 'Validación y puesta en marcha', desc: 'Probamos con casos reales antes de desplegar. Ajustamos hasta que el comportamiento es el correcto.' },
                 ].map((step) => (
                   <div key={step.n} className="flex gap-6 items-start">
@@ -210,11 +210,12 @@ const IAEmpresas: React.FC = () => {
         <section className="py-32 px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
-              Sin hype.<br />
-              <span className="text-cyber-purple italic">Solo lo que funciona en tu negocio.</span>
+              IA cuando tiene sentido.
+              <br />
+              <span className="text-cyber-purple italic">Sistema cuando hace falta.</span>
             </h2>
             <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
-              Cuéntame qué frena tu operativa y evaluamos juntos si la IA tiene sentido, dónde y cómo implementarla.
+              Revisamos tu operativa, detectamos dónde se atasca el trabajo y valoramos si la IA puede aportar algo útil.
             </p>
             <a href="/#contacto" className="inline-flex items-center justify-center gap-3 bg-white text-black px-12 py-6 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Solicitar diagnóstico gratuito

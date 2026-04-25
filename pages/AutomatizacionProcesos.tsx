@@ -33,7 +33,7 @@ const AutomatizacionProcesos: React.FC = () => {
               Automatización de procesos para pymes que necesitan trabajar con menos carga manual
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-              Atención, presupuestos, seguimiento, avisos, registros. Hay tareas en tu negocio que pueden funcionar solas. El problema no es la tecnología. Es saber cuáles automatizar primero y cómo hacerlo sin romper lo que ya funciona.
+              Atención, presupuestos, seguimiento, avisos, registros... Hay tareas en tu negocio que pueden automatizarse con seguridad. El problema no es la tecnología. Es saber cuáles automatizar primero y cómo hacerlo sin romper lo que ya funciona.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contacto" className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
@@ -187,11 +187,8 @@ const AutomatizacionProcesos: React.FC = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-black tracking-tighter uppercase mb-8 leading-tight">
               Cuéntame qué haces a mano.<br />
-              <span className="text-cyber-purple italic">Te digo qué puede funcionar solo.</span>
+              <span className="text-cyber-purple italic">Te digo qué puede automatizarse.</span>
             </h2>
-            <p className="text-lg text-slate-400 font-light mb-12 max-w-xl mx-auto">
-              Un diagnóstico para identificar los procesos con mayor retorno si se automatizan en tu negocio. Sin compromiso.
-            </p>
             <a href="/#contacto" className="inline-flex items-center justify-center gap-3 bg-white text-black px-12 py-6 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Solicitar diagnóstico gratuito
               <ArrowRight className="w-5 h-5" />
