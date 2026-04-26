@@ -37,11 +37,15 @@ const Hero: React.FC = () => {
           </h1>
         </div>
 
-        <p className="reveal stagger-2 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
+        <h2 className="reveal stagger-2 text-sm sm:text-base font-bold tracking-[0.18em] uppercase text-white/50 mb-6 -mt-6">
+          Automatización e IA para pymes de servicios
+        </h2>
+
+        <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
           Ayudo a pymes de servicios a recuperar tiempo, reducir tareas manuales y operar con más claridad. Automatización e IA aplicada para que tu negocio funcione aunque tú no estés.
         </p>
 
-        <div className="reveal stagger-3 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
+        <div className="reveal stagger-4 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
           {badges.map(({ Icon, text }) => (
             <div key={text} className="w-36 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
               <Icon className="text-cyber-purple w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" />
@@ -50,7 +54,7 @@ const Hero: React.FC = () => {
           ))}
         </div>
 
-        <div className="reveal stagger-4 flex flex-col sm:flex-row gap-6 justify-center">
+        <div className="reveal stagger-5 flex flex-col sm:flex-row gap-6 justify-center">
           <a href="#contacto" className="relative overflow-hidden bg-white text-black px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] group inline-flex items-center justify-center">
             <span className="relative z-10">Analizar mi negocio</span>
             <div className="absolute inset-0 h-full w-full scale-0 rounded-xl transition-all duration-300 group-hover:scale-100 group-hover:bg-slate-200"></div>
