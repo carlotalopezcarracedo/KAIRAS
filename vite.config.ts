@@ -35,6 +35,8 @@ export default defineConfig(({ mode }) => {
           automatizacionWhatsApp: path.resolve(__dirname, 'automatizacion-whatsapp-empresas/index.html'),
           automatizacionSeguimiento: path.resolve(__dirname, 'automatizacion-seguimiento-clientes/index.html'),
           galicia: path.resolve(__dirname, 'automatizacion-ia-empresas-galicia/index.html'),
+          blog: path.resolve(__dirname, 'blog/index.html'),
+          blogPost1: path.resolve(__dirname, 'blog/automatizaciones-que-recuperan-tiempo-pymes/index.html'),
         },
       },
     },

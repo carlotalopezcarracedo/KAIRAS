@@ -7,6 +7,8 @@ import OptimizacionOperativa from './OptimizacionOperativa';
 import AutomatizacionWhatsApp from './AutomatizacionWhatsApp';
 import AutomatizacionSeguimiento from './AutomatizacionSeguimiento';
 import Galicia from './Galicia';
+import Blog from './Blog';
+import BlogPost1 from './BlogPost1';
 
 const pageMap: Record<string, React.FC> = {
   'automatizacion-procesos-empresas': AutomatizacionProcesos,
@@ -15,6 +17,8 @@ const pageMap: Record<string, React.FC> = {
   'automatizacion-whatsapp-empresas': AutomatizacionWhatsApp,
   'automatizacion-seguimiento-clientes': AutomatizacionSeguimiento,
   'automatizacion-ia-empresas-galicia': Galicia,
+  'blog': Blog,
+  'blog-post-1': BlogPost1,
 };
 
 const rootEl = document.getElementById('root')!;

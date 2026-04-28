@@ -21,6 +21,10 @@ const Footer: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-12">
             <div className="space-y-4">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Recursos</span>
+              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/blog/">Blog</a>
+            </div>
+            <div className="space-y-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Soluciones</span>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/automatizacion-procesos-empresas/">Automatización de procesos</a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/ia-empresas/">IA para empresas</a>
