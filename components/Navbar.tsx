@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Servicios', href: '/#automatizaciones' },
   { label: 'Como funciona', href: '/#como-funciona' },
   { label: 'Sobre mi', href: '/#sobre-mi' },
+  { label: 'Contacto', href: '/#contacto' },
 ];
 
 const Navbar: React.FC = () => {

@@ -6,15 +6,17 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="space-y-6">
-            <img
-              src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco.webp`}
-              alt="KAIRAS"
-              className="h-10 w-auto"
-              loading="lazy"
-              decoding="async"
-              width="200"
-              height="40"
-            />
+            <a href="/#inicio" className="inline-flex items-center">
+              <img
+                src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco.webp`}
+                alt="KAIRAS"
+                className="h-10 w-auto"
+                loading="lazy"
+                decoding="async"
+                width="200"
+                height="40"
+              />
+            </a>
             <p className="text-slate-500 max-w-xs font-light">
               Menos tareas. Mas tiempo. Mejor negocio. <br />
               Sistemas de automatizacion con IA.

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -7,6 +7,34 @@ import Contact from '../components/Contact';
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
 const ContactoPage: React.FC = () => {
+  useEffect(() => {
+    const hiddenElements = document.querySelectorAll('.reveal, .reveal-scale');
+    const isMobileViewport = window.matchMedia('(max-width: 768px)').matches;
+    const isCoarsePointer = window.matchMedia('(pointer: coarse)').matches;
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (isMobileViewport || isCoarsePointer || prefersReducedMotion) {
+      hiddenElements.forEach((el) => el.classList.add('active'));
+      return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px',
+    });
+
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="relative min-h-[100svh]">
       <div className="hidden md:block fixed inset-0 grainy-overlay z-50 pointer-events-none" />
