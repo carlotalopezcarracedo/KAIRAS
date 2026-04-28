@@ -8,7 +8,7 @@ const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 const RELATED = [
   { title: 'Automatización de procesos', href: '/automatizacion-procesos/' },
   { title: 'IA para empresas', href: '/ia-empresas/' },
-  { title: 'Seguimiento de clientes', href: '/automatizacion-seguimiento-clientes/' },
+  { title: 'Seguimiento de clientes', href: '/crm-pymes-seguimiento-clientes/' },
 ];
 
 const OptimizacionOperativa: React.FC = () => {

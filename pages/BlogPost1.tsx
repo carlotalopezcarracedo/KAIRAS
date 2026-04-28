@@ -158,7 +158,7 @@ const BlogPost1: React.FC = () => {
                 <span className="text-sm font-bold uppercase tracking-wider">Automatización de procesos</span>
                 <ArrowRight className="w-4 h-4 text-cyber-purple group-hover:translate-x-1 transition-transform shrink-0" />
               </a>
-              <a href="/automatizacion-seguimiento-clientes/" className="glass-card p-6 rounded-2xl flex items-center justify-between group hover:border-cyber-purple/30 hover:bg-white/5 transition-all border-white/10">
+              <a href="/crm-pymes-seguimiento-clientes/" className="glass-card p-6 rounded-2xl flex items-center justify-between group hover:border-cyber-purple/30 hover:bg-white/5 transition-all border-white/10">
                 <span className="text-sm font-bold uppercase tracking-wider">Seguimiento de clientes</span>
                 <ArrowRight className="w-4 h-4 text-cyber-purple group-hover:translate-x-1 transition-transform shrink-0" />
               </a>

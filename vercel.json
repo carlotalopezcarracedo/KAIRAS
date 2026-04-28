@@ -1,6 +1,16 @@
 {
   "redirects": [
     {
+      "source": "/automatizacion-seguimiento-clientes",
+      "destination": "/crm-pymes-seguimiento-clientes/",
+      "permanent": true
+    },
+    {
+      "source": "/automatizacion-seguimiento-clientes/",
+      "destination": "/crm-pymes-seguimiento-clientes/",
+      "permanent": true
+    },
+    {
       "source": "/automatizacion-procesos-empresas",
       "destination": "/automatizacion-procesos/",
       "permanent": true

@@ -7,12 +7,44 @@ const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
 const POSTS = [
   {
-    slug: '/blog/automatizaciones-que-recuperan-tiempo-pymes/',
-    title: 'Las automatizaciones que más tiempo recuperan en una pyme de servicios',
+    slug: '/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/',
+    title: 'Por que las pymes pierden clientes antes de firmar',
     date: '2026-04-28',
     dateLabel: '28 abril 2026',
-    desc: 'Hay tareas en tu negocio que se repiten cada semana y consumen horas sin aportar nada nuevo. Estas son las que más impacto tienen cuando se automatizan.',
-    tags: ['Automatización', 'Pymes', 'Productividad'],
+    desc: 'Fugas comerciales reales en pymes de servicios y como cerrar el tramo entre primer contacto y firma.',
+    tags: ['Leads', 'CRM', 'Seguimiento'],
+  },
+  {
+    slug: '/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/',
+    title: 'Como dejar de gestionar el WhatsApp de empresa a mano',
+    date: '2026-04-28',
+    dateLabel: '28 abril 2026',
+    desc: 'Estructura minima para responder antes, filtrar mejor y seguir conversaciones sin saturar al equipo.',
+    tags: ['WhatsApp', 'Atencion', 'Proceso'],
+  },
+  {
+    slug: '/blog/como-saber-que-proceso-automatizar-primero/',
+    title: 'Como saber que proceso automatizar primero en tu empresa',
+    date: '2026-04-28',
+    dateLabel: '28 abril 2026',
+    desc: 'Metodo practico para priorizar automatizaciones por impacto real y facilidad de implantacion.',
+    tags: ['Procesos', 'Priorizacion', 'Operativa'],
+  },
+  {
+    slug: '/blog/reducir-ausencias-clinicas-recordatorios-automaticos/',
+    title: 'Como reducir ausencias en clinicas con recordatorios automaticos',
+    date: '2026-04-28',
+    dateLabel: '28 abril 2026',
+    desc: 'Como bajar ausencias con confirmaciones y recordatorios en el canal correcto, sin mas carga manual.',
+    tags: ['Clinicas', 'Recordatorios', 'Agenda'],
+  },
+  {
+    slug: '/blog/automatizaciones-que-recuperan-tiempo-pymes/',
+    title: 'Las automatizaciones que mas tiempo recuperan en una pyme de servicios',
+    date: '2026-04-28',
+    dateLabel: '28 abril 2026',
+    desc: 'Hay tareas que se repiten cada semana y consumen horas sin aportar valor nuevo. Estas son las mas rentables para empezar.',
+    tags: ['Automatizacion', 'Pymes', 'Productividad'],
   },
 ];
 
@@ -32,7 +64,7 @@ const Blog: React.FC = () => {
               Blog
             </h1>
             <p className="text-xl text-slate-400 font-light max-w-2xl leading-relaxed">
-              Ideas y recursos sobre automatización e IA para pymes de servicios. Sin relleno.
+              Ideas y recursos sobre automatizacion e IA para pymes de servicios. Sin relleno.
             </p>
           </div>
         </section>

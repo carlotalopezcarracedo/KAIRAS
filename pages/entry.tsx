@@ -9,6 +9,10 @@ import AutomatizacionSeguimiento from './AutomatizacionSeguimiento';
 import Galicia from './Galicia';
 import Blog from './Blog';
 import BlogPost1 from './BlogPost1';
+import BlogPostPierdenClientes from './BlogPostPierdenClientes';
+import BlogPostWhatsAppManual from './BlogPostWhatsAppManual';
+import BlogPostProcesoPrimero from './BlogPostProcesoPrimero';
+import BlogPostAusenciasClinicas from './BlogPostAusenciasClinicas';
 import Servicios from './Servicios';
 import ContactoPage from './ContactoPage';
 import CRMPymesSeguimientoClientes from './CRMPymesSeguimientoClientes';
@@ -27,6 +31,10 @@ const pageMap: Record<string, React.FC> = {
   'automatizacion-empresas-galicia': Galicia,
   'blog': Blog,
   'blog-post-1': BlogPost1,
+  'blog-pierden-clientes': BlogPostPierdenClientes,
+  'blog-whatsapp-manual': BlogPostWhatsAppManual,
+  'blog-proceso-primero': BlogPostProcesoPrimero,
+  'blog-ausencias-clinicas': BlogPostAusenciasClinicas,
 };
 
 const rootEl = document.getElementById('root')!;
