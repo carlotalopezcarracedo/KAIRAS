@@ -1,0 +1,44 @@
+{
+  "redirects": [
+    {
+      "source": "/automatizacion-procesos-empresas",
+      "destination": "/automatizacion-procesos/",
+      "permanent": true
+    },
+    {
+      "source": "/automatizacion-procesos-empresas/",
+      "destination": "/automatizacion-procesos/",
+      "permanent": true
+    },
+    {
+      "source": "/automatizacion-ia-empresas-galicia",
+      "destination": "/automatizacion-empresas-galicia/",
+      "permanent": true
+    },
+    {
+      "source": "/automatizacion-ia-empresas-galicia/",
+      "destination": "/automatizacion-empresas-galicia/",
+      "permanent": true
+    },
+    {
+      "source": "/accesibilidad.html",
+      "destination": "/accesibilidad/",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/aviso-legal/",
+      "permanent": true
+    },
+    {
+      "source": "/cookies.html",
+      "destination": "/cookies/",
+      "permanent": true
+    },
+    {
+      "source": "/privacidad.html",
+      "destination": "/privacidad/",
+      "permanent": true
+    }
+  ]
+}

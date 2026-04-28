@@ -18,7 +18,6 @@ const pageMap: Record<string, React.FC> = {
   servicios: Servicios,
   contacto: ContactoPage,
   'automatizacion-procesos': AutomatizacionProcesos,
-  'automatizacion-procesos-empresas': AutomatizacionProcesos,
   'ia-empresas': IAEmpresas,
   'optimizacion-operativa-pymes': OptimizacionOperativa,
   'automatizacion-whatsapp-empresas': AutomatizacionWhatsApp,
@@ -26,7 +25,6 @@ const pageMap: Record<string, React.FC> = {
   'crm-pymes-seguimiento-clientes': CRMPymesSeguimientoClientes,
   'automatizacion-clinicas': AutomatizacionClinicas,
   'automatizacion-empresas-galicia': Galicia,
-  'automatizacion-ia-empresas-galicia': Galicia,
   'blog': Blog,
   'blog-post-1': BlogPost1,
 };
