@@ -6,6 +6,10 @@ const OUTPUT = path.join(ROOT, 'public', 'sitemap.xml');
 const SITE_URL = 'https://kairas.es';
 
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
+const EXCLUDED_CANONICAL_PATHS = new Set([
+  '/automatizacion-ia-empresas-galicia/',
+  '/automatizacion-procesos-empresas/'
+]);
 
 const PRIORITY_MAP = {
   '/': { changefreq: 'weekly', priority: '1.0' },
@@ -26,6 +30,7 @@ const PRIORITY_MAP = {
   '/aviso-legal/': { changefreq: 'yearly', priority: '0.3' },
   '/cookies/': { changefreq: 'yearly', priority: '0.1' }
 };
+const REQUIRED_CANONICAL_PATHS = Object.keys(PRIORITY_MAP);
 
 function toPosix(p) {
   return p.split(path.sep).join('/');
@@ -85,6 +90,9 @@ for (const filePath of walk(ROOT)) {
   if (!canonicalPath || !canonical.startsWith(SITE_URL)) {
     continue;
   }
+  if (EXCLUDED_CANONICAL_PATHS.has(canonicalPath)) {
+    continue;
+  }
 
   const stats = fs.statSync(filePath);
   const sourcePath = toPosix(path.relative(ROOT, filePath));
@@ -116,6 +124,15 @@ const urls = Array.from(seen.entries())
       sourcePath: data.sourcePath
     };
   });
+
+const missingRequiredPaths = REQUIRED_CANONICAL_PATHS.filter((pathname) => !seen.has(pathname));
+if (missingRequiredPaths.length > 0) {
+  console.error('Sitemap generation failed. Missing required canonical paths:');
+  for (const pathname of missingRequiredPaths) {
+    console.error(`- ${SITE_URL}${pathname}`);
+  }
+  process.exit(1);
+}
 
 const xml = [
   '<?xml version="1.0" encoding="UTF-8"?>',
