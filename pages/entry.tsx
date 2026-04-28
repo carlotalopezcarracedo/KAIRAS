@@ -11,6 +11,7 @@ import Blog from './Blog';
 import BlogPost1 from './BlogPost1';
 
 const pageMap: Record<string, React.FC> = {
+  'automatizacion-procesos': AutomatizacionProcesos,
   'automatizacion-procesos-empresas': AutomatizacionProcesos,
   'ia-empresas': IAEmpresas,
   'optimizacion-operativa-pymes': OptimizacionOperativa,

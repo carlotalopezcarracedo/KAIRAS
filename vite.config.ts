@@ -29,7 +29,8 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         input: {
           main: path.resolve(__dirname, 'index.html'),
-          automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos-empresas/index.html'),
+          automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos/index.html'),
+          automatizacionProcesosOld: path.resolve(__dirname, 'automatizacion-procesos-empresas/index.html'),
           iaEmpresas: path.resolve(__dirname, 'ia-empresas/index.html'),
           optimizacionOperativa: path.resolve(__dirname, 'optimizacion-operativa-pymes/index.html'),
           automatizacionWhatsApp: path.resolve(__dirname, 'automatizacion-whatsapp-empresas/index.html'),

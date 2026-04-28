@@ -155,7 +155,7 @@ const Results: React.FC = () => {
                       <div className="bg-[#1f2937] border border-white/5 p-5 rounded-2xl rounded-tl-none relative shadow-lg">
                          <p className="text-lg font-medium text-white leading-relaxed">
                            {stage >= 1 && (
-                             <TypewriterText text='"Quiero cita mañana a las 6 para cortar"' />
+                             <TypewriterText text='"Quiero cita mañana a las 6"' />
                            )}
                          </p>
                       </div>
@@ -244,7 +244,7 @@ const Results: React.FC = () => {
                         {/* Data Chips */}
                         <div className="grid grid-cols-2 gap-3">
                            {[
-                             { label: 'Servicio', val: 'Corte', icon: Scissors },
+                             { label: 'Servicio', val: 'Auditoría', icon: Scissors },
                              { label: 'Día', val: 'Mañana', icon: Calendar },
                              { label: 'Hora', val: '18:00', icon: Clock },
                              { label: 'Nombre', val: 'Rosa', icon: User }

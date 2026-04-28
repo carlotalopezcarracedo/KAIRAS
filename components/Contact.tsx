@@ -193,7 +193,7 @@ const Contact: React.FC = () => {
                   disabled={submitStatus === 'sending'}
                   className="w-full bg-gradient-to-r from-cyber-purple to-cyber-indigo text-white font-black py-6 rounded-2xl text-xs uppercase tracking-[0.3em] hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] hover:scale-[1.02] transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed"
                 >
-                  {submitStatus === 'sending' ? 'Enviando...' : 'Solicitar Diagnóstico'}
+                  {submitStatus === 'sending' ? 'Enviando...' : 'Enviar y revisar mi caso'}
                 </button>
                 {statusMessage && (
                   <p className={`text-sm font-medium ${submitStatus === 'success' ? 'text-green-400' : 'text-amber-300'}`}>
