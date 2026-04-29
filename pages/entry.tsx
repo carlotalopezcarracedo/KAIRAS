@@ -26,6 +26,10 @@ const pageMap: Record<string, PageLoader> = {
   'blog-seguimiento-leads': () => import('./BlogPostSeguimientoLeads'),
   'blog-whatsapp-app-vs-api': () => import('./BlogPostWhatsAppAppVsAPI'),
   'blog-reactivar-leads': () => import('./BlogPostReactivarLeads'),
+  'blog-confirmacion-citas-whatsapp': () => import('./BlogPostConfirmacionCitas'),
+  'blog-crm-no-falla-proceso': () => import('./BlogPostCRMNoProceso'),
+  'blog-herramientas-desconectadas': () => import('./BlogPostHerramientasDesconectadas'),
+  'blog-todo-depende-persona': () => import('./BlogPostTodoDepende'),
 };
 
 const rootEl = document.getElementById('root')!;

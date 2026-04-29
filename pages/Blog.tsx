@@ -138,6 +138,42 @@ const POSTS = [
     tags: ['Leads', 'Reactivacion', 'CRM'],
     category: 'crm',
   },
+  {
+    slug: '/blog/confirmacion-citas-whatsapp-clinicas/',
+    title: 'Confirmacion de citas por WhatsApp en clinicas: sin depender del telefono',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'La confirmacion manual de citas depende de que alguien tenga tiempo. Como automatizarla con WhatsApp sin perder el trato cercano con el paciente.',
+    tags: ['Clinicas', 'WhatsApp', 'Automatizacion'],
+    category: 'clinicas',
+  },
+  {
+    slug: '/blog/crm-no-falla-falla-el-proceso/',
+    title: 'Tu CRM no falla: falla el proceso que hay detras',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'Cambiar de CRM no soluciona los leads perdidos. El problema suele ser el proceso que hay detras, no la herramienta.',
+    tags: ['CRM', 'Procesos', 'Operativa'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/herramientas-desconectadas-equipo-va-tarde/',
+    title: 'Herramientas desconectadas: por que tu equipo siempre va tarde',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'Cuando las herramientas no se hablan entre si, el equipo pierde tiempo copiando datos y toma decisiones con informacion desactualizada.',
+    tags: ['Operativa', 'Herramientas', 'Procesos'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/todo-depende-de-una-sola-persona/',
+    title: 'Cuando todo depende de una sola persona',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'La dependencia de una sola persona es uno de los cuellos de botella mas habituales en pymes de servicios. Como identificarlo y empezar a resolverlo.',
+    tags: ['Operativa', 'Procesos', 'Organizacion'],
+    category: 'procesos',
+  },
 ] as BlogPost[];
 
 const Blog: React.FC = () => {
