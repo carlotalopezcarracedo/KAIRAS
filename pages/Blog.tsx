@@ -102,6 +102,42 @@ const POSTS = [
     tags: ['Automatizacion', 'Pymes', 'Productividad'],
     category: 'procesos',
   },
+  {
+    slug: '/blog/tareas-manuales-que-frenan-tu-negocio/',
+    title: 'Que tareas manuales estan frenando tu negocio cada semana',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'Identifica las tareas que mas tiempo consumen en tu negocio y por que son las primeras que deberias automatizar.',
+    tags: ['Procesos', 'Operativa', 'Automatizacion'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/seguimiento-leads-pymes-cuando-insistir/',
+    title: 'Seguimiento de leads en pymes: cuando insistir y cuando parar',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'La mayoria de negocios pierde ventas por seguimiento irregular. Aprende cuando tiene sentido insistir y cuando un lead ya no va a convertir.',
+    tags: ['Leads', 'CRM', 'Ventas'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/whatsapp-business-app-vs-api-pymes/',
+    title: 'WhatsApp Business App vs API: que necesita tu pyme',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'Las diferencias reales entre la app gratuita y la API de WhatsApp, y cuando tiene sentido dar el salto para tu negocio.',
+    tags: ['WhatsApp', 'API', 'Herramientas'],
+    category: 'whatsapp',
+  },
+  {
+    slug: '/blog/reactivar-leads-frios-sin-perseguir/',
+    title: 'Como reactivar leads frios sin perseguir a nadie',
+    date: '2026-04-29',
+    dateLabel: '29 abril 2026',
+    desc: 'La mayoria de negocios tiene leads inactivos sin explotar. Como recuperarlos con un sistema que no agobie al lead ni a tu equipo.',
+    tags: ['Leads', 'Reactivacion', 'CRM'],
+    category: 'crm',
+  },
 ] as BlogPost[];
 
 const Blog: React.FC = () => {

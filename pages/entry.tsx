@@ -22,6 +22,10 @@ const pageMap: Record<string, PageLoader> = {
   'blog-whatsapp-manual': () => import('./BlogPostWhatsAppManual'),
   'blog-proceso-primero': () => import('./BlogPostProcesoPrimero'),
   'blog-ausencias-clinicas': () => import('./BlogPostAusenciasClinicas'),
+  'blog-tareas-manuales': () => import('./BlogPostTareasManuales'),
+  'blog-seguimiento-leads': () => import('./BlogPostSeguimientoLeads'),
+  'blog-whatsapp-app-vs-api': () => import('./BlogPostWhatsAppAppVsAPI'),
+  'blog-reactivar-leads': () => import('./BlogPostReactivarLeads'),
 };
 
 const rootEl = document.getElementById('root')!;
