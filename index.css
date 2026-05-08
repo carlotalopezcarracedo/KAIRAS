@@ -241,8 +241,48 @@
   background: #05040a !important;
   color: #ffffff !important;
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: 24px !important;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55) !important;
+}
+
+.cky-consent-bar {
+  border-radius: 22px !important;
+}
+
+.cky-preference-center {
+  width: min(920px, calc(100vw - 32px)) !important;
+  max-height: min(760px, calc(100vh - 32px)) !important;
+  border-radius: 22px !important;
+  overflow: hidden !important;
+}
+
+.cky-preference-header {
+  padding: 26px 32px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.cky-preference-body-wrapper {
+  max-height: calc(min(760px, 100vh - 32px) - 230px) !important;
+  padding: 26px 32px !important;
+  scrollbar-color: rgba(255, 255, 255, 0.28) rgba(255, 255, 255, 0.06) !important;
+}
+
+.cky-preference-body-wrapper::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+.cky-preference-body-wrapper::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-radius: 999px !important;
+}
+
+.cky-preference-body-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.28) !important;
+  border: 2px solid #05040a !important;
+  border-radius: 999px !important;
+}
+
+.cky-preference-body-wrapper::-webkit-scrollbar-button {
+  display: none !important;
 }
 
 .cky-title,
@@ -261,12 +301,31 @@
   color: rgba(255, 255, 255, 0.72) !important;
 }
 
+.cky-preference-content-wrapper {
+  padding: 0 0 20px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.cky-accordion-wrapper,
+.cky-accordion {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.cky-accordion {
+  padding: 20px 0 !important;
+}
+
+.cky-accordion:last-child {
+  border-bottom: 0 !important;
+}
+
 .cky-btn {
   border-radius: 999px !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.04em !important;
-  padding: 13px 22px !important;
+  min-height: 54px !important;
+  padding: 13px 24px !important;
 }
 
 .cky-btn-accept,
@@ -299,10 +358,17 @@
 .cky-preference-btn-wrapper {
   background: #05040a !important;
   border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: none !important;
+  gap: 14px !important;
+  padding: 24px 32px 28px !important;
 }
 
 .cky-switch input:checked {
   background-color: #7c3cff !important;
+}
+
+.cky-always-active {
+  color: #7c3cff !important;
 }
 
 .cky-btn:focus-visible {
@@ -310,13 +376,37 @@
   outline-offset: 3px !important;
 }
 
-@media (max-width: 480px) {
-  .cky-consent-bar,
+@media (max-width: 768px) {
   .cky-preference-center {
+    width: calc(100vw - 24px) !important;
+    max-height: calc(100vh - 24px) !important;
     border-radius: 18px !important;
   }
 
+  .cky-preference-header,
+  .cky-preference-body-wrapper {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .cky-preference-body-wrapper {
+    max-height: calc(100vh - 310px) !important;
+  }
+
+  .cky-prefrence-btn-wrapper,
+  .cky-preference-btn-wrapper {
+    padding: 18px 20px 22px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .cky-consent-bar,
+  .cky-preference-center {
+    border-radius: 16px !important;
+  }
+
   .cky-btn {
+    min-height: 50px !important;
     padding: 12px 18px !important;
   }
 }
