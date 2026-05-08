@@ -250,20 +250,40 @@
 
 .cky-preference-center {
   width: min(920px, calc(100vw - 32px)) !important;
-  max-height: min(760px, calc(100vh - 32px)) !important;
+  max-width: 920px !important;
+  height: auto !important;
+  max-height: min(720px, calc(100vh - 32px)) !important;
   border-radius: 22px !important;
   overflow: hidden !important;
 }
 
+.cky-modal.cky-modal-open .cky-preference-center,
+.cky-modal .cky-preference-center[data-cky-tag="detail"] {
+  width: min(920px, calc(100vw - 32px)) !important;
+  max-width: 920px !important;
+  height: auto !important;
+  max-height: min(720px, calc(100vh - 32px)) !important;
+}
+
 .cky-preference-header {
-  padding: 26px 32px !important;
+  background: #05040a !important;
+  background-image: none !important;
+  padding: 24px 32px !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
 }
 
 .cky-preference-body-wrapper {
-  max-height: calc(min(760px, 100vh - 32px) - 230px) !important;
-  padding: 26px 32px !important;
+  background: #05040a !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  max-height: calc(min(720px, 100vh - 32px) - 218px) !important;
+  padding: 24px 32px !important;
   scrollbar-color: rgba(255, 255, 255, 0.28) rgba(255, 255, 255, 0.06) !important;
+}
+
+.cky-modal.cky-modal-open .cky-preference-body-wrapper {
+  max-height: calc(min(720px, 100vh - 32px) - 218px) !important;
 }
 
 .cky-preference-body-wrapper::-webkit-scrollbar {
@@ -285,6 +305,20 @@
   display: none !important;
 }
 
+.cky-preference-center::before,
+.cky-preference-center::after,
+.cky-preference-body-wrapper::before,
+.cky-preference-body-wrapper::after,
+.cky-preference-center [class*="shadow"],
+.cky-preference-center [class*="Shadow"],
+.cky-preference-center [class*="footer-shadow"],
+.cky-preference-center [class*="gradient"] {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
 .cky-title,
 .cky-preference-title,
 .cky-accordion-header .cky-accordion-btn {
@@ -302,13 +336,19 @@
 }
 
 .cky-preference-content-wrapper {
+  background: #05040a !important;
+  background-image: none !important;
+  box-shadow: none !important;
   padding: 0 0 20px !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .cky-accordion-wrapper,
 .cky-accordion {
+  background: #05040a !important;
+  background-image: none !important;
   border-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
 }
 
 .cky-accordion {
@@ -357,10 +397,30 @@
 .cky-prefrence-btn-wrapper,
 .cky-preference-btn-wrapper {
   background: #05040a !important;
+  background-image: none !important;
   border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
   box-shadow: none !important;
   gap: 14px !important;
-  padding: 24px 32px 28px !important;
+  padding: 22px 32px 26px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.cky-prefrence-btn-wrapper::before,
+.cky-prefrence-btn-wrapper::after,
+.cky-preference-btn-wrapper::before,
+.cky-preference-btn-wrapper::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.cky-footer-wrapper,
+.cky-powered-by {
+  background: #05040a !important;
+  background-image: none !important;
+  box-shadow: none !important;
 }
 
 .cky-switch input:checked {
@@ -379,8 +439,16 @@
 @media (max-width: 768px) {
   .cky-preference-center {
     width: calc(100vw - 24px) !important;
+    max-width: calc(100vw - 24px) !important;
     max-height: calc(100vh - 24px) !important;
     border-radius: 18px !important;
+  }
+
+  .cky-modal.cky-modal-open .cky-preference-center,
+  .cky-modal .cky-preference-center[data-cky-tag="detail"] {
+    width: calc(100vw - 24px) !important;
+    max-width: calc(100vw - 24px) !important;
+    max-height: calc(100vh - 24px) !important;
   }
 
   .cky-preference-header,
