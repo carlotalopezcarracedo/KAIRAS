@@ -436,6 +436,30 @@
   outline-offset: 3px !important;
 }
 
+.cky-btn-revisit-wrapper,
+.cky-revisit-bottom-left,
+.cky-revisit-bottom-right,
+.cky-revisit-consent {
+  background: #7c3cff !important;
+  background-color: #7c3cff !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  box-shadow: 0 16px 42px rgba(124, 60, 255, 0.36) !important;
+}
+
+.cky-btn-revisit-wrapper:hover,
+.cky-revisit-consent:hover {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 18px 50px rgba(255, 255, 255, 0.18) !important;
+}
+
+.cky-btn-revisit-wrapper:hover img,
+.cky-btn-revisit-wrapper:hover svg,
+.cky-revisit-consent:hover img,
+.cky-revisit-consent:hover svg {
+  filter: invert(1) brightness(0.25) saturate(4) hue-rotate(235deg) !important;
+}
+
 @media (max-width: 768px) {
   .cky-preference-center {
     width: calc(100vw - 24px) !important;
