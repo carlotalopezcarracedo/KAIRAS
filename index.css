@@ -446,6 +446,13 @@
   box-shadow: 0 16px 42px rgba(124, 60, 255, 0.36) !important;
 }
 
+.cky-btn-revisit-wrapper img,
+.cky-btn-revisit-wrapper svg,
+.cky-revisit-consent img,
+.cky-revisit-consent svg {
+  filter: hue-rotate(38deg) saturate(1.8) brightness(1.08) !important;
+}
+
 .cky-btn-revisit-wrapper:hover,
 .cky-revisit-consent:hover {
   background: #ffffff !important;
