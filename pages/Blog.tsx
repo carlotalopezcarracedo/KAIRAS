@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
-type BlogCategoryId = 'crm' | 'whatsapp' | 'procesos' | 'clinicas';
+type BlogCategoryId = 'crm' | 'whatsapp' | 'procesos' | 'clinicas' | 'ia';
 
 type BlogCategory = {
   id: BlogCategoryId;
@@ -54,9 +54,70 @@ const CATEGORIES: BlogCategory[] = [
     desc: 'Para clinicas que quieren reducir ausencias y ordenar agenda y seguimiento.',
     serviceUrl: '/automatizacion-clinicas/',
   },
+  {
+    id: 'ia',
+    label: 'IA aplicada a pymes',
+    shortLabel: 'IA aplicada',
+    desc: 'Para empresas que quieren usar IA con criterio operativo, no como herramienta suelta.',
+    serviceUrl: '/ia-empresas/',
+  },
 ];
 
 const POSTS = [
+  {
+    slug: '/blog/ia-para-pymes-cuando-tiene-sentido/',
+    title: 'IA para pymes: cuando tiene sentido aplicarla y cuando no',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Guia honesta para decidir donde aplicar IA en una pyme sin convertirla en otra herramienta mas.',
+    tags: ['IA', 'Pymes', 'Procesos'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/asistente-ia-atencion-cliente-pymes/',
+    title: 'Asistente de IA para atencion al cliente: que puede resolver y que no',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Que tareas puede asumir un asistente de IA, cuando debe escalar a humano y como medir si realmente reduce carga.',
+    tags: ['IA', 'Atencion', 'WhatsApp'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/',
+    title: 'Como conectar WhatsApp con tu CRM sin crear mas trabajo al equipo',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Como integrar WhatsApp y CRM con criterio para registrar leads, estados y seguimientos sin duplicar tareas.',
+    tags: ['WhatsApp', 'CRM', 'Integracion'],
+    category: 'whatsapp',
+  },
+  {
+    slug: '/blog/automatizar-presupuestos-seguimiento-pymes/',
+    title: 'Automatizar presupuestos y seguimiento: donde muchas pymes pierden margen',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Como ordenar la recogida de datos, envio de presupuestos y cadencia comercial para que las propuestas no se enfrien.',
+    tags: ['Presupuestos', 'CRM', 'Ventas'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/automatizacion-empresas-galicia-procesos-retorno/',
+    title: 'Automatizacion para empresas en Galicia: que procesos suelen dar retorno antes',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Procesos de alto impacto para pymes gallegas que quieren automatizar sin sobredimensionar el proyecto.',
+    tags: ['Galicia', 'Procesos', 'Pymes'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/seguimiento-pacientes-clinicas-antes-despues-cita/',
+    title: 'Seguimiento de pacientes en clinicas: antes y despues de la cita',
+    date: '2026-05-19',
+    dateLabel: '19 mayo 2026',
+    desc: 'Como automatizar confirmaciones, instrucciones y revisiones sin perder trato personal ni cargar a recepcion.',
+    tags: ['Clinicas', 'Pacientes', 'CRM'],
+    category: 'clinicas',
+  },
   {
     slug: '/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/',
     title: 'Por que las pymes pierden clientes antes de firmar',
@@ -237,7 +298,7 @@ const Blog: React.FC = () => {
 
         <section className="px-6 pb-10">
           <div className="max-w-5xl mx-auto">
-            <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
+            <div className="grid sm:grid-cols-2 xl:grid-cols-5 gap-4">
               {CATEGORIES.map((category) => (
                 <a
                   key={category.id}
