@@ -36,6 +36,12 @@ const pageMap: Record<string, PageLoader> = {
   'blog-presupuestos-seguimiento': () => import('./BlogPostPresupuestosSeguimiento'),
   'blog-automatizacion-galicia-retorno': () => import('./BlogPostAutomatizacionGaliciaRetorno'),
   'blog-seguimiento-pacientes-clinicas': () => import('./BlogPostSeguimientoPacientesClinicas'),
+  'blog-academias': () => import('./BlogPostAcademias'),
+  'blog-inmobiliarias': () => import('./BlogPostInmobiliarias'),
+  'blog-asesorias': () => import('./BlogPostAsesorias'),
+  'blog-documentar-procesos': () => import('./BlogPostDocumentarProcesos'),
+  'blog-errores-automatizar': () => import('./BlogPostErroresAutomatizar'),
+  'blog-mensajes-automaticos': () => import('./BlogPostMensajesAutomaticos'),
 };
 
 const rootEl = document.getElementById('root')!;

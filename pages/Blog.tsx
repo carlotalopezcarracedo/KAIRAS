@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
-type BlogCategoryId = 'crm' | 'whatsapp' | 'procesos' | 'clinicas' | 'ia';
+type BlogCategoryId = 'crm' | 'whatsapp' | 'procesos' | 'clinicas' | 'ia' | 'sectores';
 
 type BlogCategory = {
   id: BlogCategoryId;
@@ -61,9 +61,70 @@ const CATEGORIES: BlogCategory[] = [
     desc: 'Para empresas que quieren usar IA con criterio operativo, no como herramienta suelta.',
     serviceUrl: '/ia-empresas/',
   },
+  {
+    id: 'sectores',
+    label: 'Automatizacion por sectores',
+    shortLabel: 'Sectores',
+    desc: 'Para academias, inmobiliarias, asesorias y negocios con flujos muy concretos.',
+    serviceUrl: '/servicios/',
+  },
 ];
 
 const POSTS = [
+  {
+    slug: '/blog/automatizacion-academias-matriculas-seguimiento/',
+    title: 'Automatizacion para academias: matriculas, WhatsApp y seguimiento sin caos',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Como ordenar consultas, matriculas, plazas y comunicaciones recurrentes en academias sin cargar a recepcion.',
+    tags: ['Academias', 'Matriculas', 'Seguimiento'],
+    category: 'sectores',
+  },
+  {
+    slug: '/blog/automatizacion-inmobiliarias-leads-portales-whatsapp/',
+    title: 'Automatizacion para inmobiliarias: como no perder leads de portales y WhatsApp',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Sistema para registrar, cualificar y seguir leads inmobiliarios que llegan desde portales, WhatsApp, web o llamadas.',
+    tags: ['Inmobiliarias', 'Leads', 'CRM'],
+    category: 'sectores',
+  },
+  {
+    slug: '/blog/automatizacion-asesorias-vencimientos-documentos-clientes/',
+    title: 'Automatizacion para asesorias: vencimientos, documentos y recordatorios sin perseguir clientes',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Como reducir llamadas, correos repetidos y documentos pendientes en asesorias sin automatizar decisiones sensibles.',
+    tags: ['Asesorias', 'Recordatorios', 'Documentos'],
+    category: 'sectores',
+  },
+  {
+    slug: '/blog/documentar-procesos-pyme-sin-complicarse/',
+    title: 'Como documentar procesos en una pyme sin complicarse',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Plantilla simple para sacar procesos de la cabeza de una persona y prepararlos para delegar o automatizar.',
+    tags: ['Procesos', 'Organizacion', 'Operativa'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/errores-automatizar-empresa-primera-vez/',
+    title: 'Errores al automatizar una empresa por primera vez',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Los fallos mas habituales al empezar con automatizacion y como evitarlos antes de comprar herramientas o montar flujos.',
+    tags: ['Automatizacion', 'Errores', 'Procesos'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/',
+    title: 'Mensajes automaticos a clientes: cuando ayudan y cuando molestan',
+    date: '2026-05-26',
+    dateLabel: '26 mayo 2026',
+    desc: 'Como diseñar mensajes automaticos utiles, claros y con salida a humano para no convertir la automatizacion en friccion.',
+    tags: ['WhatsApp', 'Clientes', 'Atencion'],
+    category: 'whatsapp',
+  },
   {
     slug: '/blog/ia-para-pymes-cuando-tiene-sentido/',
     title: 'IA para pymes: cuando tiene sentido aplicarla y cuando no',
@@ -298,7 +359,7 @@ const Blog: React.FC = () => {
 
         <section className="px-6 pb-10">
           <div className="max-w-5xl mx-auto">
-            <div className="grid sm:grid-cols-2 xl:grid-cols-5 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {CATEGORIES.map((category) => (
                 <a
                   key={category.id}

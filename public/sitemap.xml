@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://kairas.es/blog/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -55,8 +55,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/automatizacion-academias-matriculas-seguimiento/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-asesorias-vencimientos-documentos-clientes/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/automatizacion-empresas-galicia-procesos-retorno/</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-inmobiliarias-leads-portales-whatsapp/</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -103,6 +121,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/documentar-procesos-pyme-sin-complicarse/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/errores-automatizar-empresa-primera-vez/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/herramientas-desconectadas-equipo-va-tarde/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,6 +141,12 @@
   <url>
     <loc>https://kairas.es/blog/ia-para-pymes-cuando-tiene-sentido/</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
