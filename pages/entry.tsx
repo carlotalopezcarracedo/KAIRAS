@@ -48,6 +48,12 @@ const pageMap: Record<string, PageLoader> = {
   'blog-coste-automatizar': () => import('./BlogPostCosteAutomatizar'),
   'blog-digitalizacion-automatizacion-ia': () => import('./BlogPostDigitalizacionAutomatizacionIA'),
   'blog-calendario-email-crm': () => import('./BlogPostCalendarioEmailCRM'),
+  'blog-clinicas-esteticas': () => import('./BlogPostClinicasEsteticas'),
+  'blog-despachos-abogados': () => import('./BlogPostDespachosAbogados'),
+  'blog-onboarding-clientes': () => import('./BlogPostOnboardingClientes'),
+  'blog-cobros-recordatorios': () => import('./BlogPostCobrosRecordatorios'),
+  'blog-preparar-datos-ia': () => import('./BlogPostPrepararDatosIA'),
+  'blog-automatizacion-vigo': () => import('./BlogPostAutomatizacionVigo'),
 };
 
 const rootEl = document.getElementById('root')!;

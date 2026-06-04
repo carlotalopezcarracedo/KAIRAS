@@ -67,8 +67,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/automatizacion-clinicas-esteticas-primera-consulta-seguimiento/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-despachos-abogados-expedientes-clientes/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/automatizacion-empresas-galicia-procesos-retorno/</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-empresas-vigo-pymes-servicios/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -99,6 +117,12 @@
   <url>
     <loc>https://kairas.es/blog/automatizaciones-que-recuperan-tiempo-pymes/</loc>
     <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizar-cobros-recordatorios-pago-pymes/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -187,8 +211,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/onboarding-clientes-pymes-servicios-automatizado/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/</loc>
     <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/preparar-datos-empresa-automatizar-ia/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
