@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://kairas.es/blog/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -73,8 +73,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/automatizacion-gimnasios-renovaciones-seguimiento-socios/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/automatizacion-inmobiliarias-leads-portales-whatsapp/</loc>
     <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-procesos-pontevedra-pymes-servicios/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/automatizacion-reformas-instaladoras-presupuestos-visitas/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -115,8 +133,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/cuanto-cuesta-automatizar-procesos-pyme/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/</loc>
     <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/diferencia-digitalizacion-automatizacion-ia-pymes/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -141,6 +171,12 @@
   <url>
     <loc>https://kairas.es/blog/ia-para-pymes-cuando-tiene-sentido/</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/integrar-calendario-email-crm-pymes/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
