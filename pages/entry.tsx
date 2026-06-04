@@ -8,6 +8,7 @@ type PageLoader = () => Promise<PageModule>;
 const pageMap: Record<string, PageLoader> = {
   servicios: () => import('./Servicios'),
   contacto: () => import('./ContactoPage'),
+  faq: () => import('./FAQ'),
   'automatizacion-procesos': () => import('./AutomatizacionProcesos'),
   'ia-empresas': () => import('./IAEmpresas'),
   'optimizacion-operativa-pymes': () => import('./OptimizacionOperativa'),

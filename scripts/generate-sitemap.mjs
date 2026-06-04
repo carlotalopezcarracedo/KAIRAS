@@ -15,6 +15,7 @@ const PRIORITY_MAP = {
   '/': { changefreq: 'weekly', priority: '1.0' },
   '/servicios/': { changefreq: 'monthly', priority: '0.9' },
   '/contacto/': { changefreq: 'monthly', priority: '0.8' },
+  '/faq/': { changefreq: 'monthly', priority: '0.6' },
   '/automatizacion-procesos/': { changefreq: 'monthly', priority: '0.9' },
   '/automatizacion-empresas-galicia/': { changefreq: 'monthly', priority: '0.8' },
   '/ia-empresas/': { changefreq: 'monthly', priority: '0.8' },

@@ -31,6 +31,7 @@ export default defineConfig(({ mode }) => {
           main: path.resolve(__dirname, 'index.html'),
           servicios: path.resolve(__dirname, 'servicios/index.html'),
           contacto: path.resolve(__dirname, 'contacto/index.html'),
+          faq: path.resolve(__dirname, 'faq/index.html'),
           automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos/index.html'),
           iaEmpresas: path.resolve(__dirname, 'ia-empresas/index.html'),
           optimizacionOperativa: path.resolve(__dirname, 'optimizacion-operativa-pymes/index.html'),

@@ -38,6 +38,9 @@ const Footer: React.FC = () => {
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/blog/">
                 Blog
               </a>
+              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/faq/">
+                FAQ
+              </a>
             </div>
 
             <div className="space-y-4">
