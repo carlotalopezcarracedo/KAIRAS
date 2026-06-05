@@ -25,7 +25,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         Cuando se satura, se va de vacaciones o cambia de prioridad, todo se ralentiza.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que procesos merece la pena documentar primero
       </h2>
 
@@ -46,7 +46,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         Documentar no es burocracia. Es reducir riesgo operativo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La plantilla minima que funciona
       </h2>
 
@@ -67,7 +67,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         Divide antes de documentar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo aplicado: seguimiento de un presupuesto
       </h2>
 
@@ -85,7 +85,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         Por eso, antes de crear flujos, conviene revisar <a href="/blog/automatizar-presupuestos-seguimiento-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">como automatizar presupuestos y seguimiento</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Errores comunes al documentar
       </h2>
 
@@ -103,7 +103,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         Si hay que buscarlo durante cinco minutos, no se usara.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como conectar documentacion y automatizacion
       </h2>
 

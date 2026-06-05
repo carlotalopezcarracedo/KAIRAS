@@ -25,7 +25,7 @@ const BlogPostProcesosConIA: React.FC = () => {
         Hay tareas que se resuelven mejor con reglas simples, y otras donde la IA puede aportar contexto, lenguaje o capacidad de clasificacion.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion de procesos con IA no es automatizarlo todo
       </h2>
 
@@ -40,7 +40,7 @@ const BlogPostProcesosConIA: React.FC = () => {
         resumir un email largo, clasificar una solicitud, detectar el tema de una conversacion o preparar una respuesta base.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando usar reglas
       </h2>
 
@@ -56,7 +56,7 @@ const BlogPostProcesosConIA: React.FC = () => {
         Es estable, trazable y facil de revisar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando usar IA
       </h2>
 
@@ -72,7 +72,7 @@ const BlogPostProcesosConIA: React.FC = () => {
         la IA debe entrar cuando mejora el proceso, no cuando complica la operativa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo sencillo: lead por WhatsApp
       </h2>
 
@@ -88,7 +88,7 @@ const BlogPostProcesosConIA: React.FC = () => {
         El equipo decide cuando el caso necesita criterio humano.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La pregunta antes de automatizar
       </h2>
 

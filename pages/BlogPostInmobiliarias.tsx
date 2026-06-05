@@ -26,7 +26,7 @@ const BlogPostInmobiliarias: React.FC = () => {
         Va de asegurar que cada interesado queda registrado, cualificado y seguido antes de que pierda interes o contacte con otra agencia.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que se pierden tantos leads inmobiliarios
       </h2>
 
@@ -49,7 +49,7 @@ const BlogPostInmobiliarias: React.FC = () => {
         no falta interes, falta continuidad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que deberia pasar cuando entra un lead
       </h2>
 
@@ -75,7 +75,7 @@ const BlogPostInmobiliarias: React.FC = () => {
         el equipo puede priorizar mejor y no depender de mensajes sueltos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde encaja WhatsApp
       </h2>
 
@@ -92,7 +92,7 @@ const BlogPostInmobiliarias: React.FC = () => {
         explica como hacerlo sin duplicar tareas.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizaciones utiles para empezar
       </h2>
 
@@ -110,7 +110,7 @@ const BlogPostInmobiliarias: React.FC = () => {
         Si el problema es que las visitas no avanzan, empieza por seguimiento posterior.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como evitar parecer insistente
       </h2>
 

@@ -531,7 +531,7 @@ const Blog: React.FC = () => {
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyber-purple/10 blur-[130px] -z-10 rounded-full" />
           <div className="max-w-5xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">Recursos KAIRAS</p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.9] mb-8">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-normal uppercase leading-[0.9] mb-8">
               Contenido para pymes que quieren dejar de operar a mano
             </h1>
             <p className="text-xl text-slate-300 font-light max-w-4xl leading-relaxed">
@@ -638,7 +638,7 @@ const Blog: React.FC = () => {
                       </span>
                     ))}
                   </div>
-                  <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter leading-tight mb-3 group-hover:text-cyber-purple transition-colors">
+                  <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal leading-tight mb-3 group-hover:text-cyber-purple transition-colors">
                     {post.title}
                   </h2>
                   <p className="text-slate-400 text-sm leading-relaxed mb-4">{post.desc}</p>

@@ -25,7 +25,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         pacientes que no confirman, instrucciones que llegan tarde, revisiones que nadie recuerda y tratamientos que pierden continuidad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que significa hacer seguimiento de pacientes
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         Busca continuidad y menos carga administrativa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Antes de la cita: preparar y confirmar
       </h2>
 
@@ -64,7 +64,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         <a href="/blog/reducir-ausencias-clinicas-recordatorios-automaticos/" className="text-cyber-purple underline decoration-cyber-purple/50"> reducir ausencias con recordatorios automaticos</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Despues de la cita: evitar que el seguimiento se pierda
       </h2>
 
@@ -90,7 +90,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         Debe enviar informacion validada y activar al equipo cuando hay algo que revisar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que conviene conectar seguimiento y CRM
       </h2>
 
@@ -106,7 +106,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         Esa visibilidad reduce errores y ayuda a planificar agenda.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que automatizar y que dejar al equipo
       </h2>
 
@@ -121,7 +121,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
         Recibe informacion mas puntual, y el equipo tiene mas tiempo para atender lo que si requiere presencia humana.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezar sin tocarlo todo
       </h2>
 

@@ -26,7 +26,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
         Reduce carga administrativa para que el equipo pueda dedicar mas atencion a los asuntos que requieren criterio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se atasca la operativa de un despacho
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
         pero en despachos hay que ser todavia mas cuidadoso con permisos, confidencialidad y escalado a persona.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Procesos que se pueden automatizar con seguridad
       </h2>
 
@@ -65,7 +65,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
         Si aparece una excepcion, una urgencia o una decision juridica, el sistema debe derivar a una persona.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Expedientes con estado claro
       </h2>
 
@@ -80,7 +80,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
         Tambien reduce la dependencia de una sola persona, un problema que ya tratamos en <a href="/blog/todo-depende-de-una-sola-persona/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando todo depende de una sola persona</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Documentacion sin perseguir al cliente
       </h2>
 
@@ -96,7 +96,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
         antes de construir flujos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por donde empezar
       </h2>
 

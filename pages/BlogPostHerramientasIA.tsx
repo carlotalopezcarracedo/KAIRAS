@@ -25,7 +25,7 @@ const BlogPostHerramientasIA: React.FC = () => {
         La pregunta es que proceso necesita apoyo y que herramienta encaja sin romper la operativa diaria.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Herramientas de automatizacion con IA: criterios antes de comparar
       </h2>
 
@@ -41,7 +41,7 @@ const BlogPostHerramientasIA: React.FC = () => {
         Si una herramienta no responde estas preguntas, puede ser buena tecnologia pero mala decision para tu empresa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El error habitual: acumular apps
       </h2>
 
@@ -56,7 +56,7 @@ const BlogPostHerramientasIA: React.FC = () => {
         La IA no lo arregla sola: si las fuentes no estan claras, solo acelera el desorden.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Tipos de herramientas que suelen aparecer
       </h2>
 
@@ -71,7 +71,7 @@ const BlogPostHerramientasIA: React.FC = () => {
         Una IA documental sin reglas puede clasificar mal informacion sensible.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como elegir con criterio
       </h2>
 

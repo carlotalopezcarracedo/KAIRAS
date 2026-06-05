@@ -29,7 +29,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Como dejar de gestionar el WhatsApp de empresa a mano
             </h1>
 
@@ -48,7 +48,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 Desde fuera parece "mucho trabajo". Desde dentro es un canal critico sin estructura.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por que WhatsApp se convierte en cuello de botella
               </h2>
 
@@ -63,7 +63,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 Traducido: pierdes conversion y gastas energia operativa en tareas que podrian estar automatizadas.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Senales de que ya no puedes seguir gestionandolo a mano
               </h2>
 
@@ -92,7 +92,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 Para evitarlo necesitas unir canal y proceso, no solo responder rapido.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Que deberias automatizar primero (sin perder cercania)
               </h2>
 
@@ -130,7 +130,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 para saber que esta vivo, que esta parado y que requiere accion humana.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Error comun: empezar por la herramienta y no por el flujo
               </h2>
 
@@ -147,7 +147,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 El objetivo es continuidad comercial con carga operativa controlada.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Como se ve una operativa ordenada en el dia a dia
               </h2>
 
@@ -164,7 +164,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 La parte mecanica se ejecuta sola. La parte relacional se trabaja mejor.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Que hacer esta semana para dejar de improvisar
               </h2>
 
@@ -182,7 +182,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 y pasa a ser una pieza estable de tu sistema comercial.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Mini plan de implantacion en 30 dias
               </h2>
 

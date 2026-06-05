@@ -30,7 +30,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               WhatsApp Business App vs API: qué necesita una pyme
             </h1>
 
@@ -50,7 +50,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
                 La respuesta depende de cómo funciona tu negocio. Este artículo explica las diferencias reales entre las dos opciones, sin tecnicismos, para que puedas decidir con criterio.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 WhatsApp Business App: para qué sirve y para qué no
               </h2>
 
@@ -77,7 +77,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
                 <li>No escala si hay varios agentes respondiendo simultáneamente</li>
               </ul>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 La API de WhatsApp: qué permite hacer
               </h2>
 
@@ -99,7 +99,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
                 La diferencia clave respecto a la app: la API permite que WhatsApp deje de ser un canal manual y se convierta en parte de la operativa real del negocio. Es lo que está detrás de la <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de WhatsApp para empresas</a>.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Las diferencias que nadie explica bien
               </h2>
 
@@ -132,7 +132,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
                 </table>
               </div>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cuándo tiene sentido dar el salto a la API
               </h2>
 
@@ -150,7 +150,7 @@ const BlogPostWhatsAppAppVsAPI: React.FC = () => {
                 <li>Quieres enviar recordatorios o notificaciones automáticas a clientes de forma trazable</li>
               </ul>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Qué necesitas para implementar la API
               </h2>
 

@@ -30,7 +30,7 @@ const BlogPostTareasManuales: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Qué tareas manuales están frenando tu negocio cada semana
             </h1>
 
@@ -50,7 +50,7 @@ const BlogPostTareasManuales: React.FC = () => {
                 La primera pregunta no es "¿qué puedo automatizar?". Es "¿qué estoy haciendo a mano que no debería?"
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cómo reconocer una tarea que frena tu negocio
               </h2>
 
@@ -68,7 +68,7 @@ const BlogPostTareasManuales: React.FC = () => {
 
               <p>Si una tarea cumple las tres, es candidata directa a automatizarse.</p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Las tareas manuales más habituales en pymes de servicios
               </h2>
 
@@ -112,7 +112,7 @@ const BlogPostTareasManuales: React.FC = () => {
                 El estado de cada cliente, qué se dijo en la última llamada, si ya firmaron, si hay algo pendiente. En muchas pymes esta información vive en la cabeza de alguien, en mensajes de WhatsApp o en una hoja de cálculo que nadie tiene actualizada. Cuando se necesita, hay que ir a buscarla.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 El coste real de operar así
               </h2>
 
@@ -124,7 +124,7 @@ const BlogPostTareasManuales: React.FC = () => {
                 La acumulación de tareas manuales crea un techo invisible: el negocio no puede crecer más de lo que la persona de referencia es capaz de gestionar a mano. Ese techo suele aparecer antes de lo esperado.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por dónde empezar
               </h2>
 

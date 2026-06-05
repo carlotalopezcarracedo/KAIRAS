@@ -25,7 +25,7 @@ const BlogPostAsesorias: React.FC = () => {
         El sistema recuerda, ordena y avisa. El equipo decide y asesora.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El coste oculto de perseguir informacion
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostAsesorias: React.FC = () => {
         ordenar la forma de trabajar antes de añadir mas herramientas.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que se puede automatizar en una asesoria
       </h2>
 
@@ -76,7 +76,7 @@ const BlogPostAsesorias: React.FC = () => {
         Un asistente o una base de respuestas puede resolver ese primer nivel sin interrumpir al equipo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde no conviene automatizar sin control
       </h2>
 
@@ -92,7 +92,7 @@ const BlogPostAsesorias: React.FC = () => {
         Un sistema bien diseñado reduce ruido y deja mas tiempo para el trabajo que realmente necesita conocimiento.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como montar un flujo minimo
       </h2>
 
@@ -109,7 +109,7 @@ const BlogPostAsesorias: React.FC = () => {
         Este es el mismo principio que explicamos en <a href="/blog/crm-no-falla-falla-el-proceso/" className="text-cyber-purple underline decoration-cyber-purple/50">por que el CRM no falla, falla el proceso</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que gana el equipo
       </h2>
 

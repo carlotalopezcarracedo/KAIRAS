@@ -30,7 +30,7 @@ const BlogPostCRMNoProceso: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Tu CRM no falla: falla el proceso que hay detrás
             </h1>
 
@@ -46,7 +46,7 @@ const BlogPostCRMNoProceso: React.FC = () => {
                 El CRM nuevo tampoco funciona. Porque el problema no era el CRM.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por qué la mayoría de negocios culpan al CRM cuando el problema es otro
               </h2>
 
@@ -58,7 +58,7 @@ const BlogPostCRMNoProceso: React.FC = () => {
                 Sin un proceso claro detrás, cualquier herramienta fallará. Los síntomas —leads sin actualizar, seguimientos perdidos, estados sin sentido— los muestra el CRM. Pero la causa es que nadie definió cómo debe funcionar el proceso que alimenta esa herramienta.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Las señales de que el problema es el proceso, no la herramienta
               </h2>
 
@@ -74,7 +74,7 @@ const BlogPostCRMNoProceso: React.FC = () => {
                 Esto no lo soluciona cambiar de herramienta. Muchas de estas situaciones son síntomas del mismo patrón que aparece en las <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">tareas manuales que frenan el negocio cada semana</a>: la herramienta no falla, falta el proceso que debería apoyarse en ella.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Lo que un proceso definido aporta que ninguna herramienta puede hacer sola
               </h2>
 
@@ -91,7 +91,7 @@ const BlogPostCRMNoProceso: React.FC = () => {
                 Cuando estas preguntas tienen respuesta, el CRM empieza a funcionar. No porque sea mejor herramienta, sino porque quien lo usa sabe exactamente qué tiene que hacer y cuándo. Para eso, hay que tener criterio sobre el <a href="/blog/seguimiento-leads-pymes-cuando-insistir/" className="text-cyber-purple underline decoration-cyber-purple/50">seguimiento de leads: cuándo insistir y cuándo parar</a>.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cómo corregir el proceso antes de cambiar el CRM
               </h2>
 

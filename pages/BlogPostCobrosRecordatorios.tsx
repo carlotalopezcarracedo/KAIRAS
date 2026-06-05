@@ -25,7 +25,7 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
         Significa tener un sistema claro para avisar a tiempo, reducir olvidos y saber que pagos siguen pendientes.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se pierde control de los pagos
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
         La clave es que el sistema avise antes de que el problema llegue tarde.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que automatizaciones tienen sentido
       </h2>
 
@@ -64,7 +64,7 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
         En algunos casos conviene que el sistema prepare la tarea y una persona decida el tono.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El tono del recordatorio importa
       </h2>
 
@@ -79,7 +79,7 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
         La misma logica aplica a otros <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">mensajes automaticos a clientes</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo: academia con pagos mensuales
       </h2>
 
@@ -94,7 +94,7 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
         el sistema debe registrar estado y siguiente paso, no convertirse en una persecucion automatica.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir
       </h2>
 

@@ -25,7 +25,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         Casi siempre ocurre por los mismos errores.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 1: automatizar sin proceso definido
       </h2>
 
@@ -39,7 +39,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         Si no hay criterio comun, la automatizacion solo acelera la falta de orden.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 2: elegir la herramienta antes que el problema
       </h2>
 
@@ -53,7 +53,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         Herramienta despues. Problema primero.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 3: no implicar al equipo que vive el proceso
       </h2>
 
@@ -67,7 +67,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         que tareas se repiten, que datos se copian, que excepciones aparecen y que parte de la automatizacion debe seguir pasando por una persona.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 4: querer automatizarlo todo de golpe
       </h2>
 
@@ -82,7 +82,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         Despues amplias.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 5: no medir antes y despues
       </h2>
 
@@ -97,7 +97,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         Tambien permite ajustar rapido si algo no funciona.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Error 6: usar IA donde solo falta orden
       </h2>
 
@@ -112,7 +112,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
         separa bien donde aporta valor y donde conviene esperar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezar bien
       </h2>
 

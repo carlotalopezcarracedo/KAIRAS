@@ -26,7 +26,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         Si se diseña bien, WhatsApp deja de ser una bandeja aislada y se convierte en parte del seguimiento comercial.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El error: sincronizarlo todo
       </h2>
 
@@ -42,7 +42,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         Ese criterio evita que el CRM se convierta en un vertedero de conversaciones.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que deberia pasar cuando entra un lead por WhatsApp
       </h2>
 
@@ -61,7 +61,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         estas ante una de las situaciones descritas en <a href="/blog/herramientas-desconectadas-equipo-va-tarde/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas desconectadas que hacen que el equipo vaya tarde</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Campos que conviene registrar
       </h2>
 
@@ -83,7 +83,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         Si nadie lo usa para decidir, priorizar o atender mejor, probablemente sobra.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizaciones utiles entre WhatsApp y CRM
       </h2>
 
@@ -102,7 +102,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         El CRM debe reflejar la realidad del negocio, no solo acumular actividad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando necesitas API y cuando no
       </h2>
 
@@ -118,7 +118,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
         Es mejor cuando el volumen, el equipo o la necesidad de trazabilidad ya lo justifican.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como evitar rechazo del equipo
       </h2>
 

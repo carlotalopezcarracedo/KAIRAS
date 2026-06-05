@@ -25,7 +25,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         Una clinica, una inmobiliaria, una asesoria o una instaladora de Vigo pueden compartir el problema de fondo, pero el primer proceso a ordenar sera distinto.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que procesos suelen dar retorno antes
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         pero aqui lo aterrizamos a Vigo como plaza local prioritaria para KAIRAS.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que no conviene empezar por una herramienta
       </h2>
 
@@ -62,7 +62,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         Esa es la base para decidir <a href="/blog/como-saber-que-proceso-automatizar-primero/" className="text-cyber-purple underline decoration-cyber-purple/50">que proceso automatizar primero</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplos por tipo de empresa
       </h2>
 
@@ -78,7 +78,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         menos carga manual, mas claridad y un sistema que no dependa de una sola persona.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir en una automatizacion local
       </h2>
 
@@ -95,7 +95,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         Si no, probablemente se ha automatizado un tramo incorrecto o falta definicion del proceso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         KAIRAS y automatizacion en Galicia
       </h2>
 

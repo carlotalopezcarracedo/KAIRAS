@@ -29,7 +29,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Como saber que proceso automatizar primero en tu empresa
             </h1>
 
@@ -48,7 +48,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Por eso conviene usar criterio operativo, no entusiasmo tecnologico.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 La pregunta correcta no es "que se puede automatizar"
               </h2>
 
@@ -66,7 +66,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Si falta una de esas tres, suele ser mala candidata para empezar.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Matriz simple para priorizar sin complicarte
               </h2>
 
@@ -100,7 +100,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Si empiezas aqui, lo normal es desgaste del equipo y poca mejora percibida.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cuatro criterios practicos para elegir el primer proceso
               </h2>
 
@@ -129,7 +129,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Mejor una mejora visible en semanas que una gran reforma que nadie termina de adoptar.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Ejemplos de buen primer proceso en pymes de servicios
               </h2>
 
@@ -147,7 +147,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 No porque sea una etiqueta, sino porque ordena la ejecucion diaria y evita que el sistema dependa de urgencias.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Error que sale caro: automatizar herramientas, no procesos
               </h2>
 
@@ -165,7 +165,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 equipos ajustados, volumen variable y mucha dependencia de atencion directa.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Check-list para decidir en una tarde
               </h2>
 
@@ -184,7 +184,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 responder mas rapido, perder menos leads, reducir ausencias o bajar carga administrativa.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Como evitar bloqueos internos al empezar
               </h2>
 
@@ -201,7 +201,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Sin esa figura, aparecen versiones distintas del mismo flujo y se vuelve a la improvisacion.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Ejemplo de priorizacion bien ejecutada
               </h2>
 
@@ -218,7 +218,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
                 Esa secuencia reduce riesgo y convierte la automatizacion en una disciplina operativa, no en un experimento aislado.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cierre
               </h2>
 

@@ -27,7 +27,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
         Significa asegurar velocidad, consistencia y continuidad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se rompe el proceso de presupuesto
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
         igual que ocurre en <a href="/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/" className="text-cyber-purple underline decoration-cyber-purple/50">las pymes que pierden clientes antes del cierre</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que partes se pueden automatizar
       </h2>
 
@@ -77,7 +77,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
         Si esto no entra en el CRM, la propuesta queda en tierra de nadie.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La cadencia de seguimiento importa mas que el envio
       </h2>
 
@@ -101,7 +101,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
         aplica directamente a presupuestos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que debe medir una pyme
       </h2>
 
@@ -125,7 +125,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
         A veces es seguimiento irregular.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por donde empezar
       </h2>
 

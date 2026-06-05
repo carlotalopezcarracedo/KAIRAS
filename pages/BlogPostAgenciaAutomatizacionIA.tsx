@@ -25,7 +25,7 @@ const BlogPostAgenciaAutomatizacionIA: React.FC = () => {
         Deberia empezar por entender si esa agencia sabe leer procesos, priorizar y decirte tambien que no conviene automatizar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que debe hacer una agencia de automatizacion IA antes de proponer nada
       </h2>
 
@@ -43,7 +43,7 @@ const BlogPostAgenciaAutomatizacionIA: React.FC = () => {
         <li>Medir antes y despues para saber si mejora.</li>
       </ul>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Senales de alerta
       </h2>
 
@@ -57,7 +57,7 @@ const BlogPostAgenciaAutomatizacionIA: React.FC = () => {
         Meter una herramienta mas sin revisar el sistema puede aumentar el ruido.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Preguntas que deberias hacer antes de contratar
       </h2>
 
@@ -75,7 +75,7 @@ const BlogPostAgenciaAutomatizacionIA: React.FC = () => {
         explicamos que factores cambian el alcance real.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como lo enfoca KAIRAS
       </h2>
 

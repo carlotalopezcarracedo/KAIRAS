@@ -25,7 +25,7 @@ const BlogPostGestionDocumentalIA: React.FC = () => {
         Suele ser no saber que falta, quien lo pidio, donde se guardo y que tarea depende de ese archivo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Gestion documental con IA: que tareas puede apoyar
       </h2>
 
@@ -42,7 +42,7 @@ const BlogPostGestionDocumentalIA: React.FC = () => {
         Cada sector tiene documentos distintos, pero el atasco operativo se parece mucho.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Lo que no deberia hacer la IA
       </h2>
 
@@ -57,7 +57,7 @@ const BlogPostGestionDocumentalIA: React.FC = () => {
         El criterio sigue en manos del equipo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo: asesoria con documentos pendientes
       </h2>
 
@@ -72,7 +72,7 @@ const BlogPostGestionDocumentalIA: React.FC = () => {
         Ayuda a que el equipo vea antes que falta y que paso sigue.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo: despacho con expedientes
       </h2>
 
@@ -85,7 +85,7 @@ const BlogPostGestionDocumentalIA: React.FC = () => {
         Si ese es tu caso, tambien puedes leer <a href="/blog/automatizacion-despachos-abogados-expedientes-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion para despachos de abogados</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezar sin crear caos documental
       </h2>
 

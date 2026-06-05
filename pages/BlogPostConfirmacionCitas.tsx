@@ -30,7 +30,7 @@ const BlogPostConfirmacionCitas: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Confirmación de citas por WhatsApp en clínicas: sin depender del teléfono
             </h1>
 
@@ -46,7 +46,7 @@ const BlogPostConfirmacionCitas: React.FC = () => {
                 Cuando hay presión en consulta, cuando el equipo está ocupado atendiendo o cuando llega el pico de agenda de fin de semana, las confirmaciones se retrasan. Y un paciente que no recibe confirmación suele dudar, no aparece, o llama para preguntar. Lo que genera más carga, no menos.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por qué las confirmaciones manuales fallan justo cuando más se necesitan
               </h2>
 
@@ -63,7 +63,7 @@ const BlogPostConfirmacionCitas: React.FC = () => {
                 <li>Los pacientes que no reciben nada llaman para preguntar, generando más trabajo</li>
               </ul>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Qué permite hacer WhatsApp para confirmaciones automáticas
               </h2>
 
@@ -90,7 +90,7 @@ const BlogPostConfirmacionCitas: React.FC = () => {
                 El tono tiene que ser cercano, no robótico. Y el canal debe permitir que el paciente responda: si el número no puede recibir mensajes, el sistema no funciona en ambas direcciones y pierde gran parte de su utilidad.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cuándo tiene sentido implementarlo (y cuándo no)
               </h2>
 
@@ -114,7 +114,7 @@ const BlogPostConfirmacionCitas: React.FC = () => {
                 Si el objetivo principal es reducir el número de ausencias, hay más variables en juego además de la confirmación. Lee sobre <a href="/blog/reducir-ausencias-clinicas-recordatorios-automaticos/" className="text-cyber-purple underline decoration-cyber-purple/50">cómo reducir ausencias en clínicas con recordatorios automáticos</a> para ver el sistema completo.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Qué necesitas para que funcione en tu clínica
               </h2>
 

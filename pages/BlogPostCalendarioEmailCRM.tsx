@@ -25,7 +25,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         El objetivo es simple: que cada contacto importante tenga contexto, responsable y proxima accion sin copiar datos a mano.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que pasa cuando estas herramientas no estan conectadas
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         A menudo basta con definir que informacion debe viajar entre sistemas.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que deberia hacer un sistema minimo
       </h2>
 
@@ -69,7 +69,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         bien planteado: menos registro manual y mas claridad sobre que toca hacer.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El calendario no es solo agenda
       </h2>
 
@@ -84,7 +84,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         el sistema puede crear la tarea previa, recordar al cliente que lleve archivos y actualizar el CRM al finalizar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El email debe generar acciones, no solo mensajes
       </h2>
 
@@ -100,7 +100,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         lo importante es capturar lo que cambia el estado del proceso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo de flujo para una pyme de servicios
       </h2>
 
@@ -119,7 +119,7 @@ const BlogPostCalendarioEmailCRM: React.FC = () => {
         La cadencia puede apoyarse en la guia sobre <a href="/blog/seguimiento-leads-pymes-cuando-insistir/" className="text-cyber-purple underline decoration-cyber-purple/50">seguimiento de leads en pymes</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezar sin complicarlo
       </h2>
 

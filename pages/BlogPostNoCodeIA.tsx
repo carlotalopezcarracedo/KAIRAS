@@ -25,7 +25,7 @@ const BlogPostNoCodeIA: React.FC = () => {
         Si lo vuelve mas dificil de entender, el problema solo cambia de sitio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion no-code con IA: que puede resolver
       </h2>
 
@@ -42,7 +42,7 @@ const BlogPostNoCodeIA: React.FC = () => {
         <li>Crear tareas cuando falta un documento o un siguiente paso.</li>
       </ul>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se complica
       </h2>
 
@@ -56,7 +56,7 @@ const BlogPostNoCodeIA: React.FC = () => {
         es montar el flujo antes de definir el proceso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que deberia tener un buen flujo no-code
       </h2>
 
@@ -74,7 +74,7 @@ const BlogPostNoCodeIA: React.FC = () => {
         Si ese riesgo existe, revisa tambien <a href="/blog/todo-depende-de-una-sola-persona/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando todo depende de una sola persona</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo en una pyme de servicios
       </h2>
 

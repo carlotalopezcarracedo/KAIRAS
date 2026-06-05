@@ -27,7 +27,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         Otra necesita conectar WhatsApp, CRM, email, calendario y estados comerciales.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         De que depende el coste de automatizar procesos
       </h2>
 
@@ -49,7 +49,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         Lo importante es saber que problema queda resuelto y que carga manual desaparece.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Tipos de proyecto y nivel de esfuerzo
       </h2>
 
@@ -78,7 +78,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         Este tipo de proyecto tiene mas trabajo inicial, pero evita construir automatizaciones encima de una operativa confusa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como saber si merece la pena
       </h2>
 
@@ -99,7 +99,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         ayuda a ordenar esa decision antes de invertir.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Costes ocultos que conviene revisar
       </h2>
 
@@ -114,7 +114,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         Por eso es tan importante <a href="/blog/documentar-procesos-pyme-sin-complicarse/" className="text-cyber-purple underline decoration-cyber-purple/50">documentar el proceso antes de automatizarlo</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que pedir antes de aceptar un presupuesto
       </h2>
 

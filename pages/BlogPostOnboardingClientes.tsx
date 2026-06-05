@@ -26,7 +26,7 @@ const BlogPostOnboardingClientes: React.FC = () => {
         Significa que lo repetitivo esta preparado y que el equipo puede centrarse en lo que requiere criterio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que suele fallar al incorporar un cliente
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostOnboardingClientes: React.FC = () => {
         Si el alta de cliente no esta ordenada, despues es mas dificil cumplir plazos, medir carga y dar una buena experiencia.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que partes del onboarding se pueden automatizar
       </h2>
 
@@ -66,7 +66,7 @@ const BlogPostOnboardingClientes: React.FC = () => {
         Por eso conviene aplicar el criterio de <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando los mensajes automaticos ayudan o molestan</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La plantilla minima de onboarding
       </h2>
 
@@ -87,7 +87,7 @@ const BlogPostOnboardingClientes: React.FC = () => {
         Antes conviene <a href="/blog/documentar-procesos-pyme-sin-complicarse/" className="text-cyber-purple underline decoration-cyber-purple/50">documentar el proceso sin complicarse</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo en una pyme de servicios
       </h2>
 
@@ -101,7 +101,7 @@ const BlogPostOnboardingClientes: React.FC = () => {
         Evita que el equipo tenga que acordarse de cada paso y permite que el cliente empiece con mas claridad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir
       </h2>
 

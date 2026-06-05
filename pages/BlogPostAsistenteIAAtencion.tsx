@@ -26,7 +26,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
         La diferencia esta en el flujo, no en la herramienta.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que puede hacer bien un asistente de IA
       </h2>
 
@@ -49,7 +49,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
         Cuando cada consulta interrumpe al equipo, el asistente puede filtrar y ordenar sin perder cercania.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Lo que no deberia hacer
       </h2>
 
@@ -72,7 +72,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
         Esa es la diferencia entre automatizar atencion y crear una barrera.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde colocarlo dentro de la operativa
       </h2>
 
@@ -94,7 +94,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
         Si el asistente responde pero no registra nada, solo estas moviendo el caos a otro sitio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que informacion necesita antes de empezar
       </h2>
 
@@ -117,7 +117,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
         ayuda a decidir si estas listo para esta capa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como medir si esta funcionando
       </h2>
 

@@ -54,7 +54,7 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               {title}
             </h1>
 

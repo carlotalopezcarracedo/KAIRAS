@@ -26,7 +26,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         Si eliges mal el orden, puedes terminar con mas herramientas, mas datos dispersos y el mismo trabajo manual de siempre.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que es digitalizar en una pyme
       </h2>
 
@@ -41,7 +41,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         Pero sin informacion digital y ordenada, automatizar se vuelve mas dificil.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que es automatizar
       </h2>
 
@@ -60,7 +60,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         profundiza en este punto.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que aporta la IA
       </h2>
 
@@ -76,7 +76,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         Esa idea se desarrolla en <a href="/blog/ia-para-pymes-cuando-tiene-sentido/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando tiene sentido aplicar IA en pymes</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo sencillo: una clinica
       </h2>
 
@@ -92,7 +92,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         Si solo digitaliza sin automatizar, seguira dependiendo de que alguien revise todo manualmente.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como decidir que necesita tu pyme ahora
       </h2>
 
@@ -109,7 +109,7 @@ const BlogPostDigitalizacionAutomatizacionIA: React.FC = () => {
         con criterio operativo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La pregunta final no es tecnologica
       </h2>
 

@@ -26,7 +26,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
         Sin esa base, la IA puede responder mal, duplicar errores o generar mas trabajo al equipo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que datos necesita una IA para ayudar de verdad
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
         ayuda a decidir si tu empresa esta preparada para esta capa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Paso 1: identificar las fuentes fiables
       </h2>
 
@@ -64,7 +64,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
         Primero se limpia la base. Despues se automatiza.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Paso 2: separar datos, reglas y criterio humano
       </h2>
 
@@ -85,7 +85,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
         Ya lo trabajamos en <a href="/blog/ia-para-pymes-cuando-tiene-sentido/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando tiene sentido aplicar IA en pymes</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Paso 3: ordenar el CRM antes de automatizar
       </h2>
 
@@ -100,7 +100,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
         La tecnologia avanzada necesita una base sencilla y estable.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Paso 4: probar con un caso pequeno
       </h2>
 

@@ -25,7 +25,7 @@ const BlogPostAcademias: React.FC = () => {
         No se trata de sustituir la relacion con alumnos y familias, sino de quitar carga manual al equipo para que pueda atender mejor.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se atasca una academia cuando crece
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostAcademias: React.FC = () => {
         La misma logica aparece en muchos negocios que <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">pierden horas en tareas manuales repetidas</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que procesos conviene automatizar primero
       </h2>
 
@@ -77,7 +77,7 @@ const BlogPostAcademias: React.FC = () => {
         Si el mensaje se repite, se puede preparar una secuencia con tono cercano y reglas claras.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         WhatsApp no deberia ser el unico sistema
       </h2>
 
@@ -92,7 +92,7 @@ const BlogPostAcademias: React.FC = () => {
         No para complicar la academia, sino para saber que alumnos estan interesados, cuales estan matriculados y que gestiones siguen abiertas.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo de flujo sencillo
       </h2>
 
@@ -110,7 +110,7 @@ const BlogPostAcademias: React.FC = () => {
         siempre que el flujo este conectado a seguimiento y no sea solo un mensaje automatico.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir para saber si mejora
       </h2>
 

@@ -25,7 +25,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
         Significa enviar informacion util en el momento adecuado y evitar que el equipo repita la misma tarea cada dia.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando un mensaje automatico ayuda
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
         cuando el canal es el que el cliente ya usa.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando empieza a molestar
       </h2>
 
@@ -69,7 +69,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
         La automatizacion debe adaptarse al momento de la relacion.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         La regla: mensaje automatico solo si reduce friccion
       </h2>
 
@@ -85,7 +85,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
         Una confirmacion de solicitud evita que el cliente vuelva a preguntar si llego el mensaje.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como escribir mensajes que no suenen frios
       </h2>
 
@@ -109,7 +109,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
         desarrolla esa frontera.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde guardar el contexto
       </h2>
 

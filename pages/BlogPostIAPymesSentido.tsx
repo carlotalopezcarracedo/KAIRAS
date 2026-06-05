@@ -27,7 +27,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
         Ese criterio separa una implantacion util de un experimento que consume energia.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde la IA suele aportar valor en una pyme
       </h2>
 
@@ -50,7 +50,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
         Si no hay repeticion ni volumen suficiente, probablemente no sea el primer paso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando la IA no deberia ser el primer movimiento
       </h2>
 
@@ -76,7 +76,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
         ayuda a decidir si la IA entra ahora o en una segunda fase.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Tres preguntas antes de implantar IA
       </h2>
 
@@ -107,7 +107,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
         Automatizar con sentido tambien es saber donde parar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplos donde suele encajar bien
       </h2>
 
@@ -125,7 +125,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
         que tiene sentido para una pyme: menos carga manual, mas control y una experiencia mas estable para el cliente.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezar sin convertirlo en un proyecto enorme
       </h2>
 

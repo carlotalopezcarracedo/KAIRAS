@@ -25,7 +25,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         Ayuda a que cada solicitud avance con orden: datos completos, cita programada, presupuesto enviado y siguiente paso claro.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que se enfria una solicitud de reforma o instalacion
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         pero en reformas e instalaciones hay un matiz clave: la visita tecnica condiciona todo el flujo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que datos conviene recoger antes de la visita
       </h2>
 
@@ -69,7 +69,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         Se trata de pedir lo suficiente para que la visita no empiece desde cero.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El flujo minimo que ordena la operativa
       </h2>
 
@@ -90,7 +90,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         el equipo puede saber que oportunidades estan paradas y por que.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde no conviene automatizar
       </h2>
 
@@ -105,7 +105,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         pedir datos, confirmar cita, recordar documentos, crear tareas, actualizar estados y avisar si una propuesta lleva demasiados dias sin respuesta.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como evitar que el seguimiento parezca insistente
       </h2>
 
@@ -120,7 +120,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
         El objetivo no es perseguir al cliente, sino que ninguna oportunidad quede abandonada por olvido.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por donde empezar
       </h2>
 

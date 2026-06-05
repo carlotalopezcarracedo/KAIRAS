@@ -25,7 +25,7 @@ const BlogPostAutomatizacionConIAEmpresas: React.FC = () => {
         En una pyme de servicios, lo importante es detectar donde hay carga manual, datos suficientes y una decision que puede apoyarse con contexto.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion con IA para empresas: donde encaja mejor
       </h2>
 
@@ -49,7 +49,7 @@ const BlogPostAutomatizacionConIAEmpresas: React.FC = () => {
         ayuda a separar conceptos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplos por tipo de pyme de servicios
       </h2>
 
@@ -64,7 +64,7 @@ const BlogPostAutomatizacionConIAEmpresas: React.FC = () => {
         Reduce trabajo previo, deja informacion mas clara y permite que el equipo actue con mas contexto.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que necesitas antes de aplicar IA
       </h2>
 
@@ -79,7 +79,7 @@ const BlogPostAutomatizacionConIAEmpresas: React.FC = () => {
         Un sistema con datos limpios da respuestas mas utiles y menos ruido operativo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como empezaria KAIRAS
       </h2>
 

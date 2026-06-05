@@ -30,7 +30,7 @@ const BlogPost1: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Las automatizaciones que más tiempo recuperan en una pyme de servicios
             </h1>
 
@@ -50,7 +50,7 @@ const BlogPost1: React.FC = () => {
                 Después de trabajar con pymes de servicios en Galicia y España, hay un patrón claro. Estas son las cinco automatizaciones que más tiempo recuperan, ordenadas por impacto habitual.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 1. Responder siempre las mismas preguntas
               </h2>
 
@@ -66,7 +66,7 @@ const BlogPost1: React.FC = () => {
                 El impacto no es solo el tiempo ahorrado. Es la energía mental que deja de gastarse en interrupciones constantes.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 2. La gestión de citas y recordatorios
               </h2>
 
@@ -78,7 +78,7 @@ const BlogPost1: React.FC = () => {
                 El impacto real no está solo en el tiempo de gestión. Está en la reducción de no-shows. En la mayoría de negocios que implementan recordatorios automáticos, el porcentaje de citas que no se presentan cae entre un 30 y un 50%.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 3. El seguimiento de clientes que nadie hace
               </h2>
 
@@ -94,7 +94,7 @@ const BlogPost1: React.FC = () => {
                 Esta automatización suele recuperar entre un 15 y un 25% de los clientes que se habían dado por perdidos.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 4. La generación de presupuestos
               </h2>
 
@@ -106,7 +106,7 @@ const BlogPost1: React.FC = () => {
                 Cuando el proceso se automatiza —el cliente rellena un formulario, el sistema genera el documento y lo envía— el tiempo de respuesta baja a minutos. La conversión sube porque la velocidad genera confianza.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 5. El registro manual de actividad
               </h2>
 
@@ -118,7 +118,7 @@ const BlogPost1: React.FC = () => {
                 Automatizar el registro de actividad —que cada interacción quede documentada en el CRM sin que nadie la introduzca manualmente— cambia la calidad de las decisiones. Tienes la información cuando la necesitas, donde la necesitas.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por dónde empezar
               </h2>
 

@@ -29,7 +29,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Como reducir ausencias en clinicas con recordatorios automaticos
             </h1>
 
@@ -49,7 +49,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 En muchas clinicas ese canal es WhatsApp.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por que se producen tantas ausencias aunque el equipo lo intente
               </h2>
 
@@ -66,7 +66,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Eso genera ruido en unos casos y falta de insistencia en otros.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Que hace un sistema de recordatorios automaticos bien disenado
               </h2>
 
@@ -90,7 +90,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Sin ese dato, no puedes ajustar politica de agenda ni carga de recepcion.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Estructura recomendada para clinicas de servicios
               </h2>
 
@@ -110,7 +110,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Lo importante es que quede definida como proceso, no como tarea improvisada.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Donde encaja WhatsApp y donde encaja el equipo humano
               </h2>
 
@@ -129,7 +129,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 y adaptarlo a contexto clinico.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Como evitar que el sistema se quede en "enviar mensajes"
               </h2>
 
@@ -146,7 +146,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Cuando ese dato existe, puedes ajustar horarios, reforzar ciertos tramos y mejorar ocupacion.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Indicadores minimos para saber si mejora
               </h2>
 
@@ -163,7 +163,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Si no mejora, toca revisar frecuencia, redaccion de mensajes y reglas de escalado.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Que cambia en la operativa de la clinica
               </h2>
 
@@ -182,7 +182,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 sino proteger tiempo operativo y calidad de servicio.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Nota sobre no-shows
               </h2>
 
@@ -192,7 +192,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
                 Lo importante es tener un sistema que prevenga olvidos y permita reaccionar rapido cuando una cita se cae.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Errores comunes que conviene evitar desde el inicio
               </h2>
 

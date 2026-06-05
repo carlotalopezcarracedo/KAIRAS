@@ -26,7 +26,7 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
         La IA anade capacidad para interpretar texto, documentos o patrones.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Software RPA con IA: cuando puede tener sentido
       </h2>
 
@@ -43,7 +43,7 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
         <li>La IA se usa para interpretar, no para decidir sin supervision.</li>
       </ul>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando no deberia ser la primera opcion
       </h2>
 
@@ -58,7 +58,7 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
         antes de comprar una solucion mas pesada.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Preguntas antes de elegir software
       </h2>
 
@@ -75,7 +75,7 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
         Muchas veces una integracion directa, un CRM mejor configurado o un flujo no-code resuelve el problema con menos mantenimiento.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         RPA, no-code e integraciones: no son lo mismo
       </h2>
 

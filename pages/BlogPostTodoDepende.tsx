@@ -30,7 +30,7 @@ const BlogPostTodoDepende: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Cuando todo depende de una sola persona: el cuello de botella más habitual en pymes
             </h1>
 
@@ -46,7 +46,7 @@ const BlogPostTodoDepende: React.FC = () => {
                 Cuando esa persona está, todo funciona. Cuando no está, todo espera.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por qué la dependencia de una persona es un riesgo real
               </h2>
 
@@ -62,7 +62,7 @@ const BlogPostTodoDepende: React.FC = () => {
                 Los clientes también lo notan. Preguntan por esa persona específicamente para cualquier gestión. Esperan que sea ella quien responda, quien confirme, quien resuelva. Eso es una señal de que el servicio está personalizado en una sola persona, no en la empresa.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cómo se llega a esta situación (sin que nadie lo decida así)
               </h2>
 
@@ -82,7 +82,7 @@ const BlogPostTodoDepende: React.FC = () => {
                 Cuando hay mucho trabajo, documentar parece un lujo. Delegar parece más lento que hacerlo uno mismo. Y siempre hay algo más urgente que ordenar cómo funciona el negocio. El resultado es un sistema que funciona mientras la persona clave está presente y disponible. Ese sistema tiene un techo invisible: no puede crecer más de lo que esa persona puede gestionar.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Las señales de que ya estás en esa situación
               </h2>
 
@@ -98,7 +98,7 @@ const BlogPostTodoDepende: React.FC = () => {
                 Ese último punto suele ir acompañado de otro problema paralelo: las herramientas que usa el equipo no comparten información. Si quieres entender cómo eso amplifica la dependencia, lee sobre <a href="/blog/herramientas-desconectadas-equipo-va-tarde/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas desconectadas que hacen que el equipo vaya siempre tarde</a>.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por dónde empezar a reducir esa dependencia
               </h2>
 

@@ -25,7 +25,7 @@ const BlogPostClinicasEsteticas: React.FC = () => {
         Debe ordenar la parte repetitiva: primera respuesta, datos previos, recordatorios, revisiones y seguimiento posterior.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se pierde tiempo en una clinica estetica
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostClinicasEsteticas: React.FC = () => {
         pero en estetica hay un matiz importante: la confianza y el contexto importan tanto como la rapidez.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que se puede automatizar sin perder trato personal
       </h2>
 
@@ -76,7 +76,7 @@ const BlogPostClinicasEsteticas: React.FC = () => {
         La decision clinica sigue siendo humana.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         WhatsApp es canal, no sistema
       </h2>
 
@@ -92,7 +92,7 @@ const BlogPostClinicasEsteticas: React.FC = () => {
         explica por que no conviene sincronizarlo todo, sino solo lo que cambia el proceso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo de flujo para primera consulta
       </h2>
 

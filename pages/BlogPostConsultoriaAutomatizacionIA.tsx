@@ -25,7 +25,7 @@ const BlogPostConsultoriaAutomatizacionIA: React.FC = () => {
         La tecnologia llega despues.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que incluye una buena consultoria de automatizacion IA
       </h2>
 
@@ -42,7 +42,7 @@ const BlogPostConsultoriaAutomatizacionIA: React.FC = () => {
         <li>Implementacion, pruebas y ajustes con el equipo.</li>
       </ul>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Fase 1: diagnostico operativo
       </h2>
 
@@ -56,7 +56,7 @@ const BlogPostConsultoriaAutomatizacionIA: React.FC = () => {
         pero con foco en decidir que parte se puede convertir en sistema.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Fase 2: diseno del sistema
       </h2>
 
@@ -71,7 +71,7 @@ const BlogPostConsultoriaAutomatizacionIA: React.FC = () => {
         En una inmobiliaria puede clasificar leads de portales.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Fase 3: implementacion y control
       </h2>
 

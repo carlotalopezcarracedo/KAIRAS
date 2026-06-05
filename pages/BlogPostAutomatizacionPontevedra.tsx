@@ -25,7 +25,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
         En muchos negocios locales, el problema aparece justo cuando el equipo crece, entran mas clientes o hay varias personas tocando el mismo proceso.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que pymes de Pontevedra suelen necesitar automatizacion
       </h2>
 
@@ -48,7 +48,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
         Es una senal de que el negocio necesita una base operativa mas estable.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion de procesos en Pontevedra: por donde empezar
       </h2>
 
@@ -71,7 +71,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
         Cuanto mas concreto sea el primer flujo, mas facil sera medir si mejora.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que el enfoque local importa
       </h2>
 
@@ -88,7 +88,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
         explica esta vision con foco regional.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo practico: una clinica o academia local
       </h2>
 
@@ -105,7 +105,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
         y con el trabajo de seguimiento que muchas pymes ya necesitan.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir en un proyecto local
       </h2>
 

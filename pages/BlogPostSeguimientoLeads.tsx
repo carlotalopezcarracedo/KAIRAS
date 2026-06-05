@@ -30,7 +30,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Seguimiento de leads en pymes: cuándo insistir y cuándo parar
             </h1>
 
@@ -46,7 +46,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
                 El seguimiento comercial es donde más dinero se deja sobre la mesa en pymes de servicios. No porque no se sepa que hay que hacerlo. Sino porque hacerlo bien, de forma consistente y sin agobiar, es difícil si depende de que alguien se acuerde.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por qué el seguimiento irregular cuesta más de lo que parece
               </h2>
 
@@ -58,7 +58,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
                 El problema no es la falta de voluntad. Es la falta de sistema. Sin un proceso definido, el seguimiento depende de la memoria de quien lleva las ventas. Y la memoria falla, especialmente cuando hay mucho volumen o mucho trabajo simultáneo.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cuándo tiene sentido insistir
               </h2>
 
@@ -96,7 +96,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
                 Pasado el tercer intento sin respuesta, la prioridad baja. Pero el lead no desaparece: pasa a un seguimiento de largo plazo con menos frecuencia.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cuándo parar (y cómo hacerlo bien)
               </h2>
 
@@ -118,7 +118,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
                 Este tipo de cierre deja una impresión positiva. Y los leads que paran no están muertos: están <a href="/blog/reactivar-leads-frios-sin-perseguir/" className="text-cyber-purple underline decoration-cyber-purple/50">fríos, y pueden volver en meses</a>.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cómo hacer seguimiento sin que dependa de tu memoria
               </h2>
 

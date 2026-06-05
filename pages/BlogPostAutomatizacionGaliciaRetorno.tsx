@@ -26,7 +26,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
         Un negocio de Pontevedra, Vigo, Santiago o A Coruña no necesita empezar por una arquitectura enorme si su problema principal es que los leads se quedan sin respuesta o que recepcion vive copiando datos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Por que el contexto local importa
       </h2>
 
@@ -41,7 +41,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
         no plataformas sobredimensionadas que nadie mantiene.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Procesos que suelen dar retorno antes
       </h2>
 
@@ -78,7 +78,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
         Automatizar ese traspaso reduce errores y libera tiempo sin tocar la parte mas delicada del servicio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Lo que no conviene automatizar primero
       </h2>
 
@@ -94,7 +94,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
         Ese filtro funciona especialmente bien en pymes que no pueden permitirse meses de ensayo sin retorno.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo practico
       </h2>
 
@@ -111,7 +111,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
         o automatizacion de documentos.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Como deberia ser una implantacion sensata
       </h2>
 

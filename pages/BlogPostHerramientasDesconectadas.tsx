@@ -30,7 +30,7 @@ const BlogPostHerramientasDesconectadas: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Herramientas desconectadas: por qué tu equipo siempre va tarde
             </h1>
 
@@ -46,7 +46,7 @@ const BlogPostHerramientasDesconectadas: React.FC = () => {
                 El resultado siempre es el mismo: alguien del equipo hace de puente entre herramientas. Copia datos de un sitio a otro. Busca información en tres lugares distintos. Llega tarde a lo que importa porque estaba ocupado con lo urgente.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Qué ocurre cuando las herramientas no se hablan
               </h2>
 
@@ -66,7 +66,7 @@ const BlogPostHerramientasDesconectadas: React.FC = () => {
                 El coste visible es el tiempo que alguien dedica a pasar información de un sitio a otro. Pero el coste real es más alto: es el error que ocurre cuando los datos no coinciden, la decisión que se toma con información desactualizada, el cliente que nota que el equipo no está sincronizado.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Los tres puntos de fricción más habituales
               </h2>
 
@@ -94,7 +94,7 @@ const BlogPostHerramientasDesconectadas: React.FC = () => {
                 Sale del correo de quien lo preparó, no queda registrado en ningún sistema compartido y el seguimiento depende de que esa persona recuerde hacerlo. Sin un registro central, es imposible saber qué presupuestos siguen abiertos y cuáles se perdieron sin dar respuesta.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Conectar herramientas no siempre es una integración técnica compleja
               </h2>
 
@@ -110,7 +110,7 @@ const BlogPostHerramientasDesconectadas: React.FC = () => {
                 El primer paso no es buscar la plataforma que lo integra todo. Es entender qué información necesita fluir entre qué sistemas y por qué no lo hace ahora.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por dónde empezar si tienes este problema
               </h2>
 

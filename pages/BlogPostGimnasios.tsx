@@ -26,7 +26,7 @@ const BlogPostGimnasios: React.FC = () => {
         No se trata de enviar mensajes en masa, sino de que cada socio tenga un seguimiento coherente.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Donde se pierde tiempo en la operativa de un gimnasio
       </h2>
 
@@ -50,7 +50,7 @@ const BlogPostGimnasios: React.FC = () => {
         Algo parecido ocurre en otros negocios de servicios que <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">pierden horas en tareas manuales repetidas</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion para gimnasios: que procesos empezar primero
       </h2>
 
@@ -81,7 +81,7 @@ const BlogPostGimnasios: React.FC = () => {
         El sistema puede detectar inactividad y crear una tarea de seguimiento antes de que la baja sea definitiva.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         WhatsApp ayuda, pero no puede ser el unico registro
       </h2>
 
@@ -97,7 +97,7 @@ const BlogPostGimnasios: React.FC = () => {
         La diferencia entre canal y sistema tambien aparece en la guia sobre <a href="/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/" className="text-cyber-purple underline decoration-cyber-purple/50">conectar WhatsApp con el CRM sin duplicar tareas</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo de flujo sencillo para un gimnasio
       </h2>
 
@@ -115,7 +115,7 @@ const BlogPostGimnasios: React.FC = () => {
         No hay persecucion, hay continuidad.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Que medir para saber si funciona
       </h2>
 

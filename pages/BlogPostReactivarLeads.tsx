@@ -30,7 +30,7 @@ const BlogPostReactivarLeads: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Cómo reactivar leads fríos sin perseguir a nadie
             </h1>
 
@@ -50,7 +50,7 @@ const BlogPostReactivarLeads: React.FC = () => {
                 Esos leads fríos son uno de los activos más infrautilizados de cualquier pyme de servicios. Y reactivarlos es más fácil de lo que parece, si se hace con el enfoque correcto.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por qué los leads se enfrían (y no es culpa del cliente)
               </h2>
 
@@ -71,7 +71,7 @@ const BlogPostReactivarLeads: React.FC = () => {
                 En casi todos estos casos, el lead no tomó la decisión activa de descartar el servicio. Simplemente, el proceso se quedó sin continuidad.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Qué diferencia un lead frío de uno muerto
               </h2>
 
@@ -97,7 +97,7 @@ const BlogPostReactivarLeads: React.FC = () => {
                 Con un lead muerto, no merece la pena invertir esfuerzo. Con un lead frío, un contacto bien hecho puede despertar una conversación que parecía cerrada.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cómo reactivar un lead frío sin parecer desesperado
               </h2>
 
@@ -129,7 +129,7 @@ const BlogPostReactivarLeads: React.FC = () => {
                 Si tienes varios leads fríos de un mismo perfil, tiene sentido agrupar los intentos de reactivación en esos momentos en lugar de contactarlos de forma aleatoria.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 El sistema que evita que los leads se enfríen en el futuro
               </h2>
 

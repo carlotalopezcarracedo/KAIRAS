@@ -25,7 +25,7 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
         Es filtrar, ordenar y dar contexto para que el equipo intervenga mejor cuando hace falta.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Chatbot con IA para atencion al cliente: que puede resolver
       </h2>
 
@@ -42,7 +42,7 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
         clinicas, academias, gimnasios, inmobiliarias o servicios profesionales.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Lo que no deberia resolver solo
       </h2>
 
@@ -56,7 +56,7 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
         explicamos esta diferencia: la IA puede apoyar la atencion, no sustituir el criterio del negocio.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         El escalado humano no es opcional
       </h2>
 
@@ -71,7 +71,7 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
         donde cada consulta tenga estado y responsable.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Ejemplo en WhatsApp
       </h2>
 

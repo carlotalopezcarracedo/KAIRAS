@@ -26,7 +26,7 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
         Otras necesitan interpretar mensajes, documentos o contexto antes de actuar.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Automatizacion inteligente de tareas repetitivas: como detectarlas
       </h2>
 
@@ -47,7 +47,7 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
         Si quieres identificar tareas de base, empieza por <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">que tareas manuales frenan tu negocio</a>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando basta con automatizacion simple
       </h2>
 
@@ -60,7 +60,7 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
         Usar IA en esos casos puede encarecer y hacer menos predecible algo que era sencillo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Cuando merece IA
       </h2>
 
@@ -75,7 +75,7 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
         Reduce el trabajo previo.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+      <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
         Matriz rapida para priorizar
       </h2>
 

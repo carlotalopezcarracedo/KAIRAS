@@ -29,7 +29,7 @@ const BlogPostPierdenClientes: React.FC = () => {
               ))}
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
               Por que las pymes pierden clientes antes de firmar
             </h1>
 
@@ -47,7 +47,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Al final no se pierden clientes por una gran decision equivocada, sino por diez pequenos fallos operativos acumulados.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 El problema no es "captar mas", es convertir mejor lo que ya entra
               </h2>
 
@@ -63,7 +63,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 En un entorno competitivo, esa falta de continuidad se paga con ventas que se enfrían.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cinco fugas habituales que explican por que se caen los leads
               </h2>
 
@@ -103,7 +103,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Es ahi donde un proceso automatizado marca diferencia: no sustituye el criterio comercial, pero garantiza la ejecucion base.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Como diagnosticar si tu pyme esta perdiendo clientes por seguimiento
               </h2>
 
@@ -124,7 +124,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Y si no hay sistema, el crecimiento depende de heroicidades del equipo, no de una operativa repetible.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Que cambia cuando pasas a un sistema de CRM y seguimiento
               </h2>
 
@@ -148,7 +148,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 El equipo trabaja con un ritmo comercial mas estable y con menos friccion diaria.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Por donde empezar sin complicar al equipo
               </h2>
 
@@ -164,7 +164,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Si inviertes este orden, acabas con tecnologia nueva y el mismo problema operativo de siempre.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Cierre
               </h2>
 
@@ -174,7 +174,7 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Corregir eso no requiere humo ni proyectos interminables. Requiere criterio operativo y ejecucion.
               </p>
 
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tighter text-white pt-4">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
                 Tres preguntas para cerrar esta semana con claridad
               </h2>
 
