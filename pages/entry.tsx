@@ -55,6 +55,16 @@ const pageMap: Record<string, PageLoader> = {
   'blog-cobros-recordatorios': () => import('./BlogPostCobrosRecordatorios'),
   'blog-preparar-datos-ia': () => import('./BlogPostPrepararDatosIA'),
   'blog-automatizacion-vigo': () => import('./BlogPostAutomatizacionVigo'),
+  'blog-automatizacion-con-ia-empresas': () => import('./BlogPostAutomatizacionConIAEmpresas'),
+  'blog-procesos-con-ia': () => import('./BlogPostProcesosConIA'),
+  'blog-agencia-automatizacion-ia': () => import('./BlogPostAgenciaAutomatizacionIA'),
+  'blog-consultoria-automatizacion-ia': () => import('./BlogPostConsultoriaAutomatizacionIA'),
+  'blog-herramientas-ia': () => import('./BlogPostHerramientasIA'),
+  'blog-no-code-ia': () => import('./BlogPostNoCodeIA'),
+  'blog-gestion-documental-ia': () => import('./BlogPostGestionDocumentalIA'),
+  'blog-chatbot-ia-atencion': () => import('./BlogPostChatbotIAAtencion'),
+  'blog-tareas-repetitivas-ia': () => import('./BlogPostTareasRepetitivasIA'),
+  'blog-software-rpa-ia': () => import('./BlogPostSoftwareRPAIA'),
 };
 
 const rootEl = document.getElementById('root')!;
