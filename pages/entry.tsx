@@ -65,6 +65,16 @@ const pageMap: Record<string, PageLoader> = {
   'blog-chatbot-ia-atencion': () => import('./BlogPostChatbotIAAtencion'),
   'blog-tareas-repetitivas-ia': () => import('./BlogPostTareasRepetitivasIA'),
   'blog-software-rpa-ia': () => import('./BlogPostSoftwareRPAIA'),
+  'blog-que-es-automatizacion-ia': () => import('./BlogPostQueEsAutomatizacionIA'),
+  'blog-como-funciona-automatizacion-ia': () => import('./BlogPostComoFuncionaAutomatizacionIA'),
+  'blog-sistema-automatizado-ia': () => import('./BlogPostSistemaAutomatizadoIA'),
+  'blog-tipos-automatizacion-empresa': () => import('./BlogPostTiposAutomatizacionEmpresa'),
+  'blog-ia-automatizacion-juntas': () => import('./BlogPostIAAutomatizacionJuntas'),
+  'blog-ejemplos-automatizacion-ia': () => import('./BlogPostEjemplosAutomatizacionIA'),
+  'blog-aplicaciones-ia-pymes': () => import('./BlogPostAplicacionesIAPymes'),
+  'blog-tipos-ia-pymes': () => import('./BlogPostTiposIAPymes'),
+  'blog-ia-mas-usadas': () => import('./BlogPostIAMasUsadas'),
+  'blog-chatgpt-vs-otras-ia': () => import('./BlogPostChatGPTVsOtrasIA'),
 };
 
 const rootEl = document.getElementById('root')!;
