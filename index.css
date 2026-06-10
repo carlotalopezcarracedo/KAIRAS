@@ -110,6 +110,38 @@
   -webkit-text-fill-color: transparent;
 }
 
+#root[data-page="blog"] h1.uppercase,
+#root[data-page="blog"] h2.uppercase,
+#root[data-page="blog"] h3.uppercase,
+#root[data-page^="blog-"] h1.uppercase,
+#root[data-page^="blog-"] h2.uppercase,
+#root[data-page^="blog-"] h3.uppercase {
+  letter-spacing: 0.02em;
+}
+
+#root[data-page="blog"] h1.uppercase,
+#root[data-page^="blog-"] h1.uppercase {
+  line-height: 1;
+}
+
+#root[data-page="blog"] h2.uppercase,
+#root[data-page="blog"] h3.uppercase,
+#root[data-page^="blog-"] h2.uppercase,
+#root[data-page^="blog-"] h3.uppercase {
+  line-height: 1.12;
+}
+
+@media (max-width: 640px) {
+  #root[data-page="blog"] h1.uppercase,
+  #root[data-page="blog"] h2.uppercase,
+  #root[data-page="blog"] h3.uppercase,
+  #root[data-page^="blog-"] h1.uppercase,
+  #root[data-page^="blog-"] h2.uppercase,
+  #root[data-page^="blog-"] h3.uppercase {
+    letter-spacing: 0.012em;
+  }
+}
+
 .nav-blur {
   backdrop-filter: blur(20px);
   background-color: rgba(5, 5, 5, 0.7);

@@ -75,6 +75,16 @@ const pageMap: Record<string, PageLoader> = {
   'blog-tipos-ia-pymes': () => import('./BlogPostTiposIAPymes'),
   'blog-ia-mas-usadas': () => import('./BlogPostIAMasUsadas'),
   'blog-chatgpt-vs-otras-ia': () => import('./BlogPostChatGPTVsOtrasIA'),
+  'blog-tareas-administrativas-ia': () => import('./BlogPostKeywordCluster'),
+  'blog-agentes-ia-procesos': () => import('./BlogPostKeywordCluster'),
+  'blog-automatizacion-ia-whatsapp': () => import('./BlogPostKeywordCluster'),
+  'blog-ia-generativa-pymes': () => import('./BlogPostKeywordCluster'),
+  'blog-n8n-ia-pymes': () => import('./BlogPostKeywordCluster'),
+  'blog-make-ia-pymes': () => import('./BlogPostKeywordCluster'),
+  'blog-procesos-contables-ia': () => import('./BlogPostKeywordCluster'),
+  'blog-marketing-digital-ia': () => import('./BlogPostKeywordCluster'),
+  'blog-automatizacion-ia-gratis': () => import('./BlogPostKeywordCluster'),
+  'blog-curso-automatizacion-ia': () => import('./BlogPostKeywordCluster'),
 };
 
 const rootEl = document.getElementById('root')!;
