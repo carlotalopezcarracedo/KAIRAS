@@ -85,6 +85,16 @@ const pageMap: Record<string, PageLoader> = {
   'blog-marketing-digital-ia': () => import('./BlogPostKeywordCluster'),
   'blog-automatizacion-ia-gratis': () => import('./BlogPostKeywordCluster'),
   'blog-curso-automatizacion-ia': () => import('./BlogPostKeywordCluster'),
+  'blog-industrial-ia-pymes': () => import('./BlogPostKeywordCluster2'),
+  'blog-n8n-vs-make': () => import('./BlogPostKeywordCluster2'),
+  'blog-power-automate-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-email-ia-pymes': () => import('./BlogPostKeywordCluster2'),
+  'blog-facturas-ia-pymes': () => import('./BlogPostKeywordCluster2'),
+  'blog-lead-scoring-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-roi-automatizacion-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-seguridad-datos-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-mantenimiento-automatizaciones-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-piloto-automatizacion-ia': () => import('./BlogPostKeywordCluster2'),
 };
 
 const rootEl = document.getElementById('root')!;
