@@ -1,6 +1,6 @@
 # KAIRAS Services
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Canonical URL: https://kairas.es/okf/services.md
 
 ## Service Overview
@@ -29,6 +29,8 @@ Related content:
 - WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 - AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - Macros, scripts and AI automation: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
+- AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
+- Hiring AI automation services: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
 
 ### WhatsApp Automation
 
@@ -58,6 +60,11 @@ KAIRAS helps clinics reduce manual workload around appointments, reminders, pati
 URL: https://kairas.es/optimizacion-operativa-pymes/
 
 KAIRAS helps SMEs choose the highest-impact automation first, instead of adding tools without improving the process.
+
+Related content:
+
+- Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
+- AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
 
 ### Automation In Galicia
 

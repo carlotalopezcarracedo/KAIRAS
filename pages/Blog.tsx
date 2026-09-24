@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/plataformas-automatizacion-ia-pymes-espana/',
+    title: 'Plataformas de automatizacion con IA para pymes en Espana: como elegir',
+    date: '2026-09-24',
+    dateLabel: '24 septiembre 2026',
+    desc: 'Como elegir entre Make, n8n, Zapier, HubSpot, Power Platform, Tidio o ChatGPT segun proceso, control y mantenimiento.',
+    tags: ['Plataformas', 'IA', 'Pymes'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/contratar-servicios-automatizacion-ia-empresa/',
+    title: 'Contratar servicios de automatizacion con IA: que revisar antes de pedir presupuesto',
+    date: '2026-09-24',
+    dateLabel: '24 septiembre 2026',
+    desc: 'Que revisar antes de pedir presupuesto: proceso, datos, integraciones, revision humana, mantenimiento y medicion.',
+    tags: ['Servicios', 'IA', 'Decision'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/productividad-ia-automatizacion-negocios/',
+    title: 'Productividad con IA y automatizacion: que medir en una pyme de servicios',
+    date: '2026-09-24',
+    dateLabel: '24 septiembre 2026',
+    desc: 'Como medir si la IA y la automatizacion reducen carga manual, aceleran respuesta y mejoran seguimiento real.',
+    tags: ['Productividad', 'IA', 'Procesos'],
+    category: 'procesos',
+  },
+  {
     slug: '/blog/wordpress-automatizacion-ia-pymes/',
     title: 'WordPress y automatizacion con IA para pymes: de formularios a seguimiento',
     date: '2026-09-09',

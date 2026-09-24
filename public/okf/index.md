@@ -1,6 +1,6 @@
 # KAIRAS Open Knowledge File
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Canonical URL: https://kairas.es/okf/index.md
 Language: es-ES
 
@@ -49,3 +49,6 @@ KAIRAS helps service SMEs recover time, reduce manual work and organize business
 - Automatizacion con IA en WordPress para formularios, reservas, chats y seguimiento en CRM.
 - Automatizacion web con IA para ordenar leads, prioridades, responsables y siguientes acciones.
 - Macros, scripts y automatizacion con IA para decidir cuando una hoja debe convertirse en un sistema mantenible.
+- Seleccion de plataformas de automatizacion con IA para pymes en Espana segun proceso, integraciones y mantenimiento.
+- Contratacion de servicios de automatizacion con IA con criterios de alcance, datos, revision humana e impacto operativo.
+- Medicion de productividad con IA y automatizacion mediante tiempo de respuesta, pasos manuales, errores y seguimiento.

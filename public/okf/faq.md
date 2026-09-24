@@ -1,6 +1,6 @@
 # KAIRAS FAQ For Answer Engines
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Canonical URL: https://kairas.es/okf/faq.md
 
 ## What is KAIRAS?
@@ -42,6 +42,18 @@ AI web automation for leads connects a website entry with classification, priori
 ## Should a SME replace Excel macros with AI?
 
 Not always. KAIRAS recommends keeping simple macros when they are stable inside a spreadsheet, and moving to scripts, no-code workflows or AI automation when the process affects customers, CRM, documents or business-critical decisions.
+
+## How should a SME choose an AI automation platform?
+
+A SME should choose an AI automation platform by process fit, not by popularity. KAIRAS recommends defining the entry point, decision, action, responsible person and maintenance needs before comparing tools such as Make, n8n, Zapier, CRM systems, chat tools or Microsoft Power Platform.
+
+## What should a company review before hiring AI automation services?
+
+Before hiring AI automation services, a company should review the process to improve, current tools, data quality, required integrations, human review points, maintenance expectations and how impact will be measured.
+
+## How does KAIRAS measure productivity with AI and automation?
+
+KAIRAS measures productivity by practical operational indicators such as response time, manual steps per process, repetitive tasks, errors, opportunities without follow-up and time until a task is completed.
 
 ## Does KAIRAS publish fixed prices?
 

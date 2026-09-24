@@ -117,6 +117,9 @@ const pageMap: Record<string, PageLoader> = {
   'blog-wordpress-automatizacion-ia': () => import('./BlogPostKeywordCluster9'),
   'blog-automatizacion-web-ia-leads': () => import('./BlogPostKeywordCluster9'),
   'blog-macros-scripts-ia-pymes': () => import('./BlogPostKeywordCluster9'),
+  'blog-plataformas-automatizacion-ia-pymes-espana': () => import('./BlogPostKeywordCluster10'),
+  'blog-contratar-servicios-automatizacion-ia-empresa': () => import('./BlogPostKeywordCluster10'),
+  'blog-productividad-ia-automatizacion-negocios': () => import('./BlogPostKeywordCluster10'),
 };
 
 const rootEl = document.getElementById('root')!;

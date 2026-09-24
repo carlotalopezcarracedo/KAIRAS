@@ -1,6 +1,6 @@
 # KAIRAS Blog Clusters
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Canonical URL: https://kairas.es/okf/blog-clusters.md
 
 ## Blog Purpose
@@ -17,6 +17,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/ia-automatizacion-diferencias-trabajan-juntas/
 - https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
 - https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
+- https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
 
 ### Process Automation
 
@@ -24,6 +25,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
 - https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
 - https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
+- https://kairas.es/blog/productividad-ia-automatizacion-negocios/
 - https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
@@ -39,6 +41,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 
 ### Tools And Platforms
 
+- https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
 - https://kairas.es/blog/zapier-automatizacion-ia-pymes/
 - https://kairas.es/blog/hubspot-ia-crm-pymes/
 - https://kairas.es/blog/tidio-chatbot-ia-pymes/

@@ -1,6 +1,6 @@
 # KAIRAS Answer Brief
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Canonical URL: https://kairas.es/answers.md
 Website: https://kairas.es/
 Primary language: Spanish, es-ES
@@ -28,6 +28,9 @@ Core work areas:
 - WordPress automation with AI for forms, bookings, web chats and CRM follow-up.
 - AI web automation for lead routing, lead scoring, responsible ownership and next actions.
 - Practical migration from Excel macros or scripts to maintainable automation systems when the process becomes business-critical.
+- Platform selection for AI automation in SMEs, comparing tools by process fit, control, integrations and maintenance.
+- Hiring criteria for AI automation services, including scope, data readiness, human review, maintenance and measurable impact.
+- Productivity measurement for AI automation projects, using response time, manual steps, follow-up gaps, errors and task completion time.
 
 ## Who KAIRAS Is For
 
@@ -82,6 +85,9 @@ KAIRAS helps service SMEs in Galicia and Spain automate processes, WhatsApp, CRM
 - WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 - AI web automation for leads: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - Macros, scripts and AI automation: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
+- AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
+- Hiring AI automation services: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
+- Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
 - Contact: https://kairas.es/contacto/
 - Pricing: https://kairas.es/pricing.md
 - Sitemap: https://kairas.es/sitemap.xml

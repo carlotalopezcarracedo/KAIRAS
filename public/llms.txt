@@ -2,7 +2,7 @@
 
 > KAIRAS helps service SMEs recover time, reduce manual workload and organize processes with useful automation and applied AI.
 
-Last updated: 2026-09-09
+Last updated: 2026-09-24
 Website: https://kairas.es/
 Language: Spanish, es-ES
 Primary market: Galicia and Spain
@@ -67,6 +67,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - AI and automation working together: https://kairas.es/blog/ia-automatizacion-diferencias-trabajan-juntas/
 - AI local for process automation: https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
 - Kit Digital and automation with AI for SMEs: https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
+- Hiring AI automation services for a company: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
 
 ### Process Automation
 
@@ -74,6 +75,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - Tasks with AI vs full process automation: https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
 - AI and workflow automation: https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
 - Macros, scripts and AI automation for SMEs: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
+- Productivity with AI and automation for service SMEs: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
 - Administrative task automation with AI: https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - Excel, AI and task automation: https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - First process to automate: https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
@@ -90,6 +92,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 ### Tools, Platforms And Data
 
 - Automation tools with AI for SMEs: https://kairas.es/blog/herramientas-automatizacion-ia-pymes/
+- AI automation platform selection for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
 - Zapier and AI automation for SMEs: https://kairas.es/blog/zapier-automatizacion-ia-pymes/
 - HubSpot with AI for SME CRM and follow-up: https://kairas.es/blog/hubspot-ia-crm-pymes/
 - Tidio and AI chatbot for SMEs: https://kairas.es/blog/tidio-chatbot-ia-pymes/
