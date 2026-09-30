@@ -2,7 +2,7 @@
 
 > KAIRAS helps service SMEs recover time, reduce manual workload and organize processes with useful automation and applied AI.
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Website: https://kairas.es/
 Language: Spanish, es-ES
 Primary market: Galicia and Spain
@@ -68,6 +68,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - AI local for process automation: https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
 - Kit Digital and automation with AI for SMEs: https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
 - Hiring AI automation services for a company: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
+- AI consulting for document management in SMEs: https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
 
 ### Process Automation
 
@@ -76,6 +77,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - AI and workflow automation: https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
 - Macros, scripts and AI automation for SMEs: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 - Productivity with AI and automation for service SMEs: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
+- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
 - Administrative task automation with AI: https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - Excel, AI and task automation: https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - First process to automate: https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
@@ -86,6 +88,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - Comparison of AI automation solutions for customer service: https://kairas.es/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/
 - Chatbot with AI for customer service: https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
 - AI assistant for customer service: https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/
+- Make, WhatsApp and AI workflows for SMEs: https://kairas.es/blog/make-whatsapp-ia-pymes/
 - Connect WhatsApp and CRM: https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
 - Messages that help or annoy customers: https://kairas.es/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/
 

@@ -1,6 +1,6 @@
 # KAIRAS Open Knowledge File
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Canonical URL: https://kairas.es/okf/index.md
 Language: es-ES
 
@@ -52,3 +52,6 @@ KAIRAS helps service SMEs recover time, reduce manual work and organize business
 - Seleccion de plataformas de automatizacion con IA para pymes en Espana segun proceso, integraciones y mantenimiento.
 - Contratacion de servicios de automatizacion con IA con criterios de alcance, datos, revision humana e impacto operativo.
 - Medicion de productividad con IA y automatizacion mediante tiempo de respuesta, pasos manuales, errores y seguimiento.
+- Agentes de IA con n8n para procesos con contexto, herramientas, limites y revision humana.
+- Flujos de Make, WhatsApp e IA para conectar conversaciones con CRM, tareas y seguimiento.
+- Consultoria de IA para gestion documental en pymes con documentos, datos y vencimientos.

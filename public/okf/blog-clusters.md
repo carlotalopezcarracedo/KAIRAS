@@ -1,6 +1,6 @@
 # KAIRAS Blog Clusters
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Canonical URL: https://kairas.es/okf/blog-clusters.md
 
 ## Blog Purpose
@@ -18,6 +18,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
 - https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
 - https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
+- https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
 
 ### Process Automation
 
@@ -26,6 +27,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
 - https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 - https://kairas.es/blog/productividad-ia-automatizacion-negocios/
+- https://kairas.es/blog/agentes-ia-n8n-pymes/
 - https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
@@ -33,6 +35,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 ### WhatsApp, CRM And Customer Follow-Up
 
 - https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
+- https://kairas.es/blog/make-whatsapp-ia-pymes/
 - https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - https://kairas.es/blog/whatsapp-business-app-vs-api-pymes/
 - https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/

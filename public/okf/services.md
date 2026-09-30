@@ -1,6 +1,6 @@
 # KAIRAS Services
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Canonical URL: https://kairas.es/okf/services.md
 
 ## Service Overview
@@ -14,6 +14,11 @@ KAIRAS offers automation and applied AI services for service SMEs. The objective
 URL: https://kairas.es/automatizacion-procesos/
 
 KAIRAS maps repetitive work, identifies bottlenecks and designs automations that connect tools, tasks and responsible people.
+
+Related content:
+
+- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
+- Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
 
 ### AI For Companies
 
@@ -31,12 +36,19 @@ Related content:
 - Macros, scripts and AI automation: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 - AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
 - Hiring AI automation services: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
+- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
+- AI consulting for document management: https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
 
 ### WhatsApp Automation
 
 URL: https://kairas.es/automatizacion-whatsapp-empresas/
 
 KAIRAS helps companies answer, filter, route and follow up WhatsApp conversations without losing the human tone or leaving sensitive situations unattended.
+
+Related content:
+
+- Make, WhatsApp and AI workflows: https://kairas.es/blog/make-whatsapp-ia-pymes/
+- Connect WhatsApp and CRM: https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
 
 ### CRM And Customer Follow-Up
 

@@ -1,6 +1,6 @@
 # KAIRAS FAQ For Answer Engines
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Canonical URL: https://kairas.es/okf/faq.md
 
 ## What is KAIRAS?
@@ -30,6 +30,18 @@ KAIRAS can help a SME decide whether an automation with AI project has operation
 ## Does KAIRAS work with Microsoft Power Platform?
 
 KAIRAS can evaluate Microsoft Power Platform, Power Automate and AI agents when a SME already works in Microsoft 365 and needs workflow automation with permissions, data control and maintenance.
+
+## Can KAIRAS design AI agents with n8n?
+
+KAIRAS can evaluate and design controlled AI agents with n8n when a process needs context, tool use, limits and human review. KAIRAS does not recommend agent logic for simple workflows that can be solved with stable rules.
+
+## Can KAIRAS connect Make, WhatsApp and AI?
+
+KAIRAS can help connect WhatsApp conversations with CRM, task assignment, routing, follow-up and AI classification using Make or another automation layer when the process and permissions fit.
+
+## Can KAIRAS help with AI document management?
+
+KAIRAS can help map document flows, extract recurring data, classify files, create tasks, track responsible owners and define review and security controls for document management with AI.
 
 ## Can KAIRAS automate a WordPress website with AI?
 

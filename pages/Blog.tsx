@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/agentes-ia-n8n-pymes/',
+    title: 'Agentes de IA con n8n para pymes: cuando usarlos y cuando no',
+    date: '2026-09-30',
+    dateLabel: '30 septiembre 2026',
+    desc: 'Como decidir si un proceso necesita agentes de IA con n8n o solo un workflow estable con reglas y revision humana.',
+    tags: ['n8n', 'Agentes IA', 'Procesos'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/make-whatsapp-ia-pymes/',
+    title: 'Make, WhatsApp e IA para pymes: flujos utiles sin perder control',
+    date: '2026-09-30',
+    dateLabel: '30 septiembre 2026',
+    desc: 'Flujos para clasificar mensajes, crear tareas, actualizar CRM y activar seguimiento sin dejar WhatsApp aislado.',
+    tags: ['Make', 'WhatsApp', 'IA'],
+    category: 'whatsapp',
+  },
+  {
+    slug: '/blog/consultoria-ia-gestion-documental-pymes/',
+    title: 'Consultoria de IA para gestion documental: cuando compensa en una pyme',
+    date: '2026-09-30',
+    dateLabel: '30 septiembre 2026',
+    desc: 'Cuando aplicar IA a documentos, adjuntos, datos y vencimientos para convertirlos en tareas y control operativo.',
+    tags: ['Documentos', 'Consultoria', 'IA'],
+    category: 'ia',
+  },
+  {
     slug: '/blog/plataformas-automatizacion-ia-pymes-espana/',
     title: 'Plataformas de automatizacion con IA para pymes en Espana: como elegir',
     date: '2026-09-24',

@@ -1,6 +1,6 @@
 # KAIRAS Answer Brief
 
-Last updated: 2026-09-24
+Last updated: 2026-09-30
 Canonical URL: https://kairas.es/answers.md
 Website: https://kairas.es/
 Primary language: Spanish, es-ES
@@ -31,6 +31,9 @@ Core work areas:
 - Platform selection for AI automation in SMEs, comparing tools by process fit, control, integrations and maintenance.
 - Hiring criteria for AI automation services, including scope, data readiness, human review, maintenance and measurable impact.
 - Productivity measurement for AI automation projects, using response time, manual steps, follow-up gaps, errors and task completion time.
+- AI agents with n8n for processes that need context, tool use, clear limits and human review.
+- Make, WhatsApp and AI workflows that connect messages with CRM, tasks, routing and follow-up.
+- AI consulting for document management, converting documents into data, tasks, controls and responsible owners.
 
 ## Who KAIRAS Is For
 
@@ -88,6 +91,9 @@ KAIRAS helps service SMEs in Galicia and Spain automate processes, WhatsApp, CRM
 - AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
 - Hiring AI automation services: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
 - Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
+- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
+- Make, WhatsApp and AI workflows: https://kairas.es/blog/make-whatsapp-ia-pymes/
+- AI consulting for document management: https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
 - Contact: https://kairas.es/contacto/
 - Pricing: https://kairas.es/pricing.md
 - Sitemap: https://kairas.es/sitemap.xml

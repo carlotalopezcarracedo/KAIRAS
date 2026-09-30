@@ -120,6 +120,9 @@ const pageMap: Record<string, PageLoader> = {
   'blog-plataformas-automatizacion-ia-pymes-espana': () => import('./BlogPostKeywordCluster10'),
   'blog-contratar-servicios-automatizacion-ia-empresa': () => import('./BlogPostKeywordCluster10'),
   'blog-productividad-ia-automatizacion-negocios': () => import('./BlogPostKeywordCluster10'),
+  'blog-agentes-ia-n8n-pymes': () => import('./BlogPostKeywordCluster11'),
+  'blog-make-whatsapp-ia-pymes': () => import('./BlogPostKeywordCluster11'),
+  'blog-consultoria-ia-gestion-documental-pymes': () => import('./BlogPostKeywordCluster11'),
 };
 
 const rootEl = document.getElementById('root')!;
