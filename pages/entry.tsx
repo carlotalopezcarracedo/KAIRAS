@@ -1,13 +1,14 @@
-import React, { Suspense } from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import '../index.css';
 
 type PageModule = { default: React.FC };
 type PageLoader = () => Promise<PageModule>;
 
-const pageMap: Record<string, PageLoader> = {
+export const pageMap: Record<string, PageLoader> = {
   servicios: () => import('./Servicios'),
   prensa: () => import('./Prensa'),
+  'sobre-carlota': () => import('./SobreCarlota'),
   contacto: () => import('./ContactoPage'),
   faq: () => import('./FAQ'),
   'automatizacion-procesos': () => import('./AutomatizacionProcesos'),
@@ -125,16 +126,29 @@ const pageMap: Record<string, PageLoader> = {
   'blog-consultoria-ia-gestion-documental-pymes': () => import('./BlogPostKeywordCluster11'),
 };
 
-const rootEl = document.getElementById('root')!;
-const pageName = rootEl.dataset.page ?? '';
-const loadPage = pageMap[pageName];
-const LazyPage = loadPage ? React.lazy(loadPage) : null;
+async function mountPage() {
+  const rootEl = document.getElementById('root');
+  if (!rootEl) return;
 
-const root = ReactDOM.createRoot(rootEl);
-root.render(
-  <React.StrictMode>
-    <Suspense fallback={null}>
-      {LazyPage ? <LazyPage /> : null}
-    </Suspense>
-  </React.StrictMode>
-);
+  const pageName = rootEl.dataset.page ?? '';
+  const loadPage = pageMap[pageName];
+  if (!loadPage) return;
+
+  const { default: Page } = await loadPage();
+  const app = (
+    <React.StrictMode>
+      <Page />
+    </React.StrictMode>
+  );
+
+  if (rootEl.dataset.prerendered === 'true') {
+    hydrateRoot(rootEl, app);
+    return;
+  }
+
+  createRoot(rootEl).render(app);
+}
+
+if (typeof document !== 'undefined') {
+  void mountPage();
+}

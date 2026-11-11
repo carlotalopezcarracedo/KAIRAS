@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const TARGET_ROOT = process.argv.includes('--dist') ? path.join(ROOT, 'dist') : ROOT;
+const IS_DIST = process.argv.includes('--dist');
+const TARGET_ROOT = IS_DIST ? path.join(ROOT, 'dist') : ROOT;
 const SITE_ORIGIN = 'https://kairas.es';
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
 const SOURCE_STATIC_FILES = [
@@ -79,12 +80,56 @@ function hasType(graph, expectedType) {
   });
 }
 
+function canonicalPath(canonical) {
+  try {
+    return new URL(canonical).pathname;
+  } catch {
+    return '';
+  }
+}
+
+function visibleText(html) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&(?:[a-z]+|#\d+|#x[\da-f]+);/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function wordCount(html) {
+  const text = visibleText(html);
+  return text ? text.split(/\s+/).length : 0;
+}
+
 const errors = [];
 let indexablePages = 0;
 let pagesWithBreadcrumb = 0;
 let pagesWithDiscoveryLinks = 0;
 let pagesWithOrganization = 0;
 let pagesWithWebSite = 0;
+let prerenderedPages = 0;
+let renderedBlogPosts = 0;
+let internalLinksChecked = 0;
+const canonicalOwners = new Map();
+
+function internalTargetExists(href) {
+  const rawPath = href.split('#')[0].split('?')[0];
+  if (!rawPath || rawPath === '/') return fs.existsSync(path.join(TARGET_ROOT, 'index.html'));
+
+  let decodedPath;
+  try {
+    decodedPath = decodeURIComponent(rawPath);
+  } catch {
+    return false;
+  }
+
+  const relativePath = decodedPath.replace(/^\/+/, '');
+  const exactTarget = path.join(TARGET_ROOT, relativePath);
+  const indexTarget = path.join(TARGET_ROOT, relativePath, 'index.html');
+  return fs.existsSync(exactTarget) || fs.existsSync(indexTarget);
+}
 
 for (const filePath of walk(TARGET_ROOT)) {
   const html = fs.readFileSync(filePath, 'utf8');
@@ -95,6 +140,49 @@ for (const filePath of walk(TARGET_ROOT)) {
   }
 
   indexablePages += 1;
+  const pathname = canonicalPath(canonical);
+
+  if (canonicalOwners.has(canonical)) {
+    errors.push(`Duplicate canonical ${canonical} in ${path.relative(ROOT, filePath)} and ${canonicalOwners.get(canonical)}`);
+  } else {
+    canonicalOwners.set(canonical, path.relative(ROOT, filePath));
+  }
+
+  if (!/<meta\s+property=["']og:image:alt["']/i.test(html)) {
+    errors.push(`Missing og:image:alt in ${path.relative(ROOT, filePath)}`);
+  }
+  if (!/<meta\s+name=["']twitter:card["']/i.test(html)) {
+    errors.push(`Missing Twitter card in ${path.relative(ROOT, filePath)}`);
+  }
+
+  if (IS_DIST && /<div\b(?=[^>]*\bid=["']root["'])(?=[^>]*\bdata-page=)[^>]*>/i.test(html)) {
+    if (/\bdata-prerendered=["']true["']/i.test(html)) prerenderedPages += 1;
+    else errors.push(`Client-only React page in ${path.relative(ROOT, filePath)}`);
+  }
+
+  if (IS_DIST && pathname.startsWith('/blog/') && pathname !== '/blog/') {
+    const words = wordCount(html);
+    if (words < 200) errors.push(`Thin rendered blog page (${words} words) in ${path.relative(ROOT, filePath)}`);
+    if (/activa JavaScript/i.test(html)) errors.push(`JavaScript fallback remains in ${path.relative(ROOT, filePath)}`);
+    if (!html.includes('href="/sobre-carlota/"')) errors.push(`Missing visible author link in ${path.relative(ROOT, filePath)}`);
+    renderedBlogPosts += 1;
+  }
+
+  if (IS_DIST && pathname === '/blog/') {
+    const linkedPosts = new Set([...html.matchAll(/href=["'](\/blog\/[^"'#?]+\/)["']/gi)].map((match) => match[1]));
+    if (linkedPosts.size < 100) errors.push(`Blog index exposes only ${linkedPosts.size} post links in rendered HTML`);
+  }
+
+  if (IS_DIST) {
+    const hrefs = [...html.matchAll(/\bhref=["']([^"']+)["']/gi)].map((match) => match[1]);
+    for (const href of hrefs) {
+      if (!href.startsWith('/') || href.startsWith('//') || href.startsWith('/#')) continue;
+      internalLinksChecked += 1;
+      if (!internalTargetExists(href)) {
+        errors.push(`Broken internal link ${href} in ${path.relative(ROOT, filePath)}`);
+      }
+    }
+  }
 
   if (
     html.includes(`${SITE_ORIGIN}/llms.txt`) &&
@@ -120,6 +208,20 @@ for (const filePath of walk(TARGET_ROOT)) {
 
     if (hasType(graph, 'WebSite')) pagesWithWebSite += 1;
     else errors.push(`Missing WebSite in ${path.relative(ROOT, filePath)}`);
+
+    const person = graph.find((node) => hasType([node], 'Person'));
+    if (!person?.url || !Array.isArray(person?.sameAs) || person.sameAs.length === 0) {
+      errors.push(`Incomplete Person entity in ${path.relative(ROOT, filePath)}`);
+    }
+
+    const organization = graph.find((node) => hasType([node], 'Organization'));
+    if (!organization?.telephone || !Array.isArray(organization?.sameAs) || organization.sameAs.length === 0) {
+      errors.push(`Incomplete Organization entity in ${path.relative(ROOT, filePath)}`);
+    }
+
+    if (pathname === '/sobre-carlota/' && !hasType(graph, 'ProfilePage')) {
+      errors.push(`Missing ProfilePage schema in ${path.relative(ROOT, filePath)}`);
+    }
   } catch (error) {
     errors.push(error.message);
   }
@@ -137,6 +239,9 @@ const summary = {
   pagesWithDiscoveryLinks,
   pagesWithOrganization,
   pagesWithWebSite,
+  prerenderedPages,
+  renderedBlogPosts,
+  internalLinksChecked,
   staticResources: REQUIRED_STATIC_FILES.length,
   errors: errors.length
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import BlogAuthorMeta from '../components/BlogAuthorMeta';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -33,7 +34,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
               Como saber que proceso automatizar primero en tu empresa
             </h1>
 
-            <p className="text-slate-500 text-xs font-mono mb-12">28 abril 2026 · 10 min de lectura</p>
+            <BlogAuthorMeta>28 abril 2026 · 10 min de lectura</BlogAuthorMeta>
 
             <div className="prose-kairas space-y-7 text-slate-300 text-base leading-relaxed font-light">
               <p className="text-lg text-slate-300 leading-relaxed">

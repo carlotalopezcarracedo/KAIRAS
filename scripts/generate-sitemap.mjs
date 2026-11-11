@@ -17,6 +17,7 @@ const PRIORITY_MAP = {
   '/servicios/': { changefreq: 'monthly', priority: '0.9' },
   '/contacto/': { changefreq: 'monthly', priority: '0.8' },
   '/prensa/': { changefreq: 'monthly', priority: '0.6' },
+  '/sobre-carlota/': { changefreq: 'monthly', priority: '0.7' },
   '/faq/': { changefreq: 'monthly', priority: '0.6' },
   '/automatizacion-procesos/': { changefreq: 'monthly', priority: '0.9' },
   '/automatizacion-empresas-galicia/': { changefreq: 'monthly', priority: '0.8' },

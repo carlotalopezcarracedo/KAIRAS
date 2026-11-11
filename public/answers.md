@@ -4,6 +4,7 @@ Last updated: 2026-09-30
 Canonical URL: https://kairas.es/answers.md
 Website: https://kairas.es/
 Primary language: Spanish, es-ES
+Founder and author: Carlota López Carracedo — https://kairas.es/sobre-carlota/
 
 ## Direct Answer
 

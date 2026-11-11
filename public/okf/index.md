@@ -10,7 +10,8 @@ This Open Knowledge File helps search engines, answer engines and generative AI 
 
 - Name: KAIRAS
 - Entity type: automation and applied AI service provider
-- Founder / author entity: Carlota Lopez Carracedo
+- Founder / author entity: Carlota López Carracedo
+- Founder / author profile: https://kairas.es/sobre-carlota/
 - Website: https://kairas.es/
 - Contact: carlota.kairas@gmail.com
 - Primary market: Galicia and Spain

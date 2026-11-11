@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import BlogAuthorMeta from '../components/BlogAuthorMeta';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -34,7 +35,7 @@ const BlogPostSeguimientoLeads: React.FC = () => {
               Seguimiento de leads en pymes: cuándo insistir y cuándo parar
             </h1>
 
-            <p className="text-slate-500 text-xs font-mono mb-12">29 abril 2026 · 7 min de lectura</p>
+            <BlogAuthorMeta>29 abril 2026 · 7 min de lectura</BlogAuthorMeta>
 
             <div className="prose-kairas space-y-8 text-slate-300 text-base leading-relaxed font-light">
 

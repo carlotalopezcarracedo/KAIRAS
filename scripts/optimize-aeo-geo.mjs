@@ -10,6 +10,10 @@ const WEBSITE_ID = `${SITE_ORIGIN}/#website`;
 const BLOG_ID = `${SITE_ORIGIN}/blog/#blog`;
 const DEFAULT_IMAGE = `${SITE_ORIGIN}/og-kairas.webp`;
 const LOGO_URL = `${SITE_ORIGIN}/logos_KAIRAS_ISOLOGO_HORIZONTAL_NEGRO.png`;
+const AUTHOR_URL = `${SITE_ORIGIN}/sobre-carlota/`;
+const PHONE = '+34 622 262 076';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/';
+const INSTAGRAM_URL = 'https://www.instagram.com/kairas.ai/';
 
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
 
@@ -345,7 +349,7 @@ function isBlogNode(node) {
 }
 
 function isPageNode(node) {
-  return ['WebPage', 'CollectionPage', 'ContactPage', 'AboutPage'].some((type) => hasType(node, type));
+  return ['WebPage', 'CollectionPage', 'ContactPage', 'AboutPage', 'ProfilePage'].some((type) => hasType(node, type));
 }
 
 function asArray(value) {
@@ -369,6 +373,8 @@ function organizationNode() {
     logo: LOGO_URL,
     image: DEFAULT_IMAGE,
     email: 'carlota.kairas@gmail.com',
+    telephone: PHONE,
+    sameAs: [LINKEDIN_URL, INSTAGRAM_URL],
     description:
       'KAIRAS ayuda a pymes de servicios a automatizar procesos, WhatsApp, CRM, seguimiento de clientes y tareas operativas con IA aplicada y control humano.',
     founder: { '@id': PERSON_ID },
@@ -379,6 +385,7 @@ function organizationNode() {
       {
         '@type': 'ContactPoint',
         email: 'carlota.kairas@gmail.com',
+        telephone: PHONE,
         contactType: 'consultoria y automatizacion',
         areaServed: 'ES',
         availableLanguage: ['Spanish', 'es-ES']
@@ -404,7 +411,9 @@ function personNode() {
   return {
     '@id': PERSON_ID,
     '@type': 'Person',
-    name: 'Carlota Lopez Carracedo',
+    name: 'Carlota López Carracedo',
+    url: AUTHOR_URL,
+    sameAs: [LINKEDIN_URL],
     worksFor: { '@id': ORG_ID },
     jobTitle: 'Fundadora de KAIRAS',
     knowsAbout: KNOWS_ABOUT
@@ -443,6 +452,9 @@ function pageType(pathname) {
   }
   if (pathname === '/contacto/') {
     return 'ContactPage';
+  }
+  if (pathname === '/sobre-carlota/') {
+    return 'ProfilePage';
   }
   return 'WebPage';
 }
@@ -622,6 +634,10 @@ function buildGraph(existingNodes, page) {
     primaryEntityId = BLOG_ID;
   }
 
+  if (page.pathname === '/sobre-carlota/') {
+    primaryEntityId = PERSON_ID;
+  }
+
   return [
     organizationNode(),
     personNode(),
@@ -672,6 +688,41 @@ function ensureDiscoveryLinks(html) {
   return html.replace(canonicalMatch[0], `${canonicalMatch[0]}\n    ${missing.map((link) => link.markup).join('\n    ')}`);
 }
 
+function escapeAttribute(value) {
+  return `${value}`
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function ensureSocialMetadata(html, page) {
+  const tags = [];
+  const title = escapeAttribute(page.title);
+  const description = escapeAttribute(page.description);
+
+  if (!/<meta\s+property=["']og:image:alt["']/i.test(html)) {
+    tags.push('<meta property="og:image:alt" content="Identidad visual de KAIRAS, automatización e IA para pymes" />');
+  }
+  if (!/<meta\s+name=["']twitter:card["']/i.test(html)) {
+    tags.push('<meta name="twitter:card" content="summary_large_image" />');
+  }
+  if (!/<meta\s+name=["']twitter:title["']/i.test(html)) {
+    tags.push(`<meta name="twitter:title" content="${title}" />`);
+  }
+  if (!/<meta\s+name=["']twitter:description["']/i.test(html)) {
+    tags.push(`<meta name="twitter:description" content="${description}" />`);
+  }
+  if (!/<meta\s+name=["']twitter:image["']/i.test(html)) {
+    tags.push(`<meta name="twitter:image" content="${DEFAULT_IMAGE}" />`);
+  }
+  if (!/<meta\s+name=["']twitter:image:alt["']/i.test(html)) {
+    tags.push('<meta name="twitter:image:alt" content="Identidad visual de KAIRAS, automatización e IA para pymes" />');
+  }
+
+  return tags.length > 0 ? html.replace(/<\/head>/i, `    ${tags.join('\n    ')}\n</head>`) : html;
+}
+
 function optimizeFile(filePath) {
   const html = fs.readFileSync(filePath, 'utf8');
   const canonical = extract(html, /<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
@@ -698,6 +749,7 @@ function optimizeFile(filePath) {
 
   let nextHtml = removeJsonLd(html);
   nextHtml = ensureDiscoveryLinks(nextHtml);
+  nextHtml = ensureSocialMetadata(nextHtml, page);
   nextHtml = nextHtml.replace(/<\/head>/i, `${schema}\n</head>`);
   nextHtml = nextHtml.replace(/\n{3,}/g, '\n\n');
 

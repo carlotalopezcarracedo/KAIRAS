@@ -6,7 +6,8 @@ Last updated: 2026-09-30
 Website: https://kairas.es/
 Language: Spanish, es-ES
 Primary market: Galicia and Spain
-Founder / author entity: Carlota Lopez Carracedo
+Founder / author entity: Carlota López Carracedo
+Author profile: https://kairas.es/sobre-carlota/
 Contact: carlota.kairas@gmail.com
 
 ## Entity Definition
@@ -27,6 +28,7 @@ KAIRAS helps service SMEs in Galicia and Spain automate processes, WhatsApp, CRM
 - Blog clusters: https://kairas.es/okf/blog-clusters.md
 - FAQ for answer engines: https://kairas.es/okf/faq.md
 - XML sitemap: https://kairas.es/sitemap.xml
+- Founder and author: https://kairas.es/sobre-carlota/
 
 ## What KAIRAS Does
 

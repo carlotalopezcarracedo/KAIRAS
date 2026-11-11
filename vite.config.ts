@@ -31,6 +31,7 @@ export default defineConfig(({ mode }) => {
           main: path.resolve(__dirname, 'index.html'),
           servicios: path.resolve(__dirname, 'servicios/index.html'),
           prensa: path.resolve(__dirname, 'prensa/index.html'),
+          sobreCarlota: path.resolve(__dirname, 'sobre-carlota/index.html'),
           contacto: path.resolve(__dirname, 'contacto/index.html'),
           faq: path.resolve(__dirname, 'faq/index.html'),
           automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos/index.html'),

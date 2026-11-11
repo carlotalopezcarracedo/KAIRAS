@@ -5,7 +5,7 @@ const navLinks = [
   { label: 'Resultados', href: '/#resultados' },
   { label: 'Servicios', href: '/#automatizaciones' },
   { label: 'Como funciona', href: '/#como-funciona' },
-  { label: 'Sobre mi', href: '/#sobre-mi' },
+  { label: 'Sobre Carlota', href: '/sobre-carlota/' },
   { label: 'Contacto', href: '/#contacto' },
 ];
 

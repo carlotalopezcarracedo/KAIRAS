@@ -41,6 +41,9 @@ const Footer: React.FC = () => {
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/prensa/">
                 Prensa
               </a>
+              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/sobre-carlota/">
+                Sobre Carlota
+              </a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/faq/">
                 FAQ
               </a>
@@ -107,7 +110,9 @@ const Footer: React.FC = () => {
           <div className="text-[10px] text-slate-400 font-mono tracking-widest uppercase">© 2026 KAIRAS. All rights reserved.</div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-cyber-purple animate-pulse" />
-            <span className="text-[10px] text-slate-400 font-mono uppercase">Carlota López — fundadora de KAIRAS</span>
+            <a href="/sobre-carlota/" rel="author" className="text-[10px] text-slate-400 hover:text-cyber-purple transition-colors font-mono uppercase">
+              Carlota López — fundadora de KAIRAS
+            </a>
           </div>
         </div>
       </div>

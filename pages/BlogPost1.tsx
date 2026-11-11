@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import BlogAuthorMeta from '../components/BlogAuthorMeta';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -34,7 +35,7 @@ const BlogPost1: React.FC = () => {
               Las automatizaciones que más tiempo recuperan en una pyme de servicios
             </h1>
 
-            <p className="text-slate-500 text-xs font-mono mb-12">28 abril 2026 · 6 min de lectura</p>
+            <BlogAuthorMeta>28 abril 2026 · 6 min de lectura</BlogAuthorMeta>
 
             <div className="prose-kairas space-y-8 text-slate-300 text-base leading-relaxed font-light">
 

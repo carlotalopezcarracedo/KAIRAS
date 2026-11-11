@@ -2,6 +2,7 @@ import React, { type ReactNode } from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import BlogAuthorMeta from './BlogAuthorMeta';
 import { whatsappUrl, trackWhatsappClick } from '../lib/cta';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
@@ -59,14 +60,14 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
               {title}
             </h1>
 
-            <p className="text-slate-500 text-xs font-mono mb-12">{dateLabel} · {readTime}</p>
+            <BlogAuthorMeta>{dateLabel} · {readTime}</BlogAuthorMeta>
 
             <div className="prose-kairas space-y-8 text-slate-300 text-base leading-relaxed font-light">
               {children}
             </div>
 
             <div className="mt-16 pt-12 border-t border-white/10">
-              <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">{ctaEyebrow}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">{ctaEyebrow}</p>
               <a
                 href="/contacto/"
                 className="inline-flex items-center justify-center gap-3 bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all"
@@ -81,7 +82,7 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
         {relatedResources.length > 0 && (
           <section className="py-16 px-6 border-t border-white/5">
             <div className="max-w-2xl mx-auto">
-              <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-500 mb-6">Mas recursos</p>
+              <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-400 mb-6">Mas recursos</p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {relatedResources.map((resource) => (
                   <a
