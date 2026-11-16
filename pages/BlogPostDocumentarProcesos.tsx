@@ -11,12 +11,12 @@ const BlogPostDocumentarProcesos: React.FC = () => {
       ctaEyebrow="Tu operativa depende de instrucciones que nadie tiene por escrito?"
       ctaLabel="Ordenar mis procesos"
       relatedResources={[
-        { href: '/optimizacion-operativa-pymes/', label: 'Optimizacion operativa' },
+        { href: '/optimizacion-operativa-pymes/', label: 'Optimización operativa' },
         { href: '/blog/todo-depende-de-una-sola-persona/', label: 'Dependencia de una persona' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Documentar procesos no deberia significar crear manuales eternos que nadie abre.
+        Documentar procesos no debería significar crear manuales eternos que nadie abre.
         En una pyme, documentar bien significa que otra persona pueda ejecutar una tarea critica sin tener que preguntar cada paso.
       </p>
 
@@ -26,7 +26,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que procesos merece la pena documentar primero
+        Qué procesos merece la pena documentar primero
       </h2>
 
       <p>
@@ -42,12 +42,12 @@ const BlogPostDocumentarProcesos: React.FC = () => {
       </ul>
 
       <p>
-        Esta seleccion conecta con el problema de <a href="/blog/todo-depende-de-una-sola-persona/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando todo depende de una sola persona</a>.
+        Esta selección conecta con el problema de <a href="/blog/todo-depende-de-una-sola-persona/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando todo depende de una sola persona</a>.
         Documentar no es burocracia. Es reducir riesgo operativo.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        La plantilla minima que funciona
+        La plantilla mínima que funciona
       </h2>
 
       <p>
@@ -63,7 +63,7 @@ const BlogPostDocumentarProcesos: React.FC = () => {
       </ul>
 
       <p>
-        Si no cabe en una pagina, probablemente estas mezclando varios procesos.
+        Si no cabe en una página, probablemente estas mezclando varios procesos.
         Divide antes de documentar.
       </p>
 
@@ -72,16 +72,16 @@ const BlogPostDocumentarProcesos: React.FC = () => {
       </h2>
 
       <p>
-        Objetivo: que ningun presupuesto enviado quede sin seguimiento.
-        Activador: se envia una propuesta al cliente.
-        Pasos: registrar fecha, importe, responsable y proximo contacto.
-        Criterio: si no responde en tres dias, enviar recordatorio; si no responde tras dos intentos, pasar a seguimiento de largo plazo.
-        Resultado: presupuesto aceptado, rechazado o clasificado como frio.
+        Objetivo: que ningún presupuesto enviado quede sin seguimiento.
+        Activador: se envía una propuesta al cliente.
+        Pasos: registrar fecha, importe, responsable y próximo contacto.
+        Criterio: si no responde en tres días, enviar recordatorio; si no responde tras dos intentos, pasar a seguimiento de largo plazo.
+        Resultado: presupuesto aceptado, rechazado o clasificado como frío.
       </p>
 
       <p>
-        Este proceso despues puede automatizarse.
-        Pero si no esta documentado, cualquier automatizacion sera confusa.
+        Este proceso después puede automatizarse.
+        Pero si no esta documentado, cualquier automatización sera confusa.
         Por eso, antes de crear flujos, conviene revisar <a href="/blog/automatizar-presupuestos-seguimiento-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">como automatizar presupuestos y seguimiento</a>.
       </p>
 
@@ -93,34 +93,34 @@ const BlogPostDocumentarProcesos: React.FC = () => {
         <li>Documentar el proceso ideal, no el real.</li>
         <li>Escribir demasiado y hacerlo imposible de mantener.</li>
         <li>No incluir quien es responsable.</li>
-        <li>No definir que pasa cuando hay una excepcion.</li>
+        <li>No definir que pasa cuando hay una excepción.</li>
         <li>Guardar el documento en un sitio que nadie usa.</li>
       </ul>
 
       <p>
         El documento tiene que vivir cerca de la tarea.
-        Si el equipo trabaja en CRM, gestor de tareas o carpeta compartida, el proceso debe estar ahi.
+        Si el equipo trabaja en CRM, gestor de tareas o carpeta compartida, el proceso debe estar ahí.
         Si hay que buscarlo durante cinco minutos, no se usara.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Como conectar documentacion y automatizacion
+        Cómo conectar documentación y automatización
       </h2>
 
       <p>
-        Documentar te ayuda a separar lo que requiere criterio de lo que solo requiere ejecucion.
+        Documentar te ayuda a separar lo que requiere criterio de lo que solo requiere ejecución.
         Lo primero se forma y se supervisa.
         Lo segundo se puede automatizar.
       </p>
 
       <p>
         Por ejemplo, decidir si una propuesta encaja con un cliente requiere criterio.
-        Crear una tarea de seguimiento tres dias despues no.
-        Esa diferencia es la base de una <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos</a> bien planteada.
+        Crear una tarea de seguimiento tres días después no.
+        Esa diferencia es la base de una <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a> bien planteada.
       </p>
 
       <p>
-        Empieza pequeño: un proceso critico, una pagina, una persona responsable y una revision mensual.
+        Empieza pequeño: un proceso critico, una página, una persona responsable y una revisión mensual.
         Con eso ya puedes reducir dependencia y preparar el terreno para automatizar con sentido.
       </p>
     </BlogPostLayout>

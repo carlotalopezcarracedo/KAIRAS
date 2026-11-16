@@ -2,12 +2,14 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ServiceDepth from '../components/ServiceDepth';
+import { procesos } from '../lib/serviceContent';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
 const RELATED = [
   { title: 'Empresas en Galicia', href: '/automatizacion-empresas-galicia/' },
-  { title: 'Automatizacion de WhatsApp', href: '/automatizacion-whatsapp-empresas/' },
+  { title: 'Automatización de WhatsApp', href: '/automatizacion-whatsapp-empresas/' },
   { title: 'CRM y seguimiento', href: '/crm-pymes-seguimiento-clientes/' },
 ];
 
@@ -27,7 +29,7 @@ const AutomatizacionProcesos: React.FC = () => {
                 KAIRAS
               </a>
               <span className="mx-2 opacity-40">/</span>
-              Automatizacion de procesos
+              Automatización de procesos
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.9] mb-8">
               Automatización de procesos para pymes: deja de repetir lo que ya puede ir solo
@@ -63,20 +65,20 @@ const AutomatizacionProcesos: React.FC = () => {
                 </p>
               </div>
               <div className="glass-card p-8 rounded-3xl border-white/10">
-                <h3 className="text-base font-bold uppercase tracking-wider mb-3">Atencion y respuesta inicial</h3>
+                <h3 className="text-base font-bold uppercase tracking-wider mb-3">Atención y respuesta inicial</h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
-                  Respuestas tempranas a consultas frecuentes, filtrado de mensajes y derivacion al equipo
+                  Respuestas tempranas a consultas frecuentes, filtrado de mensajes y derivación al equipo
                   cuando hace falta criterio humano.
                 </p>
               </div>
               <div className="glass-card p-8 rounded-3xl border-white/10">
                 <h3 className="text-base font-bold uppercase tracking-wider mb-3">Agenda y citas</h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
-                  Confirmaciones y recordatorios automaticos para reducir no-shows y evitar seguimiento manual.
+                  Confirmaciones y recordatorios automáticos para reducir no-shows y evitar seguimiento manual.
                 </p>
               </div>
               <div className="glass-card p-8 rounded-3xl border-white/10">
-                <h3 className="text-base font-bold uppercase tracking-wider mb-3">Datos y coordinacion interna</h3>
+                <h3 className="text-base font-bold uppercase tracking-wider mb-3">Datos y coordinación interna</h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
                   Registro en CRM, notificaciones internas y trazabilidad de tareas para que el equipo trabaje
                   con contexto y menos interrupciones.
@@ -89,11 +91,11 @@ const AutomatizacionProcesos: React.FC = () => {
         <section className="py-24 px-6">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
             <div className="glass-card p-8 rounded-3xl border-white/10">
-              <h2 className="text-2xl font-black tracking-tighter uppercase mb-4">Como trabajamos</h2>
+              <h2 className="text-2xl font-black tracking-tighter uppercase mb-4">Cómo trabajamos</h2>
               <ul className="text-sm text-slate-400 leading-relaxed space-y-3 list-disc pl-5">
-                <li>Diagnostico operativo para detectar donde se pierde mas tiempo.</li>
-                <li>Priorizacion por impacto y facilidad de implantacion.</li>
-                <li>Configuracion del flujo con tus herramientas actuales.</li>
+                <li>Diagnóstico operativo para detectar donde se pierde más tiempo.</li>
+                <li>Priorización por impacto y facilidad de implantación.</li>
+                <li>Configuración del flujo con tus herramientas actuales.</li>
                 <li>Pruebas y seguimiento para ajustar antes de escalar.</li>
               </ul>
             </div>
@@ -101,7 +103,7 @@ const AutomatizacionProcesos: React.FC = () => {
               <h2 className="text-2xl font-black tracking-tighter uppercase mb-4">Siguiente paso</h2>
               <p className="text-sm text-slate-400 leading-relaxed mb-6">
                 Si hoy tienes procesos manuales que se repiten cada semana, podemos priorizar el primero
-                que conviene automatizar y definir un plan de ejecucion realista.
+                que conviene automatizar y definir un plan de ejecución realista.
               </p>
               <a
                 href="/contacto/"
@@ -114,9 +116,11 @@ const AutomatizacionProcesos: React.FC = () => {
           </div>
         </section>
 
+        <ServiceDepth content={procesos} />
+
         <section className="py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-500 mb-8">Explora tambien</p>
+            <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-500 mb-8">Explora también</p>
             <div className="grid sm:grid-cols-3 gap-4">
               {RELATED.map((page) => (
                 <a

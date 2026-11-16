@@ -5,7 +5,7 @@ const BlogPostHerramientasIA: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['Herramientas', 'IA', 'Decision']}
-      title="Herramientas de automatizacion con IA para pymes: que mirar antes de elegir"
+      title="Herramientas de automatización con IA para pymes: que mirar antes de elegir"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"
       ctaEyebrow="Tienes demasiadas herramientas y poco sistema?"
@@ -16,17 +16,17 @@ const BlogPostHerramientasIA: React.FC = () => {
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Las herramientas de automatizacion con IA pueden ayudar mucho a una pyme, pero elegir por moda suele acabar en mas trabajo,
-        mas pagos mensuales y menos claridad.
+        Las herramientas de automatización con IA pueden ayudar mucho a una pyme, pero elegir por moda suele acabar en más trabajo,
+        más pagos mensuales y menos claridad.
       </p>
 
       <p>
-        La pregunta no es cual es la herramienta mas potente.
+        La pregunta no es cual es la herramienta más potente.
         La pregunta es que proceso necesita apoyo y que herramienta encaja sin romper la operativa diaria.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Herramientas de automatizacion con IA: criterios antes de comparar
+        Herramientas de automatización con IA: criterios antes de comparar
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
@@ -38,7 +38,7 @@ const BlogPostHerramientasIA: React.FC = () => {
       </ul>
 
       <p>
-        Si una herramienta no responde estas preguntas, puede ser buena tecnologia pero mala decision para tu empresa.
+        Si una herramienta no responde estas preguntas, puede ser buena tecnología pero mala decisión para tu empresa.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -47,13 +47,13 @@ const BlogPostHerramientasIA: React.FC = () => {
 
       <p>
         Muchas pymes empiezan probando una herramienta para WhatsApp, otra para emails, otra para IA y otra para tareas.
-        Al principio parece avanzar rapido.
-        Despues nadie sabe donde esta la informacion buena.
+        Al principio parece avanzar rápido.
+        Después nadie sabe donde esta la información buena.
       </p>
 
       <p>
         Este problema ya aparece en <a href="/blog/herramientas-desconectadas-equipo-va-tarde/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas desconectadas</a>.
-        La IA no lo arregla sola: si las fuentes no estan claras, solo acelera el desorden.
+        La IA no lo arregla sola: si las fuentes no están claras, solo acelera el desorden.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -61,22 +61,22 @@ const BlogPostHerramientasIA: React.FC = () => {
       </h2>
 
       <p>
-        En una pyme de servicios suelen entrar herramientas de CRM, automatizacion no-code, chatbots, gestion documental, email, calendario y analitica.
-        Todas pueden ser utiles, pero solo si cumplen una funcion dentro de un sistema.
+        En una pyme de servicios suelen entrar herramientas de CRM, automatización no-code, chatbots, gestión documental, email, calendario y analítica.
+        Todas pueden ser útiles, pero solo si cumplen una función dentro de un sistema.
       </p>
 
       <p>
-        Por ejemplo, un chatbot sin CRM puede responder rapido pero dejar el seguimiento perdido.
+        Por ejemplo, un chatbot sin CRM puede responder rápido pero dejar el seguimiento perdido.
         Un CRM sin proceso puede convertirse en una base de datos incompleta.
-        Una IA documental sin reglas puede clasificar mal informacion sensible.
+        Una IA documental sin reglas puede clasificar mal información sensible.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Como elegir con criterio
+        Cómo elegir con criterio
       </h2>
 
       <p>
-        Elige primero el flujo y despues la herramienta.
+        Elige primero el flujo y después la herramienta.
         Dibuja el proceso, define el resultado esperado y revisa si la herramienta puede integrarse con lo que ya usas.
       </p>
 

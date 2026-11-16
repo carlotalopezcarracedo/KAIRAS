@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import BlogAuthorMeta from './BlogAuthorMeta';
 import { whatsappUrl, trackWhatsappClick } from '../lib/cta';
+import { officialSourcesFor } from '../lib/officialSources';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -33,6 +34,8 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
   relatedResources = [],
   children,
 }) => {
+  const officialSources = officialSourcesFor(`${title} ${tags.join(' ')}`);
+
   return (
     <div className="relative min-h-[100svh]">
       <div className="hidden md:block fixed inset-0 grainy-overlay z-50 pointer-events-none" />
@@ -66,6 +69,23 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
               {children}
             </div>
 
+            {officialSources.length > 0 && (
+              <aside className="mt-12 pt-8 border-t border-white/10" aria-labelledby="fuentes-oficiales">
+                <h2 id="fuentes-oficiales" className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">
+                  Documentación oficial
+                </h2>
+                <ul className="space-y-2 text-sm list-disc pl-5 text-slate-400">
+                  {officialSources.map((source) => (
+                    <li key={source.href}>
+                      <a href={source.href} target="_blank" rel="noopener" className="text-cyber-purple hover:text-white underline underline-offset-4">
+                        {source.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </aside>
+            )}
+
             <div className="mt-16 pt-12 border-t border-white/10">
               <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">{ctaEyebrow}</p>
               <a
@@ -82,7 +102,7 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
         {relatedResources.length > 0 && (
           <section className="py-16 px-6 border-t border-white/5">
             <div className="max-w-2xl mx-auto">
-              <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-400 mb-6">Mas recursos</p>
+              <p className="text-xs font-bold tracking-[0.4em] uppercase text-slate-400 mb-6">Más recursos</p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {relatedResources.map((resource) => (
                   <a

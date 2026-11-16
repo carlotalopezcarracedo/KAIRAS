@@ -31,7 +31,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
-              Como reducir ausencias en clinicas con recordatorios automaticos
+              Cómo reducir ausencias en clínicas con recordatorios automáticos
             </h1>
 
             <BlogAuthorMeta>28 abril 2026 · 10 min de lectura</BlogAuthorMeta>
@@ -39,71 +39,71 @@ const BlogPostAusenciasClinicas: React.FC = () => {
             <div className="prose-kairas space-y-7 text-slate-300 text-base leading-relaxed font-light">
               <p className="text-lg text-slate-300 leading-relaxed">
                 Una ausencia en agenda no es solo un hueco.
-                Es tiempo del equipo perdido, una friccion para recepcion y, muchas veces, una continuidad asistencial que se debilita.
-                Cuando esto se repite cada semana, la clinica entra en modo reactivo: confirmar, recolocar, llamar y apagar fuegos.
+                Es tiempo del equipo perdido, una fricción para recepción y, muchas veces, una continuidad asistencial que se debilita.
+                Cuando esto se repite cada semana, la clínica entra en modo reactivo: confirmar, recolocar, llamar y apagar fuegos.
               </p>
 
               <p>
-                El problema no se resuelve con mas llamadas manuales.
-                Se resuelve con un sistema de confirmacion y recordatorio que funcione siempre,
+                El problema no se resuelve con más llamadas manuales.
+                Se resuelve con un sistema de confirmación y recordatorio que funcione siempre,
                 en el canal que el paciente realmente usa.
-                En muchas clinicas ese canal es WhatsApp.
+                En muchas clínicas ese canal es WhatsApp.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Por que se producen tantas ausencias aunque el equipo lo intente
+                Por qué se producen tantas ausencias aunque el equipo lo intente
               </h2>
 
               <p>
-                Porque la confirmacion depende de tareas manuales y tiempos variables.
-                Un dia se confirma todo. Otro dia hay saturacion y se queda a medias.
+                Porque la confirmación depende de tareas manuales y tiempos variables.
+                Un día se confirma todo. Otro día hay saturación y se queda a medias.
                 Un paciente cambia de planes y no avisa. Otro no ve el email a tiempo.
                 El resultado es una agenda con incertidumbre.
               </p>
 
               <p>
-                Ademas, muchas clinicas no separan tipos de cita ni nivel de riesgo de ausencia.
+                Además, muchas clínicas no separan tipos de cita ni nivel de riesgo de ausencia.
                 Se comunica igual a todos, cuando no todos los pacientes necesitan el mismo flujo.
                 Eso genera ruido en unos casos y falta de insistencia en otros.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Que hace un sistema de recordatorios automaticos bien disenado
+                Qué hace un sistema de recordatorios automáticos bien diseñado
               </h2>
 
-              <h3 className="text-lg font-black uppercase tracking-wider text-white">Confirma con antelacion util</h3>
+              <h3 className="text-lg font-black uppercase tracking-wider text-white">Confirma con antelación útil</h3>
               <p>
                 Un recordatorio enviado con margen permite reaccionar: confirmar, reagendar o liberar hueco para otro paciente.
-                El objetivo no es solo avisar. Es dar tiempo operativo a recepcion para reorganizar agenda.
+                El objetivo no es solo avisar. Es dar tiempo operativo a recepción para reorganizar agenda.
               </p>
 
               <h3 className="text-lg font-black uppercase tracking-wider text-white">Reduce olvidos sin saturar mensajes</h3>
               <p>
                 Demasiados avisos cansan. Muy pocos no llegan.
-                El equilibrio suele estar en una secuencia corta y clara: recordatorio principal y, segun tipo de cita,
-                un refuerzo en el mismo dia.
+                El equilibrio suele estar en una secuencia corta y clara: recordatorio principal y, según tipo de cita,
+                un refuerzo en el mismo día.
               </p>
 
               <h3 className="text-lg font-black uppercase tracking-wider text-white">Deja trazabilidad para tomar decisiones</h3>
               <p>
                 No basta con enviar mensajes.
-                Necesitas saber quien confirmo, quien no respondio y donde se concentran las ausencias.
-                Sin ese dato, no puedes ajustar politica de agenda ni carga de recepcion.
+                Necesitas saber quien confirmo, quien no respondió y donde se concentran las ausencias.
+                Sin ese dato, no puedes ajustar política de agenda ni carga de recepción.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Estructura recomendada para clinicas de servicios
+                Estructura recomendada para clínicas de servicios
               </h2>
 
               <p>
-                Esta estructura funciona bien en la mayoria de centros pequenos y medianos:
+                Esta estructura funciona bien en la mayoría de centros pequeños y medianos:
               </p>
 
               <p>
-                Paso 1: mensaje de confirmacion al registrar la cita.
+                Paso 1: mensaje de confirmación al registrar la cita.
                 Paso 2: recordatorio con 24-48 horas de margen.
-                Paso 3: refuerzo el mismo dia en citas de mayor riesgo.
-                Paso 4: si no hay respuesta, alerta interna para accion del equipo.
+                Paso 3: refuerzo el mismo día en citas de mayor riesgo.
+                Paso 4: si no hay respuesta, alerta interna para acción del equipo.
               </p>
 
               <p>
@@ -112,74 +112,74 @@ const BlogPostAusenciasClinicas: React.FC = () => {
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Donde encaja WhatsApp y donde encaja el equipo humano
+                Dónde encaja WhatsApp y donde encaja el equipo humano
               </h2>
 
               <p>
                 WhatsApp funciona muy bien para confirmaciones y cambios simples.
                 No sustituye el trato clinico ni conversaciones sensibles.
                 Por eso conviene diseñar el flujo con dos capas:
-                automatizacion para lo repetitivo y derivacion humana cuando hace falta criterio.
+                automatización para lo repetitivo y derivación humana cuando hace falta criterio.
               </p>
 
               <p>
-                Esa combinacion suele dar mejores resultados que intentar resolver todo con llamadas manuales o con un bot rigido.
+                Esa combinación suele dar mejores resultados que intentar resolver todo con llamadas manuales o con un bot rigido.
                 Si quieres ver el marco tecnico de canal,
-                puedes apoyarte en la pagina de
-                <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50"> automatizacion de WhatsApp para empresas</a>
+                puedes apoyarte en la página de
+                <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50"> automatización de WhatsApp para empresas</a>
                 y adaptarlo a contexto clinico.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Como evitar que el sistema se quede en "enviar mensajes"
+                Cómo evitar que el sistema se quede en "enviar mensajes"
               </h2>
 
               <p>
                 Un error frecuente es implementar recordatorios sin conectar datos.
                 Si no registras respuestas ni estado de cita, sigues trabajando a ciegas.
-                Por eso es clave unir agenda, mensajeria y seguimiento en un unico criterio operativo.
+                Por eso es clave unir agenda, mensajeria y seguimiento en un único criterio operativo.
               </p>
 
               <p>
-                Aqui entra la logica de
+                Aquí entra la logica de
                 <a href="/crm-pymes-seguimiento-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50"> CRM y seguimiento de clientes</a>:
-                no para burocratizar la clinica, sino para tener continuidad y medir donde se producen las ausencias.
-                Cuando ese dato existe, puedes ajustar horarios, reforzar ciertos tramos y mejorar ocupacion.
+                no para burocratizar la clínica, sino para tener continuidad y medir donde se producen las ausencias.
+                Cuando ese dato existe, puedes ajustar horarios, reforzar ciertos tramos y mejorar ocupación.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Indicadores minimos para saber si mejora
+                Indicadores mínimos para saber si mejora
               </h2>
 
               <p>
                 Para no quedarse en sensaciones, define tres indicadores simples:
                 porcentaje de citas confirmadas,
                 porcentaje de ausencias sobre agenda total,
-                y tiempo de reaccion cuando aparece un hueco.
+                y tiempo de reacción cuando aparece un hueco.
               </p>
 
               <p>
-                Con estos tres datos ya puedes comparar antes y despues.
+                Con estos tres datos ya puedes comparar antes y después.
                 Si bajan las ausencias y mejora la capacidad de recolocar, el sistema esta funcionando.
-                Si no mejora, toca revisar frecuencia, redaccion de mensajes y reglas de escalado.
+                Si no mejora, toca revisar frecuencia, redacción de mensajes y reglas de escalado.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Que cambia en la operativa de la clinica
+                Qué cambia en la operativa de la clínica
               </h2>
 
               <p>
-                Cuando el flujo esta bien resuelto, recepcion deja de ir siempre tarde.
-                El equipo clinico trabaja con agenda mas estable.
-                Los pacientes reciben instrucciones mas claras y consistentes.
-                Y la direccion gana visibilidad para decidir con criterio, no con intuicion.
+                Cuando el flujo esta bien resuelto, recepción deja de ir siempre tarde.
+                El equipo clinico trabaja con agenda más estable.
+                Los pacientes reciben instrucciones más claras y consistentes.
+                Y la dirección gana visibilidad para decidir con criterio, no con intuición.
               </p>
 
               <p>
                 En resumen: menos ausencias, menos carga manual y mejor continuidad asistencial.
                 Esto conecta directo con el enfoque de
-                <a href="/automatizacion-clinicas/" className="text-cyber-purple underline decoration-cyber-purple/50"> automatizacion para clinicas</a>,
-                donde el objetivo no es meter tecnologia por meter,
+                <a href="/automatizacion-clinicas/" className="text-cyber-purple underline decoration-cyber-purple/50"> automatización para clínicas</a>,
+                donde el objetivo no es meter tecnología por meter,
                 sino proteger tiempo operativo y calidad de servicio.
               </p>
 
@@ -190,7 +190,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
               <p>
                 En muchos entornos se usa el termino no-shows para hablar de ausencias.
                 Da igual la etiqueta: el impacto operativo es el mismo.
-                Lo importante es tener un sistema que prevenga olvidos y permita reaccionar rapido cuando una cita se cae.
+                Lo importante es tener un sistema que prevenga olvidos y permita reaccionar rápido cuando una cita se cae.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -199,7 +199,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
 
               <p>
                 Error uno: copiar mensajes de otro centro sin adaptar tono, especialidad y tipo de paciente.
-                El recordatorio tiene que sonar a tu clinica y ser claro para tu operativa real.
+                El recordatorio tiene que sonar a tu clínica y ser claro para tu operativa real.
               </p>
 
               <p>
@@ -210,23 +210,23 @@ const BlogPostAusenciasClinicas: React.FC = () => {
               <p>
                 Error tres: medir solo \"mensajes enviados\".
                 Lo que importa no es enviar, sino confirmar citas, reducir ausencias y mejorar capacidad de recolocar agenda.
-                Si esos tres indicadores no mejoran, toca ajustar flujo, no enviar mas avisos.
+                Si esos tres indicadores no mejoran, toca ajustar flujo, no enviar más avisos.
               </p>
 
               <p>
-                Un ajuste pequeno en el momento de envio puede mover mucho resultado.
-                Por eso conviene revisar datos cada semana al principio y afinar rapido,
+                Un ajuste pequeño en el momento de envio puede mover mucho resultado.
+                Por eso conviene revisar datos cada semana al principio y afinar rápido,
                 en lugar de esperar meses para corregir una secuencia que ya sabias que no estaba cerrando bien.
               </p>
             </div>
 
             <div className="mt-16 pt-12 border-t border-white/10">
-              <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Si tu clinica tiene huecos semanales por ausencias, podemos revisarlo contigo.</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Si tu clínica tiene huecos semanales por ausencias, podemos revisarlo contigo.</p>
               <a
                 href="/contacto/"
                 className="inline-flex items-center justify-center gap-3 bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 transition-all"
               >
-                Revisar ausencias de mi clinica
+                Revisar ausencias de mi clínica
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>

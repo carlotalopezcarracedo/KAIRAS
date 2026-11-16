@@ -2,6 +2,8 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ServiceDepth from '../components/ServiceDepth';
+import { clinicas } from '../lib/serviceContent';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -15,9 +17,9 @@ const AutomatizacionClinicas: React.FC = () => {
       <main id="main-content">
         <section className="px-6 pt-32 pb-20 text-center">
           <div className="max-w-4xl mx-auto">
-            <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">Clinicas</p>
+            <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">Clínicas</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.92] mb-8">
-              Automatizacion para clinicas y centros de salud con alta carga operativa
+              Automatización para clínicas y centros de salud con alta carga operativa
             </h1>
             <p className="text-lg text-slate-400 font-light max-w-3xl mx-auto leading-relaxed">
               Automatizamos recordatorios, confirmaciones, seguimiento de pacientes y tareas administrativas
@@ -31,23 +33,25 @@ const AutomatizacionClinicas: React.FC = () => {
             <div className="glass-card p-8 rounded-3xl border-white/10">
               <h2 className="text-lg font-black uppercase tracking-wider mb-4">Flujos habituales</h2>
               <ul className="text-sm text-slate-400 leading-relaxed space-y-3 list-disc pl-5">
-                <li>Confirmacion automatica de cita y recordatorios previos.</li>
+                <li>Confirmación automática de cita y recordatorios previos.</li>
                 <li>Mensajes post-consulta con pautas y siguientes pasos.</li>
-                <li>Reactivacion de pacientes con revisiones pendientes.</li>
-                <li>Derivacion interna de incidencias con contexto completo.</li>
+                <li>Reactivación de pacientes con revisiones pendientes.</li>
+                <li>Derivación interna de incidencias con contexto completo.</li>
               </ul>
             </div>
             <div className="glass-card p-8 rounded-3xl border-white/10">
               <h2 className="text-lg font-black uppercase tracking-wider mb-4">Beneficios esperados</h2>
               <ul className="text-sm text-slate-400 leading-relaxed space-y-3 list-disc pl-5">
-                <li>Menos llamadas de confirmacion y menos no-shows.</li>
-                <li>Atencion mas consistente sin saturar recepcion.</li>
+                <li>Menos llamadas de confirmación y menos no-shows.</li>
+                <li>Atención más consistente sin saturar recepción.</li>
                 <li>Mejor trazabilidad de pacientes y tareas.</li>
-                <li>Mas tiempo para trabajo clinico y seguimiento de calidad.</li>
+                <li>Más tiempo para trabajo clinico y seguimiento de calidad.</li>
               </ul>
             </div>
           </div>
         </section>
+
+        <ServiceDepth content={clinicas} />
 
         <section className="px-6 pb-24">
           <div className="max-w-3xl mx-auto text-center">

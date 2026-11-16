@@ -28,7 +28,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Donde se rompe el proceso de presupuesto
+        Dónde se rompe el proceso de presupuesto
       </h2>
 
       <p>Los fallos suelen repetirse en cuatro puntos:</p>
@@ -48,61 +48,61 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que partes se pueden automatizar
+        Qué partes se pueden automatizar
       </h2>
 
       <h3 className="text-base font-black uppercase tracking-wider text-white/80 pt-2">
-        Recogida de informacion
+        Recogida de información
       </h3>
       <p>
-        Un formulario bien diseñado o un flujo por WhatsApp puede pedir los datos minimos antes de que el equipo intervenga.
-        No tiene que sustituir la conversacion, pero si evitar que cada presupuesto empiece con preguntas sueltas.
+        Un formulario bien diseñado o un flujo por WhatsApp puede pedir los datos mínimos antes de que el equipo intervenga.
+        No tiene que sustituir la conversación, pero si evitar que cada presupuesto empiece con preguntas sueltas.
       </p>
 
       <h3 className="text-base font-black uppercase tracking-wider text-white/80 pt-2">
-        Generacion de borrador
+        Generación de borrador
       </h3>
       <p>
         Si vendes servicios con variantes repetidas, el sistema puede preparar un borrador con estructura, condiciones y bloques de texto.
         Una persona revisa y ajusta lo que requiere criterio.
-        Asi no se pierde tiempo en formato ni en copiar textos recurrentes.
+        Así no se pierde tiempo en formato ni en copiar textos recurrentes.
       </p>
 
       <h3 className="text-base font-black uppercase tracking-wider text-white/80 pt-2">
         Registro y siguiente paso
       </h3>
       <p>
-        Cada presupuesto enviado deberia crear una accion de seguimiento.
+        Cada presupuesto enviado debería crear una acción de seguimiento.
         Fecha, responsable, importe estimado, estado y canal de contacto.
         Si esto no entra en el CRM, la propuesta queda en tierra de nadie.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        La cadencia de seguimiento importa mas que el envio
+        La cadencia de seguimiento importa más que el envio
       </h2>
 
       <p>
-        Enviar rapido ayuda, pero no cierra por si solo.
-        Despues del envio hay que acompañar la decision sin perseguir al cliente.
+        Enviar rápido ayuda, pero no cierra por si solo.
+        Después del envio hay que acompañar la decisión sin perseguir al cliente.
         Una secuencia sencilla suele funcionar mejor que intentos improvisados.
       </p>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>Confirmacion de envio el mismo dia, con resumen claro de la propuesta.</li>
-        <li>Primer seguimiento a los 2 o 3 dias si no hay respuesta.</li>
-        <li>Segundo seguimiento con aclaracion de dudas o ejemplo aplicado.</li>
+        <li>Confirmación de envio el mismo día, con resumen claro de la propuesta.</li>
+        <li>Primer seguimiento a los 2 o 3 días si no hay respuesta.</li>
+        <li>Segundo seguimiento con aclaración de dudas o ejemplo aplicado.</li>
         <li>Cierre suave si no responde, dejando la puerta abierta.</li>
       </ul>
 
       <p>
         Esto debe adaptarse al ciclo de compra.
-        No es lo mismo una cita puntual que un proyecto de reformas o una implantacion de software.
+        No es lo mismo una cita puntual que un proyecto de reformas o una implantación de software.
         La logica de <a href="/blog/seguimiento-leads-pymes-cuando-insistir/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando insistir y cuando parar con un lead</a>
         aplica directamente a presupuestos.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que debe medir una pyme
+        Qué debe medir una pyme
       </h2>
 
       <p>
@@ -126,7 +126,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Por donde empezar
+        Por dónde empezar
       </h2>
 
       <p>
@@ -137,14 +137,14 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
       </p>
 
       <p>
-        Despues, automatiza solo lo que aporta continuidad:
-        recogida de datos, creacion de borrador, registro en CRM y recordatorio de seguimiento.
-        Si ademas el contacto llega por WhatsApp, tiene sentido revisar como <a href="/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/" className="text-cyber-purple underline decoration-cyber-purple/50">conectar WhatsApp con tu CRM</a>
+        Después, automatiza solo lo que aporta continuidad:
+        recogida de datos, creación de borrador, registro en CRM y recordatorio de seguimiento.
+        Si además el contacto llega por WhatsApp, tiene sentido revisar como <a href="/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/" className="text-cyber-purple underline decoration-cyber-purple/50">conectar WhatsApp con tu CRM</a>
         para no perder el hilo entre canal y propuesta.
       </p>
 
       <p>
-        Automatizar presupuestos no va de mandar mas documentos.
+        Automatizar presupuestos no va de mandar más documentos.
         Va de que cada oportunidad tenga ritmo, contexto y siguiente paso.
         Eso es lo que convierte una propuesta enviada en una oportunidad viva.
       </p>

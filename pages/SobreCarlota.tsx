@@ -2,8 +2,20 @@ import React from 'react';
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { pressItems, formatPressDate } from '../lib/press';
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/';
+
+const AUTHOR_TOPICS = [
+  { topic: 'Automatización e IA para pymes', title: 'Qué es la automatización con IA', href: '/blog/que-es-automatizacion-con-ia-pymes/' },
+  { topic: 'Procesos', title: 'Cómo saber qué proceso automatizar primero', href: '/blog/como-saber-que-proceso-automatizar-primero/' },
+  { topic: 'WhatsApp', title: 'WhatsApp Business App vs API', href: '/blog/whatsapp-business-app-vs-api-pymes/' },
+  { topic: 'CRM y seguimiento', title: 'El CRM no falla: falla el proceso', href: '/blog/crm-no-falla-falla-el-proceso/' },
+  { topic: 'Clínicas', title: 'Reducir ausencias con recordatorios automáticos', href: '/blog/reducir-ausencias-clinicas-recordatorios-automaticos/' },
+  { topic: 'Herramientas', title: 'n8n vs Make para pymes', href: '/blog/n8n-vs-make-automatizacion-ia-pymes/' },
+  { topic: 'Coste y retorno', title: 'Cuánto cuesta automatizar procesos en una pyme', href: '/blog/cuanto-cuesta-automatizar-procesos-pyme/' },
+  { topic: 'Galicia', title: 'Automatización para empresas en Vigo', href: '/blog/automatizacion-empresas-vigo-pymes-servicios/' },
+];
 
 const SobreCarlota: React.FC = () => {
   return (
@@ -66,6 +78,55 @@ const SobreCarlota: React.FC = () => {
                 Perfil de LinkedIn <ExternalLink className="w-4 h-4" />
               </a>
             </div>
+          </section>
+
+          <section className="border-t border-white/10 pt-12 mb-16">
+            <h2 className="text-3xl font-black uppercase tracking-tight mb-6">Apariciones en medios</h2>
+            <ul className="space-y-4">
+              {pressItems.map((item) => (
+                <li key={item.id} className="glass-card rounded-2xl p-6 border-white/10">
+                  <p className="text-xs font-bold uppercase tracking-widest text-cyber-purple mb-2">
+                    {item.outlet} · {formatPressDate(item.date)}
+                  </p>
+                  {item.url ? (
+                    <a href={item.url} target="_blank" rel="noopener" className="text-base font-bold hover:text-cyber-purple transition-colors">
+                      {item.title}
+                    </a>
+                  ) : (
+                    <a href="/prensa/" className="text-base font-bold hover:text-cyber-purple transition-colors">{item.title}</a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="border-t border-white/10 pt-12 mb-16">
+            <h2 className="text-3xl font-black uppercase tracking-tight mb-6">Principios de trabajo</h2>
+            <ul className="space-y-4 text-slate-300 font-light leading-relaxed list-disc pl-5 max-w-3xl">
+              <li><strong className="text-white font-bold">Primero el proceso, después la herramienta.</strong> Antes de elegir software se entiende cómo trabaja el equipo y dónde se pierde tiempo.</li>
+              <li><strong className="text-white font-bold">Control humano en lo sensible.</strong> La automatización se encarga de lo repetitivo y estructurado; las decisiones delicadas siguen en manos de personas.</li>
+              <li><strong className="text-white font-bold">IA solo donde aporta.</strong> Clasificar, resumir, extraer datos o redactar borradores; si una regla simple lo resuelve, no hace falta IA.</li>
+              <li><strong className="text-white font-bold">Empezar pequeño y medir.</strong> Un primer flujo acotado, indicadores sencillos y decisiones con datos antes de ampliar.</li>
+              <li><strong className="text-white font-bold">Sin humo.</strong> La IA no se presenta como sustituta de las personas ni como solución mágica.</li>
+            </ul>
+          </section>
+
+          <section className="border-t border-white/10 pt-12 mb-16">
+            <h2 className="text-3xl font-black uppercase tracking-tight mb-6">Sobre qué escribe Carlota</h2>
+            <p className="text-slate-300 font-light leading-relaxed mb-8 max-w-3xl">
+              Los artículos del blog de KAIRAS están escritos para dueños y responsables de pymes de servicios, no para perfiles técnicos. Estos son los temas principales y un artículo de referencia de cada uno:
+            </p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {AUTHOR_TOPICS.map((topic) => (
+                <a key={topic.href} href={topic.href} className="glass-card rounded-2xl p-6 border-white/10 hover:border-cyber-purple/50 hover:bg-white/5 transition-all">
+                  <p className="text-xs font-bold uppercase tracking-widest text-cyber-purple mb-2">{topic.topic}</p>
+                  <p className="text-sm font-bold">{topic.title}</p>
+                </a>
+              ))}
+            </div>
+            <p className="mt-6 text-sm text-slate-400">
+              Todos los artículos: <a href="/blog/" className="text-cyber-purple underline underline-offset-4 hover:text-white">blog de KAIRAS</a>.
+            </p>
           </section>
 
           <section className="glass-card rounded-3xl p-8 sm:p-10 border-cyber-purple/20">

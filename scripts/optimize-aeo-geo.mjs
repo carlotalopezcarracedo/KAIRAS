@@ -18,57 +18,57 @@ const INSTAGRAM_URL = 'https://www.instagram.com/kairas.ai/';
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
 
 const KNOWS_ABOUT = [
-  'automatizacion de procesos',
+  'automatización de procesos',
   'inteligencia artificial aplicada a pymes',
-  'automatizacion con IA',
+  'automatización con IA',
   'CRM para pymes',
   'seguimiento de clientes',
-  'automatizacion de WhatsApp',
-  'automatizacion de clinicas',
-  'optimizacion operativa',
-  'integracion de herramientas',
+  'automatización de WhatsApp',
+  'automatización de clínicas',
+  'optimización operativa',
+  'integración de herramientas',
   'no-code automation',
   'datos operativos para pymes'
 ];
 
 const AREA_SERVED = [
   { '@type': 'AdministrativeArea', name: 'Galicia' },
-  { '@type': 'Country', name: 'Espana' },
+  { '@type': 'Country', name: 'España' },
   { '@type': 'City', name: 'Vigo' },
   { '@type': 'City', name: 'Pontevedra' },
   { '@type': 'City', name: 'Santiago de Compostela' },
-  { '@type': 'City', name: 'A Coruna' },
+  { '@type': 'City', name: 'A Coruña' },
   { '@type': 'City', name: 'Ourense' },
   { '@type': 'City', name: 'Lugo' }
 ];
 
 const BUSINESS_AUDIENCE = {
   '@type': 'BusinessAudience',
-  audienceType: 'pymes de servicios en Galicia y Espana'
+  audienceType: 'pymes de servicios en Galicia y España'
 };
 
 const SERVICE_DETAILS = new Map([
   [
     '/servicios/',
     {
-      name: 'Servicios de automatizacion para pymes',
+      name: 'Servicios de automatización para pymes',
       serviceType: [
-        'automatizacion de procesos',
-        'automatizacion de WhatsApp',
+        'automatización de procesos',
+        'automatización de WhatsApp',
         'CRM y seguimiento de clientes',
-        'automatizacion con IA',
-        'optimizacion operativa'
+        'automatización con IA',
+        'optimización operativa'
       ]
     }
   ],
   [
     '/automatizacion-procesos/',
     {
-      name: 'Automatizacion de procesos para pymes',
+      name: 'Automatización de procesos para pymes',
       serviceType: [
-        'automatizacion de procesos',
-        'reduccion de tareas manuales',
-        'integracion de herramientas',
+        'automatización de procesos',
+        'reducción de tareas manuales',
+        'integración de herramientas',
         'sistemas operativos para pymes'
       ]
     }
@@ -76,11 +76,11 @@ const SERVICE_DETAILS = new Map([
   [
     '/automatizacion-empresas-galicia/',
     {
-      name: 'Automatizacion para empresas en Galicia',
+      name: 'Automatización para empresas en Galicia',
       serviceType: [
-        'automatizacion de empresas',
-        'automatizacion de procesos en Galicia',
-        'consultoria de automatizacion',
+        'automatización de empresas',
+        'automatización de procesos en Galicia',
+        'consultoría de automatización',
         'IA aplicada a pymes gallegas'
       ]
     }
@@ -91,32 +91,32 @@ const SERVICE_DETAILS = new Map([
       name: 'IA para empresas de servicios',
       serviceType: [
         'inteligencia artificial para empresas',
-        'automatizacion con IA',
+        'automatización con IA',
         'asistentes de IA',
-        'clasificacion y resumen con IA'
+        'clasificación y resumen con IA'
       ]
     }
   ],
   [
     '/optimizacion-operativa-pymes/',
     {
-      name: 'Optimizacion operativa para pymes',
+      name: 'Optimización operativa para pymes',
       serviceType: [
-        'optimizacion operativa',
+        'optimización operativa',
         'mejora de procesos',
-        'reduccion de carga manual',
-        'priorizacion de automatizaciones'
+        'reducción de carga manual',
+        'priorización de automatizaciones'
       ]
     }
   ],
   [
     '/automatizacion-whatsapp-empresas/',
     {
-      name: 'Automatizacion de WhatsApp para empresas',
+      name: 'Automatización de WhatsApp para empresas',
       serviceType: [
-        'automatizacion de WhatsApp',
-        'atencion al cliente automatizada',
-        'cualificacion de consultas',
+        'automatización de WhatsApp',
+        'atención al cliente automatizada',
+        'cualificación de consultas',
         'seguimiento comercial por WhatsApp'
       ]
     }
@@ -128,32 +128,32 @@ const SERVICE_DETAILS = new Map([
       serviceType: [
         'CRM para pymes',
         'seguimiento de leads',
-        'automatizacion comercial',
-        'reactivacion de oportunidades'
+        'automatización comercial',
+        'reactivación de oportunidades'
       ]
     }
   ],
   [
     '/automatizacion-clinicas/',
     {
-      name: 'Automatizacion para clinicas',
+      name: 'Automatización para clínicas',
       serviceType: [
-        'automatizacion de clinicas',
+        'automatización de clínicas',
         'recordatorios de citas',
         'seguimiento de pacientes',
-        'automatizacion de agenda'
+        'automatización de agenda'
       ]
     }
   ],
   [
     '/centros-estetica/',
     {
-      name: 'Sistema de seguimiento para centros de estetica',
+      name: 'Sistema de seguimiento para centros de estética',
       serviceType: [
         'seguimiento de valoraciones',
-        'automatizacion para centros de estetica',
+        'automatización para centros de estética',
         'recordatorios y consultas',
-        'medicion de fugas comerciales'
+        'medición de fugas comerciales'
       ]
     }
   ]
@@ -206,24 +206,28 @@ function decodeHtmlEntities(value) {
     quot: '"',
     apos: "'",
     nbsp: ' ',
-    mdash: '-',
-    ndash: '-',
-    hellip: '...',
-    euro: 'EUR',
-    aacute: 'a',
-    eacute: 'e',
-    iacute: 'i',
-    oacute: 'o',
-    uacute: 'u',
-    Aacute: 'A',
-    Eacute: 'E',
-    Iacute: 'I',
-    Oacute: 'O',
-    Uacute: 'U',
-    ntilde: 'n',
-    Ntilde: 'N',
-    iquest: '',
-    iexcl: ''
+    mdash: '—',
+    ndash: '–',
+    hellip: '…',
+    euro: '€',
+    aacute: 'á',
+    eacute: 'é',
+    iacute: 'í',
+    oacute: 'ó',
+    uacute: 'ú',
+    Aacute: 'Á',
+    Eacute: 'É',
+    Iacute: 'Í',
+    Oacute: 'Ó',
+    Uacute: 'Ú',
+    ntilde: 'ñ',
+    Ntilde: 'Ñ',
+    uuml: 'ü',
+    Uuml: 'Ü',
+    iquest: '¿',
+    iexcl: '¡',
+    ordf: 'ª',
+    ordm: 'º'
   };
 
   return value
@@ -232,11 +236,12 @@ function decodeHtmlEntities(value) {
     .replace(/&([a-zA-Z]+);/g, (match, key) => named[key] ?? match);
 }
 
+// Texto limpio para JSON-LD. Conserva tildes y enies (JSON-LD es UTF-8): quitarlas
+// rompia el schema ("automatizacion" en vez de la forma con tilde, "Espana", "A Coruna").
 function toAscii(value) {
   return decodeHtmlEntities(value)
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^\x20-\x7E]/g, '')
+    .normalize('NFC')
+    .replace(/[\u0000-\u001F\u007F\u200b-\u200d\ufeff]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -378,7 +383,8 @@ function organizationNode() {
     description:
       'KAIRAS ayuda a pymes de servicios a automatizar procesos, WhatsApp, CRM, seguimiento de clientes y tareas operativas con IA aplicada y control humano.',
     founder: { '@id': PERSON_ID },
-    foundingLocation: { '@type': 'Place', name: 'Galicia, Espana' },
+    foundingLocation: { '@type': 'Place', name: 'Galicia, España' },
+    subjectOf: PRESS_MENTIONS.map(({ about, ...mention }) => mention),
     areaServed: AREA_SERVED,
     knowsAbout: KNOWS_ABOUT,
     contactPoint: [
@@ -386,7 +392,7 @@ function organizationNode() {
         '@type': 'ContactPoint',
         email: 'carlota.kairas@gmail.com',
         telephone: PHONE,
-        contactType: 'consultoria y automatizacion',
+        contactType: 'consultoría y automatización',
         areaServed: 'ES',
         availableLanguage: ['Spanish', 'es-ES']
       }
@@ -407,16 +413,40 @@ function organizationNode() {
   };
 }
 
+// Apariciones en medios (fuente: lib/press.ts). Menciones de terceros: señal de
+// consenso para buscadores y motores de IA. Mantener sincronizado con prensa.
+const PRESS_MENTIONS = [
+  {
+    '@type': 'NewsArticle',
+    headline: 'Carlota López acerca la inteligencia artificial a pequeñas y medianas empresas',
+    url: 'https://www.farodevigo.es/deza-tabeiros-montes/2026/08/05/carlota-lopez-acerca-inteligencia-artificial-a-pequenas-medianas-empresas-133124217.html',
+    datePublished: '2026-08-05',
+    publisher: { '@type': 'Organization', name: 'Faro de Vigo', url: 'https://www.farodevigo.es/' },
+    about: { '@id': PERSON_ID }
+  },
+  {
+    '@type': 'RadioEpisode',
+    name: 'Entrevista sobre KAIRAS, automatización e inteligencia artificial aplicada a pymes',
+    url: `${SITE_ORIGIN}/prensa/`,
+    datePublished: '2026-08-14',
+    publisher: { '@type': 'Organization', name: 'Radio Estrada' },
+    about: { '@id': PERSON_ID }
+  }
+];
+
 function personNode() {
   return {
     '@id': PERSON_ID,
     '@type': 'Person',
     name: 'Carlota López Carracedo',
     url: AUTHOR_URL,
+    image: DEFAULT_IMAGE,
     sameAs: [LINKEDIN_URL],
     worksFor: { '@id': ORG_ID },
     jobTitle: 'Fundadora de KAIRAS',
-    knowsAbout: KNOWS_ABOUT
+    homeLocation: { '@type': 'Place', name: 'Galicia, España' },
+    knowsAbout: KNOWS_ABOUT,
+    subjectOf: PRESS_MENTIONS
   };
 }
 
@@ -465,13 +495,13 @@ function topicHints(page, node = {}) {
   hints.push(...keywords);
 
   const source = `${page.pathname} ${page.title} ${page.description}`.toLowerCase();
-  if (source.includes('whatsapp')) hints.push('automatizacion de WhatsApp');
+  if (source.includes('whatsapp')) hints.push('automatización de WhatsApp');
   if (source.includes('crm') || source.includes('lead')) hints.push('CRM para pymes', 'seguimiento de clientes');
-  if (source.includes('clinic')) hints.push('automatizacion para clinicas');
-  if (source.includes('estet')) hints.push('automatizacion para centros de estetica');
-  if (source.includes('galicia') || source.includes('vigo') || source.includes('pontevedra')) hints.push('automatizacion de empresas en Galicia');
-  if (source.includes('ia')) hints.push('automatizacion con IA', 'inteligencia artificial aplicada a pymes');
-  if (source.includes('proceso')) hints.push('automatizacion de procesos');
+  if (source.includes('clinic')) hints.push('automatización para clínicas');
+  if (source.includes('estet')) hints.push('automatización para centros de estética');
+  if (source.includes('galicia') || source.includes('vigo') || source.includes('pontevedra')) hints.push('automatización de empresas en Galicia');
+  if (source.includes('ia')) hints.push('automatización con IA', 'inteligencia artificial aplicada a pymes');
+  if (source.includes('proceso')) hints.push('automatización de procesos');
 
   return uniqueStrings([...hints, ...KNOWS_ABOUT]).slice(0, 10).map((name) => ({ '@type': 'Thing', name }));
 }
@@ -511,7 +541,7 @@ function normalizeContentNode(node, page) {
     copy.inLanguage = copy.inLanguage || 'es-ES';
     copy.mainEntityOfPage = { '@id': `${page.canonical}#webpage` };
     copy.serviceType = uniqueStrings([...asArray(copy.serviceType), ...(details?.serviceType ?? [])]);
-    copy.category = 'automatizacion, IA aplicada y optimizacion operativa para pymes de servicios';
+    copy.category = 'automatización, IA aplicada y optimización operativa para pymes de servicios';
   }
 
   return copy;
@@ -529,7 +559,7 @@ function serviceNode(page) {
     name: details.name,
     url: page.canonical,
     serviceType: details.serviceType,
-    category: 'automatizacion, IA aplicada y optimizacion operativa para pymes de servicios',
+    category: 'automatización, IA aplicada y optimización operativa para pymes de servicios',
     provider: { '@id': ORG_ID },
     areaServed: AREA_SERVED,
     audience: clone(BUSINESS_AUDIENCE),
@@ -668,6 +698,10 @@ function ensureDiscoveryLinks(html) {
     {
       href: `${SITE_ORIGIN}/answers.md`,
       markup: `<link rel="alternate" type="text/markdown" title="KAIRAS answer brief" href="${SITE_ORIGIN}/answers.md" />`
+    },
+    {
+      href: `${SITE_ORIGIN}/respuestas.md`,
+      markup: `<link rel="alternate" type="text/markdown" hreflang="es" title="KAIRAS: respuestas en español" href="${SITE_ORIGIN}/respuestas.md" />`
     },
     {
       href: `${SITE_ORIGIN}/okf/index.md`,

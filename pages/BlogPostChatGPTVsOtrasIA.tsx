@@ -16,21 +16,21 @@ const BlogPostChatGPTVsOtrasIA: React.FC = () => {
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Preguntar que IA es mejor que ChatGPT para una empresa no tiene una unica respuesta.
+        Preguntar que IA es mejor que ChatGPT para una empresa no tiene una única respuesta.
         Depende del proceso, los datos, el canal y el nivel de control que necesitas.
       </p>
 
       <p>
-        ChatGPT puede ser muy util para redactar, resumir y explorar ideas.
+        ChatGPT puede ser muy útil para redactar, resumir y explorar ideas.
         Pero una pyme puede necesitar otras soluciones si quiere integrar IA con CRM, WhatsApp, documentos o procesos internos.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando ChatGPT puede ser suficiente
+        Cuándo ChatGPT puede ser suficiente
       </h2>
 
       <p>
-        Puede ser suficiente para preparar borradores, resumir textos, ordenar ideas o crear respuestas base que despues revisa una persona.
+        Puede ser suficiente para preparar borradores, resumir textos, ordenar ideas o crear respuestas base que después revisa una persona.
         En ese uso, funciona como apoyo individual.
       </p>
 
@@ -40,12 +40,12 @@ const BlogPostChatGPTVsOtrasIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando necesitas algo mas que ChatGPT
+        Cuándo necesitas algo más que ChatGPT
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
         <li>Quieres conectar IA con WhatsApp, email o formularios.</li>
-        <li>Necesitas guardar informacion en CRM.</li>
+        <li>Necesitas guardar información en CRM.</li>
         <li>Trabajas con documentos o expedientes.</li>
         <li>Necesitas permisos, trazabilidad y control de datos.</li>
         <li>Quieres que la IA active acciones dentro de un flujo.</li>
@@ -63,12 +63,12 @@ const BlogPostChatGPTVsOtrasIA: React.FC = () => {
       <p>
         Una herramienta general ayuda a una persona.
         Un sistema integrado ayuda a la empresa.
-        La diferencia esta en si el resultado queda dentro del proceso o se queda en una conversacion suelta.
+        La diferencia esta en si el resultado queda dentro del proceso o se queda en una conversación suelta.
       </p>
 
       <p>
-        Por eso recomendamos revisar <a href="/blog/herramientas-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas de automatizacion con IA para pymes</a>.
-        La eleccion correcta depende del flujo completo.
+        Por eso recomendamos revisar <a href="/blog/herramientas-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas de automatización con IA para pymes</a>.
+        La elección correcta depende del flujo completo.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -76,17 +76,17 @@ const BlogPostChatGPTVsOtrasIA: React.FC = () => {
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>Que tarea quieres mejorar?</li>
-        <li>Que datos necesita la IA?</li>
-        <li>Donde debe guardarse el resultado?</li>
-        <li>Quien revisa o valida la respuesta?</li>
-        <li>Que ocurre si la IA se equivoca?</li>
+        <li>¿Qué tarea quieres mejorar?</li>
+        <li>¿Qué datos necesita la IA?</li>
+        <li>¿Dónde debe guardarse el resultado?</li>
+        <li>¿Quién revisa o valida la respuesta?</li>
+        <li>¿Qué ocurre si la IA se equivoca?</li>
       </ul>
 
       <p>
         En KAIRAS no empezamos preguntando que IA es mejor.
         Empezamos preguntando que proceso necesita orden.
-        A partir de ahi decidimos si basta ChatGPT, si hace falta otra herramienta o si conviene montar un sistema de <a href="/ia-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">IA para empresas</a>.
+        A partir de ahí decidimos si basta ChatGPT, si hace falta otra herramienta o si conviene montar un sistema de <a href="/ia-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">IA para empresas</a>.
       </p>
     </BlogPostLayout>
   );

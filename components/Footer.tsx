@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
               />
             </a>
             <p className="text-slate-400 max-w-xs font-light">
-              Menos tareas. Mas tiempo. Mejor negocio. <br />
-              Sistemas de automatizacion con IA.
+              Menos tareas. Más tiempo. Mejor negocio. <br />
+              Sistemas de automatización con IA.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Soluciones</span>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/automatizacion-procesos/">
-                Automatizacion de procesos
+                Automatización de procesos
               </a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/automatizacion-empresas-galicia/">
                 Empresas en Galicia
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                 CRM y seguimiento
               </a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/automatizacion-clinicas/">
-                Automatizacion de clinicas
+                Automatización de clínicas
               </a>
             </div>
 

@@ -31,36 +31,36 @@ const BlogPostPierdenClientes: React.FC = () => {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-normal uppercase leading-[0.95] mb-6">
-              Por que las pymes pierden clientes antes de firmar
+              Por qué las pymes pierden clientes antes de firmar
             </h1>
 
             <BlogAuthorMeta>28 abril 2026 · 9 min de lectura</BlogAuthorMeta>
 
             <div className="prose-kairas space-y-7 text-slate-300 text-base leading-relaxed font-light">
               <p className="text-lg text-slate-300 leading-relaxed">
-                Te escriben. Piden informacion. Quieren precio. Te dicen que encaja. Y luego desaparecen.
-                No es casualidad. En la mayoria de pymes de servicios, la perdida de clientes antes de firmar no pasa por falta de demanda.
-                Pasa por falta de sistema entre el primer contacto y la decision.
+                Te escriben. Piden información. Quieren precio. Te dicen que encaja. Y luego desaparecen.
+                No es casualidad. En la mayoría de pymes de servicios, la perdida de clientes antes de firmar no pasa por falta de demanda.
+                Pasa por falta de sistema entre el primer contacto y la decisión.
               </p>
 
               <p>
-                El patron se repite: entra un lead, alguien responde cuando puede, se manda propuesta, se promete seguimiento y el dia a dia se lo lleva por delante.
-                Al final no se pierden clientes por una gran decision equivocada, sino por diez pequenos fallos operativos acumulados.
+                El patrón se repite: entra un lead, alguien responde cuando puede, se manda propuesta, se promete seguimiento y el día a día se lo lleva por delante.
+                Al final no se pierden clientes por una gran decisión equivocada, sino por diez pequeños fallos operativos acumulados.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                El problema no es "captar mas", es convertir mejor lo que ya entra
+                El problema no es "captar más", es convertir mejor lo que ya entra
               </h2>
 
               <p>
-                Muchas empresas enfocan todo en traer mas trafico, mas anuncios o mas visitas a la web.
-                Pero si el seguimiento es irregular, mas volumen solo significa mas oportunidades perdidas.
-                Antes de meter mas presupuesto en captacion, merece la pena revisar que pasa desde que alguien levanta la mano hasta que firma.
+                Muchas empresas enfocan todo en traer más trafico, más anuncios o más visitas a la web.
+                Pero si el seguimiento es irregular, más volumen solo significa más oportunidades perdidas.
+                Antes de meter más presupuesto en captación, merece la pena revisar que pasa desde que alguien levanta la mano hasta que firma.
               </p>
 
               <p>
-                Cuando ese tramo no esta definido, el resultado es previsible: cada comercial o cada persona de atencion actua con su propio criterio,
-                los tiempos cambian segun la carga del dia y el lead nota que no hay continuidad.
+                Cuando ese tramo no esta definido, el resultado es previsible: cada comercial o cada persona de atención actúa con su propio criterio,
+                los tiempos cambian según la carga del día y el lead nota que no hay continuidad.
                 En un entorno competitivo, esa falta de continuidad se paga con ventas que se enfrían.
               </p>
 
@@ -84,9 +84,9 @@ const BlogPostPierdenClientes: React.FC = () => {
 
               <h3 className="text-lg font-black uppercase tracking-wider text-white">3. WhatsApp y CRM no se hablan</h3>
               <p>
-                Una parte de la conversacion vive en WhatsApp, otra en email, otra en notas sueltas.
-                Sin integracion, nadie tiene el contexto completo y se repiten preguntas, se olvidan compromisos y se enfria la oportunidad.
-                Por eso la automatizacion de <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">WhatsApp para empresas</a> no va de "poner un bot", va de ordenar la continuidad comercial.
+                Una parte de la conversación vive en WhatsApp, otra en email, otra en notas sueltas.
+                Sin integración, nadie tiene el contexto completo y se repiten preguntas, se olvidan compromisos y se enfría la oportunidad.
+                Por eso la automatización de <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">WhatsApp para empresas</a> no va de "poner un bot", va de ordenar la continuidad comercial.
               </p>
 
               <h3 className="text-lg font-black uppercase tracking-wider text-white">4. Las propuestas salen sin cadencia de seguimiento</h3>
@@ -94,18 +94,18 @@ const BlogPostPierdenClientes: React.FC = () => {
                 Enviar propuesta no es cerrar venta.
                 Sin una secuencia corta y clara de seguimiento posterior, muchos presupuestos se quedan en tierra de nadie.
                 El cliente no siempre responde al primer envio, y eso no significa "no le interesa".
-                A menudo significa que nadie guio la decision.
+                A menudo significa que nadie guio la decisión.
               </p>
 
               <h3 className="text-lg font-black uppercase tracking-wider text-white">5. Todo depende de memoria humana</h3>
               <p>
                 Cuando el sistema es "acordarse", el sistema falla.
                 Si una persona se satura, se ausenta o cambia de prioridad, se cae la cadena completa.
-                Es ahi donde un proceso automatizado marca diferencia: no sustituye el criterio comercial, pero garantiza la ejecucion base.
+                Es ahí donde un proceso automatizado marca diferencia: no sustituye el criterio comercial, pero garantiza la ejecución base.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Como diagnosticar si tu pyme esta perdiendo clientes por seguimiento
+                Cómo diagnosticar si tu pyme esta perdiendo clientes por seguimiento
               </h2>
 
               <p>
@@ -115,18 +115,18 @@ const BlogPostPierdenClientes: React.FC = () => {
 
               <p>
                 Uno: cuanto tarda tu primera respuesta real en horario normal.
-                Dos: cuantas oportunidades tienen siguiente paso asignado en el mismo dia.
-                Tres: cuantas propuestas enviadas se revisan con un seguimiento activo durante los 7 dias siguientes.
-                Cuatro: en cuantos casos puedes ver todo el historial en un unico sitio sin pedir contexto a otra persona.
+                Dos: cuantas oportunidades tienen siguiente paso asignado en el mismo día.
+                Tres: cuantas propuestas enviadas se revisan con un seguimiento activo durante los 7 días siguientes.
+                Cuatro: en cuantos casos puedes ver todo el historial en un único sitio sin pedir contexto a otra persona.
               </p>
 
               <p>
-                Si dos o mas respuestas son "depende", no hay sistema estable.
+                Si dos o más respuestas son "depende", no hay sistema estable.
                 Y si no hay sistema, el crecimiento depende de heroicidades del equipo, no de una operativa repetible.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Que cambia cuando pasas a un sistema de CRM y seguimiento
+                Qué cambia cuando pasas a un sistema de CRM y seguimiento
               </h2>
 
               <p>
@@ -137,32 +137,32 @@ const BlogPostPierdenClientes: React.FC = () => {
 
               <p>
                 En la practica, esto significa:
-                primer contacto mas rapido,
+                primer contacto más rápido,
                 siguiente paso siempre visible,
-                alertas cuando una oportunidad se enfria,
+                alertas cuando una oportunidad se enfría,
                 y trazabilidad para saber donde se caen las ventas.
                 Lo importante no es la herramienta aislada, sino el proceso que diseñas sobre ella.
               </p>
 
               <p>
                 Cuando ese proceso esta bien montado, no necesitas perseguir clientes ni vivir pendiente de improvisar.
-                El equipo trabaja con un ritmo comercial mas estable y con menos friccion diaria.
+                El equipo trabaja con un ritmo comercial más estable y con menos fricción diaria.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-                Por donde empezar sin complicar al equipo
+                Por dónde empezar sin complicar al equipo
               </h2>
 
               <p>
                 No intentes automatizar todo de golpe.
-                Empieza por el tramo donde mas se pierden oportunidades: primera respuesta, seguimiento de propuesta o reactivacion de leads parados.
-                Ese primer paso suele conectar con la <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos</a> que mas retorno da en menos tiempo.
+                Empieza por el tramo donde más se pierden oportunidades: primera respuesta, seguimiento de propuesta o reactivación de leads parados.
+                Ese primer paso suele conectar con la <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a> que más retorno da en menos tiempo.
               </p>
 
               <p>
-                La regla es simple: primero continuidad, despues sofisticacion.
-                Primero asegurar que el lead no se pierde, despues optimizar detalle.
-                Si inviertes este orden, acabas con tecnologia nueva y el mismo problema operativo de siempre.
+                La regla es simple: primero continuidad, después sofisticación.
+                Primero asegurar que el lead no se pierde, después optimizar detalle.
+                Si inviertes este orden, acabas con tecnología nueva y el mismo problema operativo de siempre.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -172,7 +172,7 @@ const BlogPostPierdenClientes: React.FC = () => {
               <p>
                 Si tu empresa siente que "llegan contactos pero no se cierran", no asumas que el problema es marketing.
                 Muchas veces el cuello de botella esta en seguimiento, tiempos de respuesta y falta de sistema entre canales.
-                Corregir eso no requiere humo ni proyectos interminables. Requiere criterio operativo y ejecucion.
+                Corregir eso no requiere humo ni proyectos interminables. Requiere criterio operativo y ejecución.
               </p>
 
               <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -180,8 +180,8 @@ const BlogPostPierdenClientes: React.FC = () => {
               </h2>
 
               <p>
-                Primera: cuanto dinero aproximado se queda fuera cada mes por oportunidades que no llegan a segunda conversacion.
-                Aunque sea una estimacion, poner numero al problema ayuda a priorizar sin autoengano.
+                Primera: cuanto dinero aproximado se queda fuera cada mes por oportunidades que no llegan a segunda conversación.
+                Aunque sea una estimación, poner número al problema ayuda a priorizar sin autoengano.
               </p>
 
               <p>
@@ -191,8 +191,8 @@ const BlogPostPierdenClientes: React.FC = () => {
               </p>
 
               <p>
-                Tercera: que cambio podrias notar en 30 dias si tu seguimiento fuera constante.
-                Menos propuestas sin respuesta, mas reuniones de avance, mas conversion sobre el mismo volumen de leads.
+                Tercera: que cambio podrias notar en 30 días si tu seguimiento fuera constante.
+                Menos propuestas sin respuesta, más reuniones de avance, más conversión sobre el mismo volumen de leads.
                 Si esa mejora tiene impacto real, ya tienes foco para la primera fase.
               </p>
             </div>

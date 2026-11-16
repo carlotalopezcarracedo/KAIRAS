@@ -16,12 +16,12 @@ const BlogPostTiposIAPymes: React.FC = () => {
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Hay muchos tipos de IA, pero una pyme no necesita aprender teoria avanzada para tomar mejores decisiones.
+        Hay muchos tipos de IA, pero una pyme no necesita aprender teoría avanzada para tomar mejores decisiones.
         Necesita saber que tipo encaja con su problema operativo.
       </p>
 
       <p>
-        Para KAIRAS, los tipos mas utiles son cuatro: IA generativa, IA conversacional, IA documental e IA predictiva o de clasificacion.
+        Para KAIRAS, los tipos más útiles son cuatro: IA generativa, IA conversacional, IA documental e IA predictiva o de clasificación.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -34,8 +34,8 @@ const BlogPostTiposIAPymes: React.FC = () => {
       </p>
 
       <p>
-        No deberia publicar ni enviar mensajes sensibles sin revision.
-        Su valor esta en reducir el tiempo de preparacion.
+        No debería publicar ni enviar mensajes sensibles sin revisión.
+        Su valor esta en reducir el tiempo de preparación.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -44,11 +44,11 @@ const BlogPostTiposIAPymes: React.FC = () => {
 
       <p>
         Es la que se usa en asistentes y chatbots.
-        Puede responder preguntas frecuentes, recoger datos y dirigir la conversacion hacia el siguiente paso correcto.
+        Puede responder preguntas frecuentes, recoger datos y dirigir la conversación hacia el siguiente paso correcto.
       </p>
 
       <p>
-        Si este tema te interesa, revisa <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atencion al cliente</a>.
+        Si este tema te interesa, revisa <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -57,15 +57,15 @@ const BlogPostTiposIAPymes: React.FC = () => {
 
       <p>
         Ayuda a clasificar, extraer y resumir documentos.
-        Es especialmente interesante para asesorias, despachos, clinicas y servicios que reciben archivos de clientes.
+        Es especialmente interesante para asesorías, despachos, clínicas y servicios que reciben archivos de clientes.
       </p>
 
       <p>
-        Tienes una guia especifica en <a href="/blog/gestion-documental-ia-automatizacion-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">gestion documental con IA</a>.
+        Tienes una guía especifica en <a href="/blog/gestion-documental-ia-automatizacion-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">gestión documental con IA</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        IA de clasificacion o prediccion
+        IA de clasificación o predicción
       </h2>
 
       <p>
@@ -74,18 +74,18 @@ const BlogPostTiposIAPymes: React.FC = () => {
 
       <p>
         Para usarla bien necesitas datos historicos o, al menos, registros consistentes.
-        Sin eso, la prediccion suele ser ruido.
+        Sin eso, la predicción suele ser ruido.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Como elegir el tipo correcto
+        Cómo elegir el tipo correcto
       </h2>
 
       <p>
         Si necesitas redactar o resumir, generativa.
         Si necesitas conversar, conversacional.
         Si necesitas documentos, documental.
-        Si necesitas priorizar patrones, clasificacion.
+        Si necesitas priorizar patrones, clasificación.
       </p>
 
       <p>

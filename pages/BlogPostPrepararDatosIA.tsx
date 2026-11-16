@@ -8,26 +8,26 @@ const BlogPostPrepararDatosIA: React.FC = () => {
       title="Como preparar los datos de tu empresa antes de automatizar con IA"
       dateLabel="4 junio 2026"
       readTime="8 min de lectura"
-      ctaEyebrow="Quieres aplicar IA pero tus datos estan dispersos?"
+      ctaEyebrow="Quieres aplicar IA pero tus datos están dispersos?"
       ctaLabel="Preparar mi base"
       relatedResources={[
         { href: '/ia-empresas/', label: 'IA para empresas' },
-        { href: '/blog/diferencia-digitalizacion-automatizacion-ia-pymes/', label: 'Digitalizacion, automatizacion e IA' },
+        { href: '/blog/diferencia-digitalizacion-automatizacion-ia-pymes/', label: 'Digitalización, automatización e IA' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        La IA no funciona bien si la informacion de la empresa esta dispersa, desactualizada o escrita de cualquier forma.
+        La IA no funciona bien si la información de la empresa esta dispersa, desactualizada o escrita de cualquier forma.
         Antes de automatizar con IA, una pyme necesita preparar sus datos y decidir que puede usar el sistema con seguridad.
       </p>
 
       <p>
         Esto no significa crear un proyecto tecnico enorme.
-        Significa ordenar lo minimo: fuentes, reglas, permisos, contexto y limites.
-        Sin esa base, la IA puede responder mal, duplicar errores o generar mas trabajo al equipo.
+        Significa ordenar lo mínimo: fuentes, reglas, permisos, contexto y límites.
+        Sin esa base, la IA puede responder mal, duplicar errores o generar más trabajo al equipo.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que datos necesita una IA para ayudar de verdad
+        Qué datos necesita una IA para ayudar de verdad
       </h2>
 
       <p>
@@ -43,8 +43,8 @@ const BlogPostPrepararDatosIA: React.FC = () => {
       </ul>
 
       <p>
-        Si esta informacion no esta clara, conviene empezar por ordenarla.
-        La diferencia entre <a href="/blog/diferencia-digitalizacion-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">digitalizacion, automatizacion e IA</a>
+        Si esta información no esta clara, conviene empezar por ordenarla.
+        La diferencia entre <a href="/blog/diferencia-digitalizacion-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">digitalización, automatización e IA</a>
         ayuda a decidir si tu empresa esta preparada para esta capa.
       </p>
 
@@ -59,9 +59,9 @@ const BlogPostPrepararDatosIA: React.FC = () => {
       </p>
 
       <p>
-        Ejemplo: una clinica puede tener protocolos, horarios, servicios y preguntas frecuentes.
-        Si esos documentos no estan actualizados, el asistente puede dar informacion incorrecta.
-        Primero se limpia la base. Despues se automatiza.
+        Ejemplo: una clínica puede tener protocolos, horarios, servicios y preguntas frecuentes.
+        Si esos documentos no están actualizados, el asistente puede dar información incorrecta.
+        Primero se limpia la base. Después se automatiza.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -70,18 +70,18 @@ const BlogPostPrepararDatosIA: React.FC = () => {
 
       <p>
         La IA puede usar datos y reglas.
-        Pero no deberia decidir asuntos sensibles sin supervision.
+        Pero no debería decidir asuntos sensibles sin supervisión.
         Por eso conviene clasificar:
       </p>
 
       <ul className="space-y-3 pl-4 border-l border-cyber-purple/30">
         <li><span className="text-white font-medium">Datos:</span> horarios, servicios, estados, documentos y respuestas base.</li>
         <li><span className="text-white font-medium">Reglas:</span> cuando responder, cuando crear tarea y cuando escalar.</li>
-        <li><span className="text-white font-medium">Criterio humano:</span> decisiones comerciales, clinicas, legales o excepciones.</li>
+        <li><span className="text-white font-medium">Criterio humano:</span> decisiones comerciales, clínicas, legales o excepciones.</li>
       </ul>
 
       <p>
-        Este limite es clave para que la IA sea util y no se convierta en un riesgo.
+        Este limite es clave para que la IA sea útil y no se convierta en un riesgo.
         Ya lo trabajamos en <a href="/blog/ia-para-pymes-cuando-tiene-sentido/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando tiene sentido aplicar IA en pymes</a>.
       </p>
 
@@ -97,11 +97,11 @@ const BlogPostPrepararDatosIA: React.FC = () => {
 
       <p>
         Por eso muchas implantaciones de IA empiezan realmente por <a href="/crm-pymes-seguimiento-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">ordenar CRM y seguimiento</a>.
-        La tecnologia avanzada necesita una base sencilla y estable.
+        La tecnología avanzada necesita una base sencilla y estable.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Paso 4: probar con un caso pequeno
+        Paso 4: probar con un caso pequeño
       </h2>
 
       <p>
@@ -113,13 +113,13 @@ const BlogPostPrepararDatosIA: React.FC = () => {
 
       <p>
         Si funciona, amplias.
-        Si no, ajustas fuentes, reglas o limites.
+        Si no, ajustas fuentes, reglas o límites.
         La IA debe crecer desde un proceso real, no desde una promesa generica.
       </p>
 
       <p>
         En KAIRAS, la <a href="/ia-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50">IA para empresas</a>
-        empieza por esta pregunta: que informacion necesita el sistema para ayudar sin inventar, sin molestar y sin crear mas trabajo?
+        empieza por esta pregunta: que información necesita el sistema para ayudar sin inventar, sin molestar y sin crear más trabajo?
       </p>
     </BlogPostLayout>
   );

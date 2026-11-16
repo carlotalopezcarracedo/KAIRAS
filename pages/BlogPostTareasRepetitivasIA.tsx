@@ -5,18 +5,18 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['Tareas repetitivas', 'IA', 'Operativa']}
-      title="Automatizacion inteligente de tareas repetitivas: como decidir que merece IA"
+      title="Automatización inteligente de tareas repetitivas: como decidir que merece IA"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"
       ctaEyebrow="Tu equipo repite tareas que no deberian ocuparle tanto?"
       ctaLabel="Detectar tareas"
       relatedResources={[
         { href: '/blog/tareas-manuales-que-frenan-tu-negocio/', label: 'Tareas manuales' },
-        { href: '/optimizacion-operativa-pymes/', label: 'Optimizacion operativa' },
+        { href: '/optimizacion-operativa-pymes/', label: 'Optimización operativa' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        La automatizacion inteligente de tareas repetitivas consiste en usar reglas, IA o ambas para quitar carga manual
+        La automatización inteligente de tareas repetitivas consiste en usar reglas, IA o ambas para quitar carga manual
         sin perder control del proceso.
       </p>
 
@@ -27,12 +27,12 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Automatizacion inteligente de tareas repetitivas: como detectarlas
+        Automatización inteligente de tareas repetitivas: como detectarlas
       </h2>
 
       <p>
         Una tarea repetitiva candidata aparece muchas veces, consume tiempo, genera errores o retrasa una respuesta al cliente.
-        Si ademas depende de revisar texto o informacion variable, puede ser candidata a IA.
+        Si además depende de revisar texto o información variable, puede ser candidata a IA.
       </p>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
@@ -48,7 +48,7 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando basta con automatizacion simple
+        Cuándo basta con automatización simple
       </h2>
 
       <p>
@@ -61,40 +61,40 @@ const BlogPostTareasRepetitivasIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando merece IA
+        Cuándo merece IA
       </h2>
 
       <p>
-        La IA merece la pena cuando hay lenguaje natural, variacion o necesidad de resumen.
+        La IA merece la pena cuando hay lenguaje natural, variación o necesidad de resumen.
         Por ejemplo: un cliente explica su caso con muchos detalles, manda varios documentos o hace preguntas mezcladas en un mismo mensaje.
       </p>
 
       <p>
-        Ahi la IA puede ordenar informacion para que el equipo decida mas rapido.
-        No sustituye la decision.
+        Ahí la IA puede ordenar información para que el equipo decida más rápido.
+        No sustituye la decisión.
         Reduce el trabajo previo.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Matriz rapida para priorizar
+        Matriz rápida para priorizar
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
         <li>Frecuencia: ocurre varias veces por semana?</li>
         <li>Impacto: afecta a clientes, ventas o equipo?</li>
-        <li>Claridad: sabemos como deberia terminar?</li>
-        <li>Variacion: necesita interpretar texto o contexto?</li>
+        <li>Claridad: sabemos como debería terminar?</li>
+        <li>Variación: necesita interpretar texto o contexto?</li>
         <li>Riesgo: que pasa si el sistema se equivoca?</li>
       </ul>
 
       <p>
         Esta matriz conecta con <a href="/blog/como-saber-que-proceso-automatizar-primero/" className="text-cyber-purple underline decoration-cyber-purple/50">como saber que proceso automatizar primero</a>,
-        pero anade una pregunta clave: de verdad hace falta IA?
+        pero añade una pregunta clave: de verdad hace falta IA?
       </p>
 
       <p>
         En KAIRAS analizamos esas tareas antes de montar nada.
-        Asi la automatizacion recupera tiempo sin crear otro sistema dificil de mantener.
+        Así la automatización recupera tiempo sin crear otro sistema difícil de mantener.
       </p>
     </BlogPostLayout>
   );

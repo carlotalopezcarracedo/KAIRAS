@@ -2,6 +2,8 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ServiceDepth from '../components/ServiceDepth';
+import { crm } from '../lib/serviceContent';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -29,25 +31,27 @@ const CRMPymesSeguimientoClientes: React.FC = () => {
         <section className="px-6 pb-24">
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
             <div className="glass-card p-8 rounded-3xl border-white/10">
-              <h2 className="text-lg font-black uppercase tracking-wider mb-4">Que implementamos</h2>
+              <h2 className="text-lg font-black uppercase tracking-wider mb-4">Qué implementamos</h2>
               <ul className="text-sm text-slate-400 leading-relaxed space-y-3 list-disc pl-5">
-                <li>Segmentacion por fase comercial y prioridad.</li>
-                <li>Seguimiento automatico por inactividad y etapa.</li>
-                <li>Alertas al equipo cuando hay senal de compra.</li>
+                <li>Segmentación por fase comercial y prioridad.</li>
+                <li>Seguimiento automático por inactividad y etapa.</li>
+                <li>Alertas al equipo cuando hay señal de compra.</li>
                 <li>Registro de interacciones en CRM sin doble carga manual.</li>
               </ul>
             </div>
             <div className="glass-card p-8 rounded-3xl border-white/10">
-              <h2 className="text-lg font-black uppercase tracking-wider mb-4">Cuando suele aportar mas</h2>
+              <h2 className="text-lg font-black uppercase tracking-wider mb-4">Cuándo suele aportar más</h2>
               <ul className="text-sm text-slate-400 leading-relaxed space-y-3 list-disc pl-5">
                 <li>Leads sin seguimiento por falta de tiempo.</li>
                 <li>Embudo comercial repartido en WhatsApp y hojas sueltas.</li>
-                <li>Reactivacion de cartera fria sin proceso definido.</li>
-                <li>Baja visibilidad de conversion por etapa.</li>
+                <li>Reactivación de cartera fria sin proceso definido.</li>
+                <li>Baja visibilidad de conversión por etapa.</li>
               </ul>
             </div>
           </div>
         </section>
+
+        <ServiceDepth content={crm} />
 
         <section className="px-6 pb-24">
           <div className="max-w-3xl mx-auto text-center">

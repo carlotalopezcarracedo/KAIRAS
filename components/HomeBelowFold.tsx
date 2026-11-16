@@ -8,6 +8,7 @@ import Soluciones from './Soluciones';
 import Process from './Process';
 import About from './About';
 import PressHome from './PressHome';
+import HomeFAQ from './HomeFAQ';
 import Contact from './Contact';
 
 const SECTIONS: React.FC[] = [
@@ -20,6 +21,7 @@ const SECTIONS: React.FC[] = [
   Process,
   About,
   PressHome,
+  HomeFAQ,
   Contact,
 ];
 
@@ -34,9 +36,11 @@ const scheduleNext = (cb: () => void): (() => void) => {
 
 // Monta las secciones de una en una (una tarea corta por sección) para no bloquear
 // el hilo principal con un único render enorme en móviles.
-const HomeBelowFold: React.FC<{ onReady?: () => void }> = ({ onReady }) => {
+// `renderAll`: el prerender del build pinta todas las secciones de golpe (HTML
+// estático para buscadores e IAs); en el navegador se montan de una en una.
+const HomeBelowFold: React.FC<{ onReady?: () => void; renderAll?: boolean }> = ({ onReady, renderAll = false }) => {
   const [count, setCount] = useState(() =>
-    window.location.hash.length > 1 ? SECTIONS.length : 1,
+    renderAll || (typeof window !== 'undefined' && window.location.hash.length > 1) ? SECTIONS.length : 1,
   );
   const done = count >= SECTIONS.length;
 

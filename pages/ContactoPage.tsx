@@ -46,10 +46,10 @@ const ContactoPage: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">Contacto KAIRAS</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.92] mb-8">
-              Cuentame donde se atasca tu negocio
+              Cuéntame donde se atasca tu negocio
             </h1>
             <p className="text-lg text-slate-400 font-light max-w-3xl mx-auto leading-relaxed">
-              Cuentanos como funciona tu negocio y analizamos donde puedes recuperar tiempo.
+              Cuéntanos como funciona tu negocio y analizamos donde puedes recuperar tiempo.
               Revisamos tu caso y te respondemos con el siguiente paso.
             </p>
           </div>

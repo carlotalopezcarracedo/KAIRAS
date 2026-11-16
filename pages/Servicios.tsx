@@ -2,32 +2,34 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ServiceDepth from '../components/ServiceDepth';
+import { servicios } from '../lib/serviceContent';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
 const services = [
   {
-    title: 'Automatizacion de procesos',
+    title: 'Automatización de procesos',
     desc: 'Identificamos tareas repetitivas y las dejamos funcionando con reglas claras y trazabilidad.',
     href: '/automatizacion-procesos/',
   },
   {
-    title: 'Automatizacion para empresas en Galicia',
-    desc: 'Acompanamiento cercano para pymes de servicios con foco operativo y ejecucion realista.',
+    title: 'Automatización para empresas en Galicia',
+    desc: 'Acompañamiento cercano para pymes de servicios con foco operativo y ejecución realista.',
     href: '/automatizacion-empresas-galicia/',
   },
   {
-    title: 'Automatizacion de WhatsApp',
+    title: 'Automatización de WhatsApp',
     desc: 'Respuestas, filtrado y seguimiento comercial sin perder cercania con el cliente.',
     href: '/automatizacion-whatsapp-empresas/',
   },
   {
     title: 'CRM y seguimiento de clientes',
-    desc: 'Secuencias de seguimiento, reactivacion y visibilidad del pipeline para no perder oportunidades.',
+    desc: 'Secuencias de seguimiento, reactivación y visibilidad del pipeline para no perder oportunidades.',
     href: '/crm-pymes-seguimiento-clientes/',
   },
   {
-    title: 'Automatizacion para clinicas',
+    title: 'Automatización para clínicas',
     desc: 'Recordatorios, citas y seguimiento asistencial con menos carga administrativa diaria.',
     href: '/automatizacion-clinicas/',
   },
@@ -45,11 +47,11 @@ const Servicios: React.FC = () => {
           <div className="max-w-5xl mx-auto text-center">
             <p className="text-xs font-bold tracking-[0.4em] uppercase text-cyber-purple mb-6">Servicios KAIRAS</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.92] mb-8">
-              Servicios de automatizacion para pymes
+              Servicios de automatización para pymes
             </h1>
             <p className="text-lg text-slate-400 font-light max-w-3xl mx-auto leading-relaxed">
-              Disenamos sistemas de automatizacion e IA aplicada para pymes de servicios en Galicia.
-              Empezamos por el cuello de botella que mas tiempo consume y construimos desde ahi.
+              Diseñamos sistemas de automatización e IA aplicada para pymes de servicios en Galicia.
+              Empezamos por el cuello de botella que más tiempo consume y construimos desde ahí.
             </p>
           </div>
         </section>
@@ -74,19 +76,21 @@ const Servicios: React.FC = () => {
           </div>
         </section>
 
+        <ServiceDepth content={servicios} />
+
         <section className="px-6 pb-24">
           <div className="max-w-4xl mx-auto glass-card p-10 rounded-3xl border-white/10 text-center">
             <h2 className="text-3xl sm:text-4xl font-black tracking-tighter uppercase mb-5">
               No sabes por cual empezar
             </h2>
             <p className="text-slate-400 font-light max-w-2xl mx-auto mb-8 leading-relaxed">
-              Revisamos tu caso y priorizamos la primera automatizacion con mayor impacto operativo.
+              Revisamos tu caso y priorizamos la primera automatización con mayor impacto operativo.
             </p>
             <a
               href="/contacto/"
               className="inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-xs uppercase tracking-[0.2em] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all"
             >
-              Cuentame que parte de tu negocio se esta atascando
+              Cuéntame que parte de tu negocio se esta atascando
             </a>
           </div>
         </section>

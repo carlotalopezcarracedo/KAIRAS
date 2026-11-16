@@ -8,15 +8,15 @@ const BlogPostCosteAutomatizar: React.FC = () => {
       title="Cuanto cuesta automatizar procesos en una pyme"
       dateLabel="4 junio 2026"
       readTime="8 min de lectura"
-      ctaEyebrow="Quieres saber que automatizacion tiene sentido antes de pedir presupuesto?"
+      ctaEyebrow="Quieres saber que automatización tiene sentido antes de pedir presupuesto?"
       ctaLabel="Revisar mi caso"
       relatedResources={[
         { href: '/blog/como-saber-que-proceso-automatizar-primero/', label: 'Elegir el primer proceso' },
-        { href: '/automatizacion-procesos/', label: 'Automatizacion de procesos' },
+        { href: '/automatizacion-procesos/', label: 'Automatización de procesos' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Preguntar cuanto cuesta automatizar procesos en una pyme es logico.
+        Preguntar cuanto cuesta automatizar procesos en una pyme es lógico.
         Pero la respuesta honesta no empieza por una cifra.
         Empieza por entender que proceso quieres mejorar, cuantas personas intervienen y que herramientas ya existen en el negocio.
       </p>
@@ -28,20 +28,20 @@ const BlogPostCosteAutomatizar: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        De que depende el coste de automatizar procesos
+        De qué depende el coste de automatizar procesos
       </h2>
 
       <p>
-        El precio cambia segun la complejidad operativa, no solo segun la herramienta.
+        El precio cambia según la complejidad operativa, no solo según la herramienta.
         Estos factores suelen marcar la diferencia:
       </p>
 
       <ul className="space-y-3 pl-4 border-l border-cyber-purple/30">
-        <li><span className="text-white font-medium">Numero de pasos:</span> no cuesta lo mismo automatizar un recordatorio que un flujo completo de venta.</li>
+        <li><span className="text-white font-medium">Número de pasos:</span> no cuesta lo mismo automatizar un recordatorio que un flujo completo de venta.</li>
         <li><span className="text-white font-medium">Herramientas conectadas:</span> CRM, WhatsApp, email, calendario, formularios o software sectorial.</li>
         <li><span className="text-white font-medium">Calidad de los datos:</span> si todo esta desordenado, primero hay que limpiar la base.</li>
         <li><span className="text-white font-medium">Excepciones:</span> cuantos casos requieren criterio humano o reglas especiales.</li>
-        <li><span className="text-white font-medium">Adopcion del equipo:</span> formacion, documentacion y ajustes iniciales.</li>
+        <li><span className="text-white font-medium">Adopción del equipo:</span> formación, documentación y ajustes iniciales.</li>
       </ul>
 
       <p>
@@ -54,7 +54,7 @@ const BlogPostCosteAutomatizar: React.FC = () => {
       </h2>
 
       <h3 className="text-base font-black uppercase tracking-wider text-white/80 pt-2">
-        Automatizacion puntual
+        Automatización puntual
       </h3>
       <p>
         Es un flujo acotado: confirmar citas, crear una tarea cuando entra un formulario, avisar de un documento pendiente o enviar un recordatorio.
@@ -65,9 +65,9 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         Sistema de seguimiento
       </h3>
       <p>
-        Aqui ya se conectan varias piezas:
+        Aquí ya se conectan varias piezas:
         entrada de leads, CRM, estados, responsables y proximos pasos.
-        Es mas valioso cuando el negocio pierde oportunidades por falta de continuidad.
+        Es más valioso cuando el negocio pierde oportunidades por falta de continuidad.
       </p>
 
       <h3 className="text-base font-black uppercase tracking-wider text-white/80 pt-2">
@@ -75,28 +75,28 @@ const BlogPostCosteAutomatizar: React.FC = () => {
       </h3>
       <p>
         Antes de automatizar, hay que ordenar procesos, roles, datos y herramientas.
-        Este tipo de proyecto tiene mas trabajo inicial, pero evita construir automatizaciones encima de una operativa confusa.
+        Este tipo de proyecto tiene más trabajo inicial, pero evita construir automatizaciones encima de una operativa confusa.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Como saber si merece la pena
+        Cómo saber si merece la pena
       </h2>
 
       <p>
-        Una automatizacion merece la pena cuando reduce una friccion que ocurre con frecuencia y afecta a tiempo, ventas, agenda o experiencia del cliente.
+        Una automatización merece la pena cuando reduce una fricción que ocurre con frecuencia y afecta a tiempo, ventas, agenda o experiencia del cliente.
         No hace falta calcularlo todo al centimo, pero si conviene mirar tres preguntas:
       </p>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>Cuantas veces se repite esta tarea cada semana?</li>
-        <li>Que pasa si se retrasa o se olvida?</li>
-        <li>Quien depende de que esto se haga bien?</li>
+        <li>¿Cuántas veces se repite esta tarea cada semana?</li>
+        <li>¿Qué pasa si se retrasa o se olvida?</li>
+        <li>¿Quién depende de que esto se haga bien?</li>
       </ul>
 
       <p>
         Si la respuesta afecta a clientes, leads, pagos, agenda o equipo, probablemente hay valor.
-        La guia sobre <a href="/blog/como-saber-que-proceso-automatizar-primero/" className="text-cyber-purple underline decoration-cyber-purple/50">como elegir el primer proceso a automatizar</a>
-        ayuda a ordenar esa decision antes de invertir.
+        La guía sobre <a href="/blog/como-saber-que-proceso-automatizar-primero/" className="text-cyber-purple underline decoration-cyber-purple/50">como elegir el primer proceso a automatizar</a>
+        ayuda a ordenar esa decisión antes de invertir.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -104,18 +104,18 @@ const BlogPostCosteAutomatizar: React.FC = () => {
       </h2>
 
       <p>
-        El coste de no automatizar tambien existe, aunque no aparezca como una factura.
-        Puede verse en horas de recepcion, oportunidades sin seguimiento, presupuestos enviados tarde o personas copiando datos entre herramientas.
+        El coste de no automatizar también existe, aunque no aparezca como una factura.
+        Puede verse en horas de recepción, oportunidades sin seguimiento, presupuestos enviados tarde o personas copiando datos entre herramientas.
       </p>
 
       <p>
-        Tambien hay costes ocultos dentro de una mala automatizacion:
+        También hay costes ocultos dentro de una mala automatización:
         mensajes que molestan, datos duplicados, flujos que nadie entiende o herramientas que el equipo evita.
         Por eso es tan importante <a href="/blog/documentar-procesos-pyme-sin-complicarse/" className="text-cyber-purple underline decoration-cyber-purple/50">documentar el proceso antes de automatizarlo</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que pedir antes de aceptar un presupuesto
+        Qué pedir antes de aceptar un presupuesto
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
@@ -123,13 +123,13 @@ const BlogPostCosteAutomatizar: React.FC = () => {
         <li>Que herramientas se conectan y quien las mantiene.</li>
         <li>Que parte seguira revisando una persona.</li>
         <li>Como se medira si funciona.</li>
-        <li>Que ocurre si el equipo necesita ajustes despues de usarlo.</li>
+        <li>Que ocurre si el equipo necesita ajustes después de usarlo.</li>
       </ul>
 
       <p>
-        En KAIRAS preferimos empezar por un analisis operativo antes de proponer una solucion.
-        Asi el presupuesto no se basa en una herramienta, sino en el cambio real que necesita tu negocio.
-        Ese es el enfoque de la <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos para pymes</a>.
+        En KAIRAS preferimos empezar por un análisis operativo antes de proponer una solución.
+        Así el presupuesto no se basa en una herramienta, sino en el cambio real que necesita tu negocio.
+        Ese es el enfoque de la <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos para pymes</a>.
       </p>
     </BlogPostLayout>
   );

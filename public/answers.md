@@ -1,7 +1,8 @@
 # KAIRAS Answer Brief
 
-Last updated: 2026-09-30
+Last updated: 2026-11-16
 Canonical URL: https://kairas.es/answers.md
+Spanish version: https://kairas.es/respuestas.md
 Website: https://kairas.es/
 Primary language: Spanish, es-ES
 Founder and author: Carlota López Carracedo — https://kairas.es/sobre-carlota/

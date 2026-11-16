@@ -12,18 +12,18 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
       ctaLabel="Evaluar software"
       relatedResources={[
         { href: '/blog/herramientas-automatizacion-ia-pymes/', label: 'Herramientas con IA' },
-        { href: '/automatizacion-procesos/', label: 'Automatizacion de procesos' },
+        { href: '/automatizacion-procesos/', label: 'Automatización de procesos' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        El software RPA con IA puede automatizar tareas repetitivas entre sistemas, pero no siempre es la primera opcion para una pyme.
+        El software RPA con IA puede automatizar tareas repetitivas entre sistemas, pero no siempre es la primera opción para una pyme.
         Antes de comprar, conviene entender si el problema es tecnico, operativo o de proceso.
       </p>
 
       <p>
-        RPA significa automatizacion robotica de procesos.
+        RPA significa automatización robotica de procesos.
         En la practica, suele imitar acciones que una persona hace en pantalla o entre aplicaciones.
-        La IA anade capacidad para interpretar texto, documentos o patrones.
+        La IA añade capacidad para interpretar texto, documentos o patrones.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -40,11 +40,11 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
         <li>Los sistemas actuales no ofrecen integraciones limpias.</li>
         <li>El proceso esta definido y se repite con pocas excepciones.</li>
         <li>Hay controles para revisar errores.</li>
-        <li>La IA se usa para interpretar, no para decidir sin supervision.</li>
+        <li>La IA se usa para interpretar, no para decidir sin supervisión.</li>
       </ul>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando no deberia ser la primera opcion
+        Cuándo no debería ser la primera opción
       </h2>
 
       <p>
@@ -53,9 +53,9 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
       </p>
 
       <p>
-        En esos casos conviene empezar por <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos</a>
-        o por <a href="/optimizacion-operativa-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">optimizacion operativa</a>,
-        antes de comprar una solucion mas pesada.
+        En esos casos conviene empezar por <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a>
+        o por <a href="/optimizacion-operativa-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">optimización operativa</a>,
+        antes de comprar una solución más pesada.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -63,16 +63,16 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>Que tarea concreta repetira el robot?</li>
-        <li>Cuantas veces ocurre al mes?</li>
-        <li>Que errores puede cometer y como se revisan?</li>
-        <li>Quien mantiene el flujo si cambia la pantalla o el proceso?</li>
-        <li>Existe una integracion mas sencilla que RPA?</li>
+        <li>¿Qué tarea concreta repetira el robot?</li>
+        <li>¿Cuántas veces ocurre al mes?</li>
+        <li>¿Qué errores puede cometer y cómo se revisan?</li>
+        <li>¿Quién mantiene el flujo si cambia la pantalla o el proceso?</li>
+        <li>Existe una integración más sencilla que RPA?</li>
       </ul>
 
       <p>
-        Esta ultima pregunta importa.
-        Muchas veces una integracion directa, un CRM mejor configurado o un flujo no-code resuelve el problema con menos mantenimiento.
+        Esta última pregunta importa.
+        Muchas veces una integración directa, un CRM mejor configurado o un flujo no-code resuelve el problema con menos mantenimiento.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -80,18 +80,18 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
       </h2>
 
       <p>
-        Una integracion conecta sistemas por datos.
+        Una integración conecta sistemas por datos.
         Un flujo no-code une aplicaciones y reglas de negocio.
         El RPA imita acciones cuando no hay forma sencilla de conectar sistemas.
       </p>
 
       <p>
-        Por eso conviene revisar tambien <a href="/blog/herramientas-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas de automatizacion con IA para pymes</a>.
-        Elegir bien no es comprar lo mas avanzado, sino lo mas adecuado para el proceso.
+        Por eso conviene revisar también <a href="/blog/herramientas-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">herramientas de automatización con IA para pymes</a>.
+        Elegir bien no es comprar lo más avanzado, sino lo más adecuado para el proceso.
       </p>
 
       <p>
-        En KAIRAS te ayudamos a decidir si necesitas RPA, una integracion mas simple o redisenar el proceso antes de automatizarlo.
+        En KAIRAS te ayudamos a decidir si necesitas RPA, una integración más simple o rediseñar el proceso antes de automatizarlo.
       </p>
     </BlogPostLayout>
   );

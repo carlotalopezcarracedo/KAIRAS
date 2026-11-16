@@ -5,32 +5,32 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['Vigo', 'Galicia', 'Procesos']}
-      title="Automatizacion para empresas en Vigo: procesos que una pyme puede ordenar primero"
+      title="Automatización para empresas en Vigo: procesos que una pyme puede ordenar primero"
       dateLabel="4 junio 2026"
       readTime="8 min de lectura"
       ctaEyebrow="Tienes una empresa en Vigo y demasiadas tareas siguen dependiendo de memoria?"
       ctaLabel="Analizar mi empresa"
       relatedResources={[
-        { href: '/automatizacion-empresas-galicia/', label: 'Automatizacion en Galicia' },
-        { href: '/blog/automatizacion-procesos-pontevedra-pymes-servicios/', label: 'Automatizacion en Pontevedra' },
+        { href: '/automatizacion-empresas-galicia/', label: 'Automatización en Galicia' },
+        { href: '/blog/automatizacion-procesos-pontevedra-pymes-servicios/', label: 'Automatización en Pontevedra' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        La automatizacion para empresas en Vigo tiene sentido cuando una pyme de servicios empieza a perder oportunidades por falta de orden:
+        La automatización para empresas en Vigo tiene sentido cuando una pyme de servicios empieza a perder oportunidades por falta de orden:
         leads que entran por varios canales, presupuestos sin seguimiento, citas que se confirman a mano o datos repartidos en demasiadas herramientas.
       </p>
 
       <p>
         No todas las empresas necesitan el mismo sistema.
-        Una clinica, una inmobiliaria, una asesoria o una instaladora de Vigo pueden compartir el problema de fondo, pero el primer proceso a ordenar sera distinto.
+        Una clínica, una inmobiliaria, una asesoría o una instaladora de Vigo pueden compartir el problema de fondo, pero el primer proceso a ordenar sera distinto.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que procesos suelen dar retorno antes
+        Qué procesos suelen dar retorno antes
       </h2>
 
       <p>
-        En negocios de servicios, los procesos con mas impacto suelen estar cerca de clientes, agenda y seguimiento.
+        En negocios de servicios, los procesos con más impacto suelen estar cerca de clientes, agenda y seguimiento.
         Son los puntos donde un retraso se convierte en perdida de tiempo o de oportunidad.
       </p>
 
@@ -38,22 +38,22 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
         <li><span className="text-white font-medium">Primera respuesta:</span> registrar y clasificar consultas que llegan por web, WhatsApp o llamada.</li>
         <li><span className="text-white font-medium">Agenda:</span> confirmar citas, visitas o reuniones sin llamadas repetidas.</li>
         <li><span className="text-white font-medium">Presupuestos:</span> crear tareas de envio y seguimiento.</li>
-        <li><span className="text-white font-medium">Documentacion:</span> pedir archivos pendientes con trazabilidad.</li>
-        <li><span className="text-white font-medium">CRM:</span> tener estado, responsable y proximo paso de cada oportunidad.</li>
+        <li><span className="text-white font-medium">Documentación:</span> pedir archivos pendientes con trazabilidad.</li>
+        <li><span className="text-white font-medium">CRM:</span> tener estado, responsable y próximo paso de cada oportunidad.</li>
       </ul>
 
       <p>
-        Este enfoque complementa la guia de <a href="/blog/automatizacion-procesos-pontevedra-pymes-servicios/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos en Pontevedra</a>,
-        pero aqui lo aterrizamos a Vigo como plaza local prioritaria para KAIRAS.
+        Este enfoque complementa la guía de <a href="/blog/automatizacion-procesos-pontevedra-pymes-servicios/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos en Pontevedra</a>,
+        pero aquí lo aterrizamos a Vigo como plaza local prioritaria para KAIRAS.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Por que no conviene empezar por una herramienta
+        Por qué no conviene empezar por una herramienta
       </h2>
 
       <p>
         Muchas pymes buscan una herramienta pensando que eso resolvera la operativa.
-        Pero si no esta claro quien responde, que datos se registran y que pasa despues de cada contacto, la herramienta solo ordena una parte.
+        Pero si no esta claro quien responde, que datos se registran y que pasa después de cada contacto, la herramienta solo ordena una parte.
       </p>
 
       <p>
@@ -67,19 +67,19 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
       </h2>
 
       <p>
-        Una clinica de Vigo puede empezar por recordatorios y seguimiento de pacientes.
+        Una clínica de Vigo puede empezar por recordatorios y seguimiento de pacientes.
         Una inmobiliaria puede ordenar leads de portales y WhatsApp.
         Una instaladora puede automatizar solicitud, visita y presupuesto.
         Un despacho puede reducir documentos pendientes y citas sin preparar.
       </p>
 
       <p>
-        La tecnologia cambia, pero el criterio es el mismo:
-        menos carga manual, mas claridad y un sistema que no dependa de una sola persona.
+        La tecnología cambia, pero el criterio es el mismo:
+        menos carga manual, más claridad y un sistema que no dependa de una sola persona.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que medir en una automatizacion local
+        Qué medir en una automatización local
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
@@ -91,23 +91,23 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
       </ul>
 
       <p>
-        Si esos indicadores mejoran, la automatizacion esta aportando valor.
-        Si no, probablemente se ha automatizado un tramo incorrecto o falta definicion del proceso.
+        Si esos indicadores mejoran, la automatización esta aportando valor.
+        Si no, probablemente se ha automatizado un tramo incorrecto o falta definición del proceso.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        KAIRAS y automatizacion en Galicia
+        KAIRAS y automatización en Galicia
       </h2>
 
       <p>
-        KAIRAS trabaja la automatizacion desde Galicia con una idea sencilla:
-        entender la operativa antes de proponer tecnologia.
+        KAIRAS trabaja la automatización desde Galicia con una idea sencilla:
+        entender la operativa antes de proponer tecnología.
         Para empresas en Vigo, Pontevedra, A Estrada o Santiago, eso permite empezar por mejoras concretas sin sobredimensionar el proyecto.
       </p>
 
       <p>
-        Si quieres una vision regional mas amplia, puedes leer la pagina de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion para empresas en Galicia</a>.
-        Si ya tienes claro que el problema esta en procesos, la pagina de <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatizacion de procesos</a>
+        Si quieres una visión regional más amplia, puedes leer la página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización para empresas en Galicia</a>.
+        Si ya tienes claro que el problema esta en procesos, la página de <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a>
         es el siguiente paso natural.
       </p>
     </BlogPostLayout>

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 
 const ROOT = process.cwd();
 const OUTPUT = path.join(ROOT, 'public', 'sitemap.xml');
@@ -141,6 +142,8 @@ const PRIORITY_MAP = {
 const STATIC_INDEXABLE_FILES = [
   { pathname: '/llms.txt', sourcePath: 'public/llms.txt', changefreq: 'monthly', priority: '0.4' },
   { pathname: '/answers.md', sourcePath: 'public/answers.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/respuestas.md', sourcePath: 'public/respuestas.md', changefreq: 'monthly', priority: '0.5' },
+  { pathname: '/llms-full.txt', sourcePath: 'public/llms-full.txt', changefreq: 'monthly', priority: '0.4' },
   { pathname: '/pricing.md', sourcePath: 'public/pricing.md', changefreq: 'monthly', priority: '0.4' },
   { pathname: '/okf/index.md', sourcePath: 'public/okf/index.md', changefreq: 'monthly', priority: '0.4' },
   { pathname: '/okf/company.md', sourcePath: 'public/okf/company.md', changefreq: 'monthly', priority: '0.4' },
@@ -195,6 +198,27 @@ function formatDate(date) {
   return date.toISOString().slice(0, 10);
 }
 
+// lastmod real por URL (antes era el mtime del archivo, que tras un checkout o una
+// edición masiva deja todas las URLs con la misma fecha y Google deja de fiarse):
+// 1) dateModified del JSON-LD de la propia página (posts del blog),
+// 2) fecha del último commit que tocó el archivo,
+// 3) mtime solo si el archivo tiene cambios sin commit o no hay git.
+function gitLastmod(relPath) {
+  try {
+    const dirty = execFileSync('git', ['status', '--porcelain', '--', relPath], { cwd: ROOT, encoding: 'utf8' }).trim();
+    if (dirty) return null;
+    const date = execFileSync('git', ['log', '-1', '--format=%cs', '--', relPath], { cwd: ROOT, encoding: 'utf8' }).trim();
+    return /^\d{4}-\d{2}-\d{2}$/.test(date) ? date : null;
+  } catch {
+    return null;
+  }
+}
+
+function lastmodFor(relPath, stats, html = '') {
+  const declared = html.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/);
+  return declared?.[1] ?? gitLastmod(relPath) ?? formatDate(stats.mtime);
+}
+
 const seen = new Map();
 
 for (const filePath of walk(ROOT)) {
@@ -222,7 +246,7 @@ for (const filePath of walk(ROOT)) {
     seen.set(canonicalPath, {
       canonical: `${SITE_URL}${canonicalPath}`,
       mtimeMs: stats.mtimeMs,
-      lastmod: formatDate(stats.mtime),
+      lastmod: lastmodFor(sourcePath, stats, html),
       sourcePath
     });
   }
@@ -238,7 +262,7 @@ for (const file of STATIC_INDEXABLE_FILES) {
   seen.set(file.pathname, {
     canonical: `${SITE_URL}${file.pathname}`,
     mtimeMs: stats.mtimeMs,
-    lastmod: formatDate(stats.mtime),
+    lastmod: lastmodFor(file.sourcePath, stats),
     sourcePath: file.sourcePath,
     changefreq: file.changefreq,
     priority: file.priority
@@ -276,7 +300,7 @@ if (missingRequiredPaths.length > 0 || missingStaticPaths.length > 0) {
 }
 
 const xml = [
-  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<?xml versión="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
   ...urls.map(
     (url) => [

@@ -356,7 +356,7 @@ const Results: React.FC = () => {
                 className="absolute bottom-8 right-8 text-right z-20"
               >
                  <div className="bg-black/90 backdrop-blur-xl border border-white/10 p-6 rounded-2xl shadow-2xl ring-1 ring-white/10 transform hover:scale-105 transition-transform duration-300">
-                     <h4 className="text-3xl font-black text-white tracking-tighter leading-none mb-2">TIEMPO<br/>RECUPERADO.</h4>
+                     <p className="text-3xl font-black text-white tracking-tighter leading-none mb-2">TIEMPO<br/>RECUPERADO.</p>
                      <div className="h-1 w-full bg-gradient-to-r from-cyber-purple to-cyber-cyan mb-2 rounded-full"></div>
                      <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">Sin hacer nada a mano</p>
                  </div>

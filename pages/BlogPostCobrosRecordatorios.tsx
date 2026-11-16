@@ -8,16 +8,16 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
       title="Automatizar cobros y recordatorios de pago en pymes de servicios"
       dateLabel="4 junio 2026"
       readTime="8 min de lectura"
-      ctaEyebrow="Tu equipo revisa pagos pendientes y envia recordatorios a mano?"
+      ctaEyebrow="Tu equipo revisa pagos pendientes y envía recordatorios a mano?"
       ctaLabel="Ordenar mis cobros"
       relatedResources={[
         { href: '/crm-pymes-seguimiento-clientes/', label: 'CRM y seguimiento' },
-        { href: '/blog/automatizacion-asesorias-vencimientos-documentos-clientes/', label: 'Recordatorios en asesorias' },
+        { href: '/blog/automatizacion-asesorias-vencimientos-documentos-clientes/', label: 'Recordatorios en asesorías' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        En muchas pymes de servicios, cobrar no es dificil por falta de clientes.
-        Es dificil porque los vencimientos, pagos pendientes y recordatorios viven en hojas, correos o memoria del equipo.
+        En muchas pymes de servicios, cobrar no es difícil por falta de clientes.
+        Es difícil porque los vencimientos, pagos pendientes y recordatorios viven en hojas, correos o memoria del equipo.
       </p>
 
       <p>
@@ -26,41 +26,41 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Donde se pierde control de los pagos
+        Dónde se pierde control de los pagos
       </h2>
 
       <p>
         El problema suele aparecer cuando el pago depende de revisar manualmente demasiadas cosas:
-        facturas emitidas, transferencias, domiciliaciones, cuotas, matriculas o pagos por servicios recurrentes.
+        facturas emitidas, transferencias, domiciliaciones, cuotas, matrículas o pagos por servicios recurrentes.
       </p>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
         <li>Pagos pendientes que se detectan tarde.</li>
-        <li>Recordatorios enviados con tono distinto segun quien los escriba.</li>
+        <li>Recordatorios enviados con tono distinto según quien los escriba.</li>
         <li>Clientes que no saben si falta documento, firma o pago.</li>
         <li>Facturas sin siguiente paso asignado.</li>
         <li>Equipo dedicando tiempo a comprobar estados manualmente.</li>
       </ul>
 
       <p>
-        Este tipo de seguimiento es parecido al de documentos y vencimientos en <a href="/blog/automatizacion-asesorias-vencimientos-documentos-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">asesorias que persiguen informacion pendiente</a>.
+        Este tipo de seguimiento es parecido al de documentos y vencimientos en <a href="/blog/automatizacion-asesorias-vencimientos-documentos-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">asesorías que persiguen información pendiente</a>.
         La clave es que el sistema avise antes de que el problema llegue tarde.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que automatizaciones tienen sentido
+        Qué automatizaciones tienen sentido
       </h2>
 
       <ul className="space-y-3 pl-4 border-l border-cyber-purple/30">
-        <li><span className="text-white font-medium">Aviso previo:</span> recordar una cuota, renovacion o pago antes del vencimiento.</li>
-        <li><span className="text-white font-medium">Confirmacion:</span> enviar mensaje cuando el pago se registra correctamente.</li>
+        <li><span className="text-white font-medium">Aviso previo:</span> recordar una cuota, renovación o pago antes del vencimiento.</li>
+        <li><span className="text-white font-medium">Confirmación:</span> enviar mensaje cuando el pago se registra correctamente.</li>
         <li><span className="text-white font-medium">Pago pendiente:</span> activar recordatorio si pasa la fecha sin registro.</li>
         <li><span className="text-white font-medium">Tarea interna:</span> avisar al equipo si el cliente no responde tras varios intentos.</li>
         <li><span className="text-white font-medium">Estado en CRM:</span> marcar pagado, pendiente, vencido o revisar manualmente.</li>
       </ul>
 
       <p>
-        No todos los mensajes deben salir automaticamente.
+        No todos los mensajes deben salir automáticamente.
         En algunos casos conviene que el sistema prepare la tarea y una persona decida el tono.
       </p>
 
@@ -69,14 +69,14 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
       </h2>
 
       <p>
-        Un recordatorio de pago puede ser util o incomodo.
+        Un recordatorio de pago puede ser útil o incomodo.
         La diferencia esta en el momento, el texto y la salida a humano.
         Un buen mensaje es concreto: que falta, de que servicio se trata, hasta cuando y con quien hablar si hay una duda.
       </p>
 
       <p>
-        Si el mensaje parece generico o agresivo, genera friccion.
-        La misma logica aplica a otros <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">mensajes automaticos a clientes</a>.
+        Si el mensaje parece genérico o agresivo, genera fricción.
+        La misma logica aplica a otros <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">mensajes automáticos a clientes</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -84,24 +84,24 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
       </h2>
 
       <p>
-        Una academia puede enviar aviso previo de cuota, confirmar pago y avisar a recepcion si una familia no responde tras dos recordatorios.
+        Una academia puede enviar aviso previo de cuota, confirmar pago y avisar a recepción si una familia no responde tras dos recordatorios.
         El sistema no discute importes ni condiciones especiales.
         Solo mantiene visibilidad y evita que alguien revise la lista completa cada semana.
       </p>
 
       <p>
-        En gimnasios, clinicas o servicios profesionales ocurre igual:
-        el sistema debe registrar estado y siguiente paso, no convertirse en una persecucion automatica.
+        En gimnasios, clínicas o servicios profesionales ocurre igual:
+        el sistema debe registrar estado y siguiente paso, no convertirse en una persecución automática.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que medir
+        Qué medir
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
         <li>Pagos pendientes detectados a tiempo.</li>
-        <li>Recordatorios enviados sin intervencion manual.</li>
-        <li>Casos que requieren revision humana.</li>
+        <li>Recordatorios enviados sin intervención manual.</li>
+        <li>Casos que requieren revisión humana.</li>
         <li>Tiempo semanal dedicado a comprobar estados.</li>
         <li>Errores por pagos mal marcados o duplicados.</li>
       </ul>

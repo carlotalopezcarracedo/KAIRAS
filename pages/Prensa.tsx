@@ -24,6 +24,33 @@ const Prensa: React.FC = () => {
         </header>
 
         <PressSection />
+
+        <section className="px-4 pb-28 sm:px-6" aria-labelledby="datos-medios">
+          <div className="mx-auto max-w-4xl border-t border-white/10 pt-12">
+            <h2 id="datos-medios" className="mb-6 text-3xl font-black uppercase tracking-tight">Datos para medios</h2>
+            <p className="mb-8 max-w-3xl font-light leading-relaxed text-slate-300">
+              KAIRAS es un servicio de automatización e inteligencia artificial aplicada para pymes de servicios, fundado en Galicia por Carlota López Carracedo. Ayuda a clínicas, academias, inmobiliarias, asesorías y otros negocios de servicios a ordenar procesos, automatizar WhatsApp y el seguimiento de clientes, y reducir tareas manuales con control humano.
+            </p>
+            <dl className="grid gap-4 sm:grid-cols-2">
+              {[
+                ['Nombre', 'KAIRAS'],
+                ['Fundadora', 'Carlota López Carracedo'],
+                ['Ubicación', 'Galicia, España'],
+                ['Ámbito', 'Pymes de servicios de Galicia y del resto de España'],
+                ['Especialidad', 'Automatización de procesos, WhatsApp, CRM y seguimiento de clientes, IA aplicada'],
+                ['Contacto de prensa', 'carlota.kairas@gmail.com'],
+              ].map(([label, value]) => (
+                <div key={label} className="glass-card rounded-2xl border-white/10 p-5">
+                  <dt className="mb-1 text-xs font-bold uppercase tracking-widest text-cyber-purple">{label}</dt>
+                  <dd className="text-sm text-slate-200">{value}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="mt-8 text-sm text-slate-400">
+              Más información: <a href="/sobre-carlota/" className="text-cyber-purple underline underline-offset-4 hover:text-white">perfil de Carlota López Carracedo</a> y <a href="/servicios/" className="text-cyber-purple underline underline-offset-4 hover:text-white">servicios de KAIRAS</a>.
+            </p>
+          </div>
+        </section>
       </main>
 
       <Footer />

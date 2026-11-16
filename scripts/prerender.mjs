@@ -33,7 +33,7 @@ function rootBounds(html) {
     }
   }
 
-  throw new Error('No se encontro el cierre de #root.');
+  throw new Error('No se encontró el cierre de #root.');
 }
 
 function replaceRoot(html, markup) {
@@ -101,6 +101,24 @@ try {
       const markup = renderToString(React.createElement(Page));
       const result = replaceRoot(html, markup);
       if (!result) throw new Error(`No se pudo reemplazar #root en ${filePath}`);
+
+      // Home: React solo hidrata el hero; el resto de secciones se montan en el
+      // navegador. Para que buscadores e IAs sin JS lean exactamente lo mismo que
+      // ve el visitante, se prerenderiza ese resto en #home-seo-fallback (la app
+      // lo retira cuando monta sus propias secciones).
+      if (pageName === 'home') {
+        const placeholder = '<div id="home-seo-fallback"></div>';
+        if (!result.html.includes(placeholder)) throw new Error('Falta el contenedor #home-seo-fallback en index.html');
+        const { default: HomeBelowFold } = await vite.ssrLoadModule('/components/HomeBelowFold.tsx');
+        const { default: Footer } = await vite.ssrLoadModule('/components/Footer.tsx');
+        const belowFold = renderToString(
+          React.createElement(React.Fragment, null,
+            React.createElement(HomeBelowFold, { renderAll: true }),
+            React.createElement(Footer)),
+        );
+        result.html = result.html.replace(placeholder, `<div id="home-seo-fallback">${belowFold}</div>`);
+      }
+
       fs.writeFileSync(filePath, result.html, 'utf8');
       rendered += 1;
     } finally {

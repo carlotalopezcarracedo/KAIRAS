@@ -5,19 +5,19 @@ const BlogPostQueEsAutomatizacionIA: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['IA', 'Automatizacion', 'Pymes']}
-      title="Que es la automatizacion con IA y que significa para una pyme de servicios"
+      title="Que es la automatización con IA y qué significa para una pyme de servicios"
       dateLabel="5 junio 2026"
       readTime="7 min de lectura"
-      ctaEyebrow="Quieres saber si la automatizacion con IA aplica a tu negocio?"
+      ctaEyebrow="Quieres saber si la automatización con IA aplica a tu negocio?"
       ctaLabel="Analizar mi caso"
       relatedResources={[
         { href: '/ia-empresas/', label: 'IA para empresas' },
-        { href: '/blog/automatizacion-con-ia-empresas-pymes-servicios/', label: 'Ejemplos de automatizacion con IA' },
+        { href: '/blog/automatizacion-con-ia-empresas-pymes-servicios/', label: 'Ejemplos de automatización con IA' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        La automatizacion con IA es la combinacion de procesos automaticos con inteligencia artificial para reducir trabajo manual,
-        interpretar informacion y ayudar al equipo a responder o decidir con mas contexto.
+        La automatización con IA es la combinación de procesos automáticos con inteligencia artificial para reducir trabajo manual,
+        interpretar información y ayudar al equipo a responder o decidir con más contexto.
       </p>
 
       <p>
@@ -26,17 +26,17 @@ const BlogPostQueEsAutomatizacionIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que es la automatizacion con IA en palabras simples
+        Qué es la automatización con IA en palabras simples
       </h2>
 
       <p>
-        Una automatizacion normal ejecuta pasos definidos: crear una tarea, enviar un recordatorio, mover un lead de estado o avisar a una persona.
-        La IA aporta capacidad para entender texto, resumir informacion, clasificar una consulta o preparar una respuesta base.
+        Una automatización normal ejecuta pasos definidos: crear una tarea, enviar un recordatorio, mover un lead de estado o avisar a una persona.
+        La IA aporta capacidad para entender texto, resumir información, clasificar una consulta o preparar una respuesta base.
       </p>
 
       <p>
-        Por eso, la automatizacion con IA es util cuando el proceso no solo necesita moverse, sino tambien interpretar informacion.
-        Si quieres profundizar en la diferencia, puedes leer <a href="/blog/diferencia-digitalizacion-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">diferencia entre digitalizacion, automatizacion e IA</a>.
+        Por eso, la automatización con IA es útil cuando el proceso no solo necesita moverse, sino también interpretar información.
+        Si quieres profundizar en la diferencia, puedes leer <a href="/blog/diferencia-digitalizacion-automatizacion-ia-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">diferencia entre digitalización, automatización e IA</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -50,19 +50,19 @@ const BlogPostQueEsAutomatizacionIA: React.FC = () => {
 
       <p>
         La IA ayuda a entender la consulta.
-        La automatizacion mueve la informacion.
+        La automatización mueve la información.
         El equipo decide como continuar cuando hay una duda importante.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Que no es automatizacion con IA
+        Qué no es automatización con IA
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>No es responder todo sin supervision.</li>
+        <li>No es responder todo sin supervisión.</li>
         <li>No es comprar una herramienta y esperar que ordene la empresa.</li>
         <li>No es sustituir criterio profesional.</li>
-        <li>No es automatizar procesos que todavia no estan definidos.</li>
+        <li>No es automatizar procesos que todavía no están definidos.</li>
       </ul>
 
       <p>
@@ -72,16 +72,16 @@ const BlogPostQueEsAutomatizacionIA: React.FC = () => {
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Cuando tiene sentido empezar
+        Cuándo tiene sentido empezar
       </h2>
 
       <p>
-        Tiene sentido empezar cuando una tarea se repite a menudo, consume tiempo y afecta a clientes, ventas o gestion interna.
-        Tambien cuando hay informacion que llega desordenada y el equipo pierde tiempo interpretandola.
+        Tiene sentido empezar cuando una tarea se repite a menudo, consume tiempo y afecta a clientes, ventas o gestión interna.
+        También cuando hay información que llega desordenada y el equipo pierde tiempo interpretandola.
       </p>
 
       <p>
-        Si quieres ver aplicaciones concretas, revisa <a href="/blog/automatizacion-con-ia-empresas-pymes-servicios/" className="text-cyber-purple underline decoration-cyber-purple/50">ejemplos utiles de automatizacion con IA para empresas</a>.
+        Si quieres ver aplicaciones concretas, revisa <a href="/blog/automatizacion-con-ia-empresas-pymes-servicios/" className="text-cyber-purple underline decoration-cyber-purple/50">ejemplos útiles de automatización con IA para empresas</a>.
         Y si esto te suena a tu operativa diaria, podemos analizar que proceso merece la pena ordenar primero.
       </p>
     </BlogPostLayout>

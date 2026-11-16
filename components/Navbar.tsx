@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
                 href="/#contacto"
                 className="inline-flex items-center justify-center bg-white text-black px-5 py-2.5 rounded-full text-[10px] font-extrabold uppercase hover:bg-slate-200 transition-all"
               >
-                Quiero mi diagnostico
+                Quiero mi diagnóstico
               </a>
             </div>
           </div>

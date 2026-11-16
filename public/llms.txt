@@ -2,7 +2,7 @@
 
 > KAIRAS helps service SMEs recover time, reduce manual workload and organize processes with useful automation and applied AI.
 
-Last updated: 2026-09-30
+Last updated: 2026-11-16
 Website: [https://kairas.es/](https://kairas.es/)
 Language: Spanish, es-ES
 Primary market: Galicia and Spain
@@ -20,6 +20,8 @@ KAIRAS helps service SMEs in Galicia and Spain automate processes, WhatsApp, CRM
 
 ## Machine-Readable Resources
 
+- [Respuestas en español (Spanish answer brief)](https://kairas.es/respuestas.md)
+- [Full context in one file](https://kairas.es/llms-full.txt)
 - [Answer brief](https://kairas.es/answers.md)
 - [Pricing](https://kairas.es/pricing.md)
 - [Open Knowledge File](https://kairas.es/okf/index.md)

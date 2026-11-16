@@ -5,33 +5,33 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['Chatbot IA', 'Atencion', 'WhatsApp']}
-      title="Chatbot con IA para atencion al cliente: limites, escalado humano y CRM"
+      title="Chatbot con IA para atención al cliente: límites, escalado humano y CRM"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"
-      ctaEyebrow="Tu equipo responde muchas preguntas repetidas cada dia?"
-      ctaLabel="Ordenar atencion"
+      ctaEyebrow="Tu equipo responde muchas preguntas repetidas cada día?"
+      ctaLabel="Ordenar atención"
       relatedResources={[
-        { href: '/automatizacion-whatsapp-empresas/', label: 'Automatizacion WhatsApp' },
+        { href: '/automatizacion-whatsapp-empresas/', label: 'Automatización WhatsApp' },
         { href: '/blog/asistente-ia-atencion-cliente-pymes/', label: 'Asistente de IA' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
-        Un chatbot con IA para atencion al cliente puede reducir preguntas repetidas y mejorar la primera respuesta,
-        pero solo si tiene limites claros y salida facil a una persona.
+        Un chatbot con IA para atención al cliente puede reducir preguntas repetidas y mejorar la primera respuesta,
+        pero solo si tiene límites claros y salida fácil a una persona.
       </p>
 
       <p>
-        El objetivo no es esconder al equipo detras de una maquina.
+        El objetivo no es esconder al equipo detrás de una maquina.
         Es filtrar, ordenar y dar contexto para que el equipo intervenga mejor cuando hace falta.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Chatbot con IA para atencion al cliente: que puede resolver
+        Chatbot con IA para atención al cliente: que puede resolver
       </h2>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
-        <li>Responder dudas frecuentes con informacion aprobada.</li>
-        <li>Recoger datos minimos antes de pasar al equipo.</li>
+        <li>Responder dudas frecuentes con información aprobada.</li>
+        <li>Recoger datos mínimos antes de pasar al equipo.</li>
         <li>Clasificar consultas por tipo, urgencia o servicio.</li>
         <li>Crear leads o tareas en el CRM.</li>
         <li>Escalar conversaciones que necesitan criterio humano.</li>
@@ -39,21 +39,21 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
 
       <p>
         Esto encaja especialmente en negocios que reciben muchas consultas por WhatsApp, web o email:
-        clinicas, academias, gimnasios, inmobiliarias o servicios profesionales.
+        clínicas, academias, gimnasios, inmobiliarias o servicios profesionales.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
-        Lo que no deberia resolver solo
+        Lo que no debería resolver solo
       </h2>
 
       <p>
-        Un chatbot no deberia cerrar decisiones sensibles, dar recomendaciones profesionales no validadas o bloquear al cliente cuando pide hablar con alguien.
-        Tampoco deberia inventar respuestas si no tiene informacion suficiente.
+        Un chatbot no debería cerrar decisiones sensibles, dar recomendaciones profesionales no validadas o bloquear al cliente cuando pide hablar con alguien.
+        Tampoco debería inventar respuestas si no tiene información suficiente.
       </p>
 
       <p>
-        En <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atencion al cliente</a>
-        explicamos esta diferencia: la IA puede apoyar la atencion, no sustituir el criterio del negocio.
+        En <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>
+        explicamos esta diferencia: la IA puede apoyar la atención, no sustituir el criterio del negocio.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -61,8 +61,8 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
       </h2>
 
       <p>
-        Toda conversacion deberia tener una salida clara:
-        hablar con recepcion, solicitar llamada, enviar documentacion o crear una tarea para seguimiento.
+        Toda conversación debería tener una salida clara:
+        hablar con recepción, solicitar llamada, enviar documentación o crear una tarea para seguimiento.
       </p>
 
       <p>
@@ -78,19 +78,19 @@ const BlogPostChatbotIAAtencion: React.FC = () => {
       <p>
         Una persona pregunta por disponibilidad.
         El chatbot recoge servicio, horario preferido y si ya es cliente.
-        Si la consulta es simple, responde con informacion aprobada.
-        Si necesita revision, crea una tarea y avisa al equipo.
+        Si la consulta es simple, responde con información aprobada.
+        Si necesita revisión, crea una tarea y avisa al equipo.
       </p>
 
       <p>
-        Para que esto funcione bien, tambien hay que entender las diferencias entre app y API.
-        La guia sobre <a href="/blog/whatsapp-business-app-vs-api-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">WhatsApp Business App vs API</a>
+        Para que esto funcione bien, también hay que entender las diferencias entre app y API.
+        La guía sobre <a href="/blog/whatsapp-business-app-vs-api-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">WhatsApp Business App vs API</a>
         ayuda a decidir si la empresa esta lista para ese salto.
       </p>
 
       <p>
-        En KAIRAS disenamos chatbots con limites, contexto y procesos conectados.
-        Menos respuestas sueltas, mas control de la atencion.
+        En KAIRAS disenamos chatbots con límites, contexto y procesos conectados.
+        Menos respuestas sueltas, más control de la atención.
       </p>
     </BlogPostLayout>
   );

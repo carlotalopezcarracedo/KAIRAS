@@ -191,9 +191,26 @@
 
 /* Secciones bajo el hero de la home: el navegador no calcula estilo/layout/pintado
    hasta que se acercan al viewport (reduce mucho el trabajo del hilo principal). */
-#main-content > section:not(#inicio) {
+#main-content > section:not(#inicio),
+#home-seo-fallback > section,
+#home-seo-fallback > footer {
   content-visibility: auto;
   contain-intrinsic-size: auto 900px;
+}
+
+/* Copia prerenderizada de las secciones de la home: es para lectores sin JS
+   (bots de IA, rastreadores que solo leen HTML). Con JS, React monta esas mismas
+   secciones, así que la copia no se pinta (evita doble maquetación en móvil). */
+.js #home-seo-fallback {
+  display: none;
+}
+
+/* Sin JS: todo visible, sin animaciones de entrada. */
+#home-seo-fallback .reveal,
+#home-seo-fallback .reveal-scale,
+#home-seo-fallback [style*="opacity:0"] {
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 /* Skip to main content — accesibilidad teclado */
