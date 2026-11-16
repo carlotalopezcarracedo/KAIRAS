@@ -14,6 +14,7 @@ const AUTHOR_URL = `${SITE_ORIGIN}/sobre-carlota/`;
 const PHONE = '+34 622 262 076';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/';
 const INSTAGRAM_URL = 'https://www.instagram.com/kairas.ai/';
+const LINKEDIN_COMPANY_URL = 'https://www.linkedin.com/company/kairas-ai/';
 
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
 
@@ -384,10 +385,11 @@ function organizationNode() {
     image: DEFAULT_IMAGE,
     email: 'carlota.kairas@gmail.com',
     telephone: PHONE,
-    sameAs: [LINKEDIN_URL, INSTAGRAM_URL],
+    sameAs: [LINKEDIN_COMPANY_URL, INSTAGRAM_URL, LINKEDIN_URL],
     description:
       'KAIRAS ayuda a pymes de servicios a automatizar procesos, WhatsApp, CRM, seguimiento de clientes y tareas operativas con IA aplicada y control humano.',
     founder: { '@id': PERSON_ID },
+    foundingDate: '2026-07',
     foundingLocation: { '@type': 'Place', name: 'Galicia, España' },
     subjectOf: PRESS_MENTIONS.map(({ about, ...mention }) => mention),
     areaServed: AREA_SERVED,
