@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
             <div className="flex items-center gap-2">
               <a href="/#inicio" className="inline-flex items-center">
                 <img
-                  src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco.webp`}
+                  src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco-480.webp`}
                   alt="KAIRAS"
                   className="h-8 w-auto"
                   width="160"

@@ -189,6 +189,13 @@
 .stagger-3 { transition-delay: 300ms; }
 .stagger-4 { transition-delay: 400ms; }
 
+/* Secciones bajo el hero de la home: el navegador no calcula estilo/layout/pintado
+   hasta que se acercan al viewport (reduce mucho el trabajo del hilo principal). */
+#main-content > section:not(#inicio) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
 /* Skip to main content — accesibilidad teclado */
 #skip-to-main {
   position: absolute;
@@ -287,6 +294,15 @@
 
   .mesh-gradient {
     animation: none;
+  }
+
+  /* En móvil no hay animación de entrada: el contenido se pinta visible desde
+     el primer render (mejora FCP/LCP, no espera a que JS añada .active). */
+  .reveal,
+  .reveal-scale {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 
   .grainy-overlay {
@@ -608,3 +624,10 @@
     padding: 12px 18px !important;
   }
 }
+
+/* Órbita de integraciones: animación en CSS (compositor) en lugar de JS. */
+@keyframes orbit-spin {
+  to { transform: rotate(360deg); }
+}
+.orbit-spin { animation: orbit-spin 60s linear infinite; }
+.orbit-spin-reverse { animation: orbit-spin 60s linear infinite reverse; }

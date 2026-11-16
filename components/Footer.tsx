@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <a href="/#inicio" className="inline-flex items-center">
               <img
-                src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco.webp`}
+                src={`${import.meta.env.BASE_URL}logo-kairas-horizontal-blanco-480.webp`}
                 alt="KAIRAS"
                 className="h-10 w-auto"
                 loading="lazy"

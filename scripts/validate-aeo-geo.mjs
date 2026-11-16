@@ -112,6 +112,7 @@ let pagesWithWebSite = 0;
 let prerenderedPages = 0;
 let renderedBlogPosts = 0;
 let internalLinksChecked = 0;
+let legacyRedirectsChecked = 0;
 const canonicalOwners = new Map();
 
 function internalTargetExists(href) {
@@ -227,6 +228,34 @@ for (const filePath of walk(TARGET_ROOT)) {
   }
 }
 
+// Redirect source files outside public/ are not copied by Vite unless they are
+// explicit build inputs. Check these even though they are excluded from indexing.
+if (IS_DIST) {
+  const redirects = [
+    ['/automatizacion-ia-empresas-galicia/', '/automatizacion-empresas-galicia/'],
+    ['/automatizacion-procesos-empresas/', '/automatizacion-procesos/'],
+    ['/automatizacion-seguimiento-clientes/', '/crm-pymes-seguimiento-clientes/'],
+  ];
+  for (const [from, to] of redirects) {
+    const file = path.join(TARGET_ROOT, from.slice(1), 'index.html');
+    if (!fs.existsSync(file)) {
+      errors.push(`Missing legacy redirect in build: ${from}`);
+      continue;
+    }
+    const html = fs.readFileSync(file, 'utf8');
+    const refresh = extract(html, /<meta\s+http-equiv=["']refresh["']\s+content=["']([^"']+)["']/i);
+    const canonical = extract(html, /<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
+    if (refresh !== `0;url=${SITE_ORIGIN}${to}` || canonical !== `${SITE_ORIGIN}${to}`) {
+      errors.push(`Invalid permanent meta refresh/canonical on ${from}`);
+    }
+    const destination = path.join(TARGET_ROOT, to.slice(1), 'index.html');
+    if (!fs.existsSync(destination) || !isIndexable(fs.readFileSync(destination, 'utf8'), `${SITE_ORIGIN}${to}`)) {
+      errors.push(`Missing or non-indexable redirect target: ${to}`);
+    }
+    legacyRedirectsChecked += 1;
+  }
+}
+
 for (const file of REQUIRED_STATIC_FILES) {
   if (!fs.existsSync(path.join(TARGET_ROOT, file))) {
     errors.push(`Missing static AEO/GEO resource: ${file}`);
@@ -242,6 +271,7 @@ const summary = {
   prerenderedPages,
   renderedBlogPosts,
   internalLinksChecked,
+  legacyRedirectsChecked,
   staticResources: REQUIRED_STATIC_FILES.length,
   errors: errors.length
 };

@@ -6,6 +6,7 @@ type PageModule = { default: React.FC };
 type PageLoader = () => Promise<PageModule>;
 
 export const pageMap: Record<string, PageLoader> = {
+  home: () => import('../App'),
   servicios: () => import('./Servicios'),
   prensa: () => import('./Prensa'),
   'sobre-carlota': () => import('./SobreCarlota'),

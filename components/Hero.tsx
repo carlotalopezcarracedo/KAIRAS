@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
         </div>
 
         <h1 className="reveal stagger-2 text-sm sm:text-base font-bold tracking-[0.18em] uppercase text-white/50 mb-3 -mt-6">
-          Sistemas a medida para pymes
+          Automatización e IA para pymes de servicios en Galicia
         </h1>
 
         <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">

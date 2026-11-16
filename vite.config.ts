@@ -35,6 +35,8 @@ export default defineConfig(({ mode }) => {
           contacto: path.resolve(__dirname, 'contacto/index.html'),
           faq: path.resolve(__dirname, 'faq/index.html'),
           automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos/index.html'),
+          automatizacionProcesosOld: path.resolve(__dirname, 'automatizacion-procesos-empresas/index.html'),
+          galiciaOld: path.resolve(__dirname, 'automatizacion-ia-empresas-galicia/index.html'),
           iaEmpresas: path.resolve(__dirname, 'ia-empresas/index.html'),
           optimizacionOperativa: path.resolve(__dirname, 'optimizacion-operativa-pymes/index.html'),
           automatizacionWhatsApp: path.resolve(__dirname, 'automatizacion-whatsapp-empresas/index.html'),

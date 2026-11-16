@@ -1,11 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence, useInView } from 'motion/react';
 import { Check, Calendar, MessageSquare, Bell, Scissors, User, Clock, CheckCircle2, Sparkles } from 'lucide-react';
 
 const Results: React.FC = () => {
   const [stage, setStage] = useState(0);
+  const sectionRef = useRef<HTMLElement>(null);
+  // El bucle de la demo solo corre mientras la sección está cerca del viewport.
+  const inView = useInView(sectionRef, { margin: '200px 0px' });
 
   useEffect(() => {
+    if (!inView) return;
     const totalDuration = 12000; // 12 seconds loop
     let loopTimers: number[] = [];
 
@@ -31,10 +35,10 @@ const Results: React.FC = () => {
       clearInterval(interval);
       loopTimers.forEach((timer) => clearTimeout(timer));
     };
-  }, []);
+  }, [inView]);
 
   return (
-    <section id="resultados" className="py-32 px-6 relative overflow-hidden">
+    <section ref={sectionRef} id="resultados" className="py-32 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div>
