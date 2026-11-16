@@ -5,13 +5,13 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
   return (
     <BlogPostLayout
       tags={['Galicia', 'Procesos', 'Pymes']}
-      title="Automatización para empresas en Galicia: que procesos suelen dar retorno antes"
+      title="Qué procesos suelen dar retorno antes al automatizar una pyme gallega"
       dateLabel="19 mayo 2026"
       readTime="8 min de lectura"
       ctaEyebrow="Tienes una pyme en Galicia y quieres empezar con criterio?"
       ctaLabel="Analizar procesos en Galicia"
       relatedResources={[
-        { href: '/automatizacion-empresas-galicia/', label: 'Automatización en Galicia' },
+        { href: '/automatizacion-empresas-galicia/', label: 'Automatización e IA en Galicia' },
         { href: '/blog/como-saber-que-proceso-automatizar-primero/', label: 'Que automatizar primero' },
       ]}
     >
@@ -123,7 +123,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
       </ul>
 
       <p>
-        KAIRAS trabaja la <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización para empresas en Galicia</a>
+        KAIRAS trabaja la <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización e IA para empresas en Galicia</a>
         desde ese enfoque: menos ruido, más orden y procesos que una pyme pueda usar de verdad.
         La tecnología importa, pero el criterio operativo importa más.
       </p>

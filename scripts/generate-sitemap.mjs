@@ -203,7 +203,26 @@ function formatDate(date) {
 // 1) dateModified del JSON-LD de la propia página (posts del blog),
 // 2) fecha del último commit que tocó el archivo,
 // 3) mtime solo si el archivo tiene cambios sin commit o no hay git.
+// En Vercel (o en un clon superficial) no hay historial completo: git log daría
+// la misma fecha a todo. En ese caso se reutiliza el lastmod del sitemap que ya
+// está en el repo (generado en local con historial) para cada URL.
+function detectFullHistory() {
+  try {
+    const shallow = execFileSync('git', ['rev-parse', '--is-shallow-repository'], { cwd: ROOT, encoding: 'utf8' }).trim();
+    return shallow === 'false';
+  } catch {
+    return false;
+  }
+}
+const HAS_FULL_HISTORY = detectFullHistory();
+const PREVIOUS_LASTMOD = new Map(
+  fs.existsSync(OUTPUT)
+    ? [...fs.readFileSync(OUTPUT, 'utf8').matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)].map((m) => [m[1], m[2]])
+    : [],
+);
+
 function gitLastmod(relPath) {
+  if (!HAS_FULL_HISTORY) return null;
   try {
     const dirty = execFileSync('git', ['status', '--porcelain', '--', relPath], { cwd: ROOT, encoding: 'utf8' }).trim();
     if (dirty) return null;
@@ -214,9 +233,10 @@ function gitLastmod(relPath) {
   }
 }
 
-function lastmodFor(relPath, stats, html = '') {
+function lastmodFor(relPath, stats, html = '', loc = '') {
   const declared = html.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/);
-  return declared?.[1] ?? gitLastmod(relPath) ?? formatDate(stats.mtime);
+  const previous = HAS_FULL_HISTORY ? null : PREVIOUS_LASTMOD.get(loc);
+  return declared?.[1] ?? gitLastmod(relPath) ?? previous ?? formatDate(stats.mtime);
 }
 
 const seen = new Map();
@@ -246,7 +266,7 @@ for (const filePath of walk(ROOT)) {
     seen.set(canonicalPath, {
       canonical: `${SITE_URL}${canonicalPath}`,
       mtimeMs: stats.mtimeMs,
-      lastmod: lastmodFor(sourcePath, stats, html),
+      lastmod: lastmodFor(sourcePath, stats, html, `${SITE_URL}${canonicalPath}`),
       sourcePath
     });
   }
@@ -262,7 +282,7 @@ for (const file of STATIC_INDEXABLE_FILES) {
   seen.set(file.pathname, {
     canonical: `${SITE_URL}${file.pathname}`,
     mtimeMs: stats.mtimeMs,
-    lastmod: lastmodFor(file.sourcePath, stats),
+    lastmod: lastmodFor(file.sourcePath, stats, "", `${SITE_URL}${file.pathname}`),
     sourcePath: file.sourcePath,
     changefreq: file.changefreq,
     priority: file.priority

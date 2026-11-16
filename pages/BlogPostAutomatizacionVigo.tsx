@@ -11,7 +11,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
       ctaEyebrow="Tienes una empresa en Vigo y demasiadas tareas siguen dependiendo de memoria?"
       ctaLabel="Analizar mi empresa"
       relatedResources={[
-        { href: '/automatizacion-empresas-galicia/', label: 'Automatización en Galicia' },
+        { href: '/automatizacion-empresas-galicia/', label: 'Automatización e IA en Galicia' },
         { href: '/blog/automatizacion-procesos-pontevedra-pymes-servicios/', label: 'Automatización en Pontevedra' },
       ]}
     >
@@ -106,7 +106,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
       </p>
 
       <p>
-        Si quieres una visión regional más amplia, puedes leer la página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización para empresas en Galicia</a>.
+        Si quieres una visión regional más amplia, puedes leer la página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización e IA para empresas en Galicia</a>.
         Si ya tienes claro que el problema esta en procesos, la página de <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a>
         es el siguiente paso natural.
       </p>

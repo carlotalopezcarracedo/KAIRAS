@@ -11,7 +11,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
       ctaEyebrow="Tienes una pyme en Pontevedra y la operativa depende demasiado de tareas manuales?"
       ctaLabel="Analizar mi caso local"
       relatedResources={[
-        { href: '/automatizacion-empresas-galicia/', label: 'Automatización en Galicia' },
+        { href: '/automatizacion-empresas-galicia/', label: 'Automatización e IA en Galicia' },
         { href: '/automatizacion-procesos/', label: 'Automatización de procesos' },
       ]}
     >
@@ -84,7 +84,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
       <p>
         En KAIRAS trabajamos la automatización con ese enfoque:
         primero entender la operativa, después decidir que conviene automatizar y solo entonces implementar.
-        La página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización para empresas en Galicia</a>
+        La página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización e IA para empresas en Galicia</a>
         explica esta visión con foco regional.
       </p>
 

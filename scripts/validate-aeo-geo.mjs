@@ -48,6 +48,8 @@ function extract(html, pattern) {
 }
 
 function isIndexable(html, canonical) {
+  // Las redirecciones (meta refresh) se validan aparte como redirecciones.
+  if (/<meta\s+http-equiv=["']refresh["']/i.test(html)) return false;
   const robots = extract(html, /<meta\s+name=["']robots["']\s+content=["']([^"']+)["']/i).toLowerCase();
   return canonical.startsWith(SITE_ORIGIN) && !robots.includes('noindex') && (!robots || robots.includes('index'));
 }

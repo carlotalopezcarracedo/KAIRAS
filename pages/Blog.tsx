@@ -874,7 +874,7 @@ const POSTS = [
   },
   {
     slug: '/blog/automatizacion-empresas-galicia-procesos-retorno/',
-    title: 'Automatización para empresas en Galicia: que procesos suelen dar retorno antes',
+    title: 'Qué procesos suelen dar retorno antes al automatizar una pyme gallega',
     date: '2026-05-19',
     dateLabel: '19 mayo 2026',
     desc: 'Procesos de alto impacto para pymes gallegas que quieren automatizar sin sobredimensionar el proyecto.',

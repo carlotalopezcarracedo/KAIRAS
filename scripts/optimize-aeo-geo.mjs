@@ -264,6 +264,11 @@ function metaRobots(html) {
 }
 
 function isIndexable(html) {
+  // Las páginas de redirección (meta refresh) no se tocan: deben quedarse como
+  // redirección limpia hacia la URL nueva, sin schema ni enlaces propios.
+  if (/<meta\s+http-equiv=["']refresh["']/i.test(html)) {
+    return false;
+  }
   const robots = metaRobots(html);
   if (robots.includes('noindex')) {
     return false;
