@@ -75,6 +75,11 @@
   mix-blend-mode: overlay;
 }
 
+/* Textura de ruido local (antes se cargaba de grainy-gradients.vercel.app, que devuelve 402) */
+.noise-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 /* Glassmorphism Cards */
 .glass-card {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
@@ -648,3 +653,10 @@
 }
 .orbit-spin { animation: orbit-spin 60s linear infinite; }
 .orbit-spin-reverse { animation: orbit-spin 60s linear infinite reverse; }
+
+/* CookieYes: el texto "Powered by" quedaba oscuro sobre fondo oscuro (contraste 1.15:1). */
+[data-cky-tag="powered-by"],
+[data-cky-tag="powered-by"] * {
+  color: #cbd5e1 !important;
+  background-color: transparent !important;
+}

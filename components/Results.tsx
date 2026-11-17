@@ -107,7 +107,7 @@ const Results: React.FC = () => {
               
               {/* Background Aesthetics */}
               <div className="absolute inset-0 bg-gradient-to-b from-[#020202] via-[#0a0a0f] to-[#120b29] opacity-90"></div>
-              <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
+              <div className="absolute inset-0 noise-texture opacity-20 mix-blend-overlay"></div>
               
               {/* Connecting Line (SVG) */}
               <svg className="absolute left-[3.3rem] top-0 bottom-0 h-full w-1 z-0 overflow-visible">
