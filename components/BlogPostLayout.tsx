@@ -35,6 +35,10 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
   children,
 }) => {
   const officialSources = officialSourcesFor(`${title} ${tags.join(' ')}`);
+  // Merged posts can leave two links pointing at the same guide; keep the first.
+  relatedResources = relatedResources.filter(
+    (resource, index, all) => all.findIndex((other) => other.href === resource.href) === index,
+  );
   // readTime props were hand-written and often inflated; derive it from the real text after hydration.
   void readTime;
   const bodyRef = useRef<HTMLDivElement>(null);

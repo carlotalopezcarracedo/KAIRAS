@@ -100,6 +100,466 @@
       "source": "/privacidad.html",
       "destination": "/privacidad/",
       "permanent": true
+    },
+    {
+      "source": "/blog/como-funciona-automatizacion-con-ia-empresa",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/como-funciona-automatizacion-con-ia-empresa/",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-automatizado-ia-pyme",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-automatizado-ia-pyme/",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-automatizacion-diferencias-trabajan-juntas",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-automatizacion-diferencias-trabajan-juntas/",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-principiantes-pymes",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-principiantes-pymes/",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-automatizacion-flujos-trabajo-pymes",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-automatizacion-flujos-trabajo-pymes/",
+      "destination": "/blog/que-es-automatizacion-con-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-con-ia-pymes",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-con-ia-pymes/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tipos-ia-pymes-servicios",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tipos-ia-pymes-servicios/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-generativa-pymes",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-generativa-pymes/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-inteligente-tareas-repetitivas",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-inteligente-tareas-repetitivas/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-tareas-ia-vs-procesos-pymes",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-tareas-ia-vs-procesos-pymes/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/diferencia-digitalizacion-automatizacion-ia-pymes",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/diferencia-digitalizacion-automatizacion-ia-pymes/",
+      "destination": "/blog/tipos-automatizacion-empresa-reglas-ia-rpa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-empresas-pymes-servicios",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-empresas-pymes-servicios/",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aplicaciones-ia-pymes-servicios",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aplicaciones-ia-pymes-servicios/",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-negocios-ia-pymes-servicios",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-negocios-ia-pymes-servicios/",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/productividad-ia-automatizacion-negocios",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/productividad-ia-automatizacion-negocios/",
+      "destination": "/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plataformas-automatizacion-ia-pymes-espana",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plataformas-automatizacion-ia-pymes-espana/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-mas-usadas-empresas-pymes",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-mas-usadas-empresas-pymes/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatgpt-vs-otras-ia-empresa",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatgpt-vs-otras-ia-empresa/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/software-rpa-ia-pymes-antes-comprar",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/software-rpa-ia-pymes-antes-comprar/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-no-code-flujos-ia-pymes",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-no-code-flujos-ia-pymes/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-gratis-pymes-riesgos",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-gratis-pymes-riesgos/",
+      "destination": "/blog/herramientas-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-n8n-pymes",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-n8n-pymes/",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agentes-ia-n8n-pymes",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agentes-ia-n8n-pymes/",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-make-pymes",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-con-ia-make-pymes/",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/zapier-automatizacion-ia-pymes",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/zapier-automatizacion-ia-pymes/",
+      "destination": "/blog/n8n-vs-make-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/microsoft-power-platform-agentes-ia-pymes",
+      "destination": "/blog/power-automate-ia-microsoft-365-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/microsoft-power-platform-agentes-ia-pymes/",
+      "destination": "/blog/power-automate-ia-microsoft-365-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/asistente-ia-atencion-cliente-pymes",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/asistente-ia-atencion-cliente-pymes/",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comparativa-automatizacion-ia-atencion-cliente-pymes",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tidio-chatbot-ia-pymes",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tidio-chatbot-ia-pymes/",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/manychat-automatizacion-ia-pymes",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/manychat-automatizacion-ia-pymes/",
+      "destination": "/blog/chatbot-ia-atencion-cliente-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-whatsapp-pymes",
+      "destination": "/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-whatsapp-pymes/",
+      "destination": "/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/make-whatsapp-ia-pymes",
+      "destination": "/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/make-whatsapp-ia-pymes/",
+      "destination": "/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/consultoria-ia-gestion-documental-pymes",
+      "destination": "/blog/gestion-documental-ia-automatizacion-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/consultoria-ia-gestion-documental-pymes/",
+      "destination": "/blog/gestion-documental-ia-automatizacion-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-contables-ia-pymes",
+      "destination": "/blog/automatizacion-facturas-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-contables-ia-pymes/",
+      "destination": "/blog/automatizacion-facturas-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/contratar-servicios-automatizacion-ia-empresa",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/contratar-servicios-automatizacion-ia-empresa/",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/servicios-consultoria-automatizacion-ia-pymes",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/servicios-consultoria-automatizacion-ia-pymes/",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/curso-automatizacion-ia-pymes-delegar",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/curso-automatizacion-ia-pymes-delegar/",
+      "destination": "/blog/agencia-automatizacion-ia-como-elegir/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/calcular-roi-automatizacion-ia",
+      "destination": "/blog/cuanto-cuesta-automatizar-procesos-pyme/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/calcular-roi-automatizacion-ia/",
+      "destination": "/blog/cuanto-cuesta-automatizar-procesos-pyme/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/piloto-automatizacion-ia-pymes",
+      "destination": "/blog/cuanto-cuesta-automatizar-procesos-pyme/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/piloto-automatizacion-ia-pymes/",
+      "destination": "/blog/cuanto-cuesta-automatizar-procesos-pyme/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-tiktok-ia-pymes-servicios",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-tiktok-ia-pymes-servicios/",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-youtube-ia-pymes",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-youtube-ia-pymes/",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-marketing-digital-pymes",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-ia-marketing-digital-pymes/",
+      "destination": "/blog/automatizacion-redes-sociales-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wordpress-automatizacion-ia-pymes",
+      "destination": "/blog/automatizacion-web-ia-leads-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wordpress-automatizacion-ia-pymes/",
+      "destination": "/blog/automatizacion-web-ia-leads-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/macros-scripts-automatizacion-ia-pymes",
+      "destination": "/blog/excel-ia-automatizacion-tareas-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/macros-scripts-automatizacion-ia-pymes/",
+      "destination": "/blog/excel-ia-automatizacion-tareas-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-local-automatizacion-procesos-pymes",
+      "destination": "/blog/seguridad-datos-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-local-automatizacion-procesos-pymes/",
+      "destination": "/blog/seguridad-datos-automatizacion-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-logistica-ia-pymes-servicios",
+      "destination": "/blog/automatizacion-industrial-ia-pymes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-logistica-ia-pymes-servicios/",
+      "destination": "/blog/automatizacion-industrial-ia-pymes/",
+      "permanent": true
     }
   ]
 }

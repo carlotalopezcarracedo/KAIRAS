@@ -12,7 +12,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
       ctaLabel="Revisar mis mensajes"
       relatedResources={[
         { href: '/automatizacion-whatsapp-empresas/', label: 'WhatsApp para empresas' },
-        { href: '/blog/asistente-ia-atencion-cliente-pymes/', label: 'Asistente IA de atención' },
+        { href: '/blog/chatbot-ia-atencion-cliente-pymes/', label: 'Asistente IA de atención' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
@@ -105,7 +105,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
 
       <p>
         Si hay IA en el primer nivel de atención, conviene revisar que puede resolver y que no.
-        El post sobre <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>
+        El post sobre <a href="/blog/chatbot-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>
         desarrolla esa frontera.
       </p>
 

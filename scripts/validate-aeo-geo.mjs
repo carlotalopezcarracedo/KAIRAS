@@ -173,7 +173,8 @@ for (const filePath of walk(TARGET_ROOT)) {
 
   if (IS_DIST && pathname === '/blog/') {
     const linkedPosts = new Set([...html.matchAll(/href=["'](\/blog\/[^"'#?]+\/)["']/gi)].map((match) => match[1]));
-    if (linkedPosts.size < 100) errors.push(`Blog index exposes only ${linkedPosts.size} post links in rendered HTML`);
+    const postDirs = fs.readdirSync(path.join(path.dirname(filePath))).filter((d) => fs.existsSync(path.join(path.dirname(filePath), d, "index.html")));
+    if (linkedPosts.size < postDirs.length) errors.push(`Blog index exposes only ${linkedPosts.size} of ${postDirs.length} post links in rendered HTML`);
   }
 
   if (IS_DIST) {

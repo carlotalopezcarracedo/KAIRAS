@@ -12,46 +12,39 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 ### Automation And AI For SMEs
 
 - https://kairas.es/blog/que-es-automatizacion-con-ia-pymes/
-- https://kairas.es/blog/como-funciona-automatizacion-con-ia-empresa/
-- https://kairas.es/blog/automatizacion-con-ia-empresas-pymes-servicios/
-- https://kairas.es/blog/ia-automatizacion-diferencias-trabajan-juntas/
-- https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
+- https://kairas.es/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/
+- https://kairas.es/blog/seguridad-datos-automatizacion-ia-pymes/
 - https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
-- https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
-- https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
+- https://kairas.es/blog/agencia-automatizacion-ia-como-elegir/
+- https://kairas.es/blog/gestion-documental-ia-automatizacion-pymes/
 
 ### Process Automation
 
-- https://kairas.es/blog/automatizacion-procesos-con-ia-pymes/
-- https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
-- https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
-- https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
-- https://kairas.es/blog/productividad-ia-automatizacion-negocios/
-- https://kairas.es/blog/agentes-ia-n8n-pymes/
-- https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
+- https://kairas.es/blog/tipos-automatizacion-empresa-reglas-ia-rpa/
+- https://kairas.es/blog/que-es-automatizacion-con-ia-pymes/
 - https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
+- https://kairas.es/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/
+- https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
+- https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
 
 ### WhatsApp, CRM And Customer Follow-Up
 
 - https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
-- https://kairas.es/blog/make-whatsapp-ia-pymes/
+- https://kairas.es/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/
 - https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - https://kairas.es/blog/whatsapp-business-app-vs-api-pymes/
-- https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/
 - https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
 - https://kairas.es/blog/seguimiento-leads-pymes-cuando-insistir/
 
 ### Tools And Platforms
 
-- https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
-- https://kairas.es/blog/zapier-automatizacion-ia-pymes/
-- https://kairas.es/blog/hubspot-ia-crm-pymes/
-- https://kairas.es/blog/tidio-chatbot-ia-pymes/
-- https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
+- https://kairas.es/blog/herramientas-automatizacion-ia-pymes/
 - https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
+- https://kairas.es/blog/hubspot-ia-crm-pymes/
+- https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
+- https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/
-- https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/
 
 ### Sectors
 

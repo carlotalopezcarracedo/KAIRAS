@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "guides": "node scripts/sync-guides.mjs",
     "aeo": "node scripts/optimize-aeo-geo.mjs",
-    "build": "npm run aeo && npm run llms && npm run sitemap && vite build && npm run prerender && npm run validate:dist",
+    "build": "npm run guides && npm run aeo && npm run llms && npm run sitemap && vite build && npm run prerender && npm run validate:dist",
     "prerender": "node scripts/prerender.mjs",
     "validate:dist": "node scripts/validate-aeo-geo.mjs --dist",
     "validate:aeo": "node scripts/validate-aeo-geo.mjs",

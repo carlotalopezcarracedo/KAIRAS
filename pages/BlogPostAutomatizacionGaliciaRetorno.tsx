@@ -107,7 +107,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
       <p>
         Ese cambio no transforma toda la empresa.
         Pero reduce oportunidades perdidas y da visibilidad al equipo.
-        Después, si hay volumen, se puede añadir un <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>
+        Después, si hay volumen, se puede añadir un <a href="/blog/chatbot-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>
         o automatización de documentos.
       </p>
 

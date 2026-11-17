@@ -17,8 +17,8 @@ KAIRAS maps repetitive work, identifies bottlenecks and designs automations that
 
 Related content:
 
-- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
-- Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
+- AI agents with n8n for SMEs: https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
+- Productivity with AI and automation: https://kairas.es/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/
 
 ### AI For Companies
 
@@ -29,15 +29,14 @@ KAIRAS applies AI to specific business workflows such as classification, summari
 Related content:
 
 - Kit Digital and AI automation: https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
-- AI workflow automation: https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
-- Microsoft Power Platform and AI agents: https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/
-- WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
-- AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
-- Macros, scripts and AI automation: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
-- AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
-- Hiring AI automation services: https://kairas.es/blog/contratar-servicios-automatizacion-ia-empresa/
-- AI agents with n8n for SMEs: https://kairas.es/blog/agentes-ia-n8n-pymes/
-- AI consulting for document management: https://kairas.es/blog/consultoria-ia-gestion-documental-pymes/
+- AI workflow automation: https://kairas.es/blog/que-es-automatizacion-con-ia-pymes/
+- Microsoft Power Platform and AI agents: https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/
+- WordPress and AI automation: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
+- Macros, scripts and AI automation: https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
+- AI automation platforms for SMEs in Spain: https://kairas.es/blog/herramientas-automatizacion-ia-pymes/
+- Hiring AI automation services: https://kairas.es/blog/agencia-automatizacion-ia-como-elegir/
+- AI agents with n8n for SMEs: https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
+- AI consulting for document management: https://kairas.es/blog/gestion-documental-ia-automatizacion-pymes/
 
 ### WhatsApp Automation
 
@@ -47,7 +46,7 @@ KAIRAS helps companies answer, filter, route and follow up WhatsApp conversation
 
 Related content:
 
-- Make, WhatsApp and AI workflows: https://kairas.es/blog/make-whatsapp-ia-pymes/
+- Make, WhatsApp and AI workflows: https://kairas.es/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/
 - Connect WhatsApp and CRM: https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
 
 ### CRM And Customer Follow-Up
@@ -59,7 +58,6 @@ KAIRAS builds follow-up systems so leads and customers have context, responsible
 Related content:
 
 - AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
-- WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 
 ### Clinic Automation
 
@@ -75,8 +73,8 @@ KAIRAS helps SMEs choose the highest-impact automation first, instead of adding 
 
 Related content:
 
-- Productivity with AI and automation: https://kairas.es/blog/productividad-ia-automatizacion-negocios/
-- AI automation platforms for SMEs in Spain: https://kairas.es/blog/plataformas-automatizacion-ia-pymes-espana/
+- Productivity with AI and automation: https://kairas.es/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/
+- AI automation platforms for SMEs in Spain: https://kairas.es/blog/herramientas-automatizacion-ia-pymes/
 
 ### Automation In Galicia
 

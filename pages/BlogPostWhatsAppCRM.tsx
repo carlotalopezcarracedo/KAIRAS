@@ -135,7 +135,7 @@ const BlogPostWhatsAppCRM: React.FC = () => {
       </p>
 
       <p>
-        Si además usas un <a href="/blog/asistente-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>,
+        Si además usas un <a href="/blog/chatbot-ia-atencion-cliente-pymes/" className="text-cyber-purple underline decoration-cyber-purple/50">asistente de IA para atención al cliente</a>,
         la integración con CRM se vuelve todavía más importante:
         la IA puede responder, pero el sistema debe conservar contexto para que una persona pueda continuar sin empezar de cero.
       </p>

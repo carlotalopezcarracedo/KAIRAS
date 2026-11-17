@@ -12,7 +12,7 @@ const BlogPostIAPymesSentido: React.FC = () => {
       ctaLabel="Analizar mi caso"
       relatedResources={[
         { href: '/ia-empresas/', label: 'IA para empresas' },
-        { href: '/blog/asistente-ia-atencion-cliente-pymes/', label: 'Asistente IA de atención' },
+        { href: '/blog/chatbot-ia-atencion-cliente-pymes/', label: 'Asistente IA de atención' },
       ]}
     >
       <p className="text-lg text-slate-300 leading-relaxed">
