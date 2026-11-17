@@ -308,11 +308,11 @@ const ARTICLES: Record<string, Article> = {
           resume bien esa frontera: automatizar debe reducir fricción, no crear otra.
         </p>
 
-        <h2 className={headingClass}>Decisión practica</h2>
+        <h2 className={headingClass}>Decisión práctica</h2>
 
         <p>
-          ManyChat puede encajar si tu canal de entrada principal esta en redes o mensajeria.
-          Si el problema esta en seguimiento, CRM o procesos internos, la herramienta sola se quedara corta.
+          ManyChat puede encajar si tu canal de entrada principal está en redes o mensajeria.
+          Si el problema está en seguimiento, CRM o procesos internos, la herramienta sola se quedara corta.
           Primero define el camino completo del mensaje: entrada, filtro, responsable, seguimiento y cierre.
         </p>
       </>

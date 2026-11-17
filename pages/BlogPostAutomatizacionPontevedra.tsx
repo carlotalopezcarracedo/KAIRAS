@@ -120,7 +120,7 @@ const BlogPostAutomatizacionPontevedra: React.FC = () => {
       <p>
         La automatización no se justifica por sonar avanzada.
         Se justifica cuando aporta tiempo, orden y control.
-        Si tu negocio esta en Pontevedra, Vigo, A Estrada o cualquier punto de Galicia, lo importante es empezar por el proceso que más fricción genera ahora.
+        Si tu negocio está en Pontevedra, Vigo, A Estrada o cualquier punto de Galicia, lo importante es empezar por el proceso que más fricción genera ahora.
       </p>
     </BlogPostLayout>
   );

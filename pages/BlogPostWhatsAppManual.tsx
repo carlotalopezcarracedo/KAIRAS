@@ -23,7 +23,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
             </p>
 
             <div className="flex flex-wrap gap-2 mb-6">
-              {['WhatsApp', 'Atencion', 'Seguimiento'].map((tag) => (
+              {['WhatsApp', 'Atención', 'Seguimiento'].map((tag) => (
                 <span key={tag} className="text-[10px] font-bold uppercase tracking-widest text-cyber-purple bg-cyber-purple/10 border border-cyber-purple/20 px-3 py-1 rounded-full">
                   {tag}
                 </span>
@@ -80,7 +80,7 @@ const BlogPostWhatsAppManual: React.FC = () => {
                 Si esas consultas consumen gran parte del día, necesitas respuestas estructuradas y activación automática del primer tramo.
               </p>
 
-              <h3 className="text-lg font-black uppercase tracking-wider text-white">No sabes que conversación esta en riesgo</h3>
+              <h3 className="text-lg font-black uppercase tracking-wider text-white">No sabes que conversación está en riesgo</h3>
               <p>
                 Sin alertas ni estado por oportunidad, todo parece urgente y a la vez nada queda realmente priorizado.
                 El resultado es que se atiende lo que hace más ruido, no lo que tiene más valor comercial.

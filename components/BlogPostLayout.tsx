@@ -1,4 +1,4 @@
-import React, { type ReactNode } from 'react';
+import React, { type ReactNode, useEffect, useRef, useState } from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -35,6 +35,14 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
   children,
 }) => {
   const officialSources = officialSourcesFor(`${title} ${tags.join(' ')}`);
+  // readTime props were hand-written and often inflated; derive it from the real text after hydration.
+  void readTime;
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const [readMinutes, setReadMinutes] = useState<number | null>(null);
+  useEffect(() => {
+    const words = (bodyRef.current?.textContent || '').split(/\s+/).filter(Boolean).length;
+    if (words) setReadMinutes(Math.max(1, Math.round(words / 200)));
+  }, []);
 
   return (
     <div className="relative min-h-[100svh]">
@@ -63,9 +71,9 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
               {title}
             </h1>
 
-            <BlogAuthorMeta>{dateLabel} · {readTime}</BlogAuthorMeta>
+            <BlogAuthorMeta>{dateLabel}{readMinutes ? ` · ${readMinutes} min de lectura` : ''}</BlogAuthorMeta>
 
-            <div className="prose-kairas space-y-8 text-slate-300 text-base leading-relaxed font-light">
+            <div ref={bodyRef} className="prose-kairas space-y-8 text-slate-300 text-base leading-relaxed font-light">
               {children}
             </div>
 

@@ -96,7 +96,7 @@ const BlogPostReformasInstaladoras: React.FC = () => {
 
       <p>
         Hay partes que deben seguir siendo humanas.
-        Valorar una obra, detectar un riesgo tecnico, decidir si un trabajo compensa o negociar condiciones requiere criterio.
+        Valorar una obra, detectar un riesgo técnico, decidir si un trabajo compensa o negociar condiciones requiere criterio.
         Automatizar bien también es respetar esos límites.
       </p>
 

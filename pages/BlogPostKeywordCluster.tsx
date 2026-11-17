@@ -186,7 +186,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-automatizacion-ia-whatsapp': {
-    tags: ['WhatsApp', 'IA', 'Atencion'],
+    tags: ['WhatsApp', 'IA', 'Atención'],
     title: 'Automatización con IA en WhatsApp: como ordenar mensajes sin perder trato humano',
     dateLabel: '10 junio 2026',
     readTime: '8 min de lectura',
@@ -440,7 +440,7 @@ const ARTICLES: Record<string, Article> = {
       <>
         <p className="text-lg text-slate-300 leading-relaxed">
           La automatización con IA y Make puede ayudar a una pyme a conectar formularios, CRM, email,
-          hojas de calculo y herramientas de IA con flujos visuales y relativamente faciles de seguir.
+          hojas de calculo y herramientas de IA con flujos visuales y relativamente fáciles de seguir.
         </p>
 
         <p>
@@ -495,7 +495,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           Make puede encajar si buscas rapidez, visualización clara y conexiones habituales.
-          Si necesitas logica muy personalizada, control avanzado o integraciones más técnicas,
+          Si necesitas lógica muy personalizada, control avanzado o integraciones más técnicas,
           puede que haga falta otra arquitectura.
         </p>
 
@@ -527,7 +527,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           No sustituye el criterio contable ni fiscal.
-          Su valor esta en ordenar entradas, detectar pendientes y evitar que el equipo persiga información una y otra vez.
+          Su valor está en ordenar entradas, detectar pendientes y evitar que el equipo persiga información una y otra vez.
         </p>
 
         <h2 className={headingClass}>Qué procesos contables se pueden automatizar</h2>
@@ -601,7 +601,7 @@ const ARTICLES: Record<string, Article> = {
       <>
         <p className="text-lg text-slate-300 leading-relaxed">
           La automatización IA para marketing digital no debería quedarse en publicar más contenido o enviar más mensajes.
-          Para una pyme, el valor real esta en convertir consultas en seguimiento ordenado.
+          Para una pyme, el valor real está en convertir consultas en seguimiento ordenado.
         </p>
 
         <p>
@@ -750,7 +750,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-curso-automatizacion-ia': {
-    tags: ['Curso IA', 'Decision', 'Pymes'],
+    tags: ['Curso IA', 'Decisión', 'Pymes'],
     title: 'Curso de automatización IA para pymes: cuando aprender y cuando delegar',
     dateLabel: '10 junio 2026',
     readTime: '7 min de lectura',

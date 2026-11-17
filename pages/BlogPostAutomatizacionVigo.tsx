@@ -107,7 +107,7 @@ const BlogPostAutomatizacionVigo: React.FC = () => {
 
       <p>
         Si quieres una visión regional más amplia, puedes leer la página de <a href="/automatizacion-empresas-galicia/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización e IA para empresas en Galicia</a>.
-        Si ya tienes claro que el problema esta en procesos, la página de <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a>
+        Si ya tienes claro que el problema está en procesos, la página de <a href="/automatizacion-procesos/" className="text-cyber-purple underline decoration-cyber-purple/50">automatización de procesos</a>
         es el siguiente paso natural.
       </p>
     </BlogPostLayout>

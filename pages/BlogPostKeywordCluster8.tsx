@@ -52,7 +52,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p className={answerClass}>
           Kit Digital es un programa publico de ayudas para que pymes y autónomos adopten soluciones de
-          digitalización. En automatización con IA, la lectura practica es revisar si el proyecto encaja en
+          digitalización. En automatización con IA, la lectura práctica es revisar si el proyecto encaja en
           categorías como gestión de procesos, gestión de clientes, business intelligence o soluciones con IA
           asociada, siempre comprobando las condiciones vigentes en fuentes oficiales.
         </p>
@@ -464,7 +464,7 @@ const ARTICLES: Record<string, Article> = {
         </p>
 
         <p>
-          Si el cuello de botella principal esta en Microsoft 365, empieza por la guía de
+          Si el cuello de botella principal está en Microsoft 365, empieza por la guía de
           {' '}<a href="/blog/power-automate-ia-microsoft-365-pymes/" className={linkClass}>Power Automate con IA en Microsoft 365</a>.
           Si lo que buscas es entender el rol de los asistentes, lee
           {' '}<a href="/blog/agentes-ia-automatizacion-procesos-pymes/" className={linkClass}>agentes de IA para automatización de procesos</a>.

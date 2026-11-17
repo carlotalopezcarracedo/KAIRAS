@@ -97,7 +97,7 @@ const BlogPostPresupuestosSeguimiento: React.FC = () => {
       <p>
         Esto debe adaptarse al ciclo de compra.
         No es lo mismo una cita puntual que un proyecto de reformas o una implantación de software.
-        La logica de <a href="/blog/seguimiento-leads-pymes-cuando-insistir/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando insistir y cuando parar con un lead</a>
+        La lógica de <a href="/blog/seguimiento-leads-pymes-cuando-insistir/" className="text-cyber-purple underline decoration-cyber-purple/50">cuando insistir y cuando parar con un lead</a>
         aplica directamente a presupuestos.
       </p>
 

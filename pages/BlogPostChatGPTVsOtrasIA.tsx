@@ -63,7 +63,7 @@ const BlogPostChatGPTVsOtrasIA: React.FC = () => {
       <p>
         Una herramienta general ayuda a una persona.
         Un sistema integrado ayuda a la empresa.
-        La diferencia esta en si el resultado queda dentro del proceso o se queda en una conversación suelta.
+        La diferencia está en si el resultado queda dentro del proceso o se queda en una conversación suelta.
       </p>
 
       <p>

@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Clinicas', 'Pacientes', 'CRM']}
+      tags={['Clínicas', 'Pacientes', 'CRM']}
       title="Seguimiento de pacientes en clínicas: antes y después de la cita"
       dateLabel="19 mayo 2026"
       readTime="8 min de lectura"
@@ -42,7 +42,7 @@ const BlogPostSeguimientoPacientesClinicas: React.FC = () => {
       </ul>
 
       <p>
-        Esta logica complementa la <a href="/blog/confirmacion-citas-whatsapp-clinicas/" className="text-cyber-purple underline decoration-cyber-purple/50">confirmación de citas por WhatsApp en clínicas</a>,
+        Esta lógica complementa la <a href="/blog/confirmacion-citas-whatsapp-clinicas/" className="text-cyber-purple underline decoration-cyber-purple/50">confirmación de citas por WhatsApp en clínicas</a>,
         pero va más allá de evitar ausencias.
         Busca continuidad y menos carga administrativa.
       </p>

@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostIAMasUsadas: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Herramientas IA', 'Empresas', 'Decision']}
+      tags={['Herramientas IA', 'Empresas', 'Decisión']}
       title="IA más usadas en empresas: como elegir sin perseguir la herramienta de moda"
       dateLabel="5 junio 2026"
       readTime="7 min de lectura"
@@ -63,9 +63,9 @@ const BlogPostIAMasUsadas: React.FC = () => {
 
       <p>
         Empieza por el proceso.
-        Si el problema esta en responder mensajes, busca una solución conversacional conectada a CRM.
-        Si esta en documentos, busca IA documental.
-        Si esta en seguimiento, prioriza CRM y automatizaciones.
+        Si el problema está en responder mensajes, busca una solución conversacional conectada a CRM.
+        Si está en documentos, busca IA documental.
+        Si está en seguimiento, prioriza CRM y automatizaciones.
       </p>
 
       <p>

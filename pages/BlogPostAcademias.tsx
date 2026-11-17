@@ -45,7 +45,7 @@ const BlogPostAcademias: React.FC = () => {
 
       <p>
         Si esto ocurre cada semana, no es un problema de atención. Es un problema de sistema.
-        La misma logica aparece en muchos negocios que <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">pierden horas en tareas manuales repetidas</a>.
+        La misma lógica aparece en muchos negocios que <a href="/blog/tareas-manuales-que-frenan-tu-negocio/" className="text-cyber-purple underline decoration-cyber-purple/50">pierden horas en tareas manuales repetidas</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">

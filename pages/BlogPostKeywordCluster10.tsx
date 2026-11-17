@@ -81,12 +81,12 @@ const ARTICLES: Record<string, Article> = {
                 <td className={tdClass}>Integradores no-code</td>
                 <td className={tdClass}>Make, Zapier</td>
                 <td className={tdClass}>Quieres conectar formularios, CRM, email, hojas y avisos sin desarrollo pesado.</td>
-                <td className={tdClass}>Crear flujos rapidos que nadie mantiene.</td>
+                <td className={tdClass}>Crear flujos rápidos que nadie mantiene.</td>
               </tr>
               <tr>
                 <td className={tdClass}>Automatización técnica</td>
                 <td className={tdClass}>n8n</td>
-                <td className={tdClass}>Necesitas más control, logica propia o integraciones menos estándar.</td>
+                <td className={tdClass}>Necesitas más control, lógica propia o integraciones menos estándar.</td>
                 <td className={tdClass}>Depender de una persona técnica si no hay documentación.</td>
               </tr>
               <tr>
@@ -188,7 +188,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-contratar-servicios-automatizacion-ia-empresa': {
-    tags: ['Servicios', 'IA', 'Decision'],
+    tags: ['Servicios', 'IA', 'Decisión'],
     title: 'Contratar servicios de automatización con IA: que revisar antes de pedir presupuesto',
     dateLabel: '24 septiembre 2026',
     readTime: '8 min de lectura',
@@ -279,7 +279,7 @@ const ARTICLES: Record<string, Article> = {
               <tr>
                 <td className={tdClass}>Medición</td>
                 <td className={tdClass}>Como se comprobara si el flujo reduce carga manual o mejora seguimiento.</td>
-                <td className={tdClass}>El exito se define como "tener IA" y no como impacto operativo.</td>
+                <td className={tdClass}>El éxito se define como "tener IA" y no como impacto operativo.</td>
               </tr>
             </tbody>
           </table>

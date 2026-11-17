@@ -31,8 +31,8 @@ const BlogPostDespachosAbogados: React.FC = () => {
       </h2>
 
       <p>
-        El problema no siempre esta en el volumen de casos.
-        A menudo esta en la dispersión: correos, llamadas, WhatsApp, carpetas, notas y documentos pendientes.
+        El problema no siempre está en el volumen de casos.
+        A menudo está en la dispersión: correos, llamadas, WhatsApp, carpetas, notas y documentos pendientes.
       </p>
 
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
@@ -102,7 +102,7 @@ const BlogPostDespachosAbogados: React.FC = () => {
 
       <p>
         El primer flujo recomendable suele ser documentación pendiente o cita inicial.
-        Son procesos repetidos, medibles y faciles de acotar.
+        Son procesos repetidos, medibles y fáciles de acotar.
         Después puede venir seguimiento de expediente, comunicación con cliente o integración con calendario y email.
       </p>
 

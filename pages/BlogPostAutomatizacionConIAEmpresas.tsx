@@ -70,7 +70,7 @@ const BlogPostAutomatizacionConIAEmpresas: React.FC = () => {
 
       <p>
         La automatización con IA funciona mejor cuando los datos ya tienen cierto orden.
-        Si cada cliente esta en una hoja distinta, los estados no existen y nadie sabe cual es la fuente fiable,
+        Si cada cliente está en una hoja distinta, los estados no existen y nadie sabe cual es la fuente fiable,
         el primer paso no es la IA: es ordenar la base.
       </p>
 

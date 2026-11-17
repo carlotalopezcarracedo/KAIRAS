@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostHerramientasIA: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Herramientas', 'IA', 'Decision']}
+      tags={['Herramientas', 'IA', 'Decisión']}
       title="Herramientas de automatización con IA para pymes: que mirar antes de elegir"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"
@@ -81,8 +81,8 @@ const BlogPostHerramientasIA: React.FC = () => {
       </p>
 
       <p>
-        Si el problema esta en clientes y seguimiento, empieza por el <a href="/crm-pymes-seguimiento-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">CRM para pymes y seguimiento de clientes</a>.
-        Si el problema esta en datos y conocimiento interno, revisa antes <a href="/blog/preparar-datos-empresa-automatizar-ia/" className="text-cyber-purple underline decoration-cyber-purple/50">como preparar tus datos para IA</a>.
+        Si el problema está en clientes y seguimiento, empieza por el <a href="/crm-pymes-seguimiento-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50">CRM para pymes y seguimiento de clientes</a>.
+        Si el problema está en datos y conocimiento interno, revisa antes <a href="/blog/preparar-datos-empresa-automatizar-ia/" className="text-cyber-purple underline decoration-cyber-purple/50">como preparar tus datos para IA</a>.
       </p>
 
       <p>

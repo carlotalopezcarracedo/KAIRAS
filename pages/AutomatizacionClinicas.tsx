@@ -45,7 +45,7 @@ const AutomatizacionClinicas: React.FC = () => {
                 <li>Menos llamadas de confirmación y menos no-shows.</li>
                 <li>Atención más consistente sin saturar recepción.</li>
                 <li>Mejor trazabilidad de pacientes y tareas.</li>
-                <li>Más tiempo para trabajo clinico y seguimiento de calidad.</li>
+                <li>Más tiempo para trabajo clínico y seguimiento de calidad.</li>
               </ul>
             </div>
           </div>

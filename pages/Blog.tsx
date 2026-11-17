@@ -50,7 +50,7 @@ const CATEGORIES: BlogCategory[] = [
   {
     id: 'clinicas',
     label: 'Automatización para clínicas',
-    shortLabel: 'Clinicas',
+    shortLabel: 'Clínicas',
     desc: 'Para clínicas que quieren reducir ausencias y ordenar agenda y seguimiento.',
     serviceUrl: '/automatizacion-clinicas/',
   },
@@ -113,7 +113,7 @@ const POSTS = [
     date: '2026-09-24',
     dateLabel: '24 septiembre 2026',
     desc: 'Que revisar antes de pedir presupuesto: proceso, datos, integraciones, revisión humana, mantenimiento y medición.',
-    tags: ['Servicios', 'IA', 'Decision'],
+    tags: ['Servicios', 'IA', 'Decisión'],
     category: 'ia',
   },
   {
@@ -203,7 +203,7 @@ const POSTS = [
     date: '2026-08-24',
     dateLabel: '24 agosto 2026',
     desc: 'Cuando un chat con IA ayuda, cuando molesta y como conectarlo con WhatsApp, CRM y seguimiento.',
-    tags: ['Tidio', 'Chatbot', 'Atencion'],
+    tags: ['Tidio', 'Chatbot', 'Atención'],
     category: 'whatsapp',
   },
   {
@@ -212,7 +212,7 @@ const POSTS = [
     date: '2026-08-24',
     dateLabel: '24 agosto 2026',
     desc: 'Que elegir entre chatbot, asistente, WhatsApp, CRM y revisión humana para atender mejor sin perder control.',
-    tags: ['Atencion', 'IA', 'Comparativa'],
+    tags: ['Atención', 'IA', 'Comparativa'],
     category: 'whatsapp',
   },
   {
@@ -284,7 +284,7 @@ const POSTS = [
     date: '2026-07-23',
     dateLabel: '23 julio 2026',
     desc: 'Como entender entradas, reglas, datos y revisión humana antes de comprar herramientas o hacer cursos.',
-    tags: ['Principiantes', 'IA', 'Decision'],
+    tags: ['Principiantes', 'IA', 'Decisión'],
     category: 'ia',
   },
   {
@@ -374,7 +374,7 @@ const POSTS = [
     date: '2026-06-20',
     dateLabel: '20 junio 2026',
     desc: 'Método para comparar costes, tiempo recuperado, errores y seguimiento usando escenarios conservadores.',
-    tags: ['ROI', 'IA', 'Decision'],
+    tags: ['ROI', 'IA', 'Decisión'],
     category: 'ia',
   },
   {
@@ -401,7 +401,7 @@ const POSTS = [
     date: '2026-06-20',
     dateLabel: '20 junio 2026',
     desc: 'Como elegir un proceso, limitar el alcance y medir resultados antes de ampliar una automatización.',
-    tags: ['Piloto IA', 'Pruebas', 'Decision'],
+    tags: ['Piloto IA', 'Pruebas', 'Decisión'],
     category: 'ia',
   },
   {
@@ -428,7 +428,7 @@ const POSTS = [
     date: '2026-06-10',
     dateLabel: '10 junio 2026',
     desc: 'Como usar IA en WhatsApp para clasificar consultas, registrar leads y responder mejor sin sonar frío.',
-    tags: ['WhatsApp', 'IA', 'Atencion'],
+    tags: ['WhatsApp', 'IA', 'Atención'],
     category: 'whatsapp',
   },
   {
@@ -491,7 +491,7 @@ const POSTS = [
     date: '2026-06-10',
     dateLabel: '10 junio 2026',
     desc: 'Como decidir entre formarte, probar internamente o delegar un proyecto de automatización con IA.',
-    tags: ['Curso IA', 'Decision', 'Pymes'],
+    tags: ['Curso IA', 'Decisión', 'Pymes'],
     category: 'ia',
   },
   {
@@ -563,7 +563,7 @@ const POSTS = [
     date: '2026-06-05',
     dateLabel: '5 junio 2026',
     desc: 'IA generativa, conversacional, documental y de clasificación explicadas para decisiones practicas.',
-    tags: ['Tipos IA', 'Pymes', 'Decision'],
+    tags: ['Tipos IA', 'Pymes', 'Decisión'],
     category: 'ia',
   },
   {
@@ -572,7 +572,7 @@ const POSTS = [
     date: '2026-06-05',
     dateLabel: '5 junio 2026',
     desc: 'Como evaluar herramientas de IA por proceso, datos, integraciones y control, no por popularidad.',
-    tags: ['Herramientas IA', 'Empresas', 'Decision'],
+    tags: ['Herramientas IA', 'Empresas', 'Decisión'],
     category: 'ia',
   },
   {
@@ -608,7 +608,7 @@ const POSTS = [
     date: '2026-06-05',
     dateLabel: '5 junio 2026',
     desc: 'Criterios para elegir una agencia de automatización IA que entienda procesos antes de vender herramientas.',
-    tags: ['Agencia IA', 'Decision', 'Pymes'],
+    tags: ['Agencia IA', 'Decisión', 'Pymes'],
     category: 'ia',
   },
   {
@@ -626,7 +626,7 @@ const POSTS = [
     date: '2026-06-05',
     dateLabel: '5 junio 2026',
     desc: 'Como comparar herramientas de automatización con IA sin acumular apps ni romper la operativa del equipo.',
-    tags: ['Herramientas', 'IA', 'Decision'],
+    tags: ['Herramientas', 'IA', 'Decisión'],
     category: 'ia',
   },
   {
@@ -653,7 +653,7 @@ const POSTS = [
     date: '2026-06-05',
     dateLabel: '5 junio 2026',
     desc: 'Como usar un chatbot con IA para responder mejor sin perder trato humano, contexto ni seguimiento.',
-    tags: ['Chatbot IA', 'Atencion', 'WhatsApp'],
+    tags: ['Chatbot IA', 'Atención', 'WhatsApp'],
     category: 'whatsapp',
   },
   {
@@ -761,7 +761,7 @@ const POSTS = [
     date: '2026-06-04',
     dateLabel: '4 junio 2026',
     desc: 'Factores que influyen en el coste de automatizar procesos y como saber si merece la pena invertir.',
-    tags: ['Coste', 'Procesos', 'Decision'],
+    tags: ['Coste', 'Procesos', 'Decisión'],
     category: 'procesos',
   },
   {
@@ -833,7 +833,7 @@ const POSTS = [
     date: '2026-05-26',
     dateLabel: '26 mayo 2026',
     desc: 'Como diseñar mensajes automáticos útiles, claros y con salida a humano para no convertir la automatización en fricción.',
-    tags: ['WhatsApp', 'Clientes', 'Atencion'],
+    tags: ['WhatsApp', 'Clientes', 'Atención'],
     category: 'whatsapp',
   },
   {
@@ -851,7 +851,7 @@ const POSTS = [
     date: '2026-05-19',
     dateLabel: '19 mayo 2026',
     desc: 'Que tareas puede asumir un asistente de IA, cuando debe escalar a humano y como medir si realmente reduce carga.',
-    tags: ['IA', 'Atencion', 'WhatsApp'],
+    tags: ['IA', 'Atención', 'WhatsApp'],
     category: 'ia',
   },
   {
@@ -887,7 +887,7 @@ const POSTS = [
     date: '2026-05-19',
     dateLabel: '19 mayo 2026',
     desc: 'Como automatizar confirmaciones, instrucciones y revisiones sin perder trato personal ni cargar a recepción.',
-    tags: ['Clinicas', 'Pacientes', 'CRM'],
+    tags: ['Clínicas', 'Pacientes', 'CRM'],
     category: 'clinicas',
   },
   {
@@ -905,7 +905,7 @@ const POSTS = [
     date: '2026-04-28',
     dateLabel: '28 abril 2026',
     desc: 'Estructura mínima para responder antes, filtrar mejor y seguir conversaciones sin saturar al equipo.',
-    tags: ['WhatsApp', 'Atencion', 'Proceso'],
+    tags: ['WhatsApp', 'Atención', 'Proceso'],
     category: 'whatsapp',
   },
   {
@@ -923,7 +923,7 @@ const POSTS = [
     date: '2026-04-28',
     dateLabel: '28 abril 2026',
     desc: 'Como bajar ausencias con confirmaciones y recordatorios en el canal correcto, sin más carga manual.',
-    tags: ['Clinicas', 'Recordatorios', 'Agenda'],
+    tags: ['Clínicas', 'Recordatorios', 'Agenda'],
     category: 'clinicas',
   },
   {
@@ -977,7 +977,7 @@ const POSTS = [
     date: '2026-04-29',
     dateLabel: '29 abril 2026',
     desc: 'La confirmación manual de citas depende de que alguien tenga tiempo. Como automatizarla con WhatsApp sin perder el trato cercano con el paciente.',
-    tags: ['Clinicas', 'WhatsApp', 'Automatizacion'],
+    tags: ['Clínicas', 'WhatsApp', 'Automatizacion'],
     category: 'clinicas',
   },
   {

@@ -80,7 +80,7 @@ const ARTICLES: Record<string, Article> = {
         </ul>
 
         <p>
-          Si el cuello de botella esta en leads, el flujo debería acabar en un sistema de
+          Si el cuello de botella está en leads, el flujo debería acabar en un sistema de
           {' '}<a href="/crm-pymes-seguimiento-clientes/" className={linkClass}>CRM y seguimiento de clientes</a>,
           no solo en una notificación suelta.
         </p>
@@ -106,15 +106,15 @@ const ARTICLES: Record<string, Article> = {
               </tr>
               <tr>
                 <td className={tdClass}>Make</td>
-                <td className={tdClass}>Flujos visuales con más logica y ramificaciones.</td>
+                <td className={tdClass}>Flujos visuales con más lógica y ramificaciones.</td>
                 <td className={tdClass}>Crear escenarios difíciles de mantener.</td>
                 <td className={tdClass}>Útil si el equipo entiende el flujo visual.</td>
               </tr>
               <tr>
                 <td className={tdClass}>n8n</td>
-                <td className={tdClass}>Control tecnico, datos y automatizaciones más flexibles.</td>
-                <td className={tdClass}>Necesitar más criterio tecnico del esperado.</td>
-                <td className={tdClass}>Encaja cuando hay soporte tecnico y control.</td>
+                <td className={tdClass}>Control técnico, datos y automatizaciones más flexibles.</td>
+                <td className={tdClass}>Necesitar más criterio técnico del esperado.</td>
+                <td className={tdClass}>Encaja cuando hay soporte técnico y control.</td>
               </tr>
             </tbody>
           </table>
@@ -135,8 +135,8 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>Cuándo Zapier se queda corto</h2>
 
         <p>
-          Zapier se puede quedar corto si el proceso necesita mucha logica, permisos finos, datos sensibles,
-          trazabilidad detallada o mantenimiento tecnico frecuente. También puede quedarse corto si la empresa
+          Zapier se puede quedar corto si el proceso necesita mucha lógica, permisos finos, datos sensibles,
+          trazabilidad detallada o mantenimiento técnico frecuente. También puede quedarse corto si la empresa
           quiere convertir una operativa completa en sistema, no solo conectar aplicaciones.
         </p>
 
@@ -213,7 +213,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p className={answerClass}>
           Usar HubSpot con IA en una pyme significa apoyarse en CRM, automatizaciones y asistencia inteligente para
-          ordenar contactos, conversaciones, tareas y oportunidades. El valor no esta en tener más datos, sino en
+          ordenar contactos, conversaciones, tareas y oportunidades. El valor no está en tener más datos, sino en
           convertirlos en seguimiento claro: quien responde, cuando insiste y que información falta.
         </p>
 
@@ -242,7 +242,7 @@ const ARTICLES: Record<string, Article> = {
         <p>
           Este enfoque se conecta con la página de
           {' '}<a href="/crm-pymes-seguimiento-clientes/" className={linkClass}>CRM para pymes y seguimiento de clientes</a>,
-          donde el foco esta en que ninguna oportunidad se quede sin responsable.
+          donde el foco está en que ninguna oportunidad se quede sin responsable.
         </p>
 
         <h2 className={headingClass}>HubSpot con IA no sustituye el proceso comercial</h2>
@@ -344,7 +344,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-tidio-chatbot-ia-pymes': {
-    tags: ['Tidio', 'Chatbot', 'Atencion'],
+    tags: ['Tidio', 'Chatbot', 'Atención'],
     title: 'Tidio y chatbot con IA para pymes: atención rápida sin perder control',
     dateLabel: '24 agosto 2026',
     readTime: '8 min de lectura',
@@ -373,7 +373,7 @@ const ARTICLES: Record<string, Article> = {
         <p className={answerClass}>
           Tidio puede funcionar como una capa de chat y automatización para responder preguntas frecuentes, recoger
           datos iniciales y avisar al equipo cuando una conversación necesita atención humana. En una pyme, el valor
-          esta en reducir espera y ordenar la entrada, no en dejar todas las respuestas en automático.
+          está en reducir espera y ordenar la entrada, no en dejar todas las respuestas en automático.
         </p>
 
         <p>

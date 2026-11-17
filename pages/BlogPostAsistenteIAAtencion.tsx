@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostAsistenteIAAtencion: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['IA', 'Atencion', 'WhatsApp']}
+      tags={['IA', 'Atención', 'WhatsApp']}
       title="Asistente de IA para atención al cliente: que puede resolver y que no"
       dateLabel="19 mayo 2026"
       readTime="8 min de lectura"
@@ -23,7 +23,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
       <p>
         Bien diseñado, reduce interrupciones y mejora tiempos de respuesta.
         Mal diseñado, se convierte en una capa fria que frustra a clientes y genera más trabajo al equipo.
-        La diferencia esta en el flujo, no en la herramienta.
+        La diferencia está en el flujo, no en la herramienta.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -62,7 +62,7 @@ const BlogPostAsistenteIAAtencion: React.FC = () => {
       <ul className="space-y-2 pl-4 border-l border-cyber-purple/30">
         <li>No debería cerrar acuerdos con condiciones especiales sin validación humana.</li>
         <li>No debería resolver quejas sensibles sin escalar al equipo.</li>
-        <li>No debería dar asesoramiento tecnico, legal o clinico si requiere profesional cualificado.</li>
+        <li>No debería dar asesoramiento técnico, legal o clínico si requiere profesional cualificado.</li>
         <li>No debería esconder la opción de hablar con una persona.</li>
       </ul>
 

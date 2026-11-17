@@ -177,7 +177,7 @@ const ARTICLES: Record<string, Article> = {
         </p>
 
         <p>
-          El riesgo esta en automatizar respuestas sin sistema. Si WhatsApp contesta, pero el CRM no se actualiza, el
+          El riesgo está en automatizar respuestas sin sistema. Si WhatsApp contesta, pero el CRM no se actualiza, el
           lead no tiene responsable o nadie sabe cuando insistir, la pyme solo ha cambiado una tarea manual por otra.
         </p>
 
@@ -241,7 +241,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           No todos los mensajes deberian recibir una respuesta automática. Si hay quejas, datos sensibles, dudas
-          economicas complejas o decisiones que afectan a una relación comercial, la automatización debe preparar el
+          económicas complejas o decisiones que afectan a una relación comercial, la automatización debe preparar el
           contexto y pasar a una persona.
         </p>
 

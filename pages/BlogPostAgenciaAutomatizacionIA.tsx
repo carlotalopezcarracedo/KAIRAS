@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostAgenciaAutomatizacionIA: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Agencia IA', 'Decision', 'Pymes']}
+      tags={['Agencia IA', 'Decisión', 'Pymes']}
       title="Agencia de automatización IA: como elegir proveedor sin comprar humo"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"

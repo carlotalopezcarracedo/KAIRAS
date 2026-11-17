@@ -8,7 +8,7 @@ const BlogPostTiposAutomatizacionEmpresa: React.FC = () => {
       title="Los 3 tipos de automatización que una pyme debe conocer antes de invertir"
       dateLabel="5 junio 2026"
       readTime="7 min de lectura"
-      ctaEyebrow="No sabes que tipo de automatización necesita tu empresa?"
+      ctaEyebrow="No sabes qué tipo de automatización necesita tu empresa?"
       ctaLabel="Elegir por criterio"
       relatedResources={[
         { href: '/automatizacion-procesos/', label: 'Automatización de procesos' },

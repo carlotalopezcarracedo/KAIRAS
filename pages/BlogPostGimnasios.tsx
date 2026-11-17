@@ -17,7 +17,7 @@ const BlogPostGimnasios: React.FC = () => {
     >
       <p className="text-lg text-slate-300 leading-relaxed">
         En un gimnasio, el trabajo manual no esta solo en recepción.
-        También esta en las altas que llegan por WhatsApp, las renovaciones que se revisan tarde, las clases que se llenan sin control y los socios que dejan de venir sin que nadie lo detecte.
+        También está en las altas que llegan por WhatsApp, las renovaciones que se revisan tarde, las clases que se llenan sin control y los socios que dejan de venir sin que nadie lo detecte.
       </p>
 
       <p>

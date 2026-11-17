@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostCosteAutomatizar: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Coste', 'Procesos', 'Decision']}
+      tags={['Coste', 'Procesos', 'Decisión']}
       title="Cuanto cuesta automatizar procesos en una pyme"
       dateLabel="4 junio 2026"
       readTime="8 min de lectura"

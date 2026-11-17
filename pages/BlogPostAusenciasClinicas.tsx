@@ -23,7 +23,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
             </p>
 
             <div className="flex flex-wrap gap-2 mb-6">
-              {['Clinicas', 'Recordatorios', 'Agenda'].map((tag) => (
+              {['Clínicas', 'Recordatorios', 'Agenda'].map((tag) => (
                 <span key={tag} className="text-[10px] font-bold uppercase tracking-widest text-cyber-purple bg-cyber-purple/10 border border-cyber-purple/20 px-3 py-1 rounded-full">
                   {tag}
                 </span>
@@ -117,14 +117,14 @@ const BlogPostAusenciasClinicas: React.FC = () => {
 
               <p>
                 WhatsApp funciona muy bien para confirmaciones y cambios simples.
-                No sustituye el trato clinico ni conversaciones sensibles.
+                No sustituye el trato clínico ni conversaciones sensibles.
                 Por eso conviene diseñar el flujo con dos capas:
                 automatización para lo repetitivo y derivación humana cuando hace falta criterio.
               </p>
 
               <p>
                 Esa combinación suele dar mejores resultados que intentar resolver todo con llamadas manuales o con un bot rigido.
-                Si quieres ver el marco tecnico de canal,
+                Si quieres ver el marco técnico de canal,
                 puedes apoyarte en la página de
                 <a href="/automatizacion-whatsapp-empresas/" className="text-cyber-purple underline decoration-cyber-purple/50"> automatización de WhatsApp para empresas</a>
                 y adaptarlo a contexto clinico.
@@ -141,7 +141,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
               </p>
 
               <p>
-                Aquí entra la logica de
+                Aquí entra la lógica de
                 <a href="/crm-pymes-seguimiento-clientes/" className="text-cyber-purple underline decoration-cyber-purple/50"> CRM y seguimiento de clientes</a>:
                 no para burocratizar la clínica, sino para tener continuidad y medir donde se producen las ausencias.
                 Cuando ese dato existe, puedes ajustar horarios, reforzar ciertos tramos y mejorar ocupación.
@@ -170,7 +170,7 @@ const BlogPostAusenciasClinicas: React.FC = () => {
 
               <p>
                 Cuando el flujo esta bien resuelto, recepción deja de ir siempre tarde.
-                El equipo clinico trabaja con agenda más estable.
+                El equipo clínico trabaja con agenda más estable.
                 Los pacientes reciben instrucciones más claras y consistentes.
                 Y la dirección gana visibilidad para decidir con criterio, no con intuición.
               </p>

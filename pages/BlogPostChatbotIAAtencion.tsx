@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostChatbotIAAtencion: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Chatbot IA', 'Atencion', 'WhatsApp']}
+      tags={['Chatbot IA', 'Atención', 'WhatsApp']}
       title="Chatbot con IA para atención al cliente: límites, escalado humano y CRM"
       dateLabel="5 junio 2026"
       readTime="8 min de lectura"

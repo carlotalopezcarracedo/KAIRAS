@@ -24,7 +24,7 @@ const tdClass = 'px-4 py-3 align-top border-b border-white/5 text-slate-300';
 
 const ARTICLES: Record<string, Article> = {
   'blog-comparativa-atencion-ia': {
-    tags: ['Atencion', 'IA', 'Comparativa'],
+    tags: ['Atención', 'IA', 'Comparativa'],
     title: 'Comparativa de soluciones de automatización IA para atención al cliente',
     dateLabel: '24 agosto 2026',
     readTime: '10 min de lectura',
@@ -207,7 +207,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p className={answerClass}>
           IA local es el uso de modelos o sistemas de inteligencia artificial ejecutados en infraestructura
-          controlada por la empresa o por su proveedor tecnico, en lugar de enviar cada consulta a una plataforma
+          controlada por la empresa o por su proveedor técnico, en lugar de enviar cada consulta a una plataforma
           externa. En automatización, se usa para clasificar, resumir o extraer información manteniendo más control
           sobre los datos.
         </p>
@@ -371,13 +371,13 @@ const ARTICLES: Record<string, Article> = {
         </p>
 
         <p>
-          Si quieres una base practica sobre tareas concretas, revisa
+          Si quieres una base práctica sobre tareas concretas, revisa
           {' '}<a href="/blog/automatizacion-tareas-administrativas-ia-pymes/" className={linkClass}>automatización de tareas administrativas con IA</a>.
           Si quieres ver el marco completo, la página pilar es
           {' '}<a href="/automatizacion-procesos/" className={linkClass}>automatización de procesos</a>.
         </p>
 
-        <h2 className={headingClass}>Tareas vs procesos: comparativa practica</h2>
+        <h2 className={headingClass}>Tareas vs procesos: comparativa práctica</h2>
 
         <div className={tableWrapClass}>
           <table className={tableClass}>
@@ -406,7 +406,7 @@ const ARTICLES: Record<string, Article> = {
               </tr>
               <tr>
                 <td className={tdClass}>Mejor primer paso</td>
-                <td className={tdClass}>Pilotos rapidos de bajo riesgo.</td>
+                <td className={tdClass}>Pilotos rápidos de bajo riesgo.</td>
                 <td className={tdClass}>Procesos frecuentes, medibles y con impacto en clientes.</td>
               </tr>
             </tbody>

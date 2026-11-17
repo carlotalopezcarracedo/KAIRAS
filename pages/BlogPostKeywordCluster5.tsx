@@ -32,7 +32,7 @@ const ARTICLES: Record<string, Article> = {
       <>
         <p className="text-lg text-slate-300 leading-relaxed">
           La automatización de TikTok con IA no consiste en publicar más videos ni en dejar que una herramienta
-          responda todo por ti. Para una pyme de servicios, el valor esta en convertir ideas, comentarios,
+          responda todo por ti. Para una pyme de servicios, el valor está en convertir ideas, comentarios,
           mensajes y formularios en información accionable para ventas, atención y seguimiento.
         </p>
 
@@ -61,7 +61,7 @@ const ARTICLES: Record<string, Article> = {
         <p>
           Este enfoque complementa la guía de
           {' '}<a href="/blog/automatizacion-redes-sociales-ia-pymes/" className={linkClass}>automatización de redes sociales con IA</a>,
-          pero aquí el foco esta en TikTok como canal de descubrimiento y captación rápida.
+          pero aquí el foco está en TikTok como canal de descubrimiento y captación rápida.
         </p>
 
         <h2 className={headingClass}>Qué flujo necesita una pyme de servicios</h2>
@@ -203,7 +203,7 @@ const ARTICLES: Record<string, Article> = {
         <p>
           Este tema se cruza con la
           {' '}<a href="/blog/automatizacion-tareas-administrativas-ia-pymes/" className={linkClass}>automatización de tareas administrativas con IA</a>,
-          pero aquí el foco esta en empresas que ya tienen parte del trabajo atrapado en hojas.
+          pero aquí el foco está en empresas que ya tienen parte del trabajo atrapado en hojas.
         </p>
 
         <h2 className={headingClass}>Cuándo Excel ya no es suficiente</h2>
@@ -222,7 +222,7 @@ const ARTICLES: Record<string, Article> = {
         <p>
           Si además usas Gmail, Drive, Calendar o Sheets, revisa también la guía de
           {' '}<a href="/blog/automatizacion-google-workspace-ia-pymes/" className={linkClass}>automatización con IA en Google Workspace</a>.
-          Muchas automatizaciones nacen ahí, aunque el origen historico haya sido Excel.
+          Muchas automatizaciones nacen ahí, aunque el origen histórico haya sido Excel.
         </p>
 
         <h2 className={headingClass}>Qué automatizar sin romper la forma de trabajar</h2>
@@ -241,7 +241,7 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>De hoja a sistema: el dato debe tener dueno</h2>
 
         <p>
-          La automatización falla cuando nadie sabe cual es la fuente correcta. Si el cliente esta en Excel, el
+          La automatización falla cuando nadie sabe cual es la fuente correcta. Si el cliente está en Excel, el
           estado en el CRM, la fecha en el calendario y la conversación en WhatsApp, cada herramienta cuenta una
           versión distinta del negocio.
         </p>

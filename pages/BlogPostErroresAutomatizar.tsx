@@ -17,7 +17,7 @@ const BlogPostErroresAutomatizar: React.FC = () => {
     >
       <p className="text-lg text-slate-300 leading-relaxed">
         Automatizar una empresa por primera vez puede liberar tiempo o crear más ruido.
-        La diferencia no esta en elegir la herramienta de moda, sino en entender que problema operativo quieres resolver y que debe cambiar en el día a día.
+        La diferencia no está en elegir la herramienta de moda, sino en entender que problema operativo quieres resolver y que debe cambiar en el día a día.
       </p>
 
       <p>

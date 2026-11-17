@@ -75,7 +75,7 @@ const BlogPostIAAutomatizacionJuntas: React.FC = () => {
       <p>
         Se confunden cuando se llama IA a cualquier automatización o cuando se espera que una IA arregle un proceso sin definir.
         Una cosa es enviar un recordatorio automático.
-        Otra es interpretar una conversación y decidir que tipo de seguimiento necesita.
+        Otra es interpretar una conversación y decidir qué tipo de seguimiento necesita.
       </p>
 
       <p>

@@ -70,13 +70,13 @@ const BlogPostCobrosRecordatorios: React.FC = () => {
 
       <p>
         Un recordatorio de pago puede ser útil o incomodo.
-        La diferencia esta en el momento, el texto y la salida a humano.
+        La diferencia está en el momento, el texto y la salida a humano.
         Un buen mensaje es concreto: que falta, de que servicio se trata, hasta cuando y con quien hablar si hay una duda.
       </p>
 
       <p>
         Si el mensaje parece genérico o agresivo, genera fricción.
-        La misma logica aplica a otros <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">mensajes automáticos a clientes</a>.
+        La misma lógica aplica a otros <a href="/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/" className="text-cyber-purple underline decoration-cyber-purple/50">mensajes automáticos a clientes</a>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">

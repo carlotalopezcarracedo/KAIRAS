@@ -214,7 +214,7 @@ const ARTICLES: Record<string, Article> = {
         <p>
           Esta pieza no sustituye la guía de
           {' '}<a href="/blog/automatizacion-ia-marketing-digital-pymes/" className={linkClass}>automatización IA para marketing digital</a>.
-          Aquí el foco esta en lo que pasa dentro de la web y en como esa información llega al sistema comercial.
+          Aquí el foco está en lo que pasa dentro de la web y en como esa información llega al sistema comercial.
         </p>
 
         <h2 className={headingClass}>Dónde se pierde valor entre la web y el CRM</h2>
@@ -359,13 +359,13 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>¿Qué diferencia hay entre macros, scripts y automatización con IA?</h2>
 
         <p className={answerClass}>
-          Una macro automatiza acciones dentro de una herramienta, normalmente una hoja. Un script ejecuta logica
+          Una macro automatiza acciones dentro de una herramienta, normalmente una hoja. Un script ejecuta lógica
           más flexible entre datos o aplicaciones. Una automatización con IA combina reglas, integraciones y lectura
           de información variable para que un proceso avance con control y revisión humana cuando hace falta.
         </p>
 
         <p>
-          Si el problema principal esta en hojas de calculo, empieza por
+          Si el problema principal está en hojas de calculo, empieza por
           {' '}<a href="/blog/excel-ia-automatizacion-tareas-pymes/" className={linkClass}>Excel, IA y automatización de tareas</a>.
           Esta pieza va un paso más allá: cuando una solución que funcionaba para una persona deja de servir para un
           equipo.
@@ -407,7 +407,7 @@ const ARTICLES: Record<string, Article> = {
               </tr>
               <tr>
                 <td className={tdClass}>Script</td>
-                <td className={tdClass}>Hace falta mover datos o aplicar logica concreta.</td>
+                <td className={tdClass}>Hace falta mover datos o aplicar lógica concreta.</td>
                 <td className={tdClass}>Código invisible para el equipo.</td>
                 <td className={tdClass}>Registro de errores y responsable.</td>
               </tr>

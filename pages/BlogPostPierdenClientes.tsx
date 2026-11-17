@@ -136,7 +136,7 @@ const BlogPostPierdenClientes: React.FC = () => {
               </p>
 
               <p>
-                En la practica, esto significa:
+                En la práctica, esto significa:
                 primer contacto más rápido,
                 siguiente paso siempre visible,
                 alertas cuando una oportunidad se enfría,
@@ -171,7 +171,7 @@ const BlogPostPierdenClientes: React.FC = () => {
 
               <p>
                 Si tu empresa siente que "llegan contactos pero no se cierran", no asumas que el problema es marketing.
-                Muchas veces el cuello de botella esta en seguimiento, tiempos de respuesta y falta de sistema entre canales.
+                Muchas veces el cuello de botella está en seguimiento, tiempos de respuesta y falta de sistema entre canales.
                 Corregir eso no requiere humo ni proyectos interminables. Requiere criterio operativo y ejecución.
               </p>
 

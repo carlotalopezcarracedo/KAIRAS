@@ -71,7 +71,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           Esto complementa el flujo de <a href="/blog/automatizacion-reformas-instaladoras-presupuestos-visitas/" className={linkClass}>presupuestos, visitas y seguimiento para instaladoras</a>.
-          La IA prepara información; el responsable tecnico conserva la decisión.
+          La IA prepara información; el responsable técnico conserva la decisión.
         </p>
 
         <h2 className={headingClass}>Cuándo RPA puede ser más adecuado</h2>
@@ -121,7 +121,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           Las dos herramientas conectan aplicaciones y permiten incorporar IA.
-          La diferencia practica esta en el nivel de control, la facilidad visual, el mantenimiento y la capacidad técnica disponible.
+          La diferencia práctica está en el nivel de control, la facilidad visual, el mantenimiento y la capacidad técnica disponible.
         </p>
 
         <h2 className={headingClass}>Cuándo Make suele encajar mejor</h2>
@@ -135,7 +135,7 @@ const ARTICLES: Record<string, Article> = {
           <li>Flujos visuales que el equipo necesita entender rápidamente.</li>
           <li>Integraciones habituales con configuración relativamente guiada.</li>
           <li>Prototipos y procesos de complejidad baja o media.</li>
-          <li>Equipos sin perfil tecnico dedicado.</li>
+          <li>Equipos sin perfil técnico dedicado.</li>
         </ul>
 
         <p>
@@ -145,7 +145,7 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>Cuándo n8n suele encajar mejor</h2>
 
         <p>
-          n8n suele aportar más flexibilidad cuando hay logica personalizada,
+          n8n suele aportar más flexibilidad cuando hay lógica personalizada,
           varias fuentes de datos o requisitos de control sobre la infraestructura y el flujo.
         </p>
 
@@ -153,7 +153,7 @@ const ARTICLES: Record<string, Article> = {
           <li>Procesos con condiciones y transformaciones más avanzadas.</li>
           <li>Necesidad de alojar o controlar partes de la infraestructura.</li>
           <li>Integraciones personalizadas o uso frecuente de APIs.</li>
-          <li>Disponibilidad de soporte tecnico para mantener el sistema.</li>
+          <li>Disponibilidad de soporte técnico para mantener el sistema.</li>
         </ul>
 
         <p>
@@ -208,8 +208,8 @@ const ARTICLES: Record<string, Article> = {
         </p>
 
         <p>
-          Su ventaja no esta en automatizar por automatizar.
-          Esta en conectar tareas que ya ocurren dentro del entorno de trabajo habitual y reducir pasos manuales.
+          Su ventaja no está en automatizar por automatizar.
+          Está en conectar tareas que ya ocurren dentro del entorno de trabajo habitual y reducir pasos manuales.
         </p>
 
         <h2 className={headingClass}>Procesos que suelen encajar en Power Automate</h2>
@@ -243,7 +243,7 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>Cuándo no es la mejor opción</h2>
 
         <p>
-          Si el proceso depende de muchas aplicaciones externas, necesita logica muy personalizada
+          Si el proceso depende de muchas aplicaciones externas, necesita lógica muy personalizada
           o el equipo no trabaja realmente en Microsoft 365, otra plataforma puede ser más sencilla.
         </p>
 
@@ -525,7 +525,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-roi-automatizacion-ia': {
-    tags: ['ROI', 'IA', 'Decision'],
+    tags: ['ROI', 'IA', 'Decisión'],
     title: 'Cómo calcular el ROI de una automatización con IA antes de invertir',
     dateLabel: '20 junio 2026',
     readTime: '8 min de lectura',
@@ -782,7 +782,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-piloto-automatizacion-ia': {
-    tags: ['Piloto IA', 'Pruebas', 'Decision'],
+    tags: ['Piloto IA', 'Pruebas', 'Decisión'],
     title: 'Proyecto piloto de automatización con IA: como probar valor sin automatizarlo todo',
     dateLabel: '20 junio 2026',
     readTime: '8 min de lectura',
@@ -801,7 +801,7 @@ const ARTICLES: Record<string, Article> = {
 
         <p>
           Un buen piloto no es una demo bonita.
-          Trabaja con un proceso concreto, usuarios reales, límites claros y una medida de exito acordada.
+          Trabaja con un proceso concreto, usuarios reales, límites claros y una medida de éxito acordada.
         </p>
 
         <h2 className={headingClass}>Qué proceso elegir para el piloto</h2>
@@ -824,7 +824,7 @@ const ARTICLES: Record<string, Article> = {
           ayuda a priorizar por impacto y facilidad.
         </p>
 
-        <h2 className={headingClass}>Define exito antes de construir</h2>
+        <h2 className={headingClass}>Define éxito antes de construir</h2>
 
         <p>
           Decide que quieres mejorar: tiempo de registro, errores, velocidad de respuesta,

@@ -21,7 +21,7 @@ const BlogPostPrepararDatosIA: React.FC = () => {
       </p>
 
       <p>
-        Esto no significa crear un proyecto tecnico enorme.
+        Esto no significa crear un proyecto técnico enorme.
         Significa ordenar lo mínimo: fuentes, reglas, permisos, contexto y límites.
         Sin esa base, la IA puede responder mal, duplicar errores o generar más trabajo al equipo.
       </p>

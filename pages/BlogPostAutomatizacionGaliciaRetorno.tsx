@@ -22,7 +22,7 @@ const BlogPostAutomatizacionGaliciaRetorno: React.FC = () => {
       </p>
 
       <p>
-        La clave esta en elegir procesos cercanos a la operativa real.
+        La clave está en elegir procesos cercanos a la operativa real.
         Un negocio de Pontevedra, Vigo, Santiago o A Coruña no necesita empezar por una arquitectura enorme si su problema principal es que los leads se quedan sin respuesta o que recepción vive copiando datos.
       </p>
 

@@ -60,7 +60,7 @@ const BlogPostProcesoPrimero: React.FC = () => {
               </p>
 
               <p>
-                En la practica, tu primer proceso debe cumplir tres condiciones:
+                En la práctica, tu primer proceso debe cumplir tres condiciones:
                 ocurre con frecuencia,
                 consume tiempo manual repetitivo,
                 y su mejora tiene efecto directo en ingresos o servicio.

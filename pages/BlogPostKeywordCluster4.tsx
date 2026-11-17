@@ -44,7 +44,7 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>Automatización de redes sociales con IA no es publicar sin criterio</h2>
 
         <p>
-          Un flujo serio empieza antes de la herramienta. Primero define que tipo de contenido trae clientes,
+          Un flujo serio empieza antes de la herramienta. Primero define qué tipo de contenido trae clientes,
           que preguntas se repiten y que debe pasar cuando una persona escribe por mensaje privado.
         </p>
 
@@ -157,7 +157,7 @@ const ARTICLES: Record<string, Article> = {
         <h2 className={headingClass}>Dónde encaja la automatización logística con IA</h2>
 
         <p>
-          La IA ayuda cuando la información llega desordenada: un cliente describe una averia, un tecnico escribe
+          La IA ayuda cuando la información llega desordenada: un cliente describe una averia, un técnico escribe
           un parte incompleto, una foto acompaña una incidencia o una solicitud entra por email con datos mezclados.
         </p>
 
@@ -202,7 +202,7 @@ const ARTICLES: Record<string, Article> = {
           {' '}<a href="/blog/gestion-documental-ia-automatizacion-pymes/" className={linkClass}>gestión documental con IA</a>.
         </p>
 
-        <h2 className={headingClass}>Ejemplo en mantenimiento o servicio tecnico</h2>
+        <h2 className={headingClass}>Ejemplo en mantenimiento o servicio técnico</h2>
 
         <p>
           Entra un aviso por formulario. El sistema identifica cliente, zona, tipo de incidencia y urgencia.
@@ -244,7 +244,7 @@ const ARTICLES: Record<string, Article> = {
     ),
   },
   'blog-principiantes-ia-pymes': {
-    tags: ['Principiantes', 'IA', 'Decision'],
+    tags: ['Principiantes', 'IA', 'Decisión'],
     title: 'Automatización con IA para principiantes: guía para pymes no técnicas',
     dateLabel: '23 julio 2026',
     readTime: '8 min de lectura',

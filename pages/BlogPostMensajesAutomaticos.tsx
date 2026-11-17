@@ -4,7 +4,7 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostMensajesAutomaticos: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['WhatsApp', 'Clientes', 'Atencion']}
+      tags={['WhatsApp', 'Clientes', 'Atención']}
       title="Mensajes automáticos a clientes: cuándo ayudan y cuándo molestan"
       dateLabel="26 mayo 2026"
       readTime="8 min de lectura"
@@ -17,7 +17,7 @@ const BlogPostMensajesAutomaticos: React.FC = () => {
     >
       <p className="text-lg text-slate-300 leading-relaxed">
         Un mensaje automático puede mejorar mucho la experiencia del cliente. También puede estropearla.
-        La diferencia esta en el momento, el contenido y la salida a una persona cuando la conversación lo necesita.
+        La diferencia está en el momento, el contenido y la salida a una persona cuando la conversación lo necesita.
       </p>
 
       <p>

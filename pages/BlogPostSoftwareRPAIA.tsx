@@ -17,12 +17,12 @@ const BlogPostSoftwareRPAIA: React.FC = () => {
     >
       <p className="text-lg text-slate-300 leading-relaxed">
         El software RPA con IA puede automatizar tareas repetitivas entre sistemas, pero no siempre es la primera opción para una pyme.
-        Antes de comprar, conviene entender si el problema es tecnico, operativo o de proceso.
+        Antes de comprar, conviene entender si el problema es técnico, operativo o de proceso.
       </p>
 
       <p>
         RPA significa automatización robotica de procesos.
-        En la practica, suele imitar acciones que una persona hace en pantalla o entre aplicaciones.
+        En la práctica, suele imitar acciones que una persona hace en pantalla o entre aplicaciones.
         La IA añade capacidad para interpretar texto, documentos o patrones.
       </p>
 

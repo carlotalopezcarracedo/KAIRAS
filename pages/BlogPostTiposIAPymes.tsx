@@ -4,11 +4,11 @@ import BlogPostLayout from '../components/BlogPostLayout';
 const BlogPostTiposIAPymes: React.FC = () => {
   return (
     <BlogPostLayout
-      tags={['Tipos IA', 'Pymes', 'Decision']}
+      tags={['Tipos IA', 'Pymes', 'Decisión']}
       title="Tipos de IA que una pyme debe conocer antes de automatizar"
       dateLabel="5 junio 2026"
       readTime="7 min de lectura"
-      ctaEyebrow="Quieres saber que tipo de IA encaja con tu proceso?"
+      ctaEyebrow="Quieres saber qué tipo de IA encaja con tu proceso?"
       ctaLabel="Evaluar mi proceso"
       relatedResources={[
         { href: '/blog/ia-para-pymes-cuando-tiene-sentido/', label: 'IA para pymes' },
@@ -17,7 +17,7 @@ const BlogPostTiposIAPymes: React.FC = () => {
     >
       <p className="text-lg text-slate-300 leading-relaxed">
         Hay muchos tipos de IA, pero una pyme no necesita aprender teoría avanzada para tomar mejores decisiones.
-        Necesita saber que tipo encaja con su problema operativo.
+        Necesita saber qué tipo encaja con su problema operativo.
       </p>
 
       <p>
@@ -35,7 +35,7 @@ const BlogPostTiposIAPymes: React.FC = () => {
 
       <p>
         No debería publicar ni enviar mensajes sensibles sin revisión.
-        Su valor esta en reducir el tiempo de preparación.
+        Su valor está en reducir el tiempo de preparación.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-black uppercase tracking-normal text-white pt-4">
@@ -73,7 +73,7 @@ const BlogPostTiposIAPymes: React.FC = () => {
       </p>
 
       <p>
-        Para usarla bien necesitas datos historicos o, al menos, registros consistentes.
+        Para usarla bien necesitas datos históricos o, al menos, registros consistentes.
         Sin eso, la predicción suele ser ruido.
       </p>
 

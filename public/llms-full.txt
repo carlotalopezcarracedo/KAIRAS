@@ -2,7 +2,7 @@
 
 > Complete reference about KAIRAS, automation and applied AI for service SMEs in Galicia and Spain. Short version: [llms.txt](https://kairas.es/llms.txt).
 
-Generated: 2026-11-16
+Generated: 2026-11-17
 
 <!-- Source: https://kairas.es/llms.txt -->
 
