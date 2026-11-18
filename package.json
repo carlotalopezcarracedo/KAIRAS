@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "guides": "node scripts/sync-guides.mjs",
+    "diagrams": "node scripts/build-guide-diagrams.mjs",
     "aeo": "node scripts/optimize-aeo-geo.mjs",
     "build": "npm run guides && npm run aeo && npm run llms && npm run sitemap && vite build && npm run prerender && npm run validate:dist",
     "prerender": "node scripts/prerender.mjs",

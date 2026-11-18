@@ -20,6 +20,7 @@ const PRIORITY_MAP = {
   '/prensa/': { changefreq: 'monthly', priority: '0.6' },
   '/sobre-carlota/': { changefreq: 'monthly', priority: '0.7' },
   '/faq/': { changefreq: 'monthly', priority: '0.6' },
+  '/calculadora-tareas-manuales/': { changefreq: 'monthly', priority: '0.8' },
   '/automatizacion-procesos/': { changefreq: 'monthly', priority: '0.9' },
   '/automatizacion-empresas-galicia/': { changefreq: 'monthly', priority: '0.8' },
   '/ia-empresas/': { changefreq: 'monthly', priority: '0.8' },

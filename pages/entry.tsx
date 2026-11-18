@@ -18,6 +18,7 @@ export const pageMap: Record<string, PageLoader> = {
   'sobre-carlota': () => import('./SobreCarlota'),
   contacto: () => import('./ContactoPage'),
   faq: () => import('./FAQ'),
+  'calculadora-tareas-manuales': () => import('./CalculadoraTareasManuales'),
   'automatizacion-procesos': () => import('./AutomatizacionProcesos'),
   'ia-empresas': () => import('./IAEmpresas'),
   'optimizacion-operativa-pymes': () => import('./OptimizacionOperativa'),

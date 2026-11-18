@@ -56,6 +56,8 @@ Fórmula:
 
 > Beneficio mensual = (horas ahorradas × coste por hora) + (oportunidades recuperadas × valor medio × margen). ROI del primer año = (beneficio mensual × 12 − coste total del primer año) ÷ coste total del primer año.
 
+Para la primera parte (horas y coste) puedes usar nuestra [calculadora de horas y coste de tareas manuales](/calculadora-tareas-manuales/): introduces minutos y veces por semana de cada tarea y te da el coste anual y la parte recuperable.
+
 ## Ejemplo ilustrativo
 
 Una clínica dedica 25 horas al mes a confirmar citas y responder WhatsApp, con un coste por hora de 18 €. Además, calcula que pierde unas 6 citas al mes por ausencias o mensajes sin responder, con un margen medio de 40 € por cita.

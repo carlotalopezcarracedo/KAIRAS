@@ -34,6 +34,7 @@ export default defineConfig(({ mode }) => {
           sobreCarlota: path.resolve(__dirname, 'sobre-carlota/index.html'),
           contacto: path.resolve(__dirname, 'contacto/index.html'),
           faq: path.resolve(__dirname, 'faq/index.html'),
+          calculadora: path.resolve(__dirname, 'calculadora-tareas-manuales/index.html'),
           automatizacionProcesos: path.resolve(__dirname, 'automatizacion-procesos/index.html'),
           automatizacionProcesosOld: path.resolve(__dirname, 'automatizacion-procesos-empresas/index.html'),
           galiciaOld: path.resolve(__dirname, 'automatizacion-ia-empresas-galicia/index.html'),

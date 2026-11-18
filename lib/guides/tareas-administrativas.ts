@@ -40,7 +40,7 @@ Durante dos semanas, apunta por tarea:
 - Cuántos minutos lleva cada vez.
 - Cuántos errores u olvidos genera.
 
-Multiplica veces por minutos y tendrás las horas al mes. Casi siempre aparecen sorpresas: tareas «de cinco minutos» que, repetidas treinta veces a la semana, suman días al mes. Hay una lista de las más habituales en [qué tareas manuales están frenando tu negocio](/blog/tareas-manuales-que-frenan-tu-negocio/).
+Multiplica veces por minutos y tendrás las horas al mes (o mételo en la [calculadora de horas y coste de tareas manuales](/calculadora-tareas-manuales/), que lo pasa también a euros al año). Casi siempre aparecen sorpresas: tareas «de cinco minutos» que, repetidas treinta veces a la semana, suman días al mes. Hay una lista de las más habituales en [qué tareas manuales están frenando tu negocio](/blog/tareas-manuales-que-frenan-tu-negocio/).
 
 ## Paso 2: elige la primera con esta matriz
 

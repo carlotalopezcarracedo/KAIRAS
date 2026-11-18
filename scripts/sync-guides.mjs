@@ -6,6 +6,7 @@ import { pathToFileURL } from 'node:url';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const GUIDES_DIR = path.join(ROOT, 'lib', 'guides');
+const { default: diagrams } = await import(pathToFileURL(path.join(ROOT, 'lib', 'guideDiagrams.ts')).href);
 
 const attr = (value) =>
   String(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -38,6 +39,25 @@ for (const file of fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.ts')).s
   html = setMeta(html, 'name="twitter:description"', guide.description);
   html = setMeta(html, 'property="article:published_time"', guide.published);
 
+  const diagram = diagrams[guide.slug];
+  const imageUrl = diagram ? `https://kairas.es/blog/diagramas/${guide.slug}.png` : null;
+  if (imageUrl) {
+    if (!fs.existsSync(path.join(ROOT, 'public', 'blog', 'diagramas', `${guide.slug}.png`))) {
+      throw new Error(`Falta el diagrama de ${guide.slug}: ejecuta npm run diagrams`);
+    }
+    const alt = `Diagrama: ${diagram.title}`;
+    html = setMeta(html, 'property="og:image"', imageUrl);
+    html = setMeta(html, 'name="twitter:image"', imageUrl);
+    html = setMeta(html, 'property="og:image:alt"', alt);
+    html = setMeta(html, 'name="twitter:image:alt"', alt);
+    if (!/<meta\s+property="og:image:width"/i.test(html)) {
+      html = html.replace(
+        /(<meta\s+property="og:image"[^>]*\/>)/i,
+        '$1\n    <meta property="og:image:width" content="1200" />\n    <meta property="og:image:height" content="675" />',
+      );
+    }
+  }
+
   const modified = isoDate(guide.updated);
   if (/<meta\s+property="article:modified_time"/i.test(html)) {
     html = setMeta(html, 'property="article:modified_time"', modified);
@@ -62,6 +82,9 @@ for (const file of fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.ts')).s
     dateModified: modified,
     keywords: guide.keywords,
     articleSection: 'Guías',
+    ...(imageUrl
+      ? { image: { '@type': 'ImageObject', url: imageUrl, width: 1200, height: 675, caption: diagram.caption } }
+      : {}),
     wordCount: `${guide.answer} ${guide.body} ${guide.faq.map((f) => `${f.q} ${f.a}`).join(' ')}`.split(/\s+/).length,
   });
   const withoutFaq = graph.filter((node) => ![].concat(node['@type']).includes('FAQPage'));

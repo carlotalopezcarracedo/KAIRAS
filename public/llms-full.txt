@@ -2,7 +2,7 @@
 
 > Complete reference about KAIRAS, automation and applied AI for service SMEs in Galicia and Spain. Short version: [llms.txt](https://kairas.es/llms.txt).
 
-Generated: 2026-11-17
+Generated: 2026-11-18
 
 <!-- Source: https://kairas.es/llms.txt -->
 
@@ -68,6 +68,10 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - [Automation for companies in Galicia](https://kairas.es/automatizacion-empresas-galicia/)
 - [Aesthetic centers](https://kairas.es/centros-estetica/)
 - [Contact](https://kairas.es/contacto/)
+
+### Free Tools
+
+- [Manual task time and cost calculator (Spanish)](https://kairas.es/calculadora-tareas-manuales/): estimates yearly hours and cost of repetitive tasks and the share recoverable through automation.
 
 ### Key Blog Clusters
 

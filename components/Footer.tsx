@@ -38,6 +38,9 @@ const Footer: React.FC = () => {
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/blog/">
                 Blog
               </a>
+              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/calculadora-tareas-manuales/">
+                Calculadora de tareas
+              </a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/prensa/">
                 Prensa
               </a>
@@ -72,7 +75,7 @@ const Footer: React.FC = () => {
               <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Redes</span>
               <a
                 className="block text-xs font-bold hover:text-cyber-purple transition-colors"
-                href="https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/"
+                href="https://www.linkedin.com/company/kairas-ai/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

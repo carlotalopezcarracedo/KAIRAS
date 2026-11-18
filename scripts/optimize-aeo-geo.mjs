@@ -652,6 +652,9 @@ function buildGraph(existingNodes, page) {
     if (hasType(contentNode, 'BlogPosting')) {
       primaryEntityId = `${page.canonical}#article`;
     }
+    if (hasType(contentNode, 'WebApplication')) {
+      primaryEntityId = contentNode['@id'];
+    }
     if (hasType(contentNode, 'Service')) {
       hasService = true;
       primaryEntityId = `${page.canonical}#service`;

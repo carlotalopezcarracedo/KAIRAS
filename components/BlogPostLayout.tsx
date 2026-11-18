@@ -7,6 +7,7 @@ import { whatsappUrl, trackWhatsappClick } from '../lib/cta';
 import { officialSourcesFor } from '../lib/officialSources';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
+const AUTHOR_LINKEDIN = 'https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/';
 
 type RelatedResource = {
   href: string;
@@ -97,6 +98,26 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
                 </ul>
               </aside>
             )}
+
+            <aside aria-label="Sobre la autora" className="mt-12 glass-card rounded-2xl border-white/10 p-6 flex gap-5 items-start">
+              <div aria-hidden="true" className="shrink-0 w-14 h-14 rounded-full bg-cyber-purple/15 border border-cyber-purple/40 flex items-center justify-center text-cyber-cyan font-black text-lg">
+                CL
+              </div>
+              <div className="text-sm text-slate-300 leading-relaxed">
+                <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">Escrito por</p>
+                <p className="text-base font-bold text-white mb-2">
+                  <a href="/sobre-carlota/" rel="author" className="hover:text-cyber-purple transition-colors">Carlota López Carracedo</a>
+                </p>
+                <p className="mb-3">
+                  Fundadora de KAIRAS. Diseña sistemas de automatización e IA aplicada para pymes de servicios de Galicia y del resto de España: WhatsApp, CRM, seguimiento comercial, documentación y procesos internos.
+                </p>
+                <p className="flex flex-wrap gap-x-4 gap-y-1 text-xs font-bold uppercase tracking-wider">
+                  <a href="/sobre-carlota/" className="text-cyber-purple hover:text-white">Sobre la autora</a>
+                  <a href={AUTHOR_LINKEDIN} target="_blank" rel="me noopener noreferrer" className="text-cyber-purple hover:text-white">LinkedIn</a>
+                  <a href="/prensa/" className="text-cyber-purple hover:text-white">Prensa</a>
+                </p>
+              </div>
+            </aside>
 
             <div className="mt-16 pt-12 border-t border-white/10">
               <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">{ctaEyebrow}</p>

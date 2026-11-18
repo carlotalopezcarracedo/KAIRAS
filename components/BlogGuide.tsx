@@ -2,6 +2,7 @@ import React from 'react';
 import BlogPostLayout from './BlogPostLayout';
 import GuideMarkdown, { guideHeadings } from './GuideMarkdown';
 import type { BlogGuideData } from '../lib/guideTypes';
+import diagrams from '../lib/guideDiagrams';
 
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 
@@ -12,6 +13,7 @@ const formatDate = (iso: string) => {
 
 const BlogGuide: React.FC<{ guide: BlogGuideData }> = ({ guide }) => {
   const headings = guideHeadings(guide.body);
+  const diagram = diagrams[guide.slug];
 
   return (
     <BlogPostLayout
@@ -27,6 +29,21 @@ const BlogGuide: React.FC<{ guide: BlogGuideData }> = ({ guide }) => {
         <p className="text-xs font-bold uppercase tracking-widest text-cyber-purple mb-3">Respuesta corta</p>
         <p className="text-lg text-slate-200 leading-relaxed">{guide.answer}</p>
       </div>
+
+      {diagram && (
+        <figure className="space-y-3">
+          <img
+            src={`/blog/diagramas/${guide.slug}.webp`}
+            alt={`Diagrama: ${diagram.title}. ${diagram.steps.map((s, i) => `${i + 1}. ${s.t}: ${s.d}`).join('. ')}.`}
+            width={1200}
+            height={675}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-auto rounded-2xl border border-white/10"
+          />
+          <figcaption className="text-xs text-slate-400 leading-relaxed">{diagram.caption}</figcaption>
+        </figure>
+      )}
 
       {headings.length > 2 && (
         <nav aria-label="Índice de la guía" className="text-sm">
