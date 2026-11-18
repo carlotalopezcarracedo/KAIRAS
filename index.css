@@ -159,6 +159,15 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* The navbar must not clip the "Recursos" dropdown; its shine effect relies on clipping, so drop it. */
+.glass-card.nav-glass {
+  overflow: visible;
+}
+
+.glass-card.nav-glass::before {
+  display: none;
+}
+
 .nav-glass {
   background: linear-gradient(180deg, rgba(8, 8, 12, 0.82) 0%, rgba(5, 5, 5, 0.68) 100%);
   backdrop-filter: blur(20px);
