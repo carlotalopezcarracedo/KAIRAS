@@ -109,6 +109,29 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
+        <div className="border-t border-white/5 pt-10 pb-10 flex flex-col items-center gap-3">
+          <a
+            href={`${import.meta.env.BASE_URL}cartel-programa-emega.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full max-w-xl rounded-sm overflow-hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyber-purple"
+            aria-label="Abrir el cartel del Programa EMEGA en PDF, en una nueva pestaña"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}cartel-programa-emega.webp`}
+              alt="Axudas do Programa EMEGA. Esta actuación está cofinanciada pola Unión Europea co obxectivo de fomentar o emprendemento feminino en Galicia. Xunta de Galicia, Unión Europea, Fondos Europeos e Xacobeo 2027."
+              className="block w-full h-auto"
+              loading="lazy"
+              decoding="async"
+              width="1786"
+              height="1263"
+            />
+          </a>
+          <a href={`${import.meta.env.BASE_URL}cartel-programa-emega.pdf`} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-white transition-colors underline underline-offset-4">
+            Ver cartel en tamaño completo (PDF)
+          </a>
+        </div>
+
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-[10px] text-slate-400 font-mono tracking-widest uppercase">© 2026 KAIRAS. All rights reserved.</div>
           <div className="flex items-center gap-2">
